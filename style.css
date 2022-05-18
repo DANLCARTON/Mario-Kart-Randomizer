@@ -1,0 +1,331 @@
+html {
+    background: linear-gradient(180deg, #fdd, #f88);
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #353535;
+}
+
+#personnageAleatoire {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 50px 0;
+}
+
+#circuitAleatoire {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+main {
+    display: inline-block;
+}
+
+h1 {
+    margin: 15px 0;
+    font-weight: bolder;
+    color: #353535;
+    font-size: 50px;
+}
+
+.subh1 p {
+    font-size: 25px;
+    line-height: 0;
+    font-weight: 500;
+    font-style: italic;
+    margin: 0 0 50px 0;
+}
+
+h2 {
+    margin: 15px 0;
+    font-weight: bold;
+    color: #353535;
+}
+
+button {
+    color: #fff;
+    text-decoration: none;
+    background: #353535;
+    padding: 10px 30px;
+    border-radius: 100px;
+    transition: ease-in-out .2s;
+    font-weight: bold;
+    border: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#result {
+    display: flex;
+    height: 183px;
+    width: 800px;
+    margin: 5vh 0 15px 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.element {
+    width: 200px;
+}
+
+.element img {
+    filter: drop-shadow(0 0 10px #ffffff50)
+}
+
+#reroll {
+    display: inline-block;
+    margin: 0 0 30px 0;
+}
+
+#reroll:hover button {
+    box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
+    background: #fff;
+    color: #353535;
+}
+
+#vitesseRoute,
+#vitesseEau,
+#vitesseAir,
+#vitesseAntiGravite,
+#acceleration,
+#poids,
+#maniabiliteRoute,
+#maniabiliteEau,
+#maniabiliteAir,
+#maniabiliteAntiGravite,
+#adherence,
+#miniTurbo {
+    position: relative;
+    text-align: right;
+}
+
+#stats {
+    width: 800px;
+}
+
+.statName {
+    width: 170px;
+    text-align: right;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.unit {
+    width: 25.6px;
+    height: 19px;
+    display: inline-block;
+    border-radius: 3px;
+    transition: ease-in-out .2s;
+}
+
+.unfill {
+    background: none;
+}
+
+.fill {
+    background: #66ff66;
+}
+
+.fill:nth-of-type(1) {
+    background: #ff6666
+}
+
+.fill:nth-of-type(2) {
+    background: #f96d66
+}
+
+.fill:nth-of-type(3) {
+    background: #f37366
+}
+
+.fill:nth-of-type(4) {
+    background: #ec7a66
+}
+
+.fill:nth-of-type(5) {
+    background: #e58066
+}
+
+.fill:nth-of-type(6) {
+    background: #df8766
+}
+
+.fill:nth-of-type(7) {
+    background: #d88e66
+}
+
+.fill:nth-of-type(8) {
+    background: #d19466
+}
+
+.fill:nth-of-type(9) {
+    background: #ca9c66
+}
+
+.fill:nth-of-type(10) {
+    background: #c4a266
+}
+
+.fill:nth-of-type(11) {
+    background: #bda966
+}
+
+.fill:nth-of-type(12) {
+    background: #b6af66
+}
+
+.fill:nth-of-type(13) {
+    background: #afb666
+}
+
+.fill:nth-of-type(14) {
+    background: #a9bd66
+}
+
+.fill:nth-of-type(15) {
+    background: #a2c466
+}
+
+.fill:nth-of-type(16) {
+    background: #9cca66
+}
+
+.fill:nth-of-type(17) {
+    background: #94d166
+}
+
+.fill:nth-of-type(18) {
+    background: #8ed866
+}
+
+.fill:nth-of-type(19) {
+    background: #87df66
+}
+
+.fill:nth-of-type(20) {
+    background: #80e566
+}
+
+.fill:nth-of-type(21) {
+    background: #7aec66
+}
+
+.fill:nth-of-type(22) {
+    background: #73f366
+}
+
+.fill:nth-of-type(23) {
+    background: #6df966
+}
+
+.fill:nth-of-type(24) {
+    background: #66ff66
+}
+
+.grilleCircuits {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nomCoupe {
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+#choose {
+    display: block;
+    margin: 30px 0 30px 0;
+}
+
+#choose:hover button {
+    box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
+    background: #fff;
+    color: #353535;
+}
+
+#reset {
+    display: block;
+    margin: 30px 0 30px 0;
+}
+
+#reset:hover button {
+    box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
+    background: #fff;
+    color: #353535;
+}
+
+#reset button {
+    background: #ff3535;
+    color: #fff;
+}
+
+.circuit {
+    border-radius: 5px;
+    transition: ease-in-out .2s;
+}
+
+@media screen and (max-width: 1249px) and (min-width: 769px) {
+    #circuitAleatoire {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+    .grilleCircuits {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .circuit {
+        border-radius: 5px;
+        transition: ease-in-out .2s;
+        font-size: 16px;
+    }
+    .nomCoupe {
+        font-weight: bolder;
+        font-size: 16px;
+    }
+    button {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .grilleCircuits {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    button {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .grilleCircuits {
+        grid-template-columns: 1fr 1fr;
+    }
+    .circuit {
+        font-size: 32px;
+    }
+    .nomCoupe {
+        font-size: 32px;
+    }
+    button {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+}
