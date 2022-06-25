@@ -114,12 +114,19 @@ for ($i = 0; $i <= 3; $i++) {
 }
 echo "</div>\n";
 
+echo "<div class=\"coupe\">\n"; //                  
+echo "<p class=\"nomCoupe\">".array_keys($circuits)[13]."</p>\n";
+for ($i = 0; $i <= 3; $i++) {
+    echo "<p class=\"circuit TR". strval($i+52) ."\">".$circuits["Coupe Maneki-neko"][$i]."</p>\n";
+} //                                        
+echo "</div>\n";
+
 /*
 
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[13]."</p>\n";
 for ($i = 0; $i <= 3; $i++) {
-    echo "<p class=\"circuit TR". strval($i+52) ."\">".$circuits["Coupe DLC 2.1"][$i]."</p>\n";
+    echo "<p class=\"circuit TR". strval($i+52) ."\">".$circuits["Coupe Navet"][$i]."</p>\n";
 }
 echo "</div>\n";
 
@@ -128,7 +135,7 @@ echo "</div>\n";
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[14]."</p>\n";
 for ($i = 0; $i <= 3; $i++) {
-    echo "<p class=\"circuit TR". strval($i+56) ."\">".$circuits["Coupe DLC 3.1"][$i]."</p>\n";
+    echo "<p class=\"circuit TR". strval($i+56) ."\">".$circuits["Coupe Hélico"][$i]."</p>\n";
 }
 echo "</div>\n";
 
@@ -137,7 +144,7 @@ echo "</div>\n";
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[15]."</p>\n";
 for ($i = 0; $i <= 3; $i++) {
-    echo "<p class=\"circuit TR". strval($i+60) ."\">".$circuits["Coupe DLC 4.1"][$i]."</p>\n";
+    echo "<p class=\"circuit TR". strval($i+60) ."\">".$circuits["Coupe Pierre"][$i]."</p>\n";
 }
 echo "</div>\n";
 
@@ -146,7 +153,7 @@ echo "</div>\n";
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[16]."</p>\n";
 for ($i = 0; $i <= 3; $i++) {
-    echo "<p class=\"circuit TR". strval($i+64) ."\">".$circuits["Coupe DLC 5.1"][$i]."</p>\n";
+    echo "<p class=\"circuit TR". strval($i+64) ."\">".$circuits["Coupe Lune"][$i]."</p>\n";
 }
 echo "</div>\n";
 
@@ -155,25 +162,18 @@ echo "</div>\n";
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[17]."</p>\n";
 for ($i = 0; $i <= 3; $i++) {
-    echo "<p class=\"circuit TR". strval($i+68) ."\">".$circuits["Coupe DLC 6.1"][$i]."</p>\n";
+    echo "<p class=\"circuit TR". strval($i+68) ."\">".$circuits["Coupe Fruit"][$i]."</p>\n";
 }
 echo "</div>\n";
 
 */
-
-echo "<div class=\"coupe\">\n"; //                  18
-echo "<p class=\"nomCoupe\">".array_keys($circuits)[13]."</p>\n";
-for ($i = 0; $i <= 3; $i++) {
-    echo "<p class=\"circuit TR". strval($i+52) ."\">".$circuits["Coupe Maneki-neko"][$i]."</p>\n";
-} //                                        72
-echo "</div>\n";
 
 /*
 
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[19]."</p>\n";
 for ($i = 0; $i <= 3; $i++) {
-    echo "<p class=\"circuit TR". strval($i+76) ."\">".$circuits["Coupe DLC 2.2"][$i]."</p>\n";
+    echo "<p class=\"circuit TR". strval($i+76) ."\">".$circuits["Coupe Boomerang"][$i]."</p>\n";
 }
 echo "</div>\n";
 
@@ -182,7 +182,7 @@ echo "</div>\n";
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[20]."</p>\n";
 for ($i = 0; $i <= 3; $i++) {
-    echo "<p class=\"circuit TR". strval($i+80) ."\">".$circuits["Coupe DLC 3.2"][$i]."</p>\n";
+    echo "<p class=\"circuit TR". strval($i+80) ."\">".$circuits["Coupe Plume"][$i]."</p>\n";
 }
 echo "</div>\n";
 
@@ -191,7 +191,7 @@ echo "</div>\n";
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[21]."</p>\n";
 for ($i = 0; $i <= 3; $i++) {
-    echo "<p class=\"circuit TR". strval($i+84) ."\">".$circuits["Coupe DLC 4.2"][$i]."</p>\n";
+    echo "<p class=\"circuit TR". strval($i+84) ."\">".$circuits["Coupe Cerises"][$i]."</p>\n";
 }
 echo "</div>\n";
 
@@ -200,7 +200,7 @@ echo "</div>\n";
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[22]."</p>\n";
 for ($i = 0; $i <= 3; $i++) {
-    echo "<p class=\"circuit TR". strval($i+88) ."\">".$circuits["Coupe DLC 5.2"][$i]."</p>\n";
+    echo "<p class=\"circuit TR". strval($i+88) ."\">".$circuits["Coupe Gland"][$i]."</p>\n";
 }
 echo "</div>\n";
 
@@ -209,7 +209,7 @@ echo "</div>\n";
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[23]."</p>\n";
 for ($i = 0; $i <= 3; $i++) {
-    echo "<p class=\"circuit TR". strval($i+92) ."\">".$circuits["Coupe DLC 6.2"][$i]."</p>\n";
+    echo "<p class=\"circuit TR". strval($i+92) ."\">".$circuits["Coupe à épines"][$i]."</p>\n";
 }
 echo "</div>\n";
 
