@@ -15,10 +15,16 @@ include "fonctionsPhp/vues.php";
     <link rel="icon" href="./img/personnages/Mario.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> MK8DX Randomizer </title>
-    <meta name="theme-color" content="#033" />
+    <meta name="theme-color" content="#8fb" />
 </head>
 
 <body>
+    <aside id="setnight">
+        <img src="img/icons/daylighticon.png">
+    </aside>
+    <aside id="setday">
+        <img src="img/icons/daylighticon.png">
+    </aside>
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
         <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 2)</p></div>
@@ -102,6 +108,7 @@ include "fonctionsPhp/vues.php";
     </main>
     <script type="module" src="scriptPersonnages.js"></script>
     <script type="module" src="scriptCircuits.js"></script>
+    <script type="module" src="themes.js"></script>
 </body>
 
 </html>

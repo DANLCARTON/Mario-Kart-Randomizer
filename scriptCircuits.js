@@ -66,7 +66,7 @@ document.getElementById("choose").addEventListener("click", () => {
 
     // // console.log(circuitId)
 
-    document.getElementsByClassName("TR" + circuitId)[0].setAttribute("style", "background-color: #8f8; filter: drop-shadow(0 0 10px #ffffff50);");
+    document.getElementsByClassName("TR" + circuitId)[0].setAttribute("style", "background-color: #0da; filter: drop-shadow(0 0 10px #ffffff50);");
     circuitSelectionne = document.getElementsByClassName("TR" + circuitId)[0];
     circuitsNonTires.splice(circuitId, 1, "");
     circuitDejaTires.splice(circuitId, 1, "TR" + circuitId);
@@ -89,7 +89,7 @@ for (let i = 0; i < nombreDeCircuits; i++) {
                         document.getElementsByClassName(circuitDejaTires[i])[0].setAttribute("style", "background-color: #353535; color: #ccc;");
                     }
                 }
-                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: #8f8; filter: drop-shadow(0 0 10px #ffffff50);");
+                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: #0da; filter: drop-shadow(0 0 10px #ffffff50);");
                 circuitSelectionne = document.getElementsByClassName("TR" + i)[0];
                 circuitsNonTires.splice(j, 1, "");
                 circuitDejaTires.splice(j, 1, "TR" + j);
