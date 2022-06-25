@@ -14,18 +14,17 @@ $circuits = array(
     "Coupe Triforce" => array ("Wii Mine Wario", "SNES Route Arc-en-ciel", "Station Glagla", "Circuit d'Hyrule"),
     "Coupe Clochette" => array("3DS Koopapolis", "GBA Route Ruban", "Métro Turbo", "Big Blue"),
     "Coupe Turbo dorée" => array("Tour Promenade à Paris", "3DS Circuit Toad", "N64 Montagne Choco", "Wii Supermarché Coco"),
-    // "Coupe DLC 2.1" => array ("", "", "", ""),
-    // "Coupe DLC 3.1" => array ("", "", "", ""),
-    // "Coupe DLC 4.1" => array ("", "", "", ""),
-    // "Coupe DLC 5.1" => array ("", "", "", ""),
-    // "Coupe DLC 6.1" => array ("", "", "", ""),
-    "Coupe Maneki-neko" => array ("Tour Traversée de Tokyo", "DS Corniche Champignon", "GBA Jardin Volant", "Tour Dojo Ninja")//,
-    // "Coupe DLC 2.2" => array ("", "", "", ""),
-    // "Coupe DLC 3.2" => array ("", "", "", ""),
-    // "Coupe DLC 4.2" => array ("", "", "", ""),
-    // "Coupe DLC 5.2" => array ("", "", "", ""),
-    // "Coupe DLC 6.2" => array ("", "", "", "")
-
+    "Coupe Maneki-neko" => array ("Tour Traversée de Tokyo", "DS Corniche Champignon", "GBA Jardin Volant", "Tour Dojo Ninja"),
+    "Coupe Navet" => array ("NC", "NC", "NC", "NC"),
+    "Coupe Hélico" => array ("NC", "NC", "NC", "NC"),
+    // "Coupe Pierre" => array ("", "", "", ""),
+    // "Coupe Lune" => array ("", "", "", ""),
+    // "Coupe Fruit" => array ("", "", "", ""),
+    // "Coupe Boomerang" => array ("", "", "", ""),
+    // "Coupe Plume" => array ("", "", "", ""),
+    // "Coupe Cerises" => array ("", "", "", ""),
+    // "Coupe Gland" => array ("", "", "", ""),
+    // "Coupe à épines" => array ("", "", "", "")
 );
 
 ?>
