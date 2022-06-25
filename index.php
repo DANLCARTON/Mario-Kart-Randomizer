@@ -78,7 +78,7 @@ include "fonctionsPhp/vues.php";
 
             <?php require "dataCircuits.php"; ?>   
 
-            <div id="reset"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
+            <div id="choose"> <button href="#" onlick="return  false">CHOISIR</button> </div>
 
             <div class="grilleCircuits">
 
@@ -88,7 +88,7 @@ include "fonctionsPhp/vues.php";
 
             </div>
 
-            <div id="choose"> <button href="#" onlick="return false">CHOISIR</button> </div>
+            <div id="reset"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
 
             </article>
 
