@@ -21,6 +21,11 @@ hr {
     margin: 0 auto;
 }
 
+#circuitAleatoire p.desc {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 main {
     display: inline-block;
 }
@@ -64,7 +69,7 @@ button {
     display: flex;
     height: 183px;
     width: 800px;
-    margin: 5vh 0 15px 0;
+    margin: 15px 0 30px 0;
     font-size: 20px;
     font-weight: bolder;
 }
@@ -74,7 +79,18 @@ button {
 }
 
 .element img {
-    filter: drop-shadow(0 0 10px #ffffff50)
+    filter: drop-shadow(0 0 10px #ffffff50);
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: ease-in-out .2s;
+}
+
+.element img:hover {
+    filter: drop-shadow(0 0 10px #ffffffff);
+    transform: scale(110%);
 }
 
 #reroll {
@@ -276,6 +292,12 @@ button {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+.circuit:hover {
+    transform: scale(110%);
+    background-color: #ffffff80;
+    filter: drop-shadow(0 0 10px #ffffffff);
 }
 
 @media screen and (max-width: 1249px) and (min-width: 769px) {

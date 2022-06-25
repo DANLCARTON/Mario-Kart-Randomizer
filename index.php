@@ -26,6 +26,10 @@ include "fonctionsPhp/vues.php";
 
             <h2>PERSONNAGE ALÉATOIRE</h2>
 
+            <p> Cliquez sur le bouton "Générer" ci-dessous pour afficher une combinaison aléatoire. Si l'un des élément ne vous plaît pas, cliquez sur son image pour le changer ! </p>
+
+            <div id="reroll"> <button href="#" onlick="return false">GÉNÉRER</button> </div>
+
             <article id="set">
                 <div id="result">
                     <div class="element">
@@ -46,8 +50,6 @@ include "fonctionsPhp/vues.php";
                     </div>
                 </div>
             </article>
-
-            <div id="reroll"> <button href="#" onlick="return false">GÉNÉRER</button> </div>
 
             <article id="stats">
 
@@ -74,6 +76,9 @@ include "fonctionsPhp/vues.php";
 
         <section id="circuitAleatoire">
             <h2>CIRCUIT ALÉATOIRE SANS REMISE</h2>
+
+            <p class="desc">Cliquez sur le bouton "Choisir" ci-dessous pour sélectionner aléatoirement l'un des 64 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton "Remettre à zero" situé tout en bas.</p>
+
             <article>
 
             <?php require "dataCircuits.php"; ?>   
