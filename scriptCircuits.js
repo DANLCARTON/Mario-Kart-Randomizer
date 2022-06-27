@@ -23,7 +23,7 @@ function nombreAleatoire() {
 }
 
 // SELECTION DE CIRCUIT ALÉATOIRE
-document.getElementById("choose").addEventListener("click", () => {
+document.getElementById("choose").getElementsByTagName("button")[0].addEventListener("click", () => {
 
     for (let i = 0; i <= circuitDejaTires.length - 1; i++) {
         if (circuitDejaTires[i] != "") {
@@ -120,7 +120,7 @@ for (let i = 0; i < nombreDeCircuits; i++) {
 }
 
 // RESET
-document.getElementById("reset").addEventListener("click", () => {
+document.getElementById("reset").getElementsByTagName("button")[0].addEventListener("click", () => {
     circuitsNonTires = [];
     circuitSelectionne = 0;
     circuitDejaTires = [];

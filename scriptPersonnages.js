@@ -14,6 +14,8 @@ var skinsInklingFille = ["orange", "verte", "rose"];
 var skinsInklingGarcon = ["bleu", "violet", "cyan"];
 var skinsLink = ["tunique verte", "tunique de prodige"];
 
+var players = 1;
+
 var FIRSTLOOP = false;
 
 if (!FIRSTLOOP) {
@@ -39,7 +41,28 @@ function stats(stat, docStat) {
     }
 }
 
-document.getElementById("reroll").addEventListener("click", () => {
+document.getElementById("playersArrow").addEventListener("click", () => {
+    let sc = document.getElementById("setContainer");
+    players++;
+    switch (players) {
+        case 2:
+            sc.style.setProperty("height", "580px");
+            document.getElementById("stats").style.setProperty("display", "none");
+            break;
+        case 3:
+            sc.style.setProperty("height", "880px");
+            break;
+        case 4:
+            sc.style.setProperty("height", "1180px");
+            document.getElementById("playersArrow").style.setProperty("display", "none");
+            break;
+        default:
+            console.log(players);
+            break;
+    }
+})
+
+document.getElementById("reroll1").getElementsByTagName("button")[0].addEventListener("click", () => {
     var skin;
     currentPerso = perso[getRandom(perso.length)];
     currentKart = karts[getRandom(karts.length)];
@@ -70,18 +93,18 @@ document.getElementById("reroll").addEventListener("click", () => {
         }
     }
 
-    var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + AileEnPapier.vitesse + 4
-    var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + AileEnPapier.vitesseEau + 4
-    var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + AileEnPapier.vitesseAir + 4
-    var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + AileEnPapier.vitesseAntiGravite + 4
-    var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + AileEnPapier.acceleration + 4
-    var Poids = Perso.poids + Karts.poids + Roues.poids + AileEnPapier.poids + 4
-    var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + AileEnPapier.maniabilite + 4
-    var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + AileEnPapier.maniabiliteEau + 4
-    var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + AileEnPapier.maniabiliteAir + 4
-    var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + AileEnPapier.maniabiliteAntiGravite + 4
-    var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + AileEnPapier.adherence + 4
-    var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + AileEnPapier.miniTurbo + 4
+    var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + Ailes.vitesse + 4
+    var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + Ailes.vitesseEau + 4
+    var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + Ailes.vitesseAir + 4
+    var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + Ailes.vitesseAntiGravite + 4
+    var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + Ailes.acceleration + 4
+    var Poids = Perso.poids + Karts.poids + Roues.poids + Ailes.poids + 4
+    var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + Ailes.maniabilite + 4
+    var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + Ailes.maniabiliteEau + 4
+    var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + Ailes.maniabiliteAir + 4
+    var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + Ailes.maniabiliteAntiGravite + 4
+    var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + Ailes.adherence + 4
+    var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4
 
     document.getElementsByClassName("name")[0].textContent = Perso.nom + " " + skin;
     document.getElementsByClassName("name")[1].textContent = Karts.nom;
@@ -89,13 +112,13 @@ document.getElementById("reroll").addEventListener("click", () => {
     document.getElementsByClassName("name")[3].textContent = Ailes.nom;
 
     if (skin == "") {
-        document.getElementById("personnage").src = "img/personnages/" + Perso.nom + ".png";
+        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom + ".png";
     } else {
-        document.getElementById("personnage").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
     }
-    document.getElementById("kart").src = "img/karts/" + Karts.nom + ".png";
-    document.getElementById("roue").src = "img/roues/" + Roues.nom + ".png";
-    document.getElementById("aile").src = "img/ailes/" + Ailes.nom + ".png";
+    document.getElementById("kart1").src = "img/karts/" + Karts.nom + ".png";
+    document.getElementById("roue1").src = "img/roues/" + Roues.nom + ".png";
+    document.getElementById("aile1").src = "img/ailes/" + Ailes.nom + ".png";
 
     var DocVitesse = document.getElementById("vitesseRoute");
     var DocVitesseEau = document.getElementById("vitesseEau");
@@ -124,7 +147,145 @@ document.getElementById("reroll").addEventListener("click", () => {
     stats(MiniTurbo, DocMiniTurbo)
 });
 
-document.getElementById("personnage").addEventListener("click", () => {
+document.getElementById("reroll2").getElementsByTagName("button")[0].addEventListener("click", () => {
+    var skin;
+    currentPerso = perso[getRandom(perso.length)];
+    currentKart = karts[getRandom(karts.length)];
+    currentRoue = roues[getRandom(roues.length)];
+    currentAile = ailes[getRandom(ailes.length)];
+    var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
+    if (Perso == Mii) {
+        Perso = Mii[getRandom(Mii.length)];
+        skin = "";
+    } else {
+        if (Perso.nom == "Yoshi") {
+            skin = skinsYoshi[getRandom(skinsYoshi.length)];
+        } else if (Perso.nom == "Maskass") {
+            skin = skinsMaskass[getRandom(skinsMaskass.length)];
+        } else if (Perso.nom == "Mario de métal") {
+            skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+        } else if (Perso.nom == "Inkling fille") {
+            skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+        } else if (Perso.nom == "Inkling garçon") {
+            skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+        } else if (Perso.nom == "Link") {
+            skin = skinsLink[getRandom(skinsLink.length)];
+        } else {
+            skin = "";
+        }
+    }
+
+    document.getElementsByClassName("name")[4].textContent = Perso.nom + " " + skin;
+    document.getElementsByClassName("name")[5].textContent = Karts.nom;
+    document.getElementsByClassName("name")[6].textContent = Roues.nom;
+    document.getElementsByClassName("name")[7].textContent = Ailes.nom;
+
+    if (skin == "") {
+        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + ".png";
+    } else {
+        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+    }
+    document.getElementById("kart2").src = "img/karts/" + Karts.nom + ".png";
+    document.getElementById("roue2").src = "img/roues/" + Roues.nom + ".png";
+    document.getElementById("aile2").src = "img/ailes/" + Ailes.nom + ".png";
+});
+
+document.getElementById("reroll3").getElementsByTagName("button")[0].addEventListener("click", () => {
+    var skin;
+    currentPerso = perso[getRandom(perso.length)];
+    currentKart = karts[getRandom(karts.length)];
+    currentRoue = roues[getRandom(roues.length)];
+    currentAile = ailes[getRandom(ailes.length)];
+    var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
+    if (Perso == Mii) {
+        Perso = Mii[getRandom(Mii.length)];
+        skin = "";
+    } else {
+        if (Perso.nom == "Yoshi") {
+            skin = skinsYoshi[getRandom(skinsYoshi.length)];
+        } else if (Perso.nom == "Maskass") {
+            skin = skinsMaskass[getRandom(skinsMaskass.length)];
+        } else if (Perso.nom == "Mario de métal") {
+            skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+        } else if (Perso.nom == "Inkling fille") {
+            skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+        } else if (Perso.nom == "Inkling garçon") {
+            skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+        } else if (Perso.nom == "Link") {
+            skin = skinsLink[getRandom(skinsLink.length)];
+        } else {
+            skin = "";
+        }
+    }
+
+    document.getElementsByClassName("name")[8].textContent = Perso.nom + " " + skin;
+    document.getElementsByClassName("name")[9].textContent = Karts.nom;
+    document.getElementsByClassName("name")[10].textContent = Roues.nom;
+    document.getElementsByClassName("name")[11].textContent = Ailes.nom;
+
+    if (skin == "") {
+        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + ".png";
+    } else {
+        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+    }
+    document.getElementById("kart3").src = "img/karts/" + Karts.nom + ".png";
+    document.getElementById("roue3").src = "img/roues/" + Roues.nom + ".png";
+    document.getElementById("aile3").src = "img/ailes/" + Ailes.nom + ".png";
+});
+
+document.getElementById("reroll4").getElementsByTagName("button")[0].addEventListener("click", () => {
+    var skin;
+    currentPerso = perso[getRandom(perso.length)];
+    currentKart = karts[getRandom(karts.length)];
+    currentRoue = roues[getRandom(roues.length)];
+    currentAile = ailes[getRandom(ailes.length)];
+    var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
+    if (Perso == Mii) {
+        Perso = Mii[getRandom(Mii.length)];
+        skin = "";
+    } else {
+        if (Perso.nom == "Yoshi") {
+            skin = skinsYoshi[getRandom(skinsYoshi.length)];
+        } else if (Perso.nom == "Maskass") {
+            skin = skinsMaskass[getRandom(skinsMaskass.length)];
+        } else if (Perso.nom == "Mario de métal") {
+            skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+        } else if (Perso.nom == "Inkling fille") {
+            skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+        } else if (Perso.nom == "Inkling garçon") {
+            skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+        } else if (Perso.nom == "Link") {
+            skin = skinsLink[getRandom(skinsLink.length)];
+        } else {
+            skin = "";
+        }
+    }
+
+    document.getElementsByClassName("name")[12].textContent = Perso.nom + " " + skin;
+    document.getElementsByClassName("name")[13].textContent = Karts.nom;
+    document.getElementsByClassName("name")[14].textContent = Roues.nom;
+    document.getElementsByClassName("name")[15].textContent = Ailes.nom;
+
+    if (skin == "") {
+        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + ".png";
+    } else {
+        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+    }
+    document.getElementById("kart4").src = "img/karts/" + Karts.nom + ".png";
+    document.getElementById("roue4").src = "img/roues/" + Roues.nom + ".png";
+    document.getElementById("aile4").src = "img/ailes/" + Ailes.nom + ".png";
+});
+
+document.getElementById("personnage1").addEventListener("click", () => {
     var skin;
     currentPerso = perso[getRandom(perso.length)];
     console.log(currentPerso);
@@ -156,25 +317,25 @@ document.getElementById("personnage").addEventListener("click", () => {
         }
     }
 
-    var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + AileEnPapier.vitesse + 4
-    var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + AileEnPapier.vitesseEau + 4
-    var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + AileEnPapier.vitesseAir + 4
-    var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + AileEnPapier.vitesseAntiGravite + 4
-    var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + AileEnPapier.acceleration + 4
-    var Poids = Perso.poids + Karts.poids + Roues.poids + AileEnPapier.poids + 4
-    var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + AileEnPapier.maniabilite + 4
-    var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + AileEnPapier.maniabiliteEau + 4
-    var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + AileEnPapier.maniabiliteAir + 4
-    var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + AileEnPapier.maniabiliteAntiGravite + 4
-    var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + AileEnPapier.adherence + 4
-    var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + AileEnPapier.miniTurbo + 4
+    var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + Ailes.vitesse + 4
+    var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + Ailes.vitesseEau + 4
+    var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + Ailes.vitesseAir + 4
+    var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + Ailes.vitesseAntiGravite + 4
+    var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + Ailes.acceleration + 4
+    var Poids = Perso.poids + Karts.poids + Roues.poids + Ailes.poids + 4
+    var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + Ailes.maniabilite + 4
+    var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + Ailes.maniabiliteEau + 4
+    var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + Ailes.maniabiliteAir + 4
+    var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + Ailes.maniabiliteAntiGravite + 4
+    var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + Ailes.adherence + 4
+    var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4
 
     document.getElementsByClassName("name")[0].textContent = Perso.nom + " " + skin;
 
     if (skin == "") {
-        document.getElementById("personnage").src = "img/personnages/" + Perso.nom + ".png";
+        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom + ".png";
     } else {
-        document.getElementById("personnage").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
     }
 
     var DocVitesse = document.getElementById("vitesseRoute");
@@ -204,7 +365,109 @@ document.getElementById("personnage").addEventListener("click", () => {
     stats(MiniTurbo, DocMiniTurbo)
 })
 
-document.getElementById("kart").addEventListener("click", () => {
+document.getElementById("personnage2").addEventListener("click", () => {
+    var skin;
+    currentPerso = perso[getRandom(perso.length)];
+    var Perso = currentPerso;
+    if (Perso == Mii) {
+        Perso = Mii[getRandom(Mii.length)];
+        skin = "";
+    } else {
+        if (Perso.nom == "Yoshi") {
+            skin = skinsYoshi[getRandom(skinsYoshi.length)];
+        } else if (Perso.nom == "Maskass") {
+            skin = skinsMaskass[getRandom(skinsMaskass.length)];
+        } else if (Perso.nom == "Mario de métal") {
+            skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+        } else if (Perso.nom == "Inkling fille") {
+            skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+        } else if (Perso.nom == "Inkling garçon") {
+            skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+        } else if (Perso.nom == "Link") {
+            skin = skinsLink[getRandom(skinsLink.length)];
+        } else {
+            skin = "";
+        }
+    }
+
+    document.getElementsByClassName("name")[4].textContent = Perso.nom + " " + skin;
+
+    if (skin == "") {
+        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + ".png";
+    } else {
+        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+    }
+})
+
+document.getElementById("personnage3").addEventListener("click", () => {
+    var skin;
+    currentPerso = perso[getRandom(perso.length)];
+    var Perso = currentPerso;
+    if (Perso == Mii) {
+        Perso = Mii[getRandom(Mii.length)];
+        skin = "";
+    } else {
+        if (Perso.nom == "Yoshi") {
+            skin = skinsYoshi[getRandom(skinsYoshi.length)];
+        } else if (Perso.nom == "Maskass") {
+            skin = skinsMaskass[getRandom(skinsMaskass.length)];
+        } else if (Perso.nom == "Mario de métal") {
+            skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+        } else if (Perso.nom == "Inkling fille") {
+            skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+        } else if (Perso.nom == "Inkling garçon") {
+            skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+        } else if (Perso.nom == "Link") {
+            skin = skinsLink[getRandom(skinsLink.length)];
+        } else {
+            skin = "";
+        }
+    }
+
+    document.getElementsByClassName("name")[8].textContent = Perso.nom + " " + skin;
+
+    if (skin == "") {
+        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + ".png";
+    } else {
+        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+    }
+})
+
+document.getElementById("personnage4").addEventListener("click", () => {
+    var skin;
+    currentPerso = perso[getRandom(perso.length)];
+    var Perso = currentPerso;
+    if (Perso == Mii) {
+        Perso = Mii[getRandom(Mii.length)];
+        skin = "";
+    } else {
+        if (Perso.nom == "Yoshi") {
+            skin = skinsYoshi[getRandom(skinsYoshi.length)];
+        } else if (Perso.nom == "Maskass") {
+            skin = skinsMaskass[getRandom(skinsMaskass.length)];
+        } else if (Perso.nom == "Mario de métal") {
+            skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+        } else if (Perso.nom == "Inkling fille") {
+            skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+        } else if (Perso.nom == "Inkling garçon") {
+            skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+        } else if (Perso.nom == "Link") {
+            skin = skinsLink[getRandom(skinsLink.length)];
+        } else {
+            skin = "";
+        }
+    }
+
+    document.getElementsByClassName("name")[12].textContent = Perso.nom + " " + skin;
+
+    if (skin == "") {
+        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + ".png";
+    } else {
+        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+    }
+})
+
+document.getElementById("kart1").addEventListener("click", () => {
     currentKart = karts[getRandom(karts.length)];
     var Perso = currentPerso;
     var Karts = currentKart;
@@ -226,7 +489,7 @@ document.getElementById("kart").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[1].textContent = Karts.nom;
 
-    document.getElementById("kart").src = "img/karts/" + Karts.nom + ".png";
+    document.getElementById("kart1").src = "img/karts/" + Karts.nom + ".png";
 
     var DocVitesse = document.getElementById("vitesseRoute");
     var DocVitesseEau = document.getElementById("vitesseEau");
@@ -255,29 +518,56 @@ document.getElementById("kart").addEventListener("click", () => {
     stats(MiniTurbo, DocMiniTurbo)
 })
 
-document.getElementById("roue").addEventListener("click", () => {
+document.getElementById("kart2").addEventListener("click", () => {
+    currentKart = karts[getRandom(karts.length)];
+    var Karts = currentKart;
+
+    document.getElementsByClassName("name")[5].textContent = Karts.nom;
+
+    document.getElementById("kart2").src = "img/karts/" + Karts.nom + ".png";
+})
+
+document.getElementById("kart3").addEventListener("click", () => {
+    currentKart = karts[getRandom(karts.length)];
+    var Karts = currentKart;
+
+    document.getElementsByClassName("name")[9].textContent = Karts.nom;
+
+    document.getElementById("kart3").src = "img/karts/" + Karts.nom + ".png";
+})
+
+document.getElementById("kart4").addEventListener("click", () => {
+    currentKart = karts[getRandom(karts.length)];
+    var Karts = currentKart;
+
+    document.getElementsByClassName("name")[13].textContent = Karts.nom;
+
+    document.getElementById("kart4").src = "img/karts/" + Karts.nom + ".png";
+})
+
+document.getElementById("roue1").addEventListener("click", () => {
     currentRoue = roues[getRandom(roues.length)];
     var Perso = currentPerso;
     var Karts = currentKart;
     var Roues = currentRoue;
     var Ailes = currentAile;
 
-    var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + AileEnPapier.vitesse + 4
-    var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + AileEnPapier.vitesseEau + 4
-    var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + AileEnPapier.vitesseAir + 4
-    var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + AileEnPapier.vitesseAntiGravite + 4
-    var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + AileEnPapier.acceleration + 4
-    var Poids = Perso.poids + Karts.poids + Roues.poids + AileEnPapier.poids + 4
-    var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + AileEnPapier.maniabilite + 4
-    var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + AileEnPapier.maniabiliteEau + 4
-    var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + AileEnPapier.maniabiliteAir + 4
-    var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + AileEnPapier.maniabiliteAntiGravite + 4
-    var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + AileEnPapier.adherence + 4
-    var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + AileEnPapier.miniTurbo + 4
+    var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + Ailes.vitesse + 4
+    var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + Ailes.vitesseEau + 4
+    var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + Ailes.vitesseAir + 4
+    var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + Ailes.vitesseAntiGravite + 4
+    var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + Ailes.acceleration + 4
+    var Poids = Perso.poids + Karts.poids + Roues.poids + Ailes.poids + 4
+    var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + Ailes.maniabilite + 4
+    var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + Ailes.maniabiliteEau + 4
+    var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + Ailes.maniabiliteAir + 4
+    var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + Ailes.maniabiliteAntiGravite + 4
+    var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + Ailes.adherence + 4
+    var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4
 
     document.getElementsByClassName("name")[2].textContent = Roues.nom;
 
-    document.getElementById("roue").src = "img/roues/" + Roues.nom + ".png";
+    document.getElementById("roue1").src = "img/roues/" + Roues.nom + ".png";
 
     var DocVitesse = document.getElementById("vitesseRoute");
     var DocVitesseEau = document.getElementById("vitesseEau");
@@ -306,29 +596,56 @@ document.getElementById("roue").addEventListener("click", () => {
     stats(MiniTurbo, DocMiniTurbo)
 })
 
-document.getElementById("aile").addEventListener("click", () => {
+document.getElementById("roue2").addEventListener("click", () => {
+    currentRoue = roues[getRandom(roues.length)];
+    var Roues = currentRoue;
+
+    document.getElementsByClassName("name")[6].textContent = Roues.nom;
+
+    document.getElementById("roue2").src = "img/roues/" + Roues.nom + ".png";
+})
+
+document.getElementById("roue3").addEventListener("click", () => {
+    currentRoue = roues[getRandom(roues.length)];
+    var Roues = currentRoue;
+
+    document.getElementsByClassName("name")[10].textContent = Roues.nom;
+
+    document.getElementById("roue3").src = "img/roues/" + Roues.nom + ".png";
+})
+
+document.getElementById("roue4").addEventListener("click", () => {
+    currentRoue = roues[getRandom(roues.length)];
+    var Roues = currentRoue;
+
+    document.getElementsByClassName("name")[14].textContent = Roues.nom;
+
+    document.getElementById("roue4").src = "img/roues/" + Roues.nom + ".png";
+})
+
+document.getElementById("aile1").addEventListener("click", () => {
     currentAile = ailes[getRandom(ailes.length)];
     var Perso = currentPerso;
     var Karts = currentKart;
     var Roues = currentRoue;
     var Ailes = currentAile;
 
-    var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + AileEnPapier.vitesse + 4
-    var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + AileEnPapier.vitesseEau + 4
-    var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + AileEnPapier.vitesseAir + 4
-    var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + AileEnPapier.vitesseAntiGravite + 4
-    var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + AileEnPapier.acceleration + 4
-    var Poids = Perso.poids + Karts.poids + Roues.poids + AileEnPapier.poids + 4
-    var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + AileEnPapier.maniabilite + 4
-    var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + AileEnPapier.maniabiliteEau + 4
-    var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + AileEnPapier.maniabiliteAir + 4
-    var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + AileEnPapier.maniabiliteAntiGravite + 4
-    var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + AileEnPapier.adherence + 4
-    var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + AileEnPapier.miniTurbo + 4
+    var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + Ailes.vitesse + 4
+    var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + Ailes.vitesseEau + 4
+    var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + Ailes.vitesseAir + 4
+    var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + Ailes.vitesseAntiGravite + 4
+    var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + Ailes.acceleration + 4
+    var Poids = Perso.poids + Karts.poids + Roues.poids + Ailes.poids + 4
+    var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + Ailes.maniabilite + 4
+    var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + Ailes.maniabiliteEau + 4
+    var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + Ailes.maniabiliteAir + 4
+    var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + Ailes.maniabiliteAntiGravite + 4
+    var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + Ailes.adherence + 4
+    var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4
 
     document.getElementsByClassName("name")[3].textContent = Ailes.nom;
 
-    document.getElementById("aile").src = "img/ailes/" + Ailes.nom + ".png";
+    document.getElementById("aile1").src = "img/ailes/" + Ailes.nom + ".png";
 
     var DocVitesse = document.getElementById("vitesseRoute");
     var DocVitesseEau = document.getElementById("vitesseEau");
@@ -355,4 +672,31 @@ document.getElementById("aile").addEventListener("click", () => {
     stats(ManiabiliteAntiGravite, DocManiabiliteAntiGravite)
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
+})
+
+document.getElementById("aile2").addEventListener("click", () => {
+    currentAile = ailes[getRandom(ailes.length)];
+    var Ailes = currentAile;
+
+    document.getElementsByClassName("name")[7].textContent = Ailes.nom;
+
+    document.getElementById("aile2").src = "img/ailes/" + Ailes.nom + ".png";
+})
+
+document.getElementById("aile3").addEventListener("click", () => {
+    currentAile = ailes[getRandom(ailes.length)];
+    var Ailes = currentAile;
+
+    document.getElementsByClassName("name")[11].textContent = Ailes.nom;
+
+    document.getElementById("aile3").src = "img/ailes/" + Ailes.nom + ".png";
+})
+
+document.getElementById("aile4").addEventListener("click", () => {
+    currentAile = ailes[getRandom(ailes.length)];
+    var Ailes = currentAile;
+
+    document.getElementsByClassName("name")[15].textContent = Ailes.nom;
+
+    document.getElementById("aile4").src = "img/ailes/" + Ailes.nom + ".png";
 })

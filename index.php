@@ -1,5 +1,6 @@
 <?php
 
+include "vues/combinaison.php";
 include "vues/stats.php";
 include "fonctionsPhp/vues.php";
 
@@ -34,28 +35,16 @@ include "fonctionsPhp/vues.php";
 
             <p> Cliquez sur le bouton "Générer" ci-dessous pour afficher une combinaison aléatoire. Si l'un des élément ne vous plaît pas, cliquez sur son image pour le changer ! </p>
 
-            <div id="reroll"> <button href="#" onlick="return false">GÉNÉRER</button> </div>
+            <div id="setContainer">
 
-            <article id="set">
-                <div id="result">
-                    <div class="element">
-                        <img src="./img/personnages/Mario.png" id="personnage" alt="" />
-                        <p class="name">Mario</p>
-                    </div>
-                    <div class="element">
-                        <img src="./img/karts/Kart Standard.png" id="kart" alt="" />
-                        <p class="name">Kart Standard</p>
-                    </div>
-                    <div class="element">
-                        <img src="./img/roues/Roues Standard.png" id="roue" alt="" />
-                        <p class="name">Roues Standard</p>
-                    </div>
-                    <div class="element">
-                        <img src="./img/ailes/Aile Standard.png" id="aile" alt="" />
-                        <p class="name">Aile Standard</p>
-                    </div>
-                </div>
-            </article>
+            <?php
+            for ($i = 1; $i <= 4; $i++)
+                afficheSet($i);
+            ?>
+
+            </div>
+            
+            <div id="playersArrow"><img src="./img/icons/arrow.png"></div>
 
             <article id="stats">
 
