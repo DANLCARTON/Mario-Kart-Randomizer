@@ -420,3 +420,16 @@ button {
         font-size: 36px;
     }
 }
+
+#ee {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 15px;
+    opacity: 0;
+    transition: ease-in-out .2s;
+}
+
+#ee:hover {
+    opacity: 1;
+}

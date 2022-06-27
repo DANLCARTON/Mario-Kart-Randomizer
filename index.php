@@ -103,6 +103,7 @@ include "fonctionsPhp/vues.php";
     <script type="module" src="scriptPersonnages.js"></script>
     <script type="module" src="scriptCircuits.js"></script>
     <script type="module" src="themes.js"></script>
+    <img src="./img/icons/td.jpg" id="ee">
 </body>
 
 </html>
