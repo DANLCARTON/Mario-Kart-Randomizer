@@ -1,5 +1,6 @@
 <?php
 
+include 'vues/compteur.php';
 include "vues/combinaison.php";
 include "vues/stats.php";
 include "fonctionsPhp/vues.php";
@@ -43,7 +44,7 @@ include "fonctionsPhp/vues.php";
             ?>
 
             </div>
-            
+
             <div id="playersArrow"><img src="./img/icons/arrow.png"></div>
 
             <article id="stats">
@@ -87,6 +88,10 @@ include "fonctionsPhp/vues.php";
             ?>
 
             </div>
+
+            <?php
+            afficheCompteur();
+            ?>
 
             <div id="reset"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
 

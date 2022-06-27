@@ -135,3 +135,32 @@ document.getElementById("reset").getElementsByTagName("button")[0].addEventListe
         document.getElementsByClassName("TR" + i)[0].setAttribute("style", "vackground: none;");
     }
 })
+
+function nbCircuitsDejaTires(a) {
+    let nb = 0;
+    for (let i = 0; i < a.length; i++) {
+        console.log(a[i]);
+        if (a[i] != "") {
+            nb++
+        }
+    }
+    return nb;
+}
+
+window.addEventListener("load", () => {
+    console.log(circuitDejaTires);
+    let t = document.getElementById("tires");
+    let tt = document.getElementById("total");
+    let r = document.getElementById("reste");
+    t.textContent = "0";
+    tt.textContent = nombreDeCircuits;
+    r.textContent = nombreDeCircuits;
+})
+
+window.addEventListener("click", () => {
+    console.log(circuitDejaTires);
+    let t = document.getElementById("tires");
+    let r = document.getElementById("reste");
+    t.textContent = nbCircuitsDejaTires(circuitDejaTires);
+    r.textContent = nombreDeCircuits - nbCircuitsDejaTires(circuitDejaTires);
+})
