@@ -34,7 +34,7 @@ include "fonctionsPhp/vues.php";
 
             <h2>PERSONNAGE ALÉATOIRE</h2>
 
-            <p> Cliquez sur le bouton "Générer" ci-dessous pour afficher une combinaison aléatoire. Si l'un des élément ne vous plaît pas, cliquez sur son image pour le changer ! </p>
+            <p> Cliquez sur le bouton "Générer" ci-dessous pour afficher une combinaison aléatoire. Si l'un des élément ne vous plaît pas, cliquez sur son image pour le changer ! Vous êtes plusieurs sur le même appareil ? Affichez une nouvelle combinaison à l'aide du bouton "+". Jusqu'à quatre joueurs peuvent être affichés. </p>
 
             <div id="setContainer">
 

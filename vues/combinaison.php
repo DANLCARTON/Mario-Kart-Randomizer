@@ -2,7 +2,7 @@
 
 function afficheSet($n) {
     echo "
-    <input type='text' placeholder='Joueur $n | Entrez un nom' class='playerName nomCoupe'>
+    <input id='nom$n' type='text' placeholder='Joueur $n | Entrez un nom' class='playerName nomCoupe'>
     <div id='reroll$n'> <button href='#' onlick='return false'>GÉNÉRER</button> </div>
     <article id='set$n'>
     <div id='result'>

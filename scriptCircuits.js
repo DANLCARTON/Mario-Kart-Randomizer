@@ -139,7 +139,6 @@ document.getElementById("reset").getElementsByTagName("button")[0].addEventListe
 function nbCircuitsDejaTires(a) {
     let nb = 0;
     for (let i = 0; i < a.length; i++) {
-        console.log(a[i]);
         if (a[i] != "") {
             nb++
         }
@@ -148,7 +147,6 @@ function nbCircuitsDejaTires(a) {
 }
 
 window.addEventListener("load", () => {
-    console.log(circuitDejaTires);
     let t = document.getElementById("tires");
     let tt = document.getElementById("total");
     let r = document.getElementById("reste");
@@ -158,7 +156,6 @@ window.addEventListener("load", () => {
 })
 
 window.addEventListener("click", () => {
-    console.log(circuitDejaTires);
     let t = document.getElementById("tires");
     let r = document.getElementById("reste");
     t.textContent = nbCircuitsDejaTires(circuitDejaTires);
