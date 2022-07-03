@@ -74,7 +74,24 @@ document.getElementById("choose").getElementsByTagName("button")[0].addEventList
     // console.log("circuit sélectionné : ", circuitSelectionne);
     // console.log("circuits non tirés : ", circuitsNonTires);
     // console.log("circuits deja tirés : ", circuitDejaTires);
-    if (window.screen.width <= 425) {
+
+
+    const getDeviceType = () => {
+        const ua = navigator.userAgent;
+        if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+            return "tablet";
+        }
+        if (
+            /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
+                ua
+            )
+        ) {
+            return "mobile";
+        }
+        return "desktop";
+    };
+
+    if (getDeviceType == "mobile") {
         document.getElementsByClassName("TR" + circuitId)[0].scrollIntoView({
             block: "center",
             behavior: "smooth"
