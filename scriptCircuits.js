@@ -74,7 +74,12 @@ document.getElementById("choose").getElementsByTagName("button")[0].addEventList
     // console.log("circuit sélectionné : ", circuitSelectionne);
     // console.log("circuits non tirés : ", circuitsNonTires);
     // console.log("circuits deja tirés : ", circuitDejaTires);
-
+    if (window.screen.width <= 425) {
+        document.getElementsByClassName("TR" + circuitId)[0].scrollIntoView({
+            block: "center",
+            behavior: "smooth"
+        })
+    }
 
 })
 
