@@ -91,7 +91,9 @@ document.getElementById("choose").getElementsByTagName("button")[0].addEventList
         return "desktop";
     };
 
-    if (getDeviceType == "mobile") {
+    let device = getDeviceType();
+
+    if (device == "mobile") {
         document.getElementsByClassName("TR" + circuitId)[0].scrollIntoView({
             block: "center",
             behavior: "smooth"
