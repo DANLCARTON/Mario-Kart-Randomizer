@@ -147,16 +147,24 @@ for (let i = 1; i <= 4; i++) {
 document.getElementById("playersArrow").addEventListener("click", () => {
     let sc = document.getElementById("setContainer");
     players++;
+    let h = sc.offsetHeight;
+    let heights = {
+        p1: h + "px", // 301 | 342
+        p2: 2 * h + "px", // 602 | 684
+        p3: 1.5 * h + "px", // 903 | 1026
+        p4: (4 / 3) * h + "px" //1024 | 1368
+    }
+    console.log(h);
     switch (players) {
         case 2:
-            sc.style.setProperty("height", "580px");
+            sc.style.setProperty("height", heights.p2);
             document.getElementById("stats").style.setProperty("display", "none");
             break;
         case 3:
-            sc.style.setProperty("height", "880px");
+            sc.style.setProperty("height", heights.p3);
             break;
         case 4:
-            sc.style.setProperty("height", "1180px");
+            sc.style.setProperty("height", heights.p4);
             document.getElementById("playersArrow").style.setProperty("display", "none");
             break;
         default:
