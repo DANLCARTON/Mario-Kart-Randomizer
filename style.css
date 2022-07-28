@@ -356,6 +356,7 @@ button {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    font-size: 15px;
 }
 
 .circuit:hover {
