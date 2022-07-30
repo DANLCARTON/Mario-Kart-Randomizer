@@ -75,12 +75,6 @@ h2 {
     color: var(--text-color-paragraph);
 }
 
-#setContainer {
-    overflow: hidden;
-    height: 301px;
-    transition: ease-in-out .2s;
-}
-
 #playersArrow {
     margin: 0 auto;
     background: #fff;
@@ -165,6 +159,20 @@ button {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     background: #fff;
     color: #353535;
+}
+
+#nom2,
+#nom3,
+#nom4,
+#reroll2,
+#reroll3,
+#reroll4,
+#set2,
+#set3,
+#set4 {
+    display: none;
+    opacity: 0%;
+    transition: all .5s ease-in-out 0s;
 }
 
 #vitesseRoute,
@@ -356,7 +364,7 @@ button {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .circuit:hover {
@@ -378,7 +386,7 @@ button {
     .circuit {
         border-radius: 5px;
         transition: ease-in-out .2s;
-        font-size: 16px;
+        font-size: 14px;
     }
     .nomCoupe {
         font-weight: bolder;
@@ -409,7 +417,7 @@ button {
         grid-template-columns: 1fr 1fr;
     }
     .circuit {
-        font-size: 32px;
+        font-size: 28px;
     }
     .nomCoupe {
         font-size: 32px;

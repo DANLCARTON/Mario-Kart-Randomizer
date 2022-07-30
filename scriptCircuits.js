@@ -1,11 +1,3 @@
-// A CHANGER A CHAQUE NOUVELLE VAGUE DE DLC :
-// - Mettre le nouveau numéro de vague sous le h1 de index.php
-// - le nombre de circuits à la ligne 12 de ce fichier.
-// - décommenter et nommer les coupes et les circuits dans dataCircuits.php.
-// - décommenter les bouts de codes correspondant aux nouvelles coupes dans vues/coupes.php
-// - mettre la bonne valeur : echo "<p class=\"nomCoupe\">".array_keys($circuits)[ - ici - ]."</p>\n";
-// - mettre la bonne valeur : echo "<p class=\"circuit TR". strval($i+ - ici - ) ."\">".$circuits[" - Nom de la coupe - "][$i]."</p>\n";
-
 let circuitsNonTires = [];
 let circuitSelectionne = 0;
 let circuitDejaTires = [];
@@ -21,6 +13,7 @@ function nombreAleatoire() {
     let nombre = Math.floor(Math.random() * nombreDeCircuits);
     return nombre;
 }
+
 
 // SELECTION DE CIRCUIT ALÉATOIRE
 document.getElementById("choose").getElementsByTagName("button")[0].addEventListener("click", () => {
@@ -185,3 +178,5 @@ window.addEventListener("click", () => {
     t.textContent = nbCircuitsDejaTires(circuitDejaTires);
     r.textContent = nombreDeCircuits - nbCircuitsDejaTires(circuitDejaTires);
 })
+
+// SAVE
