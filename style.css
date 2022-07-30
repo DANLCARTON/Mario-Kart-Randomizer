@@ -376,82 +376,6 @@ button {
     filter: drop-shadow(0 0 10px #ffffffff);
 }
 
-@media screen and (max-width: 1249px) and (min-width: 769px) {
-    #circuitAleatoire {
-        max-width: 850px;
-        margin: 0 auto;
-    }
-    .grilleCircuits {
-        display: grid;
-        gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    .circuit {
-        border-radius: 5px;
-        transition: ease-in-out .2s;
-        font-size: 14px;
-    }
-    .nomCoupe {
-        font-weight: bolder;
-        font-size: 16px;
-    }
-    button {
-        font-size: 16px;
-    }
-    h2 {
-        font-size: 36px;
-    }
-}
-
-@media screen and (max-width: 768px) and (min-width: 426px) {
-    .grilleCircuits {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    button {
-        font-size: 16px;
-    }
-    h2 {
-        font-size: 36px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .grilleCircuits {
-        grid-template-columns: 1fr 1fr;
-    }
-    .circuit {
-        font-size: 28px;
-    }
-    .nomCoupe {
-        font-size: 32px;
-    }
-    button {
-        font-size: 32px;
-    }
-    h2 {
-        font-size: 36px;
-    }
-    #compteur {
-        font-size: 36px;
-    }
-    p {
-        font-size: 25px;
-    }
-}
-
-#ee {
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-    width: 15px;
-    opacity: 0;
-    transition: ease-in-out .2s;
-}
-
-#ee:hover {
-    opacity: 1;
-}
-
 .coupe {
     position: relative
 }
@@ -532,4 +456,86 @@ button {
 
 .coupe:nth-of-type(16)::before {
     background-image: url('./img/coupes/Helico.png');
+}
+
+@media screen and (max-width: 1249px) and (min-width: 769px) {
+    #circuitAleatoire {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+    .grilleCircuits {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .circuit {
+        border-radius: 5px;
+        transition: ease-in-out .2s;
+        font-size: 14px;
+    }
+    .nomCoupe {
+        font-weight: bolder;
+        font-size: 16px;
+    }
+    button {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .grilleCircuits {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    button {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .grilleCircuits {
+        grid-template-columns: 1fr 1fr;
+    }
+    .circuit {
+        font-size: 28px;
+    }
+    .nomCoupe {
+        font-size: 32px;
+    }
+    button {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    #compteur {
+        font-size: 36px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .coupe::before {
+        width: 140px;
+        height: 140px;
+        background-size: 140px;
+    }
+}
+
+
+}
+#ee {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 15px;
+    opacity: 0;
+    transition: ease-in-out .2s;
+}
+#ee:hover {
+    opacity: 1;
 }
