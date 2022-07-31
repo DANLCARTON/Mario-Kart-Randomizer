@@ -179,4 +179,26 @@ window.addEventListener("click", () => {
     r.textContent = nombreDeCircuits - nbCircuitsDejaTires(circuitDejaTires);
 })
 
-// SAVE
+// FIXATION PLACMENT BOUTON CHOISIR
+
+/*
+const stickyElm = document.getElementById("choose");
+
+const observer = new IntersectionObserver(
+    ([e]) => e.target.classList.toggle('sticky', e.intersectionRatio < 1), { threshold: [1] }
+);
+
+observer.observe(stickyElm)
+*/
+
+window.addEventListener("scroll", () => {
+        const chooseButton = document.getElementById("choose");
+        var rect = chooseButton.getBoundingClientRect();
+        console.log(rect.top, rect.right, rect.bottom, rect.left);
+        if (rect.top == 0) {
+            chooseButton.classList.add("sticky");
+        } else {
+            chooseButton.classList.remove("sticky");
+        }
+    })
+    // SAVE

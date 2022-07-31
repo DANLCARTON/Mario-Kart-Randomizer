@@ -13,6 +13,11 @@ html {
     color: var(--text-color-paragraph);
 }
 
+body {
+    margin: 0;
+    width: 100%;
+}
+
 aside {
     position: fixed;
     right: 10px;
@@ -321,6 +326,13 @@ button {
     background: #dddc19
 }
 
+#personnageAleatoire,
+#circuitAleatoire h2,
+#circuitAleatoire p.desc,
+#circuitAleatoire div.grilleCircuits {
+    padding: 0 8px;
+}
+
 .grilleCircuits {
     display: grid;
     gap: 10px;
@@ -333,8 +345,21 @@ button {
 }
 
 #choose {
+    position: sticky;
     display: block;
-    margin: 30px 0 30px 0;
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    z-index: 2;
+    transition: ease-in-out .2s;
+}
+
+#choose.sticky {
+    background: #f8b;
+    width: 100%;
+    box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
 }
 
 #choose button:hover {
@@ -498,6 +523,10 @@ button {
 }
 
 @media screen and (max-width: 425px) {
+    .element img:hover {
+        filter: drop-shadow(0 0 10px #ffffffff);
+        transform: scale(100%);
+    }
     .grilleCircuits {
         grid-template-columns: 1fr 1fr;
     }
@@ -524,10 +553,13 @@ button {
         height: 140px;
         background-size: 140px;
     }
+    .circuit:hover {
+        transform: scale(100%);
+        background-color: #ffffff80;
+        filter: drop-shadow(0 0 10px #ffffffff);
+    }
 }
 
-
-}
 #ee {
     position: fixed;
     bottom: 5px;
@@ -536,6 +568,7 @@ button {
     opacity: 0;
     transition: ease-in-out .2s;
 }
+
 #ee:hover {
     opacity: 1;
 }
