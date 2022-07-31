@@ -358,7 +358,7 @@ button {
 }
 
 #choose.sticky {
-    background: #f8b;
+    background: var(--bg-color-2);
     width: 100%;
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
 }
