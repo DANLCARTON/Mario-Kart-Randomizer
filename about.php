@@ -8,7 +8,7 @@
     <link rel="icon" href="./img/personnages/Mario.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> MK8DX Randomizer </title>
-    <meta name="theme-color" content="#8bf" />
+    <meta name="theme-color" content="#8b8" />
 </head>
 
 <body>
