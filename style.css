@@ -591,3 +591,36 @@ button {
 #ee:hover {
     opacity: 1;
 }
+
+
+/* - - - - - - - - - - - - - - 
+- - - - A B O U T - - - - - - 
+- - - - - - - - - - - - - - - */
+
+.blocTexte {
+    text-align: left;
+    width: 800px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.blocTexte li {
+    margin-bottom: 15px;
+}
+
+.blocTexte blockquote {
+    opacity: .7;
+    border-left: solid 3px var( --text-color-paragraph);
+    padding: 0 0 0 15px
+}
+
+.blocTexte h1 {
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 425px) {
+    .blocTexte {
+        text-align: left;
+        width: 90vw;
+    }
+}
