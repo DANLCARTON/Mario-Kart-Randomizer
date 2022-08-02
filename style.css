@@ -26,8 +26,8 @@
     --bgff8: #ff8;
     --bgffb: #ffb;
     --bgfff: #fff;
-    --bg-color-1: var(--bg8bf);
-    --bg-color-2: var(--bgf8b);
+    --bg-color-1: var(--bg8b8);
+    --bg-color-2: var(--bgfb8);
     --text-color-paragraph: #353535;
 }
 
