@@ -1,6 +1,33 @@
 :root {
-    --bg-color-1: #8bf;
-    --bg-color-2: #f8b;
+    --bg888: #888;
+    --bg88b: #88b;
+    --bg88f: #88f;
+    --bg8b8: #8b8;
+    --bg8bb: #8bb;
+    --bg8bf: #8bf;
+    --bg8f8: #8f8;
+    --bg8fb: #8fb;
+    --bg8ff: #8ff;
+    --bgb88: #b88;
+    --bgb8b: #b8b;
+    --bgb8f: #b8f;
+    --bgbb8: #bb8;
+    --bgbbb: #bbb;
+    --bgbbf: #bbf;
+    --bgbf8: #bf8;
+    --bgbfb: #bfb;
+    --bgbff: #bff;
+    --bgf88: #f88;
+    --bgf8b: #f8b;
+    --bgf8f: #f8f;
+    --bgfb8: #fb8;
+    --bgfbb: #fbb;
+    --bgfbf: #fbf;
+    --bgff8: #ff8;
+    --bgffb: #ffb;
+    --bgfff: #fff;
+    --bg-color-1: var(--bg8bf);
+    --bg-color-2: var(--bgf8b);
     --text-color-paragraph: #353535;
 }
 

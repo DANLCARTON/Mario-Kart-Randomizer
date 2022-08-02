@@ -1,3 +1,6 @@
+var bgCol1 = "var(--bg8b8)";
+var bgCol2 = "var(--bgfb8)";
+
 function setNightTheme() {
     let root = document.querySelector(':root');
     root.style.setProperty('--bg-color-1', '#111');
@@ -10,8 +13,8 @@ function setNightTheme() {
 
 function setDayTheme() {
     let root = document.querySelector(':root');
-    root.style.setProperty('--bg-color-1', '#8bf');
-    root.style.setProperty('--bg-color-2', '#f8b');
+    root.style.setProperty('--bg-color-1', bgCol1);
+    root.style.setProperty('--bg-color-2', bgCol2);
     root.style.setProperty('--text-color-paragraph', '#353535');
     document.getElementById("setnight").style.setProperty('display', "block");
     document.getElementById("setday").style.setProperty('display', "none");
