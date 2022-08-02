@@ -86,7 +86,7 @@ document.getElementById("choose").getElementsByTagName("button")[0].addEventList
 
     let device = getDeviceType();
 
-    if (device == "mobile") {
+    if (device == "mobile" || device == "tablet") {
         document.getElementsByClassName("TR" + circuitId)[0].scrollIntoView({
             block: "center",
             behavior: "smooth"
@@ -192,13 +192,12 @@ observer.observe(stickyElm)
 */
 
 window.addEventListener("scroll", () => {
-        const chooseButton = document.getElementById("choose");
-        var rect = chooseButton.getBoundingClientRect();
-        console.log(rect.top, rect.right, rect.bottom, rect.left);
-        if (rect.top == 0) {
-            chooseButton.classList.add("sticky");
-        } else {
-            chooseButton.classList.remove("sticky");
-        }
-    })
-    // SAVE
+    const chooseButton = document.getElementById("choose");
+    var rect = chooseButton.getBoundingClientRect();
+    console.log(rect.top, rect.right, rect.bottom, rect.left);
+    if (rect.top <= 15) {
+        chooseButton.classList.add("sticky");
+    } else {
+        chooseButton.classList.remove("sticky");
+    }
+})

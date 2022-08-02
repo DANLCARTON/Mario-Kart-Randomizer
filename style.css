@@ -348,9 +348,9 @@ button {
 #choose {
     position: sticky;
     display: block;
-    padding: 30px 0 30px 0;
-    margin: 0 auto;
-    top: 0px;
+    padding: 15px 0 15px 0;
+    margin: 15px auto;
+    top: 15px;
     left: 0px;
     width: 50%;
     z-index: 2;
@@ -358,8 +358,9 @@ button {
 }
 
 #choose.sticky {
-    background: var(--bg-color-2);
-    width: 100%;
+    background: var(--bg-color-1);
+    width: 50%;
+    border-radius: 15px;
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
 }
 
@@ -558,6 +559,23 @@ button {
         transform: scale(100%);
         background-color: #ffffff80;
         filter: drop-shadow(0 0 10px #ffffffff);
+    }
+    #choose {
+        position: sticky;
+        display: block;
+        padding: 30px 0 30px 0;
+        margin: 0 auto;
+        top: 0px;
+        left: 0px;
+        width: 50%;
+        z-index: 2;
+        transition: ease-in-out .2s;
+    }
+    #choose.sticky {
+        background: var(--bg-color-1);
+        width: 100%;
+        border-radius: 0 0 15px 15px;
+        box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     }
 }
 
