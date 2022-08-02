@@ -53,7 +53,7 @@
                 <li>Inversion de l'emplacement des boutons "choisir" et "remettre à zéro" pour que ce soit plus naturel</li>
                 <li>Possibilité de sélectionner et désélectionner des circuits aux choix en cliquant dessus</li>
                 <li>Ajout d'un compteur de circuits permettant de savoir facilement combien de circuits ont été déjà sélectionnés et combien il en reste.</li>
-                <li>Sur téléphone et sur tablette, lorsqu'un circuit est sélectionné aléatoirement (grâce au bouton "choisir"), le site scrolle automatiquement vers celui-ci</li>
+                <li>Sur téléphone et sur tablette, lorsqu'un circuit est sélectionné aléatoirement (grâce au bouton "choisir"), le site scrolle automatiquement vers celui-ci (non supporté par le navigateur Safari)</li>
                 <li>Le bouton "choisir" a désormais une position "sticky". C'est à dire qu'il se "colle" en haut de l'écran s'il le touche. genre, tu scrolle vers le bas et le bouton atteint le haut de l'écran. Normalement juste il devient plus visible et faut recroller vers le haut pour qu'on puisse le voir mais là, quand il arrive en haut de l'écran bah il reste en haut de l'écran même si tu continue a scroller vers le bas. Et si jamais tu rescrolle vers le haut alors qu'il était collé en haut de l'écran, et qu'il réatteint sa position initiale (c'est à dire entre la petite description et la liste des circuits) et bien il se "décolle" pour reprendre sa position de base. je sais pas si c'est clair. </li>
                 <li>Ajout d'icônes correspondant aux coupes pour faciliter la lecture et pour retrouver plus facilement le circuit sur le jeu.</li>
             </ul>
