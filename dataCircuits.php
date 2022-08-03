@@ -1,7 +1,7 @@
 <?php
 
 $circuits = array(
-    "Coupe Champignon" => array ("Champidrome", "Parc Glougoop", "Piste aux délices", "Temple Thwomp"), // 
+    "Coupe Champignon" => array ("Champidrome", "Parc Glougloop", "Piste aux délices", "Temple Thwomp"), // 
     "Coupe Fleur" => array ("Circuit Mario", "Promenade Toad", "Manoir Trempé", "Cascade Maskass"), // 
     "Coupe Étoile" => array ("Aéroport Azur", "Lagon Tourbillon", "Club Mario", "Descente Givrée"),
     "Coupe Spéciale" => array ("Voie céleste", "Désert Toussec", "Château de Bowser", "Route Arc-en-ciel"),
@@ -14,18 +14,17 @@ $circuits = array(
     "Coupe Triforce" => array ("Wii Mine Wario", "SNES Route Arc-en-ciel", "Station Glagla", "Circuit d'Hyrule"),
     "Coupe Clochette" => array("3DS Koopapolis", "GBA Route Ruban", "Métro Turbo", "Big Blue"),
     "Coupe Turbo dorée" => array("Tour Promenade à Paris", "3DS Circuit Toad", "N64 Montagne Choco", "Wii Supermarché Coco"),
-    // "Coupe DLC 2.1" => array ("", "", "", ""),
-    // "Coupe DLC 3.1" => array ("", "", "", ""),
-    // "Coupe DLC 4.1" => array ("", "", "", ""),
-    // "Coupe DLC 5.1" => array ("", "", "", ""),
-    // "Coupe DLC 6.1" => array ("", "", "", ""),
-    "Coupe Maneki-neko" => array ("Tour Traversée de Tokyo", "DS Corniche Champignon", "GBA Jardin Volant", "Tour Dojo Ninja")//,
-    // "Coupe DLC 2.2" => array ("", "", "", ""),
-    // "Coupe DLC 3.2" => array ("", "", "", ""),
-    // "Coupe DLC 4.2" => array ("", "", "", ""),
-    // "Coupe DLC 5.2" => array ("", "", "", ""),
-    // "Coupe DLC 6.2" => array ("", "", "", "")
-
+    "Coupe Maneki-neko" => array ("Tour Traversée de Tokyo", "DS Corniche Champignon", "GBA Jardin Volant", "Dojo Ninja"),
+    "Coupe Navet" => array ("Tour Escapade new-yorkaise", "SNES Circuit Mario 3", "N64 Désert Kalimari", "DS Flipper Waluigi"),
+    "Coupe Hélico" => array ("Tour Sprint à Sydney", "GBA Pays Neigeux", "Wii Gorge Champignon", "Cité Sorbet"),
+    // "Coupe Pierre" => array ("", "", "", ""),
+    // "Coupe Lune" => array ("", "", "", ""),
+    // "Coupe Fruit" => array ("", "", "", ""),
+    // "Coupe Boomerang" => array ("", "", "", ""),
+    // "Coupe Plume" => array ("", "", "", ""),
+    // "Coupe Cerises" => array ("", "", "", ""),
+    // "Coupe Gland" => array ("", "", "", ""),
+    // "Coupe à épines" => array ("", "", "", "")
 );
 
 ?>

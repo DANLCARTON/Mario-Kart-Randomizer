@@ -1,3 +1,12 @@
+<?php
+
+include 'vues/compteur.php';
+include "vues/combinaison.php";
+include "vues/stats.php";
+include "fonctionsPhp/vues.php";
+
+?>
+
 <!DOCTYPE html>
 
 <html lang="fr">
@@ -8,173 +17,53 @@
     <link rel="icon" href="./img/personnages/Mario.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> MK8DX Randomizer </title>
-    <meta name="theme-color" content="#033" />
+    <meta name="theme-color" content="#8b8" />
 </head>
 
 <body>
+    <aside id="setnight">
+        <img src="img/icons/daylighticon.png">
+    </aside>
+    <aside id="setday">
+        <img src="img/icons/daylighticon.png">
+    </aside>
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
-        <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 1)</p></div>
+        <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 2)</p></div>
         <section id="personnageAleatoire">
 
             <h2>PERSONNAGE ALÉATOIRE</h2>
 
-            <article id="set">
-                <div id="result">
-                    <div class="element">
-                        <img src="./img/personnages/Mario.png" id="personnage" alt="" />
-                        <p class="name">Mario</p>
-                    </div>
-                    <div class="element">
-                        <img src="./img/karts/Kart Standard.png" id="kart" alt="" />
-                        <p class="name">Kart Standard</p>
-                    </div>
-                    <div class="element">
-                        <img src="./img/roues/Roues Standard.png" id="roue" alt="" />
-                        <p class="name">Roues Standard</p>
-                    </div>
-                    <div class="element">
-                        <img src="./img/ailes/Aile Standard.png" id="aile" alt="" />
-                        <p class="name">Aile Standard</p>
-                    </div>
-                </div>
-            </article>
+            <p> Cliquez sur le bouton "Générer" ci-dessous pour afficher une combinaison aléatoire. Si l'un des élément ne vous plaît pas, cliquez sur son image pour le changer ! Vous êtes plusieurs sur le même appareil ? Affichez une nouvelle combinaison à l'aide du bouton "+". Jusqu'à quatre joueurs peuvent être affichés. </p>
 
-            <div id="reroll"> <button href="#" onlick="return false">GÉNÉRER</button> </div>
+            <div id="setContainer">
+
+            <?php
+            for ($i = 1; $i <= 4; $i++)
+                afficheSet($i);
+            ?>
+
+            </div>
+
+            <div id="playersArrow"><img src="./img/icons/arrow.png"></div>
 
             <article id="stats">
-                <div id="vitesseRoute">
-                    <div class="statName">Vitesse route :</div>
-                    <?php
-                    for($i = 1; $i <= 15; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 9; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
-                <div id="vitesseEau">
-                    <div class="statName">Vitesse eau :</div>
-                    <?php
-                    for($i = 1; $i <= 16; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 8; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
-                <div id="vitesseAir">
-                    <div class="statName">Vitesse air :</div>
-                    <?php
-                    for($i = 1; $i <= 17; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 7; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
-                <div id="vitesseAntiGravite">
-                    <div class="statName">Vitesse anti-gravité :</div>
-                    <?php
-                    for($i = 1; $i <= 14; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 10; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
-                <div id="acceleration">
-                    <div class="statName">Accéleration :</div>
-                    <?php
-                    for($i = 1; $i <= 14; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 10; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
-                <div id="poids">
-                    <div class="statName">Poids :</div>
-                    <?php
-                    for($i = 1; $i <= 14; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 10; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
-                <div id="maniabiliteRoute">
-                    <div class="statName">Maniabilité route :</div>
-                    <?php
-                    for($i = 1; $i <= 14; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 10; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
-                <div id="maniabiliteEau">
-                    <div class="statName">Maniabilité eau :</div>
-                    <?php
-                    for($i = 1; $i <= 12; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 12; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
-                <div id="maniabiliteAir">
-                    <div class="statName">Maniabilité air :</div>
-                    <?php
-                    for($i = 1; $i <= 14; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 10; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
-                <div id="maniabiliteAntiGravite">
-                    <div class="statName">Maniabilité anti-gravité :</div>
-                    <?php
-                    for($i = 1; $i <= 14; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 10; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
-                <div id="adherence">
-                    <div class="statName">Adhérence :</div>
-                    <?php
-                    for($i = 1; $i <= 14; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 10; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
-                <div id="miniTurbo">
-                    <div class="statName">Mini-Turbo :</div>
-                    <?php
-                    for($i = 1; $i <= 13; $i++){
-                        echo "<div class='unit fill'></div>";
-                    }
-                    for($i = 1; $i <= 11; $i++){
-                        echo "<div class='unit unfill'></div>";
-                    }
-                    ?>
-                </div>
+
+                <?php 
+                afficheStat("Vit. route");
+                afficheStat("Vit. eau");
+                afficheStat("Vit. air");
+                afficheStat("Vit. anti-gravité");
+                afficheStat("Accél.");
+                afficheStat("Pds.");
+                afficheStat("Man. route");
+                afficheStat("Man. eau");
+                afficheStat("Man. air");
+                afficheStat("Man. anti-gravité");
+                afficheStat("Adhér.");
+                afficheStat("Mini-Turbo");
+                ?>
+
             </article>
 
         </section>
@@ -183,235 +72,28 @@
 
         <section id="circuitAleatoire">
             <h2>CIRCUIT ALÉATOIRE SANS REMISE</h2>
+
+            <p class="desc">Cliquez sur le bouton "Choisir" ci-dessous pour sélectionner aléatoirement l'un des 64 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton "Remettre à zero" situé tout en bas.</p>
+
             <article>
 
             <?php require "dataCircuits.php"; ?>   
 
-            <div id="reset"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
+            <div id="choose"> <button href="#" onlick="return  false">CHOISIR</button> </div>
 
             <div class="grilleCircuits">
 
-                    <?php
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[0]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR$i\">".$circuits["Coupe Champignon"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[1]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+4) ."\">".$circuits["Coupe Fleur"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[2]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+8) ."\">".$circuits["Coupe Étoile"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[3]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+12) ."\">".$circuits["Coupe Spéciale"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[4]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+16) ."\">".$circuits["Coupe Œuf"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[5]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+20) ."\">".$circuits["Coupe Crossing"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[6]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+24) ."\">".$circuits["Coupe Carapace"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[7]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+28) ."\">".$circuits["Coupe Banane"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[8]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+32) ."\">".$circuits["Coupe Feuille"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[9]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+36) ."\">".$circuits["Coupe Éclair"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[10]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+40) ."\">".$circuits["Coupe Triforce"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[11]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+44) ."\">".$circuits["Coupe Clochette"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[12]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+48) ."\">".$circuits["Coupe Turbo dorée"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-                    
-                    /*
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[13]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+52) ."\">".$circuits["Coupe DLC 2.1"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[14]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+56) ."\">".$circuits["Coupe DLC 3.1"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[15]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+60) ."\">".$circuits["Coupe DLC 4.1"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[16]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+64) ."\">".$circuits["Coupe DLC 5.1"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[17]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+68) ."\">".$circuits["Coupe DLC 6.1"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-                    */
-
-                    echo "<div class=\"coupe\">\n"; //                  18
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[13]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+52) ."\">".$circuits["Coupe Maneki-neko"][$i]."</p>\n";
-                    } //                                        72
-                    echo "</div>\n";
-
-                    /*
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[19]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+76) ."\">".$circuits["Coupe DLC 2.2"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[20]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+80) ."\">".$circuits["Coupe DLC 3.2"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[21]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+84) ."\">".$circuits["Coupe DLC 4.2"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[22]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+88) ."\">".$circuits["Coupe DLC 5.2"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-
-
-                    echo "<div class=\"coupe\">\n";
-                    echo "<p class=\"nomCoupe\">".array_keys($circuits)[23]."</p>\n";
-                    for ($i = 0; $i <= 3; $i++) {
-                        echo "<p class=\"circuit TR". strval($i+92) ."\">".$circuits["Coupe DLC 6.2"][$i]."</p>\n";
-                    }
-                    echo "</div>\n";
-
-                    */
-                    ?>
+            <?php 
+            include "vues/coupes.php";
+            ?>
 
             </div>
 
-            <div id="choose"> <button href="#" onlick="return false">CHOISIR</button> </div>
+            <?php
+            afficheCompteur();
+            ?>
+
+            <div id="reset"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
 
             </article>
 
@@ -420,6 +102,8 @@
     </main>
     <script type="module" src="scriptPersonnages.js"></script>
     <script type="module" src="scriptCircuits.js"></script>
+    <script type="module" src="themes.js"></script>
+    <img src="./img/icons/td.jpg" id="ee">
 </body>
 
 </html>
