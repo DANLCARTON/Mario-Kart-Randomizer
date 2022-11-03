@@ -1,7 +1,7 @@
 let circuitsNonTires = [];
 let circuitSelectionne = 0;
 let circuitDejaTires = [];
-let nombreDeCircuits = 64;
+let nombreDeCircuits = 72;
 for (var i = 0; i <= nombreDeCircuits - 1; i++) {
     circuitsNonTires[i] = "TR" + i;
 }

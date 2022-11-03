@@ -141,7 +141,7 @@ for ($i = 0; $i <= 3; $i++) {
 }
 echo "</div>\n";
 
-/*
+
 
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[16]."</p>\n";
@@ -159,7 +159,7 @@ for ($i = 0; $i <= 3; $i++) {
 }
 echo "</div>\n";
 
-
+/*
 
 echo "<div class=\"coupe\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[18]."</p>\n";

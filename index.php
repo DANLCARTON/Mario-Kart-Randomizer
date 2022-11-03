@@ -29,7 +29,7 @@ include "fonctionsPhp/vues.php";
     </aside>
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
-        <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 2)</p></div>
+        <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 3)</p></div>
         <section id="personnageAleatoire">
 
             <h2>PERSONNAGE ALÉATOIRE</h2>

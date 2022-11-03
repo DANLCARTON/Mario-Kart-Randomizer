@@ -26,8 +26,8 @@
     --bgff8: #ff8;
     --bgffb: #ffb;
     --bgfff: #fff;
-    --bg-color-1: var(--bg8b8);
-    --bg-color-2: var(--bgfb8);
+    --bg-color-1: var(--bgbbb);
+    --bg-color-2: var(--bgff8);
     --text-color-paragraph: #353535;
 }
 
@@ -510,6 +510,14 @@ button {
 
 .coupe:nth-of-type(16)::before {
     background-image: url('./img/coupes/Helico.png');
+}
+
+.coupe:nth-of-type(17)::before {
+    background-image: url('./img/coupes/Pierre.png');
+}
+
+.coupe:nth-of-type(18)::before {
+    background-image: url('./img/coupes/Lune.png');
 }
 
 @media screen and (max-width: 1249px) and (min-width: 769px) {

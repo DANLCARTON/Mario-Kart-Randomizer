@@ -1,5 +1,5 @@
-var bgCol1 = "var(--bg8b8)";
-var bgCol2 = "var(--bgfb8)";
+var bgCol1 = "var(--bgbbb)";
+var bgCol2 = "var(--bgff8)";
 
 function setNightTheme() {
     let root = document.querySelector(':root');
