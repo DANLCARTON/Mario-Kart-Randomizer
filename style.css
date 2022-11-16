@@ -26,7 +26,7 @@
     --bgff8: #ff8;
     --bgffb: #ffb;
     --bgfff: #fff;
-    --bg-color-1: var(--bgbbb);
+    --bg-color-1: var(--bg888);
     --bg-color-2: var(--bgff8);
     --text-color-paragraph: #353535;
 }
@@ -36,7 +36,7 @@ html {
     width: 100%;
     min-height: 100vh;
     text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
     color: var(--text-color-paragraph);
 }
 
@@ -132,16 +132,18 @@ h2 {
 }
 
 .playerName {
-    background: none;
+    background: #55555550;
     color: var(--text-color-paragraph);
     border: none;
     text-align: center;
-    margin: 0 0 15px 0;
-    width: 100%;
+    margin: 0 auto 15px auto;
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 20px;
+    font-family: Tahoma, Arial, sans-serif;
 }
 
 .playerName:focus {
-    background: none;
     color: var(--text-color-paragraph);
     outline: none;
 }
@@ -155,9 +157,15 @@ button {
     transition: ease-in-out .2s;
     font-weight: bold;
     border: none;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 15px;
     cursor: pointer;
+}
+
+button:hover {
+    background: #ffffff;
+    color: #353535;
+    box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
 }
 
 #result {
@@ -228,7 +236,7 @@ button {
 }
 
 #stats {
-    margin: 20px 0 0 0;
+    margin: 20px 0 20px 0;
     width: 800px;
 }
 
@@ -354,6 +362,28 @@ button {
     background: #dddc19
 }
 
+#displayHistory {}
+
+#history {
+    display: none;
+}
+
+.historySet {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.historySet p {
+    text-align: left;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.historySet img {
+    height: 64px;
+}
+
 #personnageAleatoire,
 #circuitAleatoire h2,
 #circuitAleatoire p.desc,
@@ -421,7 +451,7 @@ button {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .circuit:hover {

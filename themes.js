@@ -1,4 +1,4 @@
-var bgCol1 = "var(--bgbbb)";
+var bgCol1 = "var(--bg888)";
 var bgCol2 = "var(--bgff8)";
 
 function setNightTheme() {

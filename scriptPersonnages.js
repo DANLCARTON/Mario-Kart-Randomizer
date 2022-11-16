@@ -126,6 +126,48 @@ function roll(id, statsB) {
     document.getElementById("kart" + id).src = "img/karts/" + Karts.nom + ".png";
     document.getElementById("roue" + id).src = "img/roues/" + Roues.nom + ".png";
     document.getElementById("aile" + id).src = "img/ailes/" + Ailes.nom + ".png";
+
+    addToHistory(Perso, skin, Karts, Roues, Ailes, id);
+}
+
+function addToHistory(Perso, Skin, Karts, Roues, Ailes, Playr) {
+
+    console.log(Playr);
+    let div = document.createElement("div");
+    div.classList.add("historySet");
+
+    let name = document.createElement("p");
+    const playerName = document.getElementsByClassName("playerName")[Playr - 1].value;
+
+    if (playerName != "") {
+        name.textContent = playerName;
+    } else {
+        name.textContent = "Joueur " + Playr;
+    }
+
+    let perso = document.createElement("img");
+
+    if (Skin == "") {
+        perso.src = "img/personnages/" + Perso.nom + ".png";
+    } else {
+        perso.src = "img/personnages/" + Perso.nom + " " + Skin + ".png ";
+    }
+
+    let kart = document.createElement("img");
+    kart.src = "img/karts/" + Karts.nom + ".png";
+
+    let roues = document.createElement("img");
+    roues.src = "img/roues/" + Roues.nom + ".png";
+
+    let aile = document.createElement("img");
+    aile.src = "img/ailes/" + Ailes.nom + ".png";
+
+    div.appendChild(name);
+    div.appendChild(perso);
+    div.appendChild(kart);
+    div.appendChild(roues);
+    div.appendChild(aile);
+    document.getElementById("history").appendChild(div)
 }
 
 window.addEventListener("load", () => {
@@ -252,12 +294,17 @@ document.getElementById("personnage1").addEventListener("click", () => {
     stats(ManiabiliteAntiGravite, DocManiabiliteAntiGravite)
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
+
+    addToHistory(Perso, skin, Karts, Roues, Ailes, 1);
 })
 
 document.getElementById("personnage2").addEventListener("click", () => {
     var skin;
     currentPerso = perso[getRandom(perso.length)];
     var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
     if (Perso == Mii) {
         Perso = Mii[getRandom(Mii.length)];
         skin = "";
@@ -286,12 +333,17 @@ document.getElementById("personnage2").addEventListener("click", () => {
     } else {
         document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
     }
+
+    addToHistory(Perso, skin, Karts, Roues, Ailes, 2);
 })
 
 document.getElementById("personnage3").addEventListener("click", () => {
     var skin;
     currentPerso = perso[getRandom(perso.length)];
     var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
     if (Perso == Mii) {
         Perso = Mii[getRandom(Mii.length)];
         skin = "";
@@ -320,12 +372,17 @@ document.getElementById("personnage3").addEventListener("click", () => {
     } else {
         document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
     }
+
+    addToHistory(Perso, skin, Karts, Roues, Ailes, 3);
 })
 
 document.getElementById("personnage4").addEventListener("click", () => {
     var skin;
     currentPerso = perso[getRandom(perso.length)];
     var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
     if (Perso == Mii) {
         Perso = Mii[getRandom(Mii.length)];
         skin = "";
@@ -354,6 +411,8 @@ document.getElementById("personnage4").addEventListener("click", () => {
     } else {
         document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
     }
+
+    addToHistory(Perso, skin, Karts, Roues, Ailes, 4);
 })
 
 document.getElementById("kart1").addEventListener("click", () => {
@@ -405,41 +464,58 @@ document.getElementById("kart1").addEventListener("click", () => {
     stats(ManiabiliteAntiGravite, DocManiabiliteAntiGravite)
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 1);
 })
 
 document.getElementById("kart2").addEventListener("click", () => {
     currentKart = karts[getRandom(karts.length)];
     var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
+    var Perso = currentPerso;
 
     document.getElementsByClassName("name")[5].textContent = Karts.nom;
 
     document.getElementById("kart2").src = "img/karts/" + Karts.nom + ".png";
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 2);
 })
 
 document.getElementById("kart3").addEventListener("click", () => {
     currentKart = karts[getRandom(karts.length)];
     var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
+    var Perso = currentPerso;
 
     document.getElementsByClassName("name")[9].textContent = Karts.nom;
 
     document.getElementById("kart3").src = "img/karts/" + Karts.nom + ".png";
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
 
 document.getElementById("kart4").addEventListener("click", () => {
     currentKart = karts[getRandom(karts.length)];
     var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
+    var Perso = currentPerso;
 
     document.getElementsByClassName("name")[13].textContent = Karts.nom;
 
     document.getElementById("kart4").src = "img/karts/" + Karts.nom + ".png";
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 4);
 })
 
 document.getElementById("roue1").addEventListener("click", () => {
     currentRoue = roues[getRandom(roues.length)];
-    var Perso = currentPerso;
-    var Karts = currentKart;
     var Roues = currentRoue;
     var Ailes = currentAile;
+    var Perso = currentPerso;
+    var Karts = currentKart;
 
     var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + Ailes.vitesse + 4
     var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + Ailes.vitesseEau + 4
@@ -483,33 +559,50 @@ document.getElementById("roue1").addEventListener("click", () => {
     stats(ManiabiliteAntiGravite, DocManiabiliteAntiGravite)
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 1);
 })
 
 document.getElementById("roue2").addEventListener("click", () => {
     currentRoue = roues[getRandom(roues.length)];
     var Roues = currentRoue;
+    var Ailes = currentAile;
+    var Perso = currentPerso;
+    var Karts = currentKart;
 
     document.getElementsByClassName("name")[6].textContent = Roues.nom;
 
     document.getElementById("roue2").src = "img/roues/" + Roues.nom + ".png";
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 2);
 })
 
 document.getElementById("roue3").addEventListener("click", () => {
     currentRoue = roues[getRandom(roues.length)];
     var Roues = currentRoue;
+    var Ailes = currentAile;
+    var Perso = currentPerso;
+    var Karts = currentKart;
 
     document.getElementsByClassName("name")[10].textContent = Roues.nom;
 
     document.getElementById("roue3").src = "img/roues/" + Roues.nom + ".png";
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
 
 document.getElementById("roue4").addEventListener("click", () => {
     currentRoue = roues[getRandom(roues.length)];
     var Roues = currentRoue;
+    var Ailes = currentAile;
+    var Perso = currentPerso;
+    var Karts = currentKart;
 
     document.getElementsByClassName("name")[14].textContent = Roues.nom;
 
     document.getElementById("roue4").src = "img/roues/" + Roues.nom + ".png";
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 4);
 })
 
 document.getElementById("aile1").addEventListener("click", () => {
@@ -561,31 +654,58 @@ document.getElementById("aile1").addEventListener("click", () => {
     stats(ManiabiliteAntiGravite, DocManiabiliteAntiGravite)
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 1);
 })
 
 document.getElementById("aile2").addEventListener("click", () => {
     currentAile = ailes[getRandom(ailes.length)];
     var Ailes = currentAile;
+    var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
 
     document.getElementsByClassName("name")[7].textContent = Ailes.nom;
 
     document.getElementById("aile2").src = "img/ailes/" + Ailes.nom + ".png";
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 2);
 })
 
 document.getElementById("aile3").addEventListener("click", () => {
     currentAile = ailes[getRandom(ailes.length)];
     var Ailes = currentAile;
+    var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
 
     document.getElementsByClassName("name")[11].textContent = Ailes.nom;
 
     document.getElementById("aile3").src = "img/ailes/" + Ailes.nom + ".png";
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
 
 document.getElementById("aile4").addEventListener("click", () => {
     currentAile = ailes[getRandom(ailes.length)];
     var Ailes = currentAile;
+    var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
 
     document.getElementsByClassName("name")[15].textContent = Ailes.nom;
 
     document.getElementById("aile4").src = "img/ailes/" + Ailes.nom + ".png";
+
+    addToHistory(Perso, "", Karts, Roues, Ailes, 4);
+})
+
+document.getElementById("displayHistory").addEventListener("click", () => {
+    if (document.getElementById("history").style.display == "block") {
+        document.getElementById("history").style.display = "none";
+        document.getElementById("displayHistory").innerText = "AFFICHER L'HISTORIQUE";
+    } else {
+        document.getElementById("history").style.display = "block";
+        document.getElementById("displayHistory").innerText = "MASQUER L'HISTORIQUE";
+    }
 })

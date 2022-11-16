@@ -66,6 +66,11 @@ include "fonctionsPhp/vues.php";
 
             </article>
 
+            <button id="displayHistory">AFFICHER L'HISTORIQUE</button>
+
+            <article id="history">
+            </article>
+
         </section>
 
         <hr>
