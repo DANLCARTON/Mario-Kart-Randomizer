@@ -295,7 +295,7 @@ document.getElementById("personnage1").addEventListener("click", () => {
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
 
-    addToHistory(Perso, skin, Karts, Roues, Ailes, 1);
+    //addToHistory(Perso, skin, Karts, Roues, Ailes, 1);
 })
 
 document.getElementById("personnage2").addEventListener("click", () => {
@@ -334,7 +334,7 @@ document.getElementById("personnage2").addEventListener("click", () => {
         document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
     }
 
-    addToHistory(Perso, skin, Karts, Roues, Ailes, 2);
+    //addToHistory(Perso, skin, Karts, Roues, Ailes, 2);
 })
 
 document.getElementById("personnage3").addEventListener("click", () => {
@@ -373,7 +373,7 @@ document.getElementById("personnage3").addEventListener("click", () => {
         document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
     }
 
-    addToHistory(Perso, skin, Karts, Roues, Ailes, 3);
+    //addToHistory(Perso, skin, Karts, Roues, Ailes, 3);
 })
 
 document.getElementById("personnage4").addEventListener("click", () => {
@@ -412,7 +412,7 @@ document.getElementById("personnage4").addEventListener("click", () => {
         document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
     }
 
-    addToHistory(Perso, skin, Karts, Roues, Ailes, 4);
+    //addToHistory(Perso, skin, Karts, Roues, Ailes, 4);
 })
 
 document.getElementById("kart1").addEventListener("click", () => {
@@ -465,7 +465,7 @@ document.getElementById("kart1").addEventListener("click", () => {
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
 
-    addToHistory(Perso, "", Karts, Roues, Ailes, 1);
+    //addToHistory(Perso, "", Karts, Roues, Ailes, 1);
 })
 
 document.getElementById("kart2").addEventListener("click", () => {
@@ -493,7 +493,7 @@ document.getElementById("kart3").addEventListener("click", () => {
 
     document.getElementById("kart3").src = "img/karts/" + Karts.nom + ".png";
 
-    addToHistory(Perso, "", Karts, Roues, Ailes, 3);
+    //addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
 
 document.getElementById("kart4").addEventListener("click", () => {
@@ -507,7 +507,7 @@ document.getElementById("kart4").addEventListener("click", () => {
 
     document.getElementById("kart4").src = "img/karts/" + Karts.nom + ".png";
 
-    addToHistory(Perso, "", Karts, Roues, Ailes, 4);
+    //addToHistory(Perso, "", Karts, Roues, Ailes, 4);
 })
 
 document.getElementById("roue1").addEventListener("click", () => {
@@ -560,7 +560,7 @@ document.getElementById("roue1").addEventListener("click", () => {
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
 
-    addToHistory(Perso, "", Karts, Roues, Ailes, 1);
+    //addToHistory(Perso, "", Karts, Roues, Ailes, 1);
 })
 
 document.getElementById("roue2").addEventListener("click", () => {
@@ -574,7 +574,7 @@ document.getElementById("roue2").addEventListener("click", () => {
 
     document.getElementById("roue2").src = "img/roues/" + Roues.nom + ".png";
 
-    addToHistory(Perso, "", Karts, Roues, Ailes, 2);
+    //addToHistory(Perso, "", Karts, Roues, Ailes, 2);
 })
 
 document.getElementById("roue3").addEventListener("click", () => {
@@ -588,7 +588,7 @@ document.getElementById("roue3").addEventListener("click", () => {
 
     document.getElementById("roue3").src = "img/roues/" + Roues.nom + ".png";
 
-    addToHistory(Perso, "", Karts, Roues, Ailes, 3);
+    //addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
 
 document.getElementById("roue4").addEventListener("click", () => {
@@ -602,7 +602,7 @@ document.getElementById("roue4").addEventListener("click", () => {
 
     document.getElementById("roue4").src = "img/roues/" + Roues.nom + ".png";
 
-    addToHistory(Perso, "", Karts, Roues, Ailes, 4);
+    //addToHistory(Perso, "", Karts, Roues, Ailes, 4);
 })
 
 document.getElementById("aile1").addEventListener("click", () => {
@@ -655,7 +655,7 @@ document.getElementById("aile1").addEventListener("click", () => {
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
 
-    addToHistory(Perso, "", Karts, Roues, Ailes, 1);
+    //addToHistory(Perso, "", Karts, Roues, Ailes, 1);
 })
 
 document.getElementById("aile2").addEventListener("click", () => {
@@ -669,7 +669,7 @@ document.getElementById("aile2").addEventListener("click", () => {
 
     document.getElementById("aile2").src = "img/ailes/" + Ailes.nom + ".png";
 
-    addToHistory(Perso, "", Karts, Roues, Ailes, 2);
+    //addToHistory(Perso, "", Karts, Roues, Ailes, 2);
 })
 
 document.getElementById("aile3").addEventListener("click", () => {
@@ -683,7 +683,7 @@ document.getElementById("aile3").addEventListener("click", () => {
 
     document.getElementById("aile3").src = "img/ailes/" + Ailes.nom + ".png";
 
-    addToHistory(Perso, "", Karts, Roues, Ailes, 3);
+    //addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
 
 document.getElementById("aile4").addEventListener("click", () => {
@@ -697,7 +697,7 @@ document.getElementById("aile4").addEventListener("click", () => {
 
     document.getElementById("aile4").src = "img/ailes/" + Ailes.nom + ".png";
 
-    addToHistory(Perso, "", Karts, Roues, Ailes, 4);
+    //addToHistory(Perso, "", Karts, Roues, Ailes, 4);
 })
 
 document.getElementById("displayHistory").addEventListener("click", () => {

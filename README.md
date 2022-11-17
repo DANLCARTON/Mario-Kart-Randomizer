@@ -36,7 +36,30 @@
 - Ajout d'un thème sombre. Pour l'activer, cliquer sur l'icône en forme de soleil/lune haut à droite de l'écran.
 - Removed Herobrine
 
----
+# RANDOMIZER MARIO KART 8 DELUXE - PASS CIRCUITS ADDITIONNELS (VAGUE 3)
+***Qu'est-ce qui a changé ?***
 
-Notez que l'adresse `https://www.ericthiberge.fr/temp` n'est plus accessible.  
-Utilisez de nouveau `https://www.ericthiberge.fr/MK8DXRANDOMIZER`
+## I. PARTIE PERSONNAGES ET KARTS
+
+- Ajout d'un historique des combinaisons tirées. Cliquez sur le bouton "AFFICHER L'HISTORIQUE" pour l'afficher. 
+
+## II. PARTIE CIRCUITS
+
+- Ajout des nouvelles coupes avec leurs circuits
+
+> **Coupe pierre**
+> - NC
+> - NC
+> - NC
+> - NC
+> 
+> **Coupe lune**
+> - NC
+> - NC
+> - NC
+> - Mont Festif
+
+## III. AUTRES
+
+- L'affichage des noms des joueurs est sur fond gris pour mieux les voir
+- Changement de la couleur de fond pour coller aux nouvelles coupes
