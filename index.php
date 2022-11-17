@@ -3,6 +3,7 @@
 include 'vues/compteur.php';
 include "vues/combinaison.php";
 include "vues/stats.php";
+include "vues/historique.php";
 include "fonctionsPhp/vues.php";
 
 ?>
@@ -66,10 +67,7 @@ include "fonctionsPhp/vues.php";
 
             </article>
 
-            <button id="displayHistory">AFFICHER L'HISTORIQUE</button>
-
-            <article id="history">
-            </article>
+            <?php history() ?>
 
         </section>
 

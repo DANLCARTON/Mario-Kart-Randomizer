@@ -29,6 +29,7 @@
     --bg-color-1: var(--bg888);
     --bg-color-2: var(--bgff8);
     --text-color-paragraph: #353535;
+    --shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
 }
 
 html {
@@ -112,7 +113,7 @@ h2 {
 }
 
 #playersArrow {
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     background: #fff;
     width: 50px;
     height: 50px;
@@ -362,22 +363,38 @@ button:hover {
     background: #dddc19
 }
 
-#displayHistory {}
-
 #history {
+    width: 400px;
+    margin: 20px auto 0 auto;
     display: none;
+    overflow-y: scroll;
+    max-height: 540px;
+    box-shadow: var(--shadow);
+    padding: 10px;
+    border-radius: 10px;
+    background: #55555550;
+    /* Mozilla */
+    scrollbar-color: #ffffff50 #00000000;
+    scrollbar-width: thin;
 }
 
-.historySet {
-    width: 400px;
-    margin: 0 auto;
+
+/* Chrome, Edge ... */
+
+#history::-webkit-scrollbar {
+    background-color: #00000000;
+    width: 9px;
+}
+
+#history::-webkit-scrollbar-thumb {
+    background: #ffffff50;
 }
 
 .historySet p {
     text-align: left;
     font-size: 19px;
     font-weight: bold;
-    margin: 0;
+    margin: 0 0 0 10px;
 }
 
 .historySet img {
@@ -444,7 +461,7 @@ button:hover {
 }
 
 .circuit {
-    border-radius: 5px;
+    border-radius: 10px;
     transition: ease-in-out .2s;
     cursor: pointer;
     -moz-user-select: none;
@@ -461,7 +478,7 @@ button:hover {
 }
 
 .coupe {
-    position: relative
+    position: relative;
 }
 
 .coupe::before {
