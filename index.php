@@ -21,6 +21,16 @@ include "fonctionsPhp/vues.php";
     <meta name="theme-color" content="#8b8" />
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GMP933X0K9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GMP933X0K9');
+</script>
+
 <body>
     <aside id="setnight">
         <img src="img/icons/daylighticon.png">
