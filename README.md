@@ -48,18 +48,19 @@
 - Ajout des nouvelles coupes avec leurs circuits
 
 > **Coupe pierre**
-> - NC
-> - NC
-> - NC
-> - NC
+> - *Tour* Détour à Londres
+> - *GBA* Lac Boo
+> - *3DS* Mont Éboulis
+> - *Wii* Bois Vermeil
 > 
 > **Coupe lune**
-> - NC
-> - NC
-> - NC
+> - *Tour* Balade Berlinoise
+> - *DS* Jardin Peach
 > - Mont Festif
+> - *3DS* Route Arc-en-ciel
 
 ## III. AUTRES
 
 - L'affichage des noms des joueurs est sur fond gris pour mieux les voir
 - Changement de la couleur de fond pour coller aux nouvelles coupes
+- Changements cosmétiques
