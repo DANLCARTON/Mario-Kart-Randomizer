@@ -479,16 +479,19 @@ button:hover {
 
 .coupe {
     position: relative;
+    padding: 4px;
+    border-radius: 20px;
+    transition: ease-in-out .2s;
 }
 
 .coupe::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 4px;
+    left: 4px;
     width: 70px;
     height: 70px;
-    opacity: .4;
+    opacity: .5;
     z-index: -1;
     transform: rotateZ(-30deg);
     background-repeat: no-repeat;
@@ -565,6 +568,14 @@ button:hover {
 
 .coupe:nth-of-type(18)::before {
     background-image: url('./img/coupes/Lune.png');
+}
+
+.notFinished {
+    background: none;
+}
+
+.completed {
+    background: #55885585;
 }
 
 @media screen and (max-width: 1249px) and (min-width: 769px) {

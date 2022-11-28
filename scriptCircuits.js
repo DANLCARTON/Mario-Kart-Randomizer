@@ -14,6 +14,24 @@ function nombreAleatoire() {
     return nombre;
 }
 
+function colorCup() {
+    console.log("colorCup")
+    let cups = document.getElementsByClassName("coupe");
+    for (let i = 0; i < cups.length; i++) {
+        let courses = cups[i].getElementsByClassName("circuit")
+        if (
+            (courses[0].style.backgroundColor == "rgb(53, 53, 53)" || courses[0].style.backgroundColor == "rgb(136, 136, 255)") &&
+            (courses[1].style.backgroundColor == "rgb(53, 53, 53)" || courses[1].style.backgroundColor == "rgb(136, 136, 255)") &&
+            (courses[2].style.backgroundColor == "rgb(53, 53, 53)" || courses[2].style.backgroundColor == "rgb(136, 136, 255)") &&
+            (courses[3].style.backgroundColor == "rgb(53, 53, 53)" || courses[3].style.backgroundColor == "rgb(136, 136, 255)")
+        ) {
+            cups[i].classList.replace("notFinished", "completed");
+        } else {
+            cups[i].classList.replace("completed", "notFinished");
+        }
+    }
+}
+
 
 // SELECTION DE CIRCUIT ALÉATOIRE
 document.getElementById("choose").getElementsByTagName("button")[0].addEventListener("click", () => {
@@ -57,17 +75,12 @@ document.getElementById("choose").getElementsByTagName("button")[0].addEventList
         }
     }
 
-    // // console.log(circuitId)
-
     document.getElementsByClassName("TR" + circuitId)[0].setAttribute("style", "background-color: #88f; filter: drop-shadow(0 0 10px #ffffff50);");
     circuitSelectionne = document.getElementsByClassName("TR" + circuitId)[0];
     circuitsNonTires.splice(circuitId, 1, "");
     circuitDejaTires.splice(circuitId, 1, "TR" + circuitId);
 
-    // console.log("circuit sélectionné : ", circuitSelectionne);
-    // console.log("circuits non tirés : ", circuitsNonTires);
-    // console.log("circuits deja tirés : ", circuitDejaTires);
-
+    colorCup()
 
     const getDeviceType = () => {
         const ua = navigator.userAgent;
@@ -92,7 +105,6 @@ document.getElementById("choose").getElementsByTagName("button")[0].addEventList
             behavior: "smooth"
         })
     }
-
 })
 
 // SELECTION ET DESELECTION DE CIRCUIT MANUELLE
@@ -110,9 +122,7 @@ for (let i = 0; i < nombreDeCircuits; i++) {
                 circuitSelectionne = document.getElementsByClassName("TR" + i)[0];
                 circuitsNonTires.splice(j, 1, "");
                 circuitDejaTires.splice(j, 1, "TR" + j);
-                // console.log("circuit sélectionné : ", circuitSelectionne);
-                // console.log("circuits non tirés : ", circuitsNonTires);
-                // console.log("circuits deja tirés : ", circuitDejaTires);
+                colorCup()
                 return;
             }
         }
@@ -127,9 +137,7 @@ for (let i = 0; i < nombreDeCircuits; i++) {
                 circuitSelectionne = document.getElementsByClassName("TR" + i)[0];
                 circuitDejaTires.splice(j, 1, "");
                 circuitsNonTires.splice(j, 1, "TR" + j);
-                // console.log("circuit sélectionné : ", circuitSelectionne);
-                // console.log("circuits non tirés : ", circuitsNonTires);
-                // console.log("circuits deja tirés : ", circuitDejaTires);
+                colorCup()
                 return
             }
         }
@@ -151,6 +159,7 @@ document.getElementById("reset").getElementsByTagName("button")[0].addEventListe
     for (var i = 0; i <= nombreDeCircuits - 1; i++) {
         document.getElementsByClassName("TR" + i)[0].setAttribute("style", "vackground: none;");
     }
+    colorCup()
 })
 
 function nbCircuitsDejaTires(a) {
@@ -162,6 +171,8 @@ function nbCircuitsDejaTires(a) {
     }
     return nb;
 }
+
+// COMPTE DES CIRCUITS
 
 window.addEventListener("load", () => {
     let t = document.getElementById("tires");
@@ -180,16 +191,6 @@ window.addEventListener("click", () => {
 })
 
 // FIXATION PLACMENT BOUTON CHOISIR
-
-/*
-const stickyElm = document.getElementById("choose");
-
-const observer = new IntersectionObserver(
-    ([e]) => e.target.classList.toggle('sticky', e.intersectionRatio < 1), { threshold: [1] }
-);
-
-observer.observe(stickyElm)
-*/
 
 window.addEventListener("scroll", () => {
     const chooseButton = document.getElementById("choose");
