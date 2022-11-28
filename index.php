@@ -90,23 +90,43 @@ include "fonctionsPhp/vues.php";
 
             <article>
 
-            <?php require "dataCircuits.php"; ?>   
+                <?php require "dataCircuits.php"; ?>   
 
-            <div id="choose"> <button href="#" onlick="return  false">CHOISIR</button> </div>
+                <div id="choose"> <button href="#" onlick="return  false">CHOISIR</button> </div>
 
-            <div class="grilleCircuits">
+                <div class="grilleCircuits">
 
-            <?php 
-            include "vues/coupes.php";
-            ?>
+                <?php 
+                include "vues/coupes.php";
+                ?>
 
-            </div>
+                </div>
 
-            <?php
-            afficheCompteur();
-            ?>
+                <?php
+                afficheCompteur();
+                ?>
 
-            <div id="reset"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
+                <div id="reset"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
+
+            </article>
+
+            <hr>
+
+            <article>
+
+                <?php require "dataCircuits.php"; ?>   
+
+                <div id="chooseArena"> <button href="#" onlick="return  false">CHOISIR</button> </div>
+
+                <div class="grilleArenes">
+
+                    <?php 
+                    include "vues/arenes.php";
+                    ?>
+
+                </div>
+
+                <div id="resetArena"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
 
             </article>
 

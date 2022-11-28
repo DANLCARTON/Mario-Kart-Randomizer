@@ -27,4 +27,6 @@ $circuits = array(
     // "Coupe à épines" => array ("", "", "", "")
 );
 
+$arenes = array("Stade Bousculade", "Île aux délices", "Palais du dragon", "Colonie lunaire", "3DS Wuhuville", "GCN Manoir de Luigi", "SNES Arène Bataille 1", "Passage Turbot")
+
 ?>
