@@ -59,7 +59,7 @@
 > - Mont Festif
 > - *3DS* Route Arc-en-ciel
 
-- Ajout de la partie Arènes bataille. Le fonctionnement reste le même que la partie circuits, mais avec les arènes batailles. Ça servira peut-être jamais mais le jour où ça servira on sera contents de l'avoir. 
+- Ajout de la partie arènes bataille. Le fonction reste le même que la partie circuits, mais avec les arènes batailles. Ça servira peut-être jamais vu que personne ne joue au mode bataille ici mais le jour où ça servira on sera contents de l'avoir.
 
 > - Stade Bousculade
 > - Île aux Délices
@@ -72,6 +72,8 @@
 
 ## III. AUTRES
 
-- L'affichage des noms des joueurs est sur fond gris pour mieux les voir
-- Changement de la couleur de fond pour coller aux nouvelles coupes
-- Changements cosmétiques
+- Changements esthétiques
+> - Affichage des noms des joueurs sur fond gris pour mieux voir la zone de saisie de texte
+> - Changement de la couleur de fond en gris et jaune pour coller aux couleurs des coupes de la vague 3. Le thème sombre reste néanmoins disponible
+> - Si tous les circuits d'une coupe ont étés joués, celle-ci apparaît avec un fond vert. Fonctionnement similaire avec les arènes batailles.
+> - Changement de la police parce que why the fuck not

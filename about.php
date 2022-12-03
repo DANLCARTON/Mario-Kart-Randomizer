@@ -63,6 +63,63 @@
                 <li>Removed Herobrine</li>
             </ul>
         </section>
+
+        <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
+        <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 3)</p></div>
+        <h2><i>Qu'est-ce qui a changé ?</i></h2>
+
+        <section class="blocTexte">
+            <h1>Partie personnage et karts</h1>
+            <ul>
+                <li>Ajout d'un historique des combinaisons tirées. Cliquez sur le bouton "AFFICHER L'HISTORIQUE" pour l'afficher. </li>
+            </ul>
+            <h1>Partie Circuits</h1>
+            <ul>
+                <li>Ajout des nouvelles coupes avec leurs circuits
+                    <blockquote>
+                        <b style="margin-bottom: 100px;">Coupe Navet</b>
+                        <ul>
+                            <li><i>Tour</i> Détour à Londres</li>
+                            <li><i>GBA</i> Lac Boo</li>
+                            <li><i>3DS</i> Mont Éboulis</li>
+                            <li><i>Wii</i> Bois Vermeil</li>
+                        </ul>
+                        <b style="margin-bottom: 100px">Coupe Lune</b>
+                        <ul>
+                            <li><i>Tour</i> Balade Berlinoise</li>
+                            <li><i>DS</i> Jardin Peach</li>
+                            <li>Mont Festif</li>
+                            <li><i>3DS</i> Route Arc-en-ciel</li>
+                        </ul>
+                    </blockquote>
+                </li>
+                <li>Ajout de la partie arènes bataille. Le fonction reste le même que la partie circuits, mais avec les arènes batailles. Ça servira peut-être jamais vu que personne ne joue au mode bataille ici mais le jour où ça servira on sera contents de l'avoir.
+                    <blockquote>
+                        <b style="margin-bottom: 100px;">Arènes Bataille</b>
+                        <ul>
+                            <li>Stade Bousculade</li>
+                            <li>Île aux Délices</li>
+                            <li>Palais du Dragon</li>
+                            <li>Colonie Lunaire</li>
+                            <li><i>3DS</i> Wuhuville</li>
+                            <li><i>GCN</i> Manoir de Luigi</li>
+                            <li><i>SNES</i> Arène Bataille 1</li>
+                            <li>Passage Turbot</li>
+                        </ul>
+                    </blockquote>
+                </li>  
+            </ul>
+            <h1>Autres</h1>
+            <li>Changements esthétiques
+                <ul>
+                    <li>Affichage des noms des joueurs sur fond gris pour mieux voir la zone de saisie de texte</li>
+                    <li>Changement de la couleur de fond en gris et jaune pour coller aux couleurs des coupes de la vague 3. Le thème sombre reste néanmoins disponible</li>
+                    <li>Si tous les circuits d'une coupe ont étés joués, celle-ci apparaît avec un fond vert. Fonctionnement similaire avec les arènes batailles.</li>
+                    <li>Changement de la police parce que why the fuck not</li>
+                </ul>
+            </li>
+        </section>
+        
         <hr>
         <p style="margin-bottom: 50px;"><a href="./">Retour au Randomizer</a></p>
     </main>
