@@ -425,7 +425,7 @@ button:hover {
     font-size: 19px;
 }
 
-#choose {
+#choose, #chooseArena {
     position: sticky;
     display: block;
     padding: 15px 0 15px 0;
@@ -444,7 +444,7 @@ button:hover {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
 }
 
-#choose button:hover {
+#choose button:hover, #chooseArena button:hover {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     background: #fff;
     color: #353535;
@@ -612,7 +612,7 @@ button:hover {
 .arenes:nth-of-type(1)::before {
     background-image: url('./img/coupes/Bataille.png');
     background-repeat: no-repeat;
-    background-size: 240px;
+    background-size: 220px;
     background-position: center;
 }
 
@@ -647,7 +647,7 @@ button:hover {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .circuit {
-        border-radius: 5px;
+        border-radius: 10px;
         transition: ease-in-out .2s;
         font-size: 14px;
     }
@@ -683,7 +683,13 @@ button:hover {
     .grilleCircuits {
         grid-template-columns: 1fr 1fr;
     }
-    .circuit {
+    .arenes {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grilleArenes .nomCoupe {
+        grid-column: 1/3;
+    }
+    .circuit , .arene{
         font-size: 28px;
     }
     .nomCoupe {
@@ -695,7 +701,7 @@ button:hover {
     h2 {
         font-size: 36px;
     }
-    #compteur {
+    #compteur, #compteurArena {
         font-size: 36px;
     }
     p {
@@ -711,7 +717,7 @@ button:hover {
         background-color: #ffffff80;
         filter: drop-shadow(0 0 10px #ffffffff);
     }
-    #choose {
+    #choose, #chooseArena {
         position: sticky;
         display: block;
         padding: 30px 0 30px 0;
