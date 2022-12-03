@@ -127,7 +127,11 @@ function roll(id, statsB) {
     document.getElementById("roue" + id).src = "img/roues/" + Roues.nom + ".png";
     document.getElementById("aile" + id).src = "img/ailes/" + Ailes.nom + ".png";
 
-    addToHistory(Perso, skin, Karts, Roues, Ailes, id);
+    //addToHistory(Perso, skin, Karts, Roues, Ailes, id);
+
+    let elements = Array(Perso, skin, Karts, Roues, Ailes, id);
+
+    return elements;
 }
 
 function addToHistory(Perso, Skin, Karts, Roues, Ailes, Playr) {
@@ -205,19 +209,23 @@ document.getElementById("playersArrow").addEventListener("click", () => {
 })
 
 document.getElementById("reroll1").getElementsByTagName("button")[0].addEventListener("click", () => {
-    roll(1, true);
+    let e = roll(1, true);
+    addToHistory(e[0], e[1], e[2], e[3], e[4], e[5])
 });
 
 document.getElementById("reroll2").getElementsByTagName("button")[0].addEventListener("click", () => {
-    roll(2, false);
+    let e = roll(2, true);
+    addToHistory(e[0], e[1], e[2], e[3], e[4], e[5])
 });
 
 document.getElementById("reroll3").getElementsByTagName("button")[0].addEventListener("click", () => {
-    roll(3, false);
+    let e = roll(3, true);
+    addToHistory(e[0], e[1], e[2], e[3], e[4], e[5])
 });
 
 document.getElementById("reroll4").getElementsByTagName("button")[0].addEventListener("click", () => {
-    roll(4, false);
+    let e = roll(4, true);
+    addToHistory(e[0], e[1], e[2], e[3], e[4], e[5])
 });
 
 document.getElementById("personnage1").addEventListener("click", () => {
