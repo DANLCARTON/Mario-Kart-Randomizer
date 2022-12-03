@@ -450,18 +450,18 @@ button:hover {
     color: #353535;
 }
 
-#reset {
+#reset, #resetArena {
     display: block;
     margin: 30px 0 30px 0;
 }
 
-#reset button:hover {
+#reset button:hover, #resetArena button:hover {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     background: #fff;
     color: #ff3535;
 }
 
-#reset button {
+#reset button, #resetArena button {
     background: #ff3535;
     color: #fff;
 }
@@ -601,22 +601,24 @@ button:hover {
 .arenes::before {
     content: "";
     position: absolute;
-    top: 4px;
-    left: 4px;
-    width: 120px;
-    height: 120px;
-    opacity: .5;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: .3;
     z-index: -1;
-    background-repeat: no-repeat;
-    background-size: 120px;
 }
 
 .arenes:nth-of-type(1)::before {
     background-image: url('./img/coupes/Bataille.png');
+    background-repeat: no-repeat;
+    background-size: 240px;
+    background-position: center;
 }
 
 .arene {
     margin: 7px;
+    padding: 0 5px;
     border-radius: 10px;
     transition: ease-in-out .2s;
     cursor: pointer;
@@ -626,6 +628,13 @@ button:hover {
     user-select: none;
     font-size: 15px;
 }
+
+.arene:hover {
+    transform: scale(110%);
+    background-color: #ffffff80;
+    filter: drop-shadow(0 0 10px #ffffffff);
+}
+
 
 @media screen and (max-width: 1249px) and (min-width: 769px) {
     #circuitAleatoire {

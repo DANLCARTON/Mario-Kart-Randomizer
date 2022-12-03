@@ -103,7 +103,7 @@ include "fonctionsPhp/vues.php";
                 </div>
 
                 <?php
-                afficheCompteur();
+                compteurCircuits();
                 ?>
 
                 <div id="reset"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
@@ -111,6 +111,9 @@ include "fonctionsPhp/vues.php";
             </article>
 
             <hr>
+
+            
+            <h2>ARÈNE BATAILLE ALÉATOIRE SANS REMISE</h2>
 
             <article>
 
@@ -125,6 +128,10 @@ include "fonctionsPhp/vues.php";
                     ?>
 
                 </div>
+
+                <?php
+                compteurArenes();
+                ?>
 
                 <div id="resetArena"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
 
