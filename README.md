@@ -59,6 +59,17 @@
 > - Mont Festif
 > - *3DS* Route Arc-en-ciel
 
+- Ajout de la partie Arènes bataille. Le fonctionnement reste le même que la partie circuits, mais avec les arènes batailles. Ça servira peut-être jamais mais le jour où ça servira on sera contents de l'avoir. 
+
+> - Stade Bousculade
+> - Île aux Délices
+> - Palais du Dragon
+> - Colonie Lunaire
+> - *3DS* Wuhuville
+> - *GCN* Manoir de Luigi
+> - *SNES* Arène Bataille 1
+> - Passage Turbot
+
 ## III. AUTRES
 
 - L'affichage des noms des joueurs est sur fond gris pour mieux les voir
