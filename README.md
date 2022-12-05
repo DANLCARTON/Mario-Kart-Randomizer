@@ -73,7 +73,7 @@
 ## III. AUTRES
 
 - Changements esthétiques
-> - Affichage des noms des joueurs sur fond gris pour mieux voir la zone de saisie de texte
-> - Changement de la couleur de fond en gris et jaune pour coller aux couleurs des coupes de la vague 3. Le thème sombre reste néanmoins disponible
-> - Si tous les circuits d'une coupe ont étés joués, celle-ci apparaît avec un fond vert. Fonctionnement similaire avec les arènes batailles.
-> - Changement de la police parce que why the fuck not
+  - Affichage des noms des joueurs sur fond gris pour mieux voir la zone de saisie de texte
+  - Changement de la couleur de fond en gris et jaune pour coller aux couleurs des coupes de la vague 3. Le thème sombre reste néanmoins disponible
+  - Si tous les circuits d'une coupe ont étés joués, celle-ci apparaît avec un fond vert. Fonctionnement similaire avec les arènes batailles.
+  - Changement de la police parce que why the fuck not

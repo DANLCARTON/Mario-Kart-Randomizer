@@ -30,6 +30,7 @@
     --bg-color-2: var(--bgff8);
     --text-color-paragraph: #353535;
     --shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
+    --link: var(--bg88f);
 }
 
 html {
@@ -425,7 +426,8 @@ button:hover {
     font-size: 19px;
 }
 
-#choose, #chooseArena {
+#choose,
+#chooseArena {
     position: sticky;
     display: block;
     padding: 15px 0 15px 0;
@@ -444,24 +446,28 @@ button:hover {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
 }
 
-#choose button:hover, #chooseArena button:hover {
+#choose button:hover,
+#chooseArena button:hover {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     background: #fff;
     color: #353535;
 }
 
-#reset, #resetArena {
+#reset,
+#resetArena {
     display: block;
     margin: 30px 0 30px 0;
 }
 
-#reset button:hover, #resetArena button:hover {
+#reset button:hover,
+#resetArena button:hover {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     background: #fff;
     color: #ff3535;
 }
 
-#reset button, #resetArena button {
+#reset button,
+#resetArena button {
     background: #ff3535;
     color: #fff;
 }
@@ -635,7 +641,6 @@ button:hover {
     filter: drop-shadow(0 0 10px #ffffffff);
 }
 
-
 @media screen and (max-width: 1249px) and (min-width: 769px) {
     #circuitAleatoire {
         max-width: 850px;
@@ -689,7 +694,8 @@ button:hover {
     .grilleArenes .nomCoupe {
         grid-column: 1/3;
     }
-    .circuit , .arene{
+    .circuit,
+    .arene {
         font-size: 28px;
     }
     .nomCoupe {
@@ -701,7 +707,8 @@ button:hover {
     h2 {
         font-size: 36px;
     }
-    #compteur, #compteurArena {
+    #compteur,
+    #compteurArena {
         font-size: 36px;
     }
     p {
@@ -717,7 +724,8 @@ button:hover {
         background-color: #ffffff80;
         filter: drop-shadow(0 0 10px #ffffffff);
     }
-    #choose, #chooseArena {
+    #choose,
+    #chooseArena {
         position: sticky;
         display: block;
         padding: 30px 0 30px 0;
@@ -780,4 +788,36 @@ button:hover {
         text-align: left;
         width: 90vw;
     }
+}
+
+a {
+    display: inline-block;
+    color: var(--text-color-paragraph);
+    border: 1.5px solid #353535;
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: ease-in-out .2s;
+    margin: 0 0 20px 0;
+}
+
+a img {
+    height: 16px;
+    transform: translateY(2px);
+}
+
+#exitday {
+    filter: invert(1);
+    transition: ease-in-out .2s
+}
+
+a:hover {
+    color: #353535;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+    border: 1.5px solid #fff;
+}
+
+a:hover img#exitday {
+    filter: none;
 }

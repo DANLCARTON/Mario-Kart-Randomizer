@@ -711,9 +711,9 @@ document.getElementById("aile4").addEventListener("click", () => {
 document.getElementById("displayHistory").addEventListener("click", () => {
     if (document.getElementById("history").style.display == "block") {
         document.getElementById("history").style.display = "none";
-        document.getElementById("displayHistory").innerText = "AFFICHER L'HISTORIQUE";
+        document.getElementById("displayHistory").innerText = "Afficher l'historique";
     } else {
         document.getElementById("history").style.display = "block";
-        document.getElementById("displayHistory").innerText = "MASQUER L'HISTORIQUE";
+        document.getElementById("displayHistory").innerText = "Masquer l'historique";
     }
 })

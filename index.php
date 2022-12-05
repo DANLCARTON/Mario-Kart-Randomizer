@@ -41,9 +41,10 @@ include "fonctionsPhp/vues.php";
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
         <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 3)</p></div>
+        <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-3" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight"><img src='./img/icons/exit.png' id="exitday"></a>
         <section id="personnageAleatoire">
 
-            <h2>PERSONNAGE ALÉATOIRE</h2>
+            <h2>Personnage aléatoire</h2>
 
             <p> Cliquez sur le bouton "Générer" ci-dessous pour afficher une combinaison aléatoire. Si l'un des élément ne vous plaît pas, cliquez sur son image pour le changer ! Vous êtes plusieurs sur le même appareil ? Affichez une nouvelle combinaison à l'aide du bouton "+". Jusqu'à quatre joueurs peuvent être affichés. </p>
 
@@ -84,7 +85,7 @@ include "fonctionsPhp/vues.php";
         <hr>
 
         <section id="circuitAleatoire">
-            <h2>CIRCUIT ALÉATOIRE SANS REMISE</h2>
+            <h2>Circuit aléatoire sans remise</h2>
 
             <p class="desc">Cliquez sur le bouton "Choisir" ci-dessous pour sélectionner aléatoirement l'un des 64 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton "Remettre à zero" situé tout en bas.</p>
 
@@ -92,7 +93,7 @@ include "fonctionsPhp/vues.php";
 
                 <?php require "dataCircuits.php"; ?>   
 
-                <div id="choose"> <button href="#" onlick="return  false">CHOISIR</button> </div>
+                <div id="choose"> <button href="#" onlick="return  false">Choisir</button> </div>
 
                 <div class="grilleCircuits">
 
@@ -106,20 +107,20 @@ include "fonctionsPhp/vues.php";
                 compteurCircuits();
                 ?>
 
-                <div id="reset"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
+                <div id="reset"> <button href="#" onlick="return false">Remettre à zéro</button> </div>
 
             </article>
 
             <hr>
 
             
-            <h2>ARÈNE BATAILLE ALÉATOIRE SANS REMISE</h2>
+            <h2>Arène bataille aléatoire sans remise</h2>
 
             <article>
 
                 <?php require "dataCircuits.php"; ?>   
 
-                <div id="chooseArena"> <button href="#" onlick="return  false">CHOISIR</button> </div>
+                <div id="chooseArena"> <button href="#" onlick="return  false">Choisir</button> </div>
 
                 <div class="grilleArenes">
 
@@ -133,7 +134,7 @@ include "fonctionsPhp/vues.php";
                 compteurArenes();
                 ?>
 
-                <div id="resetArena"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
+                <div id="resetArena"> <button href="#" onlick="return false">Remettre à zéro</button> </div>
 
             </article>
 

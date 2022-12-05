@@ -1,13 +1,17 @@
 var bgCol1 = "var(--bg888)";
 var bgCol2 = "var(--bgff8)";
 
+var iconList = Array("set", "exit")
+
 function setNightTheme() {
     let root = document.querySelector(':root');
     root.style.setProperty('--bg-color-1', '#111');
     root.style.setProperty('--bg-color-2', '#111');
     root.style.setProperty('--text-color-paragraph', '#fff');
-    document.getElementById("setnight").style.setProperty('display', "none");
-    document.getElementById("setday").style.setProperty('display', "block");
+    for (let i = 0; i < iconList.length; i++) {
+        document.getElementById(iconList[i] + "night").style.setProperty('display', "none");
+        document.getElementById(iconList[i] + "day").style.setProperty('display', "inline-block");
+    }
     localStorage.setItem("currentTheme", "night");
 }
 
@@ -16,8 +20,10 @@ function setDayTheme() {
     root.style.setProperty('--bg-color-1', bgCol1);
     root.style.setProperty('--bg-color-2', bgCol2);
     root.style.setProperty('--text-color-paragraph', '#353535');
-    document.getElementById("setnight").style.setProperty('display', "block");
-    document.getElementById("setday").style.setProperty('display', "none");
+    for (let i = 0; i < iconList.length; i++) {
+        document.getElementById(iconList[i] + "night").style.setProperty('display', "inline-block");
+        document.getElementById(iconList[i] + "day").style.setProperty('display', "none");
+    }
     localStorage.setItem("currentTheme", "day");
 }
 
