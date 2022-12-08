@@ -84,6 +84,25 @@ include "fonctionsPhp/vues.php";
 
         <hr>
 
+        <section id="objetsPersonnalises">
+
+            <h2>Objets personnalisés aléatoires</h2>
+
+            <div id="divItems">
+
+            <?php 
+            include "./vues/objects.php";
+            include "./vues/objectsRanges.php";
+            ?>
+
+            </div>
+
+            <div id="chooseItem"> <button href="#" onlick="return  false">Choisir</button> </div>
+
+        </section>
+
+        <hr>
+
         <section id="circuitAleatoire">
             <h2>Circuit aléatoire sans remise</h2>
 
