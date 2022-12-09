@@ -31,7 +31,7 @@ function nombreAleatoireArenes() {
 }
 
 function colorCup() {
-    console.log("colorCup")
+    // console.log("colorCup")
     let cups = document.getElementsByClassName("coupe");
     for (let i = 0; i < cups.length; i++) {
         let courses = cups[i].getElementsByClassName("circuit")
@@ -232,7 +232,7 @@ window.addEventListener("click", () => {
 window.addEventListener("scroll", () => {
     const chooseButton = document.getElementById("choose");
     var rect = chooseButton.getBoundingClientRect();
-    console.log(rect.top, rect.right, rect.bottom, rect.left);
+    // console.log(rect.top, rect.right, rect.bottom, rect.left);
     if (rect.top <= 15) {
         chooseButton.classList.add("sticky");
     } else {

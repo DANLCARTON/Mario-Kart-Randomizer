@@ -136,7 +136,7 @@ function roll(id, statsB) {
 
 function addToHistory(Perso, Skin, Karts, Roues, Ailes, Playr) {
 
-    console.log(Playr);
+    // console.log(Playr);
     let div = document.createElement("div");
     div.classList.add("historySet");
 

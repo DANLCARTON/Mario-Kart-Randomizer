@@ -88,6 +88,8 @@ include "fonctionsPhp/vues.php";
 
             <h2>Objets personnalisés aléatoires</h2>
 
+            <p class="desc">Cliquez sur le bouton "Choisir" en bas de la section pour afficher une sélection aléatoire d'objets pour le nouveau Mode Personnalisé. Ils est possible de choisir quelle sera la probabilité d'apparition d'un objet en manipulant les curseurs. </p>
+
             <div id="divItems">
 
             <?php 
@@ -98,6 +100,7 @@ include "fonctionsPhp/vues.php";
             </div>
 
             <div id="chooseItem"> <button href="#" onlick="return  false">Choisir</button> </div>
+            <div id="resetItem"> <button href="#" onlick="return  false">Remettre à zéro</button> </div>
 
         </section>
 
@@ -162,6 +165,7 @@ include "fonctionsPhp/vues.php";
     </main>
     <script type="module" src="scriptPersonnages.js"></script>
     <script type="module" src="scriptCircuits.js"></script>
+    <script type="module" src="scriptObjets.js"></script>
     <script type="module" src="themes.js"></script>
     <img src="./img/icons/td.jpg" id="ee">
 </body>

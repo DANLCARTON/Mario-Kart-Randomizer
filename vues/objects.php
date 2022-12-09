@@ -1,6 +1,6 @@
 <div id="items">
     <div id="banana"><img src="./img/items/banana.png"></div>
-    <div id="tribleBananas"><img src="./img/items/tripleBananas.png"></div>
+    <div id="tripleBananas"><img src="./img/items/tripleBananas.png"></div>
     <div id="greenShell"><img src="./img/items/greenShell.png"></div>
     <div id="tripleGreenShells"><img src="./img/items/tripleGreenShells.png"></div>
     <div id="redShell"><img src="./img/items/redShell.png"></div>

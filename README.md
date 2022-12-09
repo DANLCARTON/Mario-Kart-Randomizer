@@ -72,6 +72,7 @@
 
 ## III. AUTRES
 
+- Ajout de la nouvelle section "Objets aléatoires" pour le nouveau Mode Personnalisé. Si cette section existe c'est parce que le mode aléatoire du jeu ne me satisfait pas, il ne fait que choisir une sélection d'objets parmi une liste de sélections d'objets déjà faites. 
 - Changements esthétiques
   - Affichage des noms des joueurs sur fond gris pour mieux voir la zone de saisie de texte
   - Changement de la couleur de fond en gris et jaune pour coller aux couleurs des coupes de la vague 3. Le thème sombre reste néanmoins disponible

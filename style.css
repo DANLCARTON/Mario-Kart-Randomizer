@@ -83,7 +83,7 @@ hr {
     background-size: cover;
 }
 
-#circuitAleatoire p.desc {
+p.desc {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -461,20 +461,23 @@ button:hover {
 }
 
 #reset,
-#resetArena {
+#resetArena, 
+#resetItem {
     display: block;
     margin: 30px 0 30px 0;
 }
 
 #reset button:hover,
-#resetArena button:hover {
+#resetArena button:hover, 
+#resetItem button:hover {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     background: #fff;
     color: #ff3535;
 }
 
 #reset button,
-#resetArena button {
+#resetArena button , 
+#resetItem button{
     background: #ff3535;
     color: #fff;
 }
@@ -888,4 +891,8 @@ a:hover img#exitday {
     background: var(--bg88f);
     border-radius: 10px;
     filter: drop-shadow(var(--shadow))
+}
+
+#chooseItem {
+    margin: 25px 0 0 0;
 }
