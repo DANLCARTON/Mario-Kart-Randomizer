@@ -239,7 +239,8 @@ button:hover {
 #maniabiliteAir,
 #maniabiliteAntiGravite,
 #adherence,
-#miniTurbo {
+#miniTurbo,
+#invincibility {
     position: relative;
     text-align: right;
 }
@@ -461,14 +462,14 @@ button:hover {
 }
 
 #reset,
-#resetArena, 
+#resetArena,
 #resetItem {
     display: block;
     margin: 30px 0 30px 0;
 }
 
 #reset button:hover,
-#resetArena button:hover, 
+#resetArena button:hover,
 #resetItem button:hover {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     background: #fff;
@@ -476,8 +477,8 @@ button:hover {
 }
 
 #reset button,
-#resetArena button , 
-#resetItem button{
+#resetArena button,
+#resetItem button {
     background: #ff3535;
     color: #fff;
 }
@@ -837,6 +838,7 @@ a:hover img#exitday {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 20px 0 0 0;
 }
 
 #items {
@@ -860,21 +862,6 @@ a:hover img#exitday {
     filter: drop-shadow(var(--shadow))
 }
 
-#ranges label {
-    display: inline-block;
-    width: 200px;
-}
-
-#ranges {
-    text-align: left;
-    margin: 0 0 0 30px;
-    line-height: 75%;
-}
-
-#ranges input {
-    transform: translateY(6px);
-}
-
 #items div {
     display: flex;
     justify-content: center;
@@ -895,4 +882,9 @@ a:hover img#exitday {
 
 #chooseItem {
     margin: 25px 0 0 0;
+}
+
+#objectsButtons {
+    text-align: left;
+    margin: 20px 0 0 20px;
 }

@@ -74,6 +74,7 @@ include "fonctionsPhp/vues.php";
                 afficheStat("Man. anti-gravité");
                 afficheStat("Adhér.");
                 afficheStat("Mini-Turbo");
+                afficheStat("Invincibilité")
                 ?>
 
             </article>
@@ -94,7 +95,7 @@ include "fonctionsPhp/vues.php";
 
             <?php 
             include "./vues/objects.php";
-            include "./vues/objectsRanges.php";
+            include "./vues/objectsButtons.php";
             ?>
 
             </div>

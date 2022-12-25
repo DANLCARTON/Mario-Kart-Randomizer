@@ -1,24 +1,34 @@
 var items = Array("banana", "tripleBananas", "greenShell", "tripleGreenShells", "redShell", "tripleRedShells", "spinyShell", "bobOmb", "mushroom", "tripleMushrooms", "goldenMushroom", "bulletBill", "blooper", "lightning", "star", "fireFlower", "boomerangFlower", "piranhaPlant", "superHorn", "crazyEight", "coin", "boo", "feather");
 
-function getOdds () {
-    let ranges = document.getElementsByClassName("range");
-    let values = new Object();
-    for (let i = 0; i < items.length; i++) 
-        values[items[i]] = ranges[i].value;
-    return values;
+function getOdds() {
+    let value = document.querySelector("input[name=nbObjects]:checked").value;
+    switch (value) {
+        case ("ffew"):
+            return 16;
+        case ("few"):
+            return 33;
+        case ("regu"):
+            return 50;
+        case ("lot"):
+            return 66;
+        case ("llot"):
+            return 83;
+        case ("rand"):
+            return Math.random() * 100;
+    }
+
 }
 
-function colorItem (item) {
+function colorItem(item) {
     let toColor = document.getElementById(item);
     toColor.classList.add("selected");
 }
 
 function pickItems() {
     let odds = getOdds();
-    for (let i in odds) {
-        if (Math.random()*100 < odds[i]) {
-            console.log(odds[i])
-            colorItem(i);
+    for (let i in items) {
+        if (Math.random() * 100 < odds) {
+            colorItem(items[i]);
         }
     }
 }

@@ -73,18 +73,19 @@ function roll(id, statsB) {
     }
 
     if (statsB) {
-        var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + Ailes.vitesse + 4
-        var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + Ailes.vitesseEau + 4
-        var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + Ailes.vitesseAir + 4
-        var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + Ailes.vitesseAntiGravite + 4
-        var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + Ailes.acceleration + 4
-        var Poids = Perso.poids + Karts.poids + Roues.poids + Ailes.poids + 4
-        var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + Ailes.maniabilite + 4
-        var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + Ailes.maniabiliteEau + 4
-        var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + Ailes.maniabiliteAir + 4
-        var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + Ailes.maniabiliteAntiGravite + 4
-        var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + Ailes.adherence + 4
-        var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4
+        var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + Ailes.vitesse + 4;
+        var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + Ailes.vitesseEau + 4;
+        var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + Ailes.vitesseAir + 4;
+        var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + Ailes.vitesseAntiGravite + 4;
+        var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + Ailes.acceleration + 4;
+        var Poids = Perso.poids + Karts.poids + Roues.poids + Ailes.poids + 4;
+        var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + Ailes.maniabilite + 4;
+        var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + Ailes.maniabiliteEau + 4;
+        var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + Ailes.maniabiliteAir + 4;
+        var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + Ailes.maniabiliteAntiGravite + 4;
+        var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + Ailes.adherence + 4;
+        var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4;
+        var Invincibility = Perso.invincibility + Karts.invincibility + Roues.invincibility + Ailes.invincibility + 4;
 
         var DocVitesse = document.getElementById("vitesseRoute");
         var DocVitesseEau = document.getElementById("vitesseEau");
@@ -98,6 +99,7 @@ function roll(id, statsB) {
         var DocManiabiliteAntiGravite = document.getElementById("maniabiliteAntiGravite");
         var DocAdherence = document.getElementById("adherence");
         var DocMiniTurbo = document.getElementById("miniTurbo");
+        var DocInvincibility = document.getElementById("invincibility");
 
         stats(Vitesse, DocVitesse)
         stats(VitesseEau, DocVitesseEau)
@@ -111,6 +113,7 @@ function roll(id, statsB) {
         stats(ManiabiliteAntiGravite, DocManiabiliteAntiGravite)
         stats(Adherence, DocAdherence)
         stats(MiniTurbo, DocMiniTurbo)
+        stats(Invincibility, DocInvincibility);
     }
 
     document.getElementsByClassName("name")[4 * (id - 1) + 0].textContent = Perso.nom + " " + skin;
@@ -256,18 +259,19 @@ document.getElementById("personnage1").addEventListener("click", () => {
         }
     }
 
-    var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + Ailes.vitesse + 4
-    var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + Ailes.vitesseEau + 4
-    var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + Ailes.vitesseAir + 4
-    var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + Ailes.vitesseAntiGravite + 4
-    var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + Ailes.acceleration + 4
-    var Poids = Perso.poids + Karts.poids + Roues.poids + Ailes.poids + 4
-    var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + Ailes.maniabilite + 4
-    var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + Ailes.maniabiliteEau + 4
-    var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + Ailes.maniabiliteAir + 4
-    var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + Ailes.maniabiliteAntiGravite + 4
-    var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + Ailes.adherence + 4
-    var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4
+    var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + Ailes.vitesse + 4;
+    var VitesseEau = Perso.vitesseEau + Karts.vitesseEau + Roues.vitesseEau + Ailes.vitesseEau + 4;
+    var VitesseAir = Perso.vitesseAir + Karts.vitesseAir + Roues.vitesseAir + Ailes.vitesseAir + 4;
+    var VitesseAntiGravite = Perso.vitesseAntiGravite + Karts.vitesseAntiGravite + Roues.vitesseAntiGravite + Ailes.vitesseAntiGravite + 4;
+    var Acceleration = Perso.acceleration + Karts.acceleration + Roues.acceleration + Ailes.acceleration + 4;
+    var Poids = Perso.poids + Karts.poids + Roues.poids + Ailes.poids + 4;
+    var Maniabilite = Perso.maniabilite + Karts.maniabilite + Roues.maniabilite + Ailes.maniabilite + 4;
+    var ManiabiliteEau = Perso.maniabiliteEau + Karts.maniabiliteEau + Roues.maniabiliteEau + Ailes.maniabiliteEau + 4;
+    var ManiabiliteAir = Perso.maniabiliteAir + Karts.maniabiliteAir + Roues.maniabiliteAir + Ailes.maniabiliteAir + 4;
+    var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + Ailes.maniabiliteAntiGravite + 4;
+    var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + Ailes.adherence + 4;
+    var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4;
+    var Invincibility = Perso.invincibility + Karts.invincibility + Roues.invincibility + Ailes.invincibility + 4;;
 
     document.getElementsByClassName("name")[0].textContent = Perso.nom + " " + skin;
 
@@ -289,6 +293,7 @@ document.getElementById("personnage1").addEventListener("click", () => {
     var DocManiabiliteAntiGravite = document.getElementById("maniabiliteAntiGravite");
     var DocAdherence = document.getElementById("adherence");
     var DocMiniTurbo = document.getElementById("miniTurbo");
+    var DocInvincibility = document.getElementById("invincibility");
 
     stats(Vitesse, DocVitesse)
     stats(VitesseEau, DocVitesseEau)
@@ -302,6 +307,7 @@ document.getElementById("personnage1").addEventListener("click", () => {
     stats(ManiabiliteAntiGravite, DocManiabiliteAntiGravite)
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
+    stats(Invincibility, DocInvincibility);
 
     //addToHistory(Perso, skin, Karts, Roues, Ailes, 1);
 })
@@ -442,6 +448,7 @@ document.getElementById("kart1").addEventListener("click", () => {
     var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + AileEnPapier.maniabiliteAntiGravite + 4
     var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + AileEnPapier.adherence + 4
     var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + AileEnPapier.miniTurbo + 4
+    var Invincibility = Perso.invincibility + Karts.invincibility + Roues.invincibility + Ailes.invincibility + 4;
 
     document.getElementsByClassName("name")[1].textContent = Karts.nom;
 
@@ -459,6 +466,7 @@ document.getElementById("kart1").addEventListener("click", () => {
     var DocManiabiliteAntiGravite = document.getElementById("maniabiliteAntiGravite");
     var DocAdherence = document.getElementById("adherence");
     var DocMiniTurbo = document.getElementById("miniTurbo");
+    var DocInvincibility = document.getElementById("invincibility");
 
     stats(Vitesse, DocVitesse)
     stats(VitesseEau, DocVitesseEau)
@@ -472,6 +480,7 @@ document.getElementById("kart1").addEventListener("click", () => {
     stats(ManiabiliteAntiGravite, DocManiabiliteAntiGravite)
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
+    stats(Invincibility, DocInvincibility);
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 1);
 })
@@ -537,6 +546,7 @@ document.getElementById("roue1").addEventListener("click", () => {
     var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + Ailes.maniabiliteAntiGravite + 4
     var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + Ailes.adherence + 4
     var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4
+    var Invincibility = Perso.invincibility + Karts.invincibility + Roues.invincibility + Ailes.invincibility + 4;
 
     document.getElementsByClassName("name")[2].textContent = Roues.nom;
 
@@ -554,6 +564,7 @@ document.getElementById("roue1").addEventListener("click", () => {
     var DocManiabiliteAntiGravite = document.getElementById("maniabiliteAntiGravite");
     var DocAdherence = document.getElementById("adherence");
     var DocMiniTurbo = document.getElementById("miniTurbo");
+    var DocInvincibility = document.getElementById("invincibility");
 
     stats(Vitesse, DocVitesse)
     stats(VitesseEau, DocVitesseEau)
@@ -567,6 +578,7 @@ document.getElementById("roue1").addEventListener("click", () => {
     stats(ManiabiliteAntiGravite, DocManiabiliteAntiGravite)
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
+    stats(Invincibility, DocInvincibility);
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 1);
 })
@@ -632,6 +644,7 @@ document.getElementById("aile1").addEventListener("click", () => {
     var ManiabiliteAntiGravite = Perso.maniabiliteAntiGravite + Karts.maniabiliteAntiGravite + Roues.maniabiliteAntiGravite + Ailes.maniabiliteAntiGravite + 4
     var Adherence = Perso.adherence + Karts.adherence + Roues.adherence + Ailes.adherence + 4
     var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4
+    var Invincibility = Perso.invincibility + Karts.invincibility + Roues.invincibility + Ailes.invincibility + 4;
 
     document.getElementsByClassName("name")[3].textContent = Ailes.nom;
 
@@ -649,6 +662,7 @@ document.getElementById("aile1").addEventListener("click", () => {
     var DocManiabiliteAntiGravite = document.getElementById("maniabiliteAntiGravite");
     var DocAdherence = document.getElementById("adherence");
     var DocMiniTurbo = document.getElementById("miniTurbo");
+    var DocInvincibility = document.getElementById("invincibility");
 
     stats(Vitesse, DocVitesse)
     stats(VitesseEau, DocVitesseEau)
@@ -662,7 +676,7 @@ document.getElementById("aile1").addEventListener("click", () => {
     stats(ManiabiliteAntiGravite, DocManiabiliteAntiGravite)
     stats(Adherence, DocAdherence)
     stats(MiniTurbo, DocMiniTurbo)
-
+    stats(Invincibility, DocInvincibility);
     //addToHistory(Perso, "", Karts, Roues, Ailes, 1);
 })
 
