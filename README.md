@@ -41,6 +41,7 @@
 
 ## I. PARTIE PERSONNAGES ET KARTS
 
+- Ajout de la nouvelle statistique d'invincibilité décrivant le temps d'invulnérabilité après s'être pris un objet. 
 - Ajout d'un historique des combinaisons tirées. Cliquez sur le bouton "AFFICHER L'HISTORIQUE" pour l'afficher. 
 
 ## II. PARTIE CIRCUITS
