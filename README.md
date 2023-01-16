@@ -36,7 +36,46 @@
 - Ajout d'un thème sombre. Pour l'activer, cliquer sur l'icône en forme de soleil/lune haut à droite de l'écran.
 - Removed Herobrine
 
----
+# RANDOMIZER MARIO KART 8 DELUXE - PASS CIRCUITS ADDITIONNELS (VAGUE 3)
+***Qu'est-ce qui a changé ?***
 
-Notez que l'adresse `https://www.ericthiberge.fr/temp` n'est plus accessible.  
-Utilisez de nouveau `https://www.ericthiberge.fr/MK8DXRANDOMIZER`
+## I. PARTIE PERSONNAGES ET KARTS
+
+- Ajout de la nouvelle statistique d'invincibilité décrivant le temps d'invulnérabilité après s'être pris un objet. 
+- Ajout d'un historique des combinaisons tirées. Cliquez sur le bouton "AFFICHER L'HISTORIQUE" pour l'afficher. 
+
+## II. PARTIE CIRCUITS
+
+- Ajout des nouvelles coupes avec leurs circuits
+
+> **Coupe pierre**
+> - *Tour* Détour à Londres
+> - *GBA* Lac Boo
+> - *3DS* Mont Éboulis
+> - *Wii* Bois Vermeil
+> 
+> **Coupe lune**
+> - *Tour* Balade Berlinoise
+> - *DS* Jardin Peach
+> - Mont Festif
+> - *3DS* Route Arc-en-ciel
+
+- Ajout de la partie arènes bataille. Le fonction reste le même que la partie circuits, mais avec les arènes batailles. Ça servira peut-être jamais vu que personne ne joue au mode bataille ici mais le jour où ça servira on sera contents de l'avoir.
+
+> - Stade Bousculade
+> - Île aux Délices
+> - Palais du Dragon
+> - Colonie Lunaire
+> - *3DS* Wuhuville
+> - *GCN* Manoir de Luigi
+> - *SNES* Arène Bataille 1
+> - Passage Turbot
+
+## III. AUTRES
+
+- Ajout de la nouvelle section "Objets aléatoires" pour le nouveau Mode Personnalisé. Si cette section existe c'est parce que le mode aléatoire du jeu ne me satisfait pas, il ne fait que choisir une sélection d'objets parmi une liste de sélections d'objets déjà faites. 
+- Changements esthétiques
+  - Affichage des noms des joueurs sur fond gris pour mieux voir la zone de saisie de texte
+  - Changement de la couleur de fond en gris et jaune pour coller aux couleurs des coupes de la vague 3. Le thème sombre reste néanmoins disponible
+  - Si tous les circuits d'une coupe ont étés joués, celle-ci apparaît avec un fond vert. Fonctionnement similaire avec les arènes batailles.
+  - Changement de la police parce que why the fuck not

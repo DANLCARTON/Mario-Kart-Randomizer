@@ -3,6 +3,7 @@
 include 'vues/compteur.php';
 include "vues/combinaison.php";
 include "vues/stats.php";
+include "vues/historique.php";
 include "fonctionsPhp/vues.php";
 
 ?>
@@ -20,6 +21,16 @@ include "fonctionsPhp/vues.php";
     <meta name="theme-color" content="#8b8" />
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GMP933X0K9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GMP933X0K9');
+</script>
+
 <body>
     <aside id="setnight">
         <img src="img/icons/daylighticon.png">
@@ -29,10 +40,11 @@ include "fonctionsPhp/vues.php";
     </aside>
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
-        <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 2)</p></div>
+        <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 3)</p></div>
+        <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-3" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight"><img src='./img/icons/exit.png' id="exitday"></a>
         <section id="personnageAleatoire">
 
-            <h2>PERSONNAGE ALÉATOIRE</h2>
+            <h2>Personnage aléatoire</h2>
 
             <p> Cliquez sur le bouton "Générer" ci-dessous pour afficher une combinaison aléatoire. Si l'un des élément ne vous plaît pas, cliquez sur son image pour le changer ! Vous êtes plusieurs sur le même appareil ? Affichez une nouvelle combinaison à l'aide du bouton "+". Jusqu'à quatre joueurs peuvent être affichés. </p>
 
@@ -62,38 +74,90 @@ include "fonctionsPhp/vues.php";
                 afficheStat("Man. anti-gravité");
                 afficheStat("Adhér.");
                 afficheStat("Mini-Turbo");
+                afficheStat("Invincibilité")
                 ?>
 
             </article>
+
+            <?php history() ?>
+
+        </section>
+
+        <hr>
+
+        <section id="objetsPersonnalises">
+
+            <h2>Objets personnalisés aléatoires</h2>
+
+            <p class="desc">Cliquez sur le bouton "Choisir" en bas de la section pour afficher une sélection aléatoire d'objets pour le nouveau Mode Personnalisé. Ils est possible de choisir quelle sera la probabilité d'apparition d'un objet en manipulant les curseurs. </p>
+
+            <div id="divItems">
+
+            <?php 
+            include "./vues/objects.php";
+            include "./vues/objectsButtons.php";
+            ?>
+
+            </div>
+
+            <div id="chooseItem"> <button href="#" onlick="return  false">Choisir</button> </div>
+            <div id="resetItem"> <button href="#" onlick="return  false">Remettre à zéro</button> </div>
 
         </section>
 
         <hr>
 
         <section id="circuitAleatoire">
-            <h2>CIRCUIT ALÉATOIRE SANS REMISE</h2>
+            <h2>Circuit aléatoire sans remise</h2>
 
             <p class="desc">Cliquez sur le bouton "Choisir" ci-dessous pour sélectionner aléatoirement l'un des 64 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton "Remettre à zero" situé tout en bas.</p>
 
             <article>
 
-            <?php require "dataCircuits.php"; ?>   
+                <?php require "dataCircuits.php"; ?>   
 
-            <div id="choose"> <button href="#" onlick="return  false">CHOISIR</button> </div>
+                <div id="choose"> <button href="#" onlick="return  false">Choisir</button> </div>
 
-            <div class="grilleCircuits">
+                <div class="grilleCircuits">
 
-            <?php 
-            include "vues/coupes.php";
-            ?>
+                <?php 
+                include "vues/coupes.php";
+                ?>
 
-            </div>
+                </div>
 
-            <?php
-            afficheCompteur();
-            ?>
+                <?php
+                compteurCircuits();
+                ?>
 
-            <div id="reset"> <button href="#" onlick="return false">REMETTRE À ZERO</button> </div>
+                <div id="reset"> <button href="#" onlick="return false">Remettre à zéro</button> </div>
+
+            </article>
+
+            <hr>
+
+            
+            <h2>Arène bataille aléatoire sans remise</h2>
+
+            <article>
+
+                <?php require "dataCircuits.php"; ?>   
+
+                <div id="chooseArena"> <button href="#" onlick="return  false">Choisir</button> </div>
+
+                <div class="grilleArenes">
+
+                    <?php 
+                    include "vues/arenes.php";
+                    ?>
+
+                </div>
+
+                <?php
+                compteurArenes();
+                ?>
+
+                <div id="resetArena"> <button href="#" onlick="return false">Remettre à zéro</button> </div>
 
             </article>
 
@@ -102,6 +166,7 @@ include "fonctionsPhp/vues.php";
     </main>
     <script type="module" src="scriptPersonnages.js"></script>
     <script type="module" src="scriptCircuits.js"></script>
+    <script type="module" src="scriptObjets.js"></script>
     <script type="module" src="themes.js"></script>
     <img src="./img/icons/td.jpg" id="ee">
 </body>

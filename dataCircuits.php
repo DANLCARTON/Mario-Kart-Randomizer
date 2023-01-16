@@ -17,8 +17,8 @@ $circuits = array(
     "Coupe Maneki-neko" => array ("Tour Traversée de Tokyo", "DS Corniche Champignon", "GBA Jardin Volant", "Dojo Ninja"),
     "Coupe Navet" => array ("Tour Escapade new-yorkaise", "SNES Circuit Mario 3", "N64 Désert Kalimari", "DS Flipper Waluigi"),
     "Coupe Hélico" => array ("Tour Sprint à Sydney", "GBA Pays Neigeux", "Wii Gorge Champignon", "Cité Sorbet"),
-    // "Coupe Pierre" => array ("", "", "", ""),
-    // "Coupe Lune" => array ("", "", "", ""),
+    "Coupe Pierre" => array ("Tour Détour à Londres", "GBA Lac Boo", "3DS Mont Éboulis", "Wii Bois Vermeil"),
+    "Coupe Lune" => array ("Tour Balade berlinoise", "DS Jardin Peach", "Mont Festif", "3DS Route Arc-en-ciel"),
     // "Coupe Fruit" => array ("", "", "", ""),
     // "Coupe Boomerang" => array ("", "", "", ""),
     // "Coupe Plume" => array ("", "", "", ""),
@@ -26,5 +26,7 @@ $circuits = array(
     // "Coupe Gland" => array ("", "", "", ""),
     // "Coupe à épines" => array ("", "", "", "")
 );
+
+$arenes = array("Stade Bousculade", "Île aux délices", "Palais du dragon", "Colonie lunaire", "3DS Wuhuville", "GCN Manoir de Luigi", "SNES Arène Bataille 1", "Passage Turbot")
 
 ?>

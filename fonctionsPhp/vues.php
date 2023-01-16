@@ -38,6 +38,9 @@ function getStatId ($name) {
         case "Mini-Turbo":
             $nameId = "miniTurbo";
             break;
+        case "Invincibilité":
+            $nameId = "invincibility";
+            break;
     }
     return $nameId;
 }

@@ -26,9 +26,11 @@
     --bgff8: #ff8;
     --bgffb: #ffb;
     --bgfff: #fff;
-    --bg-color-1: var(--bg8b8);
-    --bg-color-2: var(--bgfb8);
+    --bg-color-1: var(--bg888);
+    --bg-color-2: var(--bgff8);
     --text-color-paragraph: #353535;
+    --shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
+    --link: var(--bg88f);
 }
 
 html {
@@ -36,7 +38,7 @@ html {
     width: 100%;
     min-height: 100vh;
     text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
     color: var(--text-color-paragraph);
 }
 
@@ -81,7 +83,7 @@ hr {
     background-size: cover;
 }
 
-#circuitAleatoire p.desc {
+p.desc {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -111,8 +113,15 @@ h2 {
     color: var(--text-color-paragraph);
 }
 
+h3 {
+    margin: 15px 0;
+    font-weight: bold;
+    color: var(--text-color-paragraph);
+    text-align: center;
+}
+
 #playersArrow {
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     background: #fff;
     width: 50px;
     height: 50px;
@@ -132,16 +141,18 @@ h2 {
 }
 
 .playerName {
-    background: none;
+    background: #55555550;
     color: var(--text-color-paragraph);
     border: none;
     text-align: center;
-    margin: 0 0 15px 0;
-    width: 100%;
+    margin: 0 auto 15px auto;
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 20px;
+    font-family: Tahoma, Arial, sans-serif;
 }
 
 .playerName:focus {
-    background: none;
     color: var(--text-color-paragraph);
     outline: none;
 }
@@ -155,9 +166,15 @@ button {
     transition: ease-in-out .2s;
     font-weight: bold;
     border: none;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 15px;
     cursor: pointer;
+}
+
+button:hover {
+    background: #ffffff;
+    color: #353535;
+    box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
 }
 
 #result {
@@ -222,13 +239,14 @@ button {
 #maniabiliteAir,
 #maniabiliteAntiGravite,
 #adherence,
-#miniTurbo {
+#miniTurbo,
+#invincibility {
     position: relative;
     text-align: right;
 }
 
 #stats {
-    margin: 20px 0 0 0;
+    margin: 20px 0 20px 0;
     width: 800px;
 }
 
@@ -354,6 +372,44 @@ button {
     background: #dddc19
 }
 
+#history {
+    width: 400px;
+    margin: 20px auto 0 auto;
+    display: none;
+    overflow-y: scroll;
+    max-height: 540px;
+    box-shadow: var(--shadow);
+    padding: 10px;
+    border-radius: 10px;
+    background: #55555550;
+    /* Mozilla */
+    scrollbar-color: #ffffff50 #00000000;
+    scrollbar-width: thin;
+}
+
+
+/* Chrome, Edge ... */
+
+#history::-webkit-scrollbar {
+    background-color: #00000000;
+    width: 9px;
+}
+
+#history::-webkit-scrollbar-thumb {
+    background: #ffffff50;
+}
+
+.historySet p {
+    text-align: left;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 0 0 10px;
+}
+
+.historySet img {
+    height: 64px;
+}
+
 #personnageAleatoire,
 #circuitAleatoire h2,
 #circuitAleatoire p.desc,
@@ -367,12 +423,19 @@ button {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.grilleArenes {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+
 .nomCoupe {
     font-weight: bolder;
     font-size: 19px;
 }
 
-#choose {
+#choose,
+#chooseArena {
     position: sticky;
     display: block;
     padding: 15px 0 15px 0;
@@ -391,37 +454,44 @@ button {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
 }
 
-#choose button:hover {
+#choose button:hover,
+#chooseArena button:hover {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     background: #fff;
     color: #353535;
 }
 
-#reset {
+#reset,
+#resetArena,
+#resetItem {
     display: block;
     margin: 30px 0 30px 0;
 }
 
-#reset button:hover {
+#reset button:hover,
+#resetArena button:hover,
+#resetItem button:hover {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     background: #fff;
     color: #ff3535;
 }
 
-#reset button {
+#reset button,
+#resetArena button,
+#resetItem button {
     background: #ff3535;
     color: #fff;
 }
 
 .circuit {
-    border-radius: 5px;
+    border-radius: 10px;
     transition: ease-in-out .2s;
     cursor: pointer;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .circuit:hover {
@@ -431,17 +501,20 @@ button {
 }
 
 .coupe {
-    position: relative
+    position: relative;
+    padding: 4px;
+    border-radius: 20px;
+    transition: ease-in-out .2s;
 }
 
 .coupe::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 4px;
+    left: 4px;
     width: 70px;
     height: 70px;
-    opacity: .4;
+    opacity: .5;
     z-index: -1;
     transform: rotateZ(-30deg);
     background-repeat: no-repeat;
@@ -512,6 +585,73 @@ button {
     background-image: url('./img/coupes/Helico.png');
 }
 
+.coupe:nth-of-type(17)::before {
+    background-image: url('./img/coupes/Pierre.png');
+}
+
+.coupe:nth-of-type(18)::before {
+    background-image: url('./img/coupes/Lune.png');
+}
+
+.notFinished {
+    background: none;
+}
+
+.completed {
+    background: #55885585;
+}
+
+.arenes {
+    position: relative;
+    padding: 4px;
+    border-radius: 20px;
+    transition: ease-in-out .2s;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.arenes .nomCoupe {
+    grid-column: 1/5;
+}
+
+.arenes::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: .3;
+    z-index: -1;
+}
+
+.arenes:nth-of-type(1)::before {
+    background-image: url('./img/coupes/Bataille.png');
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position: center;
+}
+
+.arene {
+    margin: 7px;
+    padding: 0 5px;
+    border-radius: 10px;
+    transition: ease-in-out .2s;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 15px;
+}
+
+.arene:hover {
+    transform: scale(110%);
+    background-color: #ffffff80;
+    filter: drop-shadow(0 0 10px #ffffffff);
+}
+
 @media screen and (max-width: 1249px) and (min-width: 769px) {
     #circuitAleatoire {
         max-width: 850px;
@@ -523,7 +663,7 @@ button {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .circuit {
-        border-radius: 5px;
+        border-radius: 10px;
         transition: ease-in-out .2s;
         font-size: 14px;
     }
@@ -559,7 +699,14 @@ button {
     .grilleCircuits {
         grid-template-columns: 1fr 1fr;
     }
-    .circuit {
+    .arenes {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grilleArenes .nomCoupe {
+        grid-column: 1/3;
+    }
+    .circuit,
+    .arene {
         font-size: 28px;
     }
     .nomCoupe {
@@ -571,7 +718,8 @@ button {
     h2 {
         font-size: 36px;
     }
-    #compteur {
+    #compteur,
+    #compteurArena {
         font-size: 36px;
     }
     p {
@@ -587,7 +735,8 @@ button {
         background-color: #ffffff80;
         filter: drop-shadow(0 0 10px #ffffffff);
     }
-    #choose {
+    #choose,
+    #chooseArena {
         position: sticky;
         display: block;
         padding: 30px 0 30px 0;
@@ -650,4 +799,92 @@ button {
         text-align: left;
         width: 90vw;
     }
+}
+
+a {
+    display: inline-block;
+    color: var(--text-color-paragraph);
+    border: 1.5px solid #353535;
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: ease-in-out .2s;
+    margin: 0 0 20px 0;
+}
+
+a img {
+    height: 16px;
+    transform: translateY(2px);
+}
+
+#exitday {
+    filter: invert(1);
+    transition: ease-in-out .2s
+}
+
+a:hover {
+    color: #353535;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+    border: 1.5px solid #fff;
+}
+
+a:hover img#exitday {
+    filter: none;
+}
+
+#divItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0 0 0;
+}
+
+#items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+    padding: 10px;
+    background: #55555550;
+    border-radius: 10px;
+}
+
+#items div {
+    width: 100px;
+    max-height: 100px;
+}
+
+#items img {
+    max-width: 90px;
+    max-height: 90px;
+    filter: drop-shadow(var(--shadow))
+}
+
+#items div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out .2s;
+}
+
+#items div:hover {
+    transform: scale(110%);
+    filter: drop-shadow(0 0 5px #ffffffff);
+}
+
+#items div.selected {
+    background: var(--bg88f);
+    border-radius: 10px;
+    filter: drop-shadow(var(--shadow))
+}
+
+#chooseItem {
+    margin: 25px 0 0 0;
+}
+
+#objectsButtons {
+    text-align: left;
+    margin: 20px 0 0 20px;
 }
