@@ -15,7 +15,7 @@ include "fonctionsPhp/vues.php";
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="./img/personnages/Mario.png" />
+    <link rel="icon" href="./img/personnages/Mario.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> MK8DX Randomizer </title>
     <meta name="theme-color" content="#8b8" />

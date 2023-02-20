@@ -122,13 +122,13 @@ function roll(id, statsB) {
     document.getElementsByClassName("name")[4 * (id - 1) + 3].textContent = Ailes.nom;
 
     if (skin == "") {
-        document.getElementById("personnage" + id).src = "img/personnages/" + Perso.nom + ".png";
+        document.getElementById("personnage" + id).src = "img/personnages/" + Perso.nom + ".webp";
     } else {
-        document.getElementById("personnage" + id).src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+        document.getElementById("personnage" + id).src = "img/personnages/" + Perso.nom + " " + skin + ".webp";
     }
-    document.getElementById("kart" + id).src = "img/karts/" + Karts.nom + ".png";
-    document.getElementById("roue" + id).src = "img/roues/" + Roues.nom + ".png";
-    document.getElementById("aile" + id).src = "img/ailes/" + Ailes.nom + ".png";
+    document.getElementById("kart" + id).src = "img/karts/" + Karts.nom + ".webp";
+    document.getElementById("roue" + id).src = "img/roues/" + Roues.nom + ".webp";
+    document.getElementById("aile" + id).src = "img/ailes/" + Ailes.nom + ".webp";
 
     //addToHistory(Perso, skin, Karts, Roues, Ailes, id);
 
@@ -155,19 +155,19 @@ function addToHistory(Perso, Skin, Karts, Roues, Ailes, Playr) {
     let perso = document.createElement("img");
 
     if (Skin == "") {
-        perso.src = "img/personnages/" + Perso.nom + ".png";
+        perso.src = "img/personnages/" + Perso.nom + ".webp";
     } else {
-        perso.src = "img/personnages/" + Perso.nom + " " + Skin + ".png ";
+        perso.src = "img/personnages/" + Perso.nom + " " + Skin + ".webp ";
     }
 
     let kart = document.createElement("img");
-    kart.src = "img/karts/" + Karts.nom + ".png";
+    kart.src = "img/karts/" + Karts.nom + ".webp";
 
     let roues = document.createElement("img");
-    roues.src = "img/roues/" + Roues.nom + ".png";
+    roues.src = "img/roues/" + Roues.nom + ".webp";
 
     let aile = document.createElement("img");
-    aile.src = "img/ailes/" + Ailes.nom + ".png";
+    aile.src = "img/ailes/" + Ailes.nom + ".webp";
 
     div.appendChild(name);
     div.appendChild(perso);
@@ -276,9 +276,9 @@ document.getElementById("personnage1").addEventListener("click", () => {
     document.getElementsByClassName("name")[0].textContent = Perso.nom + " " + skin;
 
     if (skin == "") {
-        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom + ".png";
+        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom + ".webp";
     } else {
-        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom + " " + skin + ".webp";
     }
 
     var DocVitesse = document.getElementById("vitesseRoute");
@@ -343,9 +343,9 @@ document.getElementById("personnage2").addEventListener("click", () => {
     document.getElementsByClassName("name")[4].textContent = Perso.nom + " " + skin;
 
     if (skin == "") {
-        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + ".png";
+        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + ".webp";
     } else {
-        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + " " + skin + ".webp";
     }
 
     //addToHistory(Perso, skin, Karts, Roues, Ailes, 2);
@@ -382,9 +382,9 @@ document.getElementById("personnage3").addEventListener("click", () => {
     document.getElementsByClassName("name")[8].textContent = Perso.nom + " " + skin;
 
     if (skin == "") {
-        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + ".png";
+        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + ".webp";
     } else {
-        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + " " + skin + ".webp";
     }
 
     //addToHistory(Perso, skin, Karts, Roues, Ailes, 3);
@@ -421,9 +421,9 @@ document.getElementById("personnage4").addEventListener("click", () => {
     document.getElementsByClassName("name")[12].textContent = Perso.nom + " " + skin;
 
     if (skin == "") {
-        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + ".png";
+        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + ".webp";
     } else {
-        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + " " + skin + ".png";
+        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + " " + skin + ".webp";
     }
 
     //addToHistory(Perso, skin, Karts, Roues, Ailes, 4);
@@ -452,7 +452,7 @@ document.getElementById("kart1").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[1].textContent = Karts.nom;
 
-    document.getElementById("kart1").src = "img/karts/" + Karts.nom + ".png";
+    document.getElementById("kart1").src = "img/karts/" + Karts.nom + ".webp";
 
     var DocVitesse = document.getElementById("vitesseRoute");
     var DocVitesseEau = document.getElementById("vitesseEau");
@@ -494,7 +494,7 @@ document.getElementById("kart2").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[5].textContent = Karts.nom;
 
-    document.getElementById("kart2").src = "img/karts/" + Karts.nom + ".png";
+    document.getElementById("kart2").src = "img/karts/" + Karts.nom + ".webp";
 
     addToHistory(Perso, "", Karts, Roues, Ailes, 2);
 })
@@ -508,7 +508,7 @@ document.getElementById("kart3").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[9].textContent = Karts.nom;
 
-    document.getElementById("kart3").src = "img/karts/" + Karts.nom + ".png";
+    document.getElementById("kart3").src = "img/karts/" + Karts.nom + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
@@ -522,7 +522,7 @@ document.getElementById("kart4").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[13].textContent = Karts.nom;
 
-    document.getElementById("kart4").src = "img/karts/" + Karts.nom + ".png";
+    document.getElementById("kart4").src = "img/karts/" + Karts.nom + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 4);
 })
@@ -550,7 +550,7 @@ document.getElementById("roue1").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[2].textContent = Roues.nom;
 
-    document.getElementById("roue1").src = "img/roues/" + Roues.nom + ".png";
+    document.getElementById("roue1").src = "img/roues/" + Roues.nom + ".webp";
 
     var DocVitesse = document.getElementById("vitesseRoute");
     var DocVitesseEau = document.getElementById("vitesseEau");
@@ -592,7 +592,7 @@ document.getElementById("roue2").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[6].textContent = Roues.nom;
 
-    document.getElementById("roue2").src = "img/roues/" + Roues.nom + ".png";
+    document.getElementById("roue2").src = "img/roues/" + Roues.nom + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 2);
 })
@@ -606,7 +606,7 @@ document.getElementById("roue3").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[10].textContent = Roues.nom;
 
-    document.getElementById("roue3").src = "img/roues/" + Roues.nom + ".png";
+    document.getElementById("roue3").src = "img/roues/" + Roues.nom + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
@@ -620,7 +620,7 @@ document.getElementById("roue4").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[14].textContent = Roues.nom;
 
-    document.getElementById("roue4").src = "img/roues/" + Roues.nom + ".png";
+    document.getElementById("roue4").src = "img/roues/" + Roues.nom + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 4);
 })
@@ -648,7 +648,7 @@ document.getElementById("aile1").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[3].textContent = Ailes.nom;
 
-    document.getElementById("aile1").src = "img/ailes/" + Ailes.nom + ".png";
+    document.getElementById("aile1").src = "img/ailes/" + Ailes.nom + ".webp";
 
     var DocVitesse = document.getElementById("vitesseRoute");
     var DocVitesseEau = document.getElementById("vitesseEau");
@@ -689,7 +689,7 @@ document.getElementById("aile2").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[7].textContent = Ailes.nom;
 
-    document.getElementById("aile2").src = "img/ailes/" + Ailes.nom + ".png";
+    document.getElementById("aile2").src = "img/ailes/" + Ailes.nom + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 2);
 })
@@ -703,7 +703,7 @@ document.getElementById("aile3").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[11].textContent = Ailes.nom;
 
-    document.getElementById("aile3").src = "img/ailes/" + Ailes.nom + ".png";
+    document.getElementById("aile3").src = "img/ailes/" + Ailes.nom + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
@@ -717,7 +717,7 @@ document.getElementById("aile4").addEventListener("click", () => {
 
     document.getElementsByClassName("name")[15].textContent = Ailes.nom;
 
-    document.getElementById("aile4").src = "img/ailes/" + Ailes.nom + ".png";
+    document.getElementById("aile4").src = "img/ailes/" + Ailes.nom + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 4);
 })
