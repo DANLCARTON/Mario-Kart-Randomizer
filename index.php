@@ -8,6 +8,8 @@ include "fonctionsPhp/vues.php";
 
 ?>
 
+<!-- test -->
+
 <!DOCTYPE html>
 
 <html lang="fr">
