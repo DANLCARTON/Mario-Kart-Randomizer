@@ -35,15 +35,15 @@ include "fonctionsPhp/vues.php";
 
 <body>
     <aside id="setnight">
-        <img src="img/icons/daylighticon.png">
+        <img src="img/icons/daylighticon.png" alt="daylighticon">
     </aside>
     <aside id="setday">
-        <img src="img/icons/daylighticon.png">
+        <img src="img/icons/daylighticon.png" alt="daylighticon">
     </aside>
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
         <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 3)</p></div>
-        <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-3" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight"><img src='./img/icons/exit.png' id="exitday"></a>
+        <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-3" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight" alt="exit"><img src='./img/icons/exit.png' id="exitday" alt="exit"></a>
         <section id="personnageAleatoire">
 
             <h2>Personnage aléatoire</h2>
@@ -59,7 +59,7 @@ include "fonctionsPhp/vues.php";
 
             </div>
 
-            <div id="playersArrow"><img src="./img/icons/arrow.png"></div>
+            <div id="playersArrow"><img src="./img/icons/arrow.png" alt="Add Player"></div>
 
             <article id="stats">
 
@@ -170,7 +170,7 @@ include "fonctionsPhp/vues.php";
     <script type="module" src="scriptCircuits.js"></script>
     <script type="module" src="scriptObjets.js"></script>
     <script type="module" src="themes.js"></script>
-    <img src="./img/icons/td.jpg" id="ee">
+    <img src="./img/icons/td.jpg" id="ee" alt="Easter Egg">
 </body>
 
 </html>
