@@ -1,5 +1,6 @@
 <?php
 
+header("Cache-Control: max-age:2678400");
 include 'vues/compteur.php';
 include "vues/combinaison.php";
 include "vues/stats.php";
@@ -7,8 +8,6 @@ include "vues/historique.php";
 include "fonctionsPhp/vues.php";
 
 ?>
-
-<!-- test -->
 
 <!DOCTYPE html>
 
@@ -23,6 +22,7 @@ include "fonctionsPhp/vues.php";
     <meta name="theme-color" content="#8b8" />
     <meta name="keywords" content="mario, kart, 8, huit, eight, random, aléatoire, aleatoire, randomizer, eric, thiberge, couscous, stop regarder là >///<" />
     <meta name="description" content="Randomizer pour Mario Kart 8 Deluxe ! - Générez aléatoirement un personnage, une combinaison de kart, des objets pour le mode personnalisé et un circuit aléatoire pour Mario Kart 8 Deluxe !!"/>
+    <meta name="http-equiv" content="Cache-Control: max-age:3678400" />
 </head>
 
 <!-- Google tag (gtag.js) -->
