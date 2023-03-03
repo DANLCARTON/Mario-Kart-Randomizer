@@ -717,6 +717,18 @@ button:hover {
 }
 
 @media screen and (max-width: 425px) {
+    html {
+        transform: scale(.5);
+        transform-origin: top left;
+        background: linear-gradient(180deg, var(--bg-color-1), var(--bg-color-2));
+    }
+    aside {
+        position: fixed;
+        right: -375px;
+        top: 50px;
+        z-index: 10000;
+        transform: scale(2);
+    }
     .element img:hover {
         filter: drop-shadow(0 0 10px #ffffffff);
         transform: scale(100%);
