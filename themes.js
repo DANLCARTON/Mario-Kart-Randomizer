@@ -48,4 +48,4 @@ document.getElementById("setday").addEventListener("click", () => {
     setDayTheme();
 })
 
-export { bgCol1, bgCol2 };
+export { bgCol1 };

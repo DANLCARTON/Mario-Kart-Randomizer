@@ -1,4 +1,4 @@
-import { bgCol1, bgCol2 } from "./themes";
+import { bgCol1 } from "./themes.js";
 
 let themeMainColor = bgCol1;
 

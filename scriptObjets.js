@@ -1,4 +1,4 @@
-import { bgCol1 } from "./themes";
+import { bgCol1 } from "./themes.js";
 
 var items = Array("banana", "tripleBananas", "greenShell", "tripleGreenShells", "redShell", "tripleRedShells", "spinyShell", "bobOmb", "mushroom", "tripleMushrooms", "goldenMushroom", "bulletBill", "blooper", "lightning", "star", "fireFlower", "boomerangFlower", "piranhaPlant", "superHorn", "crazyEight", "coin", "boo", "feather");
 
