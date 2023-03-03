@@ -1,8 +1,8 @@
-import { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, MiiLeger, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, MiiMoyen, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, MiiLourd, KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01, RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin, AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant } from "./stats.js";
+import { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, MiiLeger, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, MiiMoyen, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, MiiLourd, KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01, RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin, AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant, Birdo } from "./stats.js";
 
 var Mii = [MiiLeger, MiiMoyen, MiiLourd]
 
-var perso = [BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, Mii];
+var perso = [BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, Mii, Birdo];
 var karts = [KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01];
 var roues = [RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin];
 var ailes = [AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant];
@@ -13,6 +13,7 @@ var skinsMetalMario = ["or", "métal"];
 var skinsInklingFille = ["orange", "verte", "rose"];
 var skinsInklingGarcon = ["bleu", "violet", "cyan"];
 var skinsLink = ["tunique verte", "tunique de prodige"];
+var skinsBirdo = ["rose", "rouge", "vert·e", "bleu·e", "bleu ciel", "jaune", "noir·e", "blanc·he", "orange"];
 
 var players = 1;
 
@@ -67,6 +68,8 @@ function roll(id, statsB) {
             skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
         } else if (Perso.nom == "Link") {
             skin = skinsLink[getRandom(skinsLink.length)];
+        } else if (Perso.nom == "Birdo") {
+            skin = skinsBirdo[getRandom(skinsBirdo.length)];
         } else {
             skin = "";
         }
@@ -254,6 +257,8 @@ document.getElementById("personnage1").addEventListener("click", () => {
             skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
         } else if (Perso.nom == "Link") {
             skin = skinsLink[getRandom(skinsLink.length)];
+        } else if (Perso.nom == "Birdo") {
+            skin = skinsBirdo[getRandom(skinsBirdo.length)];
         } else {
             skin = "";
         }
@@ -335,6 +340,8 @@ document.getElementById("personnage2").addEventListener("click", () => {
             skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
         } else if (Perso.nom == "Link") {
             skin = skinsLink[getRandom(skinsLink.length)];
+        } else if (Perso.nom == "Birdo") {
+            skin = skinsBirdo[getRandom(skinsBirdo.length)];
         } else {
             skin = "";
         }
@@ -374,6 +381,8 @@ document.getElementById("personnage3").addEventListener("click", () => {
             skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
         } else if (Perso.nom == "Link") {
             skin = skinsLink[getRandom(skinsLink.length)];
+        } else if (Perso.nom == "Birdo") {
+            skin = skinsBirdo[getRandom(skinsBirdo.length)];
         } else {
             skin = "";
         }
@@ -413,6 +422,8 @@ document.getElementById("personnage4").addEventListener("click", () => {
             skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
         } else if (Perso.nom == "Link") {
             skin = skinsLink[getRandom(skinsLink.length)];
+        } else if (Perso.nom == "Birdo") {
+            skin = skinsBirdo[getRandom(skinsBirdo.length)];
         } else {
             skin = "";
         }

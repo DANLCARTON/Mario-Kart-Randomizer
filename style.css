@@ -198,6 +198,7 @@ button:hover {
     -ms-user-select: none;
     user-select: none;
     transition: ease-in-out .2s;
+    min-height: 128px;
 }
 
 .element img:hover {

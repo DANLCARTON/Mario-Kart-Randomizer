@@ -747,6 +747,23 @@ let MiiLourd = {
     invincibility: 1
 };
 
+let Birdo = {
+    nom: "Birdo",
+    vitesse: 0,
+    vitesseEau: 0,
+    vitesseAir: 0,
+    vitesseAntiGravite: 0,
+    acceleration: 0,
+    poids: 0,
+    maniabilite: 0,
+    maniabiliteEau: 0,
+    maniabiliteAir: 0,
+    maniabiliteAntiGravite: 0,
+    adherence: 0,
+    miniTurbo: 0,
+    invincibility: 0
+}
+
 // KARTS ----------------------------------------
 
 let KartStandard = {
@@ -2079,7 +2096,7 @@ let ParapenteMKTV = {
     invincibility: 0
 };
 
-export { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, MiiLeger, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, MiiMoyen, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, MiiLourd };
+export { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, MiiLeger, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, MiiMoyen, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, MiiLourd, Birdo };
 export { KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01 };
 export { RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin }
 export { AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant };
