@@ -93,7 +93,7 @@ include "fonctionsPhp/vues.php";
 
             <h2>Objets personnalisés aléatoires</h2>
 
-            <p class="desc">Cliquez sur le bouton "Choisir" en bas de la section pour afficher une sélection aléatoire d'objets pour le nouveau Mode Personnalisé. Ils est possible de choisir quelle sera la probabilité d'apparition d'un objet en manipulant les curseurs. </p>
+            <p class="desc">Cliquez sur le bouton "Choisir" en bas de la section pour afficher une sélection aléatoire d'objets pour le nouveau Mode Personnalisé. Choisissez la quantité d'objets que vous souhaitez voir apparaître sur la droite de la grille. </p>
 
             <div id="divItems">
 
