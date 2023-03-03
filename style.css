@@ -781,6 +781,12 @@ button:hover {
         border-radius: 0 0 15px 15px;
         box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     }
+    #objectsButtons label {
+        font-size: 25px;
+    }
+    #objectsButtons input {
+        transform: scale(2) translate(-2px, -2px);
+    }
 }
 
 #ee {
