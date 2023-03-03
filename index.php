@@ -19,7 +19,7 @@ include "fonctionsPhp/vues.php";
     <link rel="icon" href="./img/personnages/Mario.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Mario Kart 8 Randomizer </title>
-    <meta name="theme-color" content="#8b8" />
+    <meta name="theme-color" content="#bf8" />
     <meta name="keywords" content="mario, kart, 8, huit, eight, random, aléatoire, aleatoire, randomizer, eric, thiberge, couscous, stop regarder là >///<" />
     <meta name="description" content="Randomizer pour Mario Kart 8 Deluxe ! - Générez aléatoirement un personnage, une combinaison de kart, des objets pour le mode personnalisé et un circuit aléatoire pour Mario Kart 8 Deluxe !!"/>
     <meta name="http-equiv" content="Cache-Control: max-age:3678400" />
