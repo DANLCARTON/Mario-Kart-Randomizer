@@ -717,6 +717,9 @@ button:hover {
 }
 
 @media screen and (max-width: 425px) {
+    html {
+        background: linear-gradient(180deg, var(--bg-color-1), var(--bg-color-2));
+    }
     .element img:hover {
         filter: drop-shadow(0 0 10px #ffffffff);
         transform: scale(100%);
