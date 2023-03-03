@@ -1,7 +1,9 @@
+import { bgCol1, bgCol2 } from "./themes";
+
 let circuitsNonTires = [];
 let circuitSelectionne = 0;
 let circuitDejaTires = [];
-let nombreDeCircuits = 72;
+let nombreDeCircuits = 80;
 for (var i = 0; i <= nombreDeCircuits - 1; i++) {
     circuitsNonTires[i] = "TR" + i;
 }
@@ -14,11 +16,11 @@ let areneSelectionee = 0;
 let arenesDejaTirees = [];
 let nombreDArenes = 8;
 for (var i = 0; i < nombreDArenes; i++) {
-    arenesNonTirees[i] = "AR"+i;
+    arenesNonTirees[i] = "AR" + i;
 }
 for (var i = 0; i < nombreDArenes; i++) {
     arenesDejaTirees[i] = "";
-} 
+}
 
 function nombreAleatoire() {
     let nombre = Math.floor(Math.random() * nombreDeCircuits);
@@ -63,7 +65,7 @@ function colorArenas() {
             (arene[7].style.backgroundColor == "rgb(53, 53, 53)" || arene[7].style.backgroundColor == "rgb(136, 136, 255)")
         ) {
             arenas[i].classList.replace("notFinished", "completed");
-        } else{
+        } else {
             arenas[i].classList.replace("completed", "notFinished");
         }
     }
@@ -112,7 +114,7 @@ document.getElementById("choose").getElementsByTagName("button")[0].addEventList
         }
     }
 
-    document.getElementsByClassName("TR" + circuitId)[0].setAttribute("style", "background-color: #88f; filter: drop-shadow(0 0 10px #ffffff50);");
+    document.getElementsByClassName("TR" + circuitId)[0].setAttribute("style", "background-color:" + bgCol1 + "; filter: drop-shadow(0 0 10px #ffffff50);");
     circuitSelectionne = document.getElementsByClassName("TR" + circuitId)[0];
     circuitsNonTires.splice(circuitId, 1, "");
     circuitDejaTires.splice(circuitId, 1, "TR" + circuitId);
@@ -155,7 +157,7 @@ for (let i = 0; i < nombreDeCircuits; i++) {
                         document.getElementsByClassName(circuitDejaTires[i])[0].setAttribute("style", "background-color: #353535; color: #ccc;");
                     }
                 }
-                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: #88f; filter: drop-shadow(0 0 10px #ffffff50);");
+                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: " + bgCol1 + "; filter: drop-shadow(0 0 10px #ffffff50);");
                 circuitSelectionne = document.getElementsByClassName("TR" + i)[0];
                 circuitsNonTires.splice(j, 1, "");
                 circuitDejaTires.splice(j, 1, "TR" + j);
@@ -282,7 +284,7 @@ document.getElementById("chooseArena").getElementsByTagName("button")[0].addEven
         }
     }
 
-    document.getElementsByClassName("AR" + arenaId)[0].setAttribute("style", "background-color: #88f; filter: drop-shadow(0 0 10px #ffffff50);");
+    document.getElementsByClassName("AR" + arenaId)[0].setAttribute("style", "background-color: " + bgCol1 + "; filter: drop-shadow(0 0 10px #ffffff50);");
     areneSelectionee = document.getElementsByClassName("AR" + arenaId)[0];
     arenesNonTirees.splice(arenaId, 1, "");
     arenesDejaTirees.splice(arenaId, 1, "AR" + arenaId);
@@ -301,7 +303,7 @@ for (let i = 0; i < nombreDArenes; i++) {
                         document.getElementsByClassName(arenesDejaTirees[i])[0].setAttribute("style", "background-color: #353535; color: #ccc;");
                     }
                 }
-                document.getElementsByClassName("AR" + i)[0].setAttribute("style", "background-color: #88f; filter: drop-shadow(0 0 10px #ffffff50);");
+                document.getElementsByClassName("AR" + i)[0].setAttribute("style", "background-color: " + bgCol1 + "; filter: drop-shadow(0 0 10px #ffffff50);");
                 areneSelectionee = document.getElementsByClassName("AR" + i)[0];
                 arenesNonTirees.splice(j, 1, "");
                 arenesDejaTirees.splice(j, 1, "AR" + j);

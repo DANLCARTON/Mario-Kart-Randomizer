@@ -1,3 +1,5 @@
+import { bgCol1 } from "./themes";
+
 var items = Array("banana", "tripleBananas", "greenShell", "tripleGreenShells", "redShell", "tripleRedShells", "spinyShell", "bobOmb", "mushroom", "tripleMushrooms", "goldenMushroom", "bulletBill", "blooper", "lightning", "star", "fireFlower", "boomerangFlower", "piranhaPlant", "superHorn", "crazyEight", "coin", "boo", "feather");
 
 function getOdds() {
@@ -22,6 +24,7 @@ function getOdds() {
 function colorItem(item) {
     let toColor = document.getElementById(item);
     toColor.classList.add("selected");
+    toColor.style.backgroundColor = bgCol1;
 }
 
 function pickItems() {
@@ -36,6 +39,7 @@ function pickItems() {
 function discolorItems() {
     for (let i = 0; i < items.length; i++) {
         document.getElementById("items").getElementsByTagName("div")[i].classList.remove("selected");
+        document.getElementById("items").getElementsByTagName("div")[i].style.backgroundColor = "#00000000"
     }
 }
 
@@ -45,6 +49,7 @@ function selectItem(item) {
 
 function unselectItem(item) {
     item.classList.remove("selected");
+    item.style.backgroundColor = "#00000000"
 }
 
 // - EVENTLISTENERS - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

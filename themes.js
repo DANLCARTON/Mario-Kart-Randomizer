@@ -1,5 +1,5 @@
-var bgCol1 = "var(--bg888)";
-var bgCol2 = "var(--bgff8)";
+var bgCol1 = "var(--bgfb8)";
+var bgCol2 = "var(--bg88f)";
 
 var iconList = Array("set", "exit")
 
@@ -47,3 +47,5 @@ document.getElementById("setnight").addEventListener("click", () => {
 document.getElementById("setday").addEventListener("click", () => {
     setDayTheme();
 })
+
+export { bgCol1, bgCol2 };

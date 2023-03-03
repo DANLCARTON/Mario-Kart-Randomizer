@@ -26,15 +26,15 @@
     --bgff8: #ff8;
     --bgffb: #ffb;
     --bgfff: #fff;
-    --bg-color-1: var(--bg888);
-    --bg-color-2: var(--bgff8);
+    --bg-color-1: var(--bgbbb);
+    --bg-color-2: var(--bgbbb);
     --text-color-paragraph: #353535;
     --shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     --link: var(--bg88f);
 }
 
 html {
-    background: linear-gradient(180deg, var(--bg-color-1), var(--bg-color-2));
+    background: linear-gradient(135deg, var(--bg-color-1), var(--bg-color-2));
     width: 100%;
     min-height: 100vh;
     text-align: center;
@@ -593,6 +593,30 @@ button:hover {
     background-image: url('./img/coupes/Lune.webp');
 }
 
+.coupe:nth-of-type(19)::before {
+    background-image: url("./img/coupes/Fruit.webp");
+}
+
+.coupe:nth-of-type(20)::before {
+    background-image: url("./img/coupes/Boomerang.webp");
+}
+
+.coupe:nth-of-type(21)::before {
+    background-image: url("./img/coupes/Plume.webp");
+}
+
+.coupe:nth-of-type(22)::before {
+    background-image: url("./img/coupes/Cerise.webp");
+}
+
+.coupe:nth-of-type(23)::before {
+    background-image: url("./img/coupes/Gland.webp");
+}
+
+.coupe:nth-of-type(24)::before {
+    background-image: url("./img/coupes/À épines.webp");
+}
+
 .notFinished {
     background: none;
 }
@@ -875,7 +899,6 @@ a:hover img#exitday {
 }
 
 #items div.selected {
-    background: var(--bg88f);
     border-radius: 10px;
     filter: drop-shadow(var(--shadow))
 }
