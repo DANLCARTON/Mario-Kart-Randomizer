@@ -2,10 +2,10 @@
 
 let BebePeach = {
     nom: "Bébé Peach",
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
+    vitesse: 1,
+    vitesseEau: 1,
+    vitesseAir: 1,
+    vitesseAntiGravite: 1,
     acceleration: 4,
     poids: 0,
     maniabilite: 10,
@@ -19,10 +19,10 @@ let BebePeach = {
 
 let BebeDaisy = {
     nom: "Bébé Daisy",
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
+    vitesse: 1,
+    vitesseEau: 1,
+    vitesseAir: 1,
+    vitesseAntiGravite: 1,
     acceleration: 4,
     poids: 0,
     maniabilite: 10,
@@ -36,10 +36,10 @@ let BebeDaisy = {
 
 let BebeHarmonie = {
     nom: "Bébé Harmonie",
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
+    vitesse: 1,
+    vitesseEau: 1,
+    vitesseAir: 1,
+    vitesseAntiGravite: 1,
     acceleration: 5,
     poids: 0,
     maniabilite: 9,
@@ -53,10 +53,10 @@ let BebeHarmonie = {
 
 let Lemmy = {
     nom: "Lemmy",
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
+    vitesse: 1,
+    vitesseEau: 1,
+    vitesseAir: 1,
+    vitesseAntiGravite: 1,
     acceleration: 5,
     poids: 0,
     maniabilite: 9,
@@ -70,10 +70,10 @@ let Lemmy = {
 
 let BebeMario = {
     nom: "Bébé Mario",
-    vitesse: 1,
-    vitesseEau: 1,
-    vitesseAir: 1,
-    vitesseAntiGravite: 1,
+    vitesse: 2,
+    vitesseEau: 2,
+    vitesseAir: 2,
+    vitesseAntiGravite: 2,
     acceleration: 5,
     poids: 1,
     maniabilite: 8,
@@ -81,16 +81,16 @@ let BebeMario = {
     maniabiliteAir: 8,
     maniabiliteAntiGravite: 8,
     adherence: 4,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 6
 };
 
 let BebeLuigi = {
     nom: "Bébé Luigi",
-    vitesse: 1,
-    vitesseEau: 1,
-    vitesseAir: 1,
-    vitesseAntiGravite: 1,
+    vitesse: 2,
+    vitesseEau: 2,
+    vitesseAir: 2,
+    vitesseAntiGravite: 2,
     acceleration: 5,
     poids: 1,
     maniabilite: 8,
@@ -98,16 +98,16 @@ let BebeLuigi = {
     maniabiliteAir: 8,
     maniabiliteAntiGravite: 8,
     adherence: 4,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 6
 };
 
 let Skelerex = {
     nom: "Skelerex",
-    vitesse: 1,
-    vitesseEau: 1,
-    vitesseAir: 1,
-    vitesseAntiGravite: 1,
+    vitesse: 2,
+    vitesseEau: 2,
+    vitesseAir: 2,
+    vitesseAntiGravite: 2,
     acceleration: 5,
     poids: 1,
     maniabilite: 8,
@@ -115,16 +115,16 @@ let Skelerex = {
     maniabiliteAir: 8,
     maniabiliteAntiGravite: 8,
     adherence: 4,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 6
 };
 
 let MiiLeger = {
     nom: "Mii Léger",
-    vitesse: 1,
-    vitesseEau: 1,
-    vitesseAir: 1,
-    vitesseAntiGravite: 1,
+    vitesse: 2,
+    vitesseEau: 2,
+    vitesseAir: 2,
+    vitesseAntiGravite: 2,
     acceleration: 5,
     poids: 1,
     maniabilite: 8,
@@ -132,16 +132,16 @@ let MiiLeger = {
     maniabiliteAir: 8,
     maniabiliteAntiGravite: 8,
     adherence: 4,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 6
 };
 
 let Toadette = {
     nom: "Toadette",
-    vitesse: 2,
-    vitesseEau: 2,
-    vitesseAir: 2,
-    vitesseAntiGravite: 2,
+    vitesse: 3,
+    vitesseEau: 3,
+    vitesseAir: 3,
+    vitesseAntiGravite: 3,
     acceleration: 5,
     poids: 2,
     maniabilite: 7,
@@ -155,10 +155,10 @@ let Toadette = {
 
 let Wendy = {
     nom: "Wendy",
-    vitesse: 2,
-    vitesseEau: 2,
-    vitesseAir: 2,
-    vitesseAntiGravite: 2,
+    vitesse: 3,
+    vitesseEau: 3,
+    vitesseAir: 3,
+    vitesseAntiGravite: 3,
     acceleration: 5,
     poids: 2,
     maniabilite: 7,
@@ -172,10 +172,10 @@ let Wendy = {
 
 let Marie = {
     nom: "Marie",
-    vitesse: 2,
-    vitesseEau: 2,
-    vitesseAir: 2,
-    vitesseAntiGravite: 2,
+    vitesse: 3,
+    vitesseEau: 3,
+    vitesseAir: 3,
+    vitesseAntiGravite: 3,
     acceleration: 5,
     poids: 2,
     maniabilite: 7,
@@ -189,16 +189,16 @@ let Marie = {
 
 let Koopa = {
     nom: "Koopa",
-    vitesse: 2,
-    vitesseEau: 2,
-    vitesseAir: 2,
-    vitesseAntiGravite: 2,
+    vitesse: 3,
+    vitesseEau: 3,
+    vitesseAir: 3,
+    vitesseAntiGravite: 3,
     acceleration: 4,
     poids: 2,
-    maniabilite: 8,
-    maniabiliteEau: 8,
-    maniabiliteAir: 8,
-    maniabiliteAntiGravite: 8,
+    maniabilite: 7,
+    maniabiliteEau: 7,
+    maniabiliteAir: 7,
+    maniabiliteAntiGravite: 7,
     adherence: 5,
     miniTurbo: 4,
     invincibility: 5
@@ -206,16 +206,16 @@ let Koopa = {
 
 let Lakitu = {
     nom: "Lakitu",
-    vitesse: 2,
-    vitesseEau: 2,
-    vitesseAir: 2,
-    vitesseAntiGravite: 2,
+    vitesse: 3,
+    vitesseEau: 3,
+    vitesseAir: 3,
+    vitesseAntiGravite: 3,
     acceleration: 4,
     poids: 2,
-    maniabilite: 8,
-    maniabiliteEau: 8,
-    maniabiliteAir: 8,
-    maniabiliteAntiGravite: 8,
+    maniabilite: 7,
+    maniabiliteEau: 7,
+    maniabiliteAir: 7,
+    maniabiliteAntiGravite: 7,
     adherence: 5,
     miniTurbo: 4,
     invincibility: 5
@@ -223,16 +223,16 @@ let Lakitu = {
 
 let BowserJr = {
     nom: "Bowser Jr.",
-    vitesse: 2,
-    vitesseEau: 2,
-    vitesseAir: 2,
-    vitesseAntiGravite: 2,
+    vitesse: 3,
+    vitesseEau: 3,
+    vitesseAir: 3,
+    vitesseAntiGravite: 3,
     acceleration: 4,
     poids: 2,
-    maniabilite: 8,
-    maniabiliteEau: 8,
-    maniabiliteAir: 8,
-    maniabiliteAntiGravite: 8,
+    maniabilite: 7,
+    maniabiliteEau: 7,
+    maniabiliteAir: 7,
+    maniabiliteAntiGravite: 7,
     adherence: 5,
     miniTurbo: 4,
     invincibility: 5
@@ -240,10 +240,10 @@ let BowserJr = {
 
 let Toad = {
     nom: "Toad",
-    vitesse: 3,
-    vitesseEau: 3,
-    vitesseAir: 3,
-    vitesseAntiGravite: 3,
+    vitesse: 4,
+    vitesseEau: 4,
+    vitesseAir: 4,
+    vitesseAntiGravite: 4,
     acceleration: 4,
     poids: 3,
     maniabilite: 7,
@@ -251,16 +251,16 @@ let Toad = {
     maniabiliteAir: 7,
     maniabiliteAntiGravite: 7,
     adherence: 4,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 4
 };
 
 let Maskass = {
     nom: "Maskass",
-    vitesse: 3,
-    vitesseEau: 3,
-    vitesseAir: 3,
-    vitesseAntiGravite: 3,
+    vitesse: 4,
+    vitesseEau: 4,
+    vitesseAir: 4,
+    vitesseAntiGravite: 4,
     acceleration: 4,
     poids: 3,
     maniabilite: 7,
@@ -268,16 +268,16 @@ let Maskass = {
     maniabiliteAir: 7,
     maniabiliteAntiGravite: 7,
     adherence: 4,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 4
 };
 
 let Larry = {
     nom: "Larry",
-    vitesse: 3,
-    vitesseEau: 3,
-    vitesseAir: 3,
-    vitesseAntiGravite: 3,
+    vitesse: 4,
+    vitesseEau: 4,
+    vitesseAir: 4,
+    vitesseAntiGravite: 4,
     acceleration: 4,
     poids: 3,
     maniabilite: 7,
@@ -285,16 +285,16 @@ let Larry = {
     maniabiliteAir: 7,
     maniabiliteAntiGravite: 7,
     adherence: 4,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 4
 };
 
 let PeachChat = {
     nom: "Peach Chat",
-    vitesse: 4,
-    vitesseEau: 4,
-    vitesseAir: 4,
-    vitesseAntiGravite: 4,
+    vitesse: 5,
+    vitesseEau: 5,
+    vitesseAir: 5,
+    vitesseAntiGravite: 5,
     acceleration: 4,
     poids: 3,
     maniabilite: 6,
@@ -308,10 +308,10 @@ let PeachChat = {
 
 let Villageoise = {
     nom: "Villageoise",
-    vitesse: 4,
-    vitesseEau: 4,
-    vitesseAir: 4,
-    vitesseAntiGravite: 4,
+    vitesse: 5,
+    vitesseEau: 5,
+    vitesseAir: 5,
+    vitesseAntiGravite: 5,
     acceleration: 4,
     poids: 3,
     maniabilite: 6,
@@ -325,10 +325,10 @@ let Villageoise = {
 
 let InklingFille = {
     nom: "Inkling fille",
-    vitesse: 4,
-    vitesseEau: 4,
-    vitesseAir: 4,
-    vitesseAntiGravite: 4,
+    vitesse: 5,
+    vitesseEau: 5,
+    vitesseAir: 5,
+    vitesseAntiGravite: 5,
     acceleration: 4,
     poids: 3,
     maniabilite: 6,
@@ -342,10 +342,10 @@ let InklingFille = {
 
 let Peach = {
     nom: "Peach",
-    vitesse: 5,
-    vitesseEau: 5,
-    vitesseAir: 5,
-    vitesseAntiGravite: 5,
+    vitesse: 6,
+    vitesseEau: 6,
+    vitesseAir: 6,
+    vitesseAntiGravite: 6,
     acceleration: 3,
     poids: 4,
     maniabilite: 5,
@@ -353,16 +353,16 @@ let Peach = {
     maniabiliteAir: 5,
     maniabiliteAntiGravite: 5,
     adherence: 3,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 3
 };
 
 let Daisy = {
     nom: "Daisy",
-    vitesse: 5,
-    vitesseEau: 5,
-    vitesseAir: 5,
-    vitesseAntiGravite: 5,
+    vitesse: 6,
+    vitesseEau: 6,
+    vitesseAir: 6,
+    vitesseAntiGravite: 6,
     acceleration: 3,
     poids: 4,
     maniabilite: 5,
@@ -370,16 +370,16 @@ let Daisy = {
     maniabiliteAir: 5,
     maniabiliteAntiGravite: 5,
     adherence: 3,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 3
 };
 
 let Yoshi = {
     nom: "Yoshi",
-    vitesse: 5,
-    vitesseEau: 5,
-    vitesseAir: 5,
-    vitesseAntiGravite: 5,
+    vitesse: 6,
+    vitesseEau: 6,
+    vitesseAir: 6,
+    vitesseAntiGravite: 6,
     acceleration: 3,
     poids: 4,
     maniabilite: 5,
@@ -387,16 +387,16 @@ let Yoshi = {
     maniabiliteAir: 5,
     maniabiliteAntiGravite: 5,
     adherence: 3,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 3
 };
 
 let MarioTanuki = {
     nom: "Mario Tanuki",
-    vitesse: 5,
-    vitesseEau: 5,
-    vitesseAir: 5,
-    vitesseAntiGravite: 5,
+    vitesse: 6,
+    vitesseEau: 6,
+    vitesseAir: 6,
+    vitesseAntiGravite: 6,
     acceleration: 3,
     poids: 5,
     maniabilite: 5,
@@ -410,10 +410,10 @@ let MarioTanuki = {
 
 let Villageois = {
     nom: "Villageois",
-    vitesse: 5,
-    vitesseEau: 5,
-    vitesseAir: 5,
-    vitesseAntiGravite: 5,
+    vitesse: 6,
+    vitesseEau: 6,
+    vitesseAir: 6,
+    vitesseAntiGravite: 6,
     acceleration: 3,
     poids: 5,
     maniabilite: 5,
@@ -427,10 +427,10 @@ let Villageois = {
 
 let InklingGarcon = {
     nom: "Inkling garçon",
-    vitesse: 5,
-    vitesseEau: 5,
-    vitesseAir: 5,
-    vitesseAntiGravite: 5,
+    vitesse: 6,
+    vitesseEau: 6,
+    vitesseAir: 6,
+    vitesseAntiGravite: 6,
     acceleration: 3,
     poids: 5,
     maniabilite: 5,
@@ -444,10 +444,10 @@ let InklingGarcon = {
 
 let Mario = {
     nom: "Mario",
-    vitesse: 6,
-    vitesseEau: 6,
-    vitesseAir: 6,
-    vitesseAntiGravite: 6,
+    vitesse: 7,
+    vitesseEau: 7,
+    vitesseAir: 7,
+    vitesseAntiGravite: 7,
     acceleration: 2,
     poids: 6,
     maniabilite: 4,
@@ -455,16 +455,16 @@ let Mario = {
     maniabiliteAir: 4,
     maniabiliteAntiGravite: 4,
     adherence: 2,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 3
 };
 
 let Ludwig = {
     nom: "Ludwig",
-    vitesse: 6,
-    vitesseEau: 6,
-    vitesseAir: 6,
-    vitesseAntiGravite: 6,
+    vitesse: 7,
+    vitesseEau: 7,
+    vitesseAir: 7,
+    vitesseAntiGravite: 7,
     acceleration: 2,
     poids: 6,
     maniabilite: 4,
@@ -472,16 +472,16 @@ let Ludwig = {
     maniabiliteAir: 4,
     maniabiliteAntiGravite: 4,
     adherence: 2,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 3
 };
 
 let MiiMoyen = {
     nom: "Mii Moyen",
-    vitesse: 6,
-    vitesseEau: 6,
-    vitesseAir: 6,
-    vitesseAntiGravite: 6,
+    vitesse: 7,
+    vitesseEau: 7,
+    vitesseAir: 7,
+    vitesseAntiGravite: 7,
     acceleration: 2,
     poids: 6,
     maniabilite: 4,
@@ -489,16 +489,16 @@ let MiiMoyen = {
     maniabiliteAir: 4,
     maniabiliteAntiGravite: 4,
     adherence: 2,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 3
 };
 
 let Luigi = {
     nom: "Luigi",
-    vitesse: 6,
-    vitesseEau: 6,
-    vitesseAir: 6,
-    vitesseAntiGravite: 6,
+    vitesse: 7,
+    vitesseEau: 7,
+    vitesseAir: 7,
+    vitesseAntiGravite: 7,
     acceleration: 2,
     poids: 6,
     maniabilite: 5,
@@ -506,16 +506,16 @@ let Luigi = {
     maniabiliteAir: 5,
     maniabiliteAntiGravite: 5,
     adherence: 1,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 3
 };
 
 let Iggy = {
     nom: "Iggy",
-    vitesse: 6,
-    vitesseEau: 6,
-    vitesseAir: 6,
-    vitesseAntiGravite: 6,
+    vitesse: 7,
+    vitesseEau: 7,
+    vitesseAir: 7,
+    vitesseAntiGravite: 7,
     acceleration: 2,
     poids: 6,
     maniabilite: 5,
@@ -523,7 +523,7 @@ let Iggy = {
     maniabiliteAir: 5,
     maniabiliteAntiGravite: 5,
     adherence: 1,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 3
 };
 
@@ -563,10 +563,10 @@ let PeachDOrRose = {
 
 let Harmonie = {
     nom: "Harmonie",
-    vitesse: 7,
-    vitesseEau: 7,
-    vitesseAir: 7,
-    vitesseAntiGravite: 7,
+    vitesse: 8,
+    vitesseEau: 8,
+    vitesseAir: 8,
+    vitesseAntiGravite: 8,
     acceleration: 1,
     poids: 7,
     maniabilite: 3,
@@ -580,10 +580,10 @@ let Harmonie = {
 
 let Link = {
     nom: "Link",
-    vitesse: 7,
-    vitesseEau: 7,
-    vitesseAir: 7,
-    vitesseAntiGravite: 7,
+    vitesse: 8,
+    vitesseEau: 8,
+    vitesseAir: 8,
+    vitesseAntiGravite: 8,
     acceleration: 1,
     poids: 7,
     maniabilite: 3,
@@ -597,10 +597,10 @@ let Link = {
 
 let RoiBoo = {
     nom: "Roi Boo",
-    vitesse: 7,
-    vitesseEau: 7,
-    vitesseAir: 7,
-    vitesseAntiGravite: 7,
+    vitesse: 8,
+    vitesseEau: 8,
+    vitesseAir: 8,
+    vitesseAntiGravite: 8,
     acceleration: 1,
     poids: 7,
     maniabilite: 3,
@@ -625,7 +625,8 @@ let DonkeyKong = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 2,
     adherence: 0,
-    miniTurbo: 1
+    miniTurbo: 1,
+    invincibility: 1
 };
 
 let Waluigi = {
@@ -779,7 +780,7 @@ let KartStandard = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 3,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 3
 };
 
@@ -796,7 +797,7 @@ let Cybertrombe = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 3,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 3
 };
 
@@ -813,7 +814,7 @@ let SLRoadster = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 3,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 4
 };
 
@@ -881,7 +882,7 @@ let Proto8 = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 4,
     adherence: 4,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 4
 };
 
@@ -898,7 +899,7 @@ let Propulsar = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 4,
     adherence: 4,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 4
 };
 
@@ -915,7 +916,7 @@ let MissileTornade = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 4,
     adherence: 4,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 3
 };
 
@@ -932,7 +933,7 @@ let Nautomobile = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 1,
     adherence: 3,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 6
 };
 
@@ -949,7 +950,7 @@ let TubulR3 = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 1,
     adherence: 3,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 6
 };
 
@@ -966,7 +967,7 @@ let Malecycle = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 1,
     adherence: 3,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 5
 };
 
@@ -983,7 +984,7 @@ let Chabriolet = {
     maniabiliteAir: 4,
     maniabiliteAntiGravite: 3,
     adherence: 3,
-    miniTurbo: 5,
+    miniTurbo: 6,
     invincibility: 3
 };
 
@@ -1000,7 +1001,7 @@ let Meteore = {
     maniabiliteAir: 4,
     maniabiliteAntiGravite: 3,
     adherence: 3,
-    miniTurbo: 5,
+    miniTurbo: 6,
     invincibility: 2
 };
 
@@ -1017,7 +1018,7 @@ let Yoshimoto = {
     maniabiliteAir: 4,
     maniabiliteAntiGravite: 3,
     adherence: 3,
-    miniTurbo: 5,
+    miniTurbo: 6,
     invincibility: 2
 };
 
@@ -1034,7 +1035,7 @@ let QuadNounours = {
     maniabiliteAir: 4,
     maniabiliteAntiGravite: 3,
     adherence: 3,
-    miniTurbo: 5,
+    miniTurbo: 6,
     invincibility: 3
 };
 
@@ -1051,7 +1052,7 @@ let MachCelere = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 2,
     adherence: 1,
-    miniTurbo: 1,
+    miniTurbo: 2,
     invincibility: 6
 };
 
@@ -1068,7 +1069,7 @@ let Intrepide = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 2,
     adherence: 1,
-    miniTurbo: 1,
+    miniTurbo: 2,
     invincibility: 6
 };
 
@@ -1085,7 +1086,7 @@ let Magikart = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 2,
     adherence: 1,
-    miniTurbo: 1,
+    miniTurbo: 2,
     invincibility: 6
 };
 
@@ -1102,7 +1103,7 @@ let BeatBolide = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 1,
     adherence: 5,
-    miniTurbo: 0,
+    miniTurbo: 1,
     invincibility: 7
 };
 
@@ -1119,7 +1120,7 @@ let QuadStandard = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 1,
     adherence: 5,
-    miniTurbo: 0,
+    miniTurbo: 1,
     invincibility: 6
 };
 
@@ -1136,7 +1137,7 @@ let KartGLA = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 1,
     adherence: 5,
-    miniTurbo: 0,
+    miniTurbo: 1,
     invincibility: 7
 };
 
@@ -1153,7 +1154,7 @@ let Cavalkart = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 2,
     adherence: 2,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 5
 };
 
@@ -1170,7 +1171,7 @@ let SportGP = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 2,
     adherence: 2,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 3
 };
 
@@ -1187,7 +1188,7 @@ let Epervier = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 2,
     adherence: 2,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 3
 };
 
@@ -1272,7 +1273,7 @@ let Sneakart = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 2,
     adherence: 0,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 5
 };
 
@@ -1289,7 +1290,7 @@ let KartOr = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 2,
     adherence: 0,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 4
 };
 
@@ -1306,7 +1307,7 @@ let DestrierDeLegende = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 2,
     adherence: 0,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 3
 };
 
@@ -1391,7 +1392,7 @@ let BlueFalcon = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 5,
     adherence: 3,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 4
 };
 
@@ -1408,7 +1409,7 @@ let Kartoon = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 5,
     adherence: 3,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 3
 };
 
@@ -1425,7 +1426,7 @@ let BuggyTanuki = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 7,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 4
 };
 
@@ -1442,7 +1443,7 @@ let KoopaMobile = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 7,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 3
 };
 
@@ -1459,7 +1460,7 @@ let DestrierDeLegende01 = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 7,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 3
 };
 
@@ -1478,7 +1479,7 @@ let RouesStandard = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 5,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 3
 };
 
@@ -1495,7 +1496,7 @@ let StandardBleu = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 5,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 3
 };
 
@@ -1512,7 +1513,7 @@ let RouesGLA = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 5,
-    miniTurbo: 3,
+    miniTurbo: 4,
     invincibility: 4
 };
 
@@ -1529,7 +1530,7 @@ let Mastodonte = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 0,
     adherence: 7,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 5
 };
 
@@ -1546,7 +1547,7 @@ let MastoFlamme = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 0,
     adherence: 7,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 5
 };
 
@@ -1563,7 +1564,7 @@ let Archeonique = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 0,
     adherence: 7,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 4
 };
 
@@ -1614,7 +1615,7 @@ let Classique = {
     maniabiliteAir: 4,
     maniabiliteAntiGravite: 3,
     adherence: 1,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 4
 };
 
@@ -1631,7 +1632,7 @@ let Bois = {
     maniabiliteAir: 4,
     maniabiliteAntiGravite: 3,
     adherence: 1,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 4
 };
 
@@ -1648,7 +1649,7 @@ let ClassiqueRouge = {
     maniabiliteAir: 4,
     maniabiliteAntiGravite: 3,
     adherence: 1,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 4
 };
 
@@ -1665,7 +1666,7 @@ let Lisse = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 2,
     adherence: 0,
-    miniTurbo: 0,
+    miniTurbo: 1,
     invincibility: 4
 };
 
@@ -1682,7 +1683,7 @@ let CyberLisse = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 2,
     adherence: 0,
-    miniTurbo: 0,
+    miniTurbo: 1,
     invincibility: 4
 };
 
@@ -1699,7 +1700,7 @@ let Metal = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 1,
     adherence: 1,
-    miniTurbo: 0,
+    miniTurbo: 1,
     invincibility: 5
 };
 
@@ -1716,7 +1717,7 @@ let RouesOr = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 1,
     adherence: 1,
-    miniTurbo: 0,
+    miniTurbo: 1,
     invincibility: 4
 };
 
@@ -1767,7 +1768,7 @@ let HorsPiste = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 2,
     adherence: 6,
-    miniTurbo: 1,
+    miniTurbo: 2,
     invincibility: 6
 };
 
@@ -1784,7 +1785,7 @@ let HorsPisteRetro = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 2,
     adherence: 6,
-    miniTurbo: 1,
+    miniTurbo: 2,
     invincibility: 6
 };
 
@@ -1801,7 +1802,7 @@ let Triforce = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 2,
     adherence: 6,
-    miniTurbo: 1,
+    miniTurbo: 2,
     invincibility: 5
 };
 
@@ -1818,7 +1819,7 @@ let Eponge = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 2,
     adherence: 6,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 3
 };
 
@@ -1835,7 +1836,7 @@ let Coussin = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 2,
     adherence: 6,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 5
 };
 
