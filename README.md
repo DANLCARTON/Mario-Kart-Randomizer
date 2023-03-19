@@ -89,6 +89,11 @@
     - Les 9 coloris disponibles peuvent apparaître.
     - Dans les premiers jours après la mise en ligne de la mise à jour du site, l'image représentant Birdo sera remplacée par un point d'intérrogation. → J'ai juste pas encore trouvé d'image mais ça arrive ASAP
     - Même chose avec les statistiques du personnage, elles seront érronées le temps que je les trouve. (Ça devrait être rapide) 
+- Mise à jour des statistiques : sources :
+    - [Changements pour les personnages](http://japan-mk.blog.jp/mk8dx.st-c/st-c_v2.3.0.png)
+    - [Changements pour les véhicules](http://japan-mk.blog.jp/mk8dx.st-f/st-f_v2.3.0.png)
+    - [Changements pour les roues](http://japan-mk.blog.jp/mk8dx.st-t/st-t_v2.3.0.png)
+    - Aucun changement pour les ailes
 
 ## II. PARTIE CIRCUITS
 
