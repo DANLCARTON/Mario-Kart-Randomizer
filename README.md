@@ -90,9 +90,9 @@
     - Dans les premiers jours après la mise en ligne de la mise à jour du site, l'image représentant Birdo sera remplacée par un point d'intérrogation. → J'ai juste pas encore trouvé d'image mais ça arrive ASAP
     - Même chose avec les statistiques du personnage, elles seront érronées le temps que je les trouve. (Ça devrait être rapide) 
 - Mise à jour des statistiques : sources :
-    - [Changements pour les personnages](http://japan-mk.blog.jp/mk8dx.st-c/st-c_v2.3.0.png)
-    - [Changements pour les véhicules](http://japan-mk.blog.jp/mk8dx.st-f/st-f_v2.3.0.png)
-    - [Changements pour les roues](http://japan-mk.blog.jp/mk8dx.st-t/st-t_v2.3.0.png)
+    - [Changements pour les personnages](http://japan-mk.blog.jp/mk8dx.st-c/st-c_v2.3.0.png). Tous les personnages, à part Mario de Métal, Peach d'or rose, Waluigi, Donkey Kong, Roy, Wario, Bowser Skelet, Bowser, Morton et Mii Lourd gagnent 0,25 point en Vitesse. Bébé Mario, Bébé Luigi, Skelerex, Mii Léger, Toad, Maskass, Larry, Peach, Daisy, Yoshi, Mario, Ludwig, Mii Moyen, Luigi et Iggy gagnent 0,25 point en Mini-Turbo. 
+    - [Changements pour les véhicules](http://japan-mk.blog.jp/mk8dx.st-f/st-f_v2.3.0.png). La Chabriolet, le Quad Nounours, la Météore, la Yoshimoto, la Proto 8, la Propulsar, le Missile Tornade, la 300 SL Roadster, le Kart Standard, la Cybertrombe, le Buggy Tanuki, la Koopa-Mobile, Le Destrier de Légende 0.1, le Cavalkart, la Sport GP, l'Épervier, la Blue Falcon, le Kartoon, la Sneakart, le Kart Or, le Destrier de Légende, la Nautomobile, la Tubul R3, le Malécycle, la Mach-Célère, l'Intrépide, le Magikart, le Beat-Bolide, la GLA et le Quad Standard gagnent 0,25 point en Mini-Turbo.
+    - [Changements pour les roues](http://japan-mk.blog.jp/mk8dx.st-t/st-t_v2.3.0.png). Les Coussin, les Éponges, les GLA, les Standard, les Standard Bleu, les Classiques, les Classiques Rouge, les Bois, les Mastodonte, les Masto-Flamme, les Archéoniques, les Hors-Piste, les Hors-Piste Rétro, les Triforces, les Métal, les Or, les Lisse et les Cyber-Lisse gagnent 0,25 point en Mini-Turbo.
     - Aucun changement pour les ailes
 
 ## II. PARTIE CIRCUITS
