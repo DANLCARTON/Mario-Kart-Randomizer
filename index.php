@@ -45,7 +45,7 @@ include "fonctionsPhp/vues.php";
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
         <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 4)</p></div>
-        <a href="https://hackmd.io/vrtkZBEyQamlPYDs_1b2sg?both#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-4" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight" alt="exit"><img src='./img/icons/exit.png' id="exitday" alt="exit"></a>
+        <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-4" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight" alt="exit"><img src='./img/icons/exit.png' id="exitday" alt="exit"></a>
         <section id="personnageAleatoire">
 
             <h2>Personnage aléatoire</h2>

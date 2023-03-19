@@ -749,19 +749,19 @@ let MiiLourd = {
 
 let Birdo = {
     nom: "Birdo",
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
-    acceleration: 0,
-    poids: 0,
-    maniabilite: 0,
-    maniabiliteEau: 0,
-    maniabiliteAir: 0,
-    maniabiliteAntiGravite: 0,
-    adherence: 0,
-    miniTurbo: 0,
-    invincibility: 0
+    vitesse: 5,
+    vitesseEau: 5,
+    vitesseAir: 5,
+    vitesseAntiGravite: 5,
+    acceleration: 3,
+    poids: 4,
+    maniabilite: 5,
+    maniabiliteEau: 5,
+    maniabiliteAir: 5,
+    maniabiliteAntiGravite: 5,
+    adherence: 3,
+    miniTurbo: 3,
+    invincibility: 3
 }
 
 // KARTS ----------------------------------------
