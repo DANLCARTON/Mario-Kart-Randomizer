@@ -1,5 +1,6 @@
 <?php
 
+header("Cache-Control: max-age:2678400");
 include 'vues/compteur.php';
 include "vues/combinaison.php";
 include "vues/stats.php";
@@ -15,10 +16,13 @@ include "fonctionsPhp/vues.php";
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="./img/personnages/Mario.png" />
+    <link rel="icon" href="./img/personnages/Mario.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> MK8DX Randomizer </title>
-    <meta name="theme-color" content="#8b8" />
+    <title> Mario Kart 8 Randomizer </title>
+    <meta name="theme-color" content="#bf8" />
+    <meta name="keywords" content="mario, kart, 8, huit, eight, random, aléatoire, aleatoire, randomizer, eric, thiberge, couscous, stop regarder là >///<" />
+    <meta name="description" content="Randomizer pour Mario Kart 8 Deluxe ! - Générez aléatoirement un personnage, une combinaison de kart, des objets pour le mode personnalisé et un circuit aléatoire pour Mario Kart 8 Deluxe !!"/>
+    <meta name="http-equiv" content="Cache-Control: max-age:3678400" />
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -33,15 +37,15 @@ include "fonctionsPhp/vues.php";
 
 <body>
     <aside id="setnight">
-        <img src="img/icons/daylighticon.png">
+        <img src="img/icons/daylighticon.png" alt="daylighticon">
     </aside>
     <aside id="setday">
-        <img src="img/icons/daylighticon.png">
+        <img src="img/icons/daylighticon.png" alt="daylighticon">
     </aside>
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
-        <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 3)</p></div>
-        <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-3" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight"><img src='./img/icons/exit.png' id="exitday"></a>
+        <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 4)</p></div>
+        <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-4" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight" alt="exit"><img src='./img/icons/exit.png' id="exitday" alt="exit"></a>
         <section id="personnageAleatoire">
 
             <h2>Personnage aléatoire</h2>
@@ -57,7 +61,7 @@ include "fonctionsPhp/vues.php";
 
             </div>
 
-            <div id="playersArrow"><img src="./img/icons/arrow.png"></div>
+            <div id="playersArrow"><img src="./img/icons/arrow.png" alt="Add Player"></div>
 
             <article id="stats">
 
@@ -89,7 +93,7 @@ include "fonctionsPhp/vues.php";
 
             <h2>Objets personnalisés aléatoires</h2>
 
-            <p class="desc">Cliquez sur le bouton "Choisir" en bas de la section pour afficher une sélection aléatoire d'objets pour le nouveau Mode Personnalisé. Ils est possible de choisir quelle sera la probabilité d'apparition d'un objet en manipulant les curseurs. </p>
+            <p class="desc">Cliquez sur le bouton "Choisir" en bas de la section pour afficher une sélection aléatoire d'objets pour le nouveau Mode Personnalisé. Choisissez la quantité d'objets que vous souhaitez voir apparaître sur la droite de la grille. </p>
 
             <div id="divItems">
 
@@ -168,7 +172,7 @@ include "fonctionsPhp/vues.php";
     <script type="module" src="scriptCircuits.js"></script>
     <script type="module" src="scriptObjets.js"></script>
     <script type="module" src="themes.js"></script>
-    <img src="./img/icons/td.jpg" id="ee">
+    <img src="./img/icons/td.jpg" id="ee" alt="Easter Egg">
 </body>
 
 </html>

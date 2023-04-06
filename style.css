@@ -26,15 +26,15 @@
     --bgff8: #ff8;
     --bgffb: #ffb;
     --bgfff: #fff;
-    --bg-color-1: var(--bg888);
-    --bg-color-2: var(--bgff8);
+    --bg-color-1: var(--bgbbb);
+    --bg-color-2: var(--bgbbb);
     --text-color-paragraph: #353535;
     --shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     --link: var(--bg88f);
 }
 
 html {
-    background: linear-gradient(180deg, var(--bg-color-1), var(--bg-color-2));
+    background: linear-gradient(135deg, var(--bg-color-1), var(--bg-color-2));
     width: 100%;
     min-height: 100vh;
     text-align: center;
@@ -198,6 +198,7 @@ button:hover {
     -ms-user-select: none;
     user-select: none;
     transition: ease-in-out .2s;
+    min-height: 128px;
 }
 
 .element img:hover {
@@ -522,75 +523,99 @@ button:hover {
 }
 
 .coupe:nth-of-type(1)::before {
-    background-image: url('./img/coupes/Champigon.png');
+    background-image: url('./img/coupes/Champigon.webp');
 }
 
 .coupe:nth-of-type(2)::before {
-    background-image: url('./img/coupes/Fleur.png');
+    background-image: url('./img/coupes/Fleur.webp');
 }
 
 .coupe:nth-of-type(3)::before {
-    background-image: url('./img/coupes/Etoile.png');
+    background-image: url('./img/coupes/Etoile.webp');
 }
 
 .coupe:nth-of-type(4)::before {
-    background-image: url('./img/coupes/Speciale.png');
+    background-image: url('./img/coupes/Speciale.webp');
 }
 
 .coupe:nth-of-type(5)::before {
-    background-image: url('./img/coupes/Oeuf.png');
+    background-image: url('./img/coupes/Oeuf.webp');
 }
 
 .coupe:nth-of-type(6)::before {
-    background-image: url('./img/coupes/Crossing.png');
+    background-image: url('./img/coupes/Crossing.webp');
 }
 
 .coupe:nth-of-type(7)::before {
-    background-image: url('./img/coupes/Carapace.png');
+    background-image: url('./img/coupes/Carapace.webp');
 }
 
 .coupe:nth-of-type(8)::before {
-    background-image: url('./img/coupes/Banane.png');
+    background-image: url('./img/coupes/Banane.webp');
 }
 
 .coupe:nth-of-type(9)::before {
-    background-image: url('./img/coupes/Feuille.png');
+    background-image: url('./img/coupes/Feuille.webp');
 }
 
 .coupe:nth-of-type(10)::before {
-    background-image: url('./img/coupes/Eclair.png');
+    background-image: url('./img/coupes/Eclair.webp');
 }
 
 .coupe:nth-of-type(11)::before {
-    background-image: url('./img/coupes/Triforce.png');
+    background-image: url('./img/coupes/Triforce.webp');
 }
 
 .coupe:nth-of-type(12)::before {
-    background-image: url('./img/coupes/Clochette.png');
+    background-image: url('./img/coupes/Clochette.webp');
 }
 
 .coupe:nth-of-type(13)::before {
-    background-image: url('./img/coupes/Turbo-doree.png');
+    background-image: url('./img/coupes/Turbo-doree.webp');
 }
 
 .coupe:nth-of-type(14)::before {
-    background-image: url('./img/coupes/Maneki-neko.png');
+    background-image: url('./img/coupes/Maneki-neko.webp');
 }
 
 .coupe:nth-of-type(15)::before {
-    background-image: url('./img/coupes/Navet.png');
+    background-image: url('./img/coupes/Navet.webp');
 }
 
 .coupe:nth-of-type(16)::before {
-    background-image: url('./img/coupes/Helico.png');
+    background-image: url('./img/coupes/Helico.webp');
 }
 
 .coupe:nth-of-type(17)::before {
-    background-image: url('./img/coupes/Pierre.png');
+    background-image: url('./img/coupes/Pierre.webp');
 }
 
 .coupe:nth-of-type(18)::before {
-    background-image: url('./img/coupes/Lune.png');
+    background-image: url('./img/coupes/Lune.webp');
+}
+
+.coupe:nth-of-type(19)::before {
+    background-image: url("./img/coupes/Fruit.webp");
+}
+
+.coupe:nth-of-type(20)::before {
+    background-image: url("./img/coupes/Boomerang.webp");
+}
+
+.coupe:nth-of-type(21)::before {
+    background-image: url("./img/coupes/Plume.webp");
+}
+
+.coupe:nth-of-type(22)::before {
+    background-image: url("./img/coupes/Cerise.webp");
+}
+
+.coupe:nth-of-type(23)::before {
+    background-image: url("./img/coupes/Gland.webp");
+}
+
+.coupe:nth-of-type(24)::before {
+    background-image: url("./img/coupes/À épines.webp");
 }
 
 .notFinished {
@@ -627,7 +652,7 @@ button:hover {
 }
 
 .arenes:nth-of-type(1)::before {
-    background-image: url('./img/coupes/Bataille.png');
+    background-image: url('./img/coupes/Bataille.webp');
     background-repeat: no-repeat;
     background-size: 220px;
     background-position: center;
@@ -692,6 +717,9 @@ button:hover {
 }
 
 @media screen and (max-width: 425px) {
+    html {
+        background: linear-gradient(180deg, var(--bg-color-1), var(--bg-color-2));
+    }
     .element img:hover {
         filter: drop-shadow(0 0 10px #ffffffff);
         transform: scale(100%);
@@ -752,6 +780,12 @@ button:hover {
         width: 100%;
         border-radius: 0 0 15px 15px;
         box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
+    }
+    #objectsButtons label {
+        font-size: 25px;
+    }
+    #objectsButtons input {
+        transform: scale(2) translate(-2px, -2px);
     }
 }
 
@@ -875,7 +909,6 @@ a:hover img#exitday {
 }
 
 #items div.selected {
-    background: var(--bg88f);
     border-radius: 10px;
     filter: drop-shadow(var(--shadow))
 }

@@ -79,3 +79,43 @@
   - Changement de la couleur de fond en gris et jaune pour coller aux couleurs des coupes de la vague 3. Le thème sombre reste néanmoins disponible
   - Si tous les circuits d'une coupe ont étés joués, celle-ci apparaît avec un fond vert. Fonctionnement similaire avec les arènes batailles.
   - Changement de la police parce que why the fuck not
+
+# RANDOMIZER MARIO KART 8 DELUXE - PASS CIRCUITS ADDITIONNELS (VAGUE 4)
+***Qu'est-ce qui a changé ?***
+
+## I. PARTIE PERSONNAGES ET KARTS
+
+- Un nouveau personnage à été ajouté au jeu : **Birdo** ! Birdo peut donc désormais apparaître dans la selection aléatoire de personnage. 
+    - Les 9 coloris disponibles peuvent apparaître.
+    - Dans les premiers jours après la mise en ligne de la mise à jour du site, l'image représentant Birdo sera remplacée par un point d'intérrogation. → J'ai juste pas encore trouvé d'image mais ça arrive ASAP
+    - Même chose avec les statistiques du personnage, elles seront érronées le temps que je les trouve. (Ça devrait être rapide) 
+- Mise à jour des statistiques : sources :
+    - [Changements pour les personnages](http://japan-mk.blog.jp/mk8dx.st-c/st-c_v2.3.0.png). Tous les personnages, à part Mario de Métal, Peach d'or rose, Waluigi, Donkey Kong, Roy, Wario, Bowser Skelet, Bowser, Morton et Mii Lourd gagnent 0,25 point en Vitesse. Bébé Mario, Bébé Luigi, Skelerex, Mii Léger, Toad, Maskass, Larry, Peach, Daisy, Yoshi, Mario, Ludwig, Mii Moyen, Luigi et Iggy gagnent 0,25 point en Mini-Turbo. 
+    - [Changements pour les véhicules](http://japan-mk.blog.jp/mk8dx.st-f/st-f_v2.3.0.png). La Chabriolet, le Quad Nounours, la Météore, la Yoshimoto, la Proto 8, la Propulsar, le Missile Tornade, la 300 SL Roadster, le Kart Standard, la Cybertrombe, le Buggy Tanuki, la Koopa-Mobile, Le Destrier de Légende 0.1, le Cavalkart, la Sport GP, l'Épervier, la Blue Falcon, le Kartoon, la Sneakart, le Kart Or, le Destrier de Légende, la Nautomobile, la Tubul R3, le Malécycle, la Mach-Célère, l'Intrépide, le Magikart, le Beat-Bolide, la GLA et le Quad Standard gagnent 0,25 point en Mini-Turbo.
+    - [Changements pour les roues](http://japan-mk.blog.jp/mk8dx.st-t/st-t_v2.3.0.png). Les Coussin, les Éponges, les GLA, les Standard, les Standard Bleu, les Classiques, les Classiques Rouge, les Bois, les Mastodonte, les Masto-Flamme, les Archéoniques, les Hors-Piste, les Hors-Piste Rétro, les Triforces, les Métal, les Or, les Lisse et les Cyber-Lisse gagnent 0,25 point en Mini-Turbo.
+    - Aucun changement pour les ailes
+
+## II. PARTIE CIRCUITS
+
+- Ajout des nouvelles coupes avec leurs circuits
+> **Coupe pierre**
+> - *Tour* Virée à Amsterdam
+> - *GBA* Riverside Parc
+> - *Wii* Pic DK
+> - Île de Yoshi
+> 
+> **Coupe Boomerang**
+> - *Tour* Bousculade à Bangkok
+> - *DS* Circuit Mario
+> - *GCN* Stade Waluigi
+> - *Tour* Poursuite à Singapour
+
+## III. AUTRES
+
+### 1. Changements ésthétiques
+
+- Changement de la couleur de fond en orange et bleu pour coller aux couleurs des coupes de la vague 4. Le thème sombre reste néanmoins disponible
+
+### 2. SEO
+
+- Optimisation du site pour les moteurs de recherche (J'ai découvert y'a deux semaines que le site était référencé et qu'il y a eu à un moment donné un (1) utilisateur polonais (?????) du coup ça m'a donné envie de faire les choses bien. )
