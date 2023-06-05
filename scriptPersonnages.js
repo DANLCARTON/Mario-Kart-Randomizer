@@ -1,5 +1,19 @@
 import { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, MiiLeger, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, MiiMoyen, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, MiiLourd, KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01, RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin, AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant, Birdo } from "./stats.js";
 
+var URLparams = new URLSearchParams(window.location.search);
+var language;
+if (URLparams.has('lang')) {
+    var language = URLparams.get("lang");
+}
+
+function langId (lang) {
+    if (lang == "fr") return 0;
+    else if (lang == "fr-CA") return 1;
+    else return 0;
+}
+
+var lang = langId(language);
+
 var Mii = [MiiLeger, MiiMoyen, MiiLourd]
 
 var perso = [BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, Mii, Birdo];
@@ -56,19 +70,19 @@ function roll(id, statsB) {
         Perso = Mii[getRandom(Mii.length)];
         skin = "";
     } else {
-        if (Perso.nom == "Yoshi") {
+        if (Perso.nom[lang] == "Yoshi") {
             skin = skinsYoshi[getRandom(skinsYoshi.length)];
-        } else if (Perso.nom == "Maskass") {
+        } else if (Perso.nom[lang] == "Maskass") {
             skin = skinsMaskass[getRandom(skinsMaskass.length)];
-        } else if (Perso.nom == "Mario de métal") {
+        } else if (Perso.nom[lang] == "Mario de métal") {
             skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
-        } else if (Perso.nom == "Inkling fille") {
+        } else if (Perso.nom[lang] == "Inkling fille") {
             skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
-        } else if (Perso.nom == "Inkling garçon") {
+        } else if (Perso.nom[lang] == "Inkling garçon") {
             skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
-        } else if (Perso.nom == "Link") {
+        } else if (Perso.nom[lang] == "Link") {
             skin = skinsLink[getRandom(skinsLink.length)];
-        } else if (Perso.nom == "Birdo") {
+        } else if (Perso.nom[lang] == "Birdo") {
             skin = skinsBirdo[getRandom(skinsBirdo.length)];
         } else {
             skin = "";
@@ -119,19 +133,19 @@ function roll(id, statsB) {
         stats(Invincibility, DocInvincibility);
     }
 
-    document.getElementsByClassName("name")[4 * (id - 1) + 0].textContent = Perso.nom + " " + skin;
-    document.getElementsByClassName("name")[4 * (id - 1) + 1].textContent = Karts.nom;
-    document.getElementsByClassName("name")[4 * (id - 1) + 2].textContent = Roues.nom;
-    document.getElementsByClassName("name")[4 * (id - 1) + 3].textContent = Ailes.nom;
+    document.getElementsByClassName("name")[4 * (id - 1) + 0].textContent = Perso.nom[lang] + " " + skin;
+    document.getElementsByClassName("name")[4 * (id - 1) + 1].textContent = Karts.nom[lang];
+    document.getElementsByClassName("name")[4 * (id - 1) + 2].textContent = Roues.nom[lang];
+    document.getElementsByClassName("name")[4 * (id - 1) + 3].textContent = Ailes.nom[lang];
 
     if (skin == "") {
-        document.getElementById("personnage" + id).src = "img/personnages/" + Perso.nom + ".webp";
+        document.getElementById("personnage" + id).src = "img/personnages/" + Perso.nom[0] + ".webp";
     } else {
-        document.getElementById("personnage" + id).src = "img/personnages/" + Perso.nom + " " + skin + ".webp";
+        document.getElementById("personnage" + id).src = "img/personnages/" + Perso.nom[0] + " " + skin + ".webp";
     }
-    document.getElementById("kart" + id).src = "img/karts/" + Karts.nom + ".webp";
-    document.getElementById("roue" + id).src = "img/roues/" + Roues.nom + ".webp";
-    document.getElementById("aile" + id).src = "img/ailes/" + Ailes.nom + ".webp";
+    document.getElementById("kart" + id).src = "img/karts/" + Karts.nom[0] + ".webp";
+    document.getElementById("roue" + id).src = "img/roues/" + Roues.nom[0] + ".webp";
+    document.getElementById("aile" + id).src = "img/ailes/" + Ailes.nom[0] + ".webp";
 
     //addToHistory(Perso, skin, Karts, Roues, Ailes, id);
 
@@ -158,19 +172,19 @@ function addToHistory(Perso, Skin, Karts, Roues, Ailes, Playr) {
     let perso = document.createElement("img");
 
     if (Skin == "") {
-        perso.src = "img/personnages/" + Perso.nom + ".webp";
+        perso.src = "img/personnages/" + Perso.nom[0] + ".webp";
     } else {
-        perso.src = "img/personnages/" + Perso.nom + " " + Skin + ".webp ";
+        perso.src = "img/personnages/" + Perso.nom[0] + " " + Skin + ".webp ";
     }
 
     let kart = document.createElement("img");
-    kart.src = "img/karts/" + Karts.nom + ".webp";
+    kart.src = "img/karts/" + Karts.nom[0] + ".webp";
 
     let roues = document.createElement("img");
-    roues.src = "img/roues/" + Roues.nom + ".webp";
+    roues.src = "img/roues/" + Roues.nom[0] + ".webp";
 
     let aile = document.createElement("img");
-    aile.src = "img/ailes/" + Ailes.nom + ".webp";
+    aile.src = "img/ailes/" + Ailes.nom[0] + ".webp";
 
     div.appendChild(name);
     div.appendChild(perso);
@@ -245,19 +259,19 @@ document.getElementById("personnage1").addEventListener("click", () => {
         Perso = Mii[getRandom(Mii.length)];
         skin = "";
     } else {
-        if (Perso.nom == "Yoshi") {
+        if (Perso.nom[lang] == "Yoshi") {
             skin = skinsYoshi[getRandom(skinsYoshi.length)];
-        } else if (Perso.nom == "Maskass") {
+        } else if (Perso.nom[lang] == "Maskass") {
             skin = skinsMaskass[getRandom(skinsMaskass.length)];
-        } else if (Perso.nom == "Mario de métal") {
+        } else if (Perso.nom[lang] == "Mario de métal") {
             skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
-        } else if (Perso.nom == "Inkling fille") {
+        } else if (Perso.nom[lang] == "Inkling fille") {
             skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
-        } else if (Perso.nom == "Inkling garçon") {
+        } else if (Perso.nom[lang] == "Inkling garçon") {
             skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
-        } else if (Perso.nom == "Link") {
+        } else if (Perso.nom[lang] == "Link") {
             skin = skinsLink[getRandom(skinsLink.length)];
-        } else if (Perso.nom == "Birdo") {
+        } else if (Perso.nom[lang] == "Birdo") {
             skin = skinsBirdo[getRandom(skinsBirdo.length)];
         } else {
             skin = "";
@@ -278,12 +292,12 @@ document.getElementById("personnage1").addEventListener("click", () => {
     var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4;
     var Invincibility = Perso.invincibility + Karts.invincibility + Roues.invincibility + Ailes.invincibility + 4;;
 
-    document.getElementsByClassName("name")[0].textContent = Perso.nom + " " + skin;
+    document.getElementsByClassName("name")[0].textContent = Perso.nom[lang] + " " + skin;
 
     if (skin == "") {
-        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom + ".webp";
+        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom[0] + ".webp";
     } else {
-        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom + " " + skin + ".webp";
+        document.getElementById("personnage1").src = "img/personnages/" + Perso.nom[0] + " " + skin + ".webp";
     }
 
     var DocVitesse = document.getElementById("vitesseRoute");
@@ -328,31 +342,31 @@ document.getElementById("personnage2").addEventListener("click", () => {
         Perso = Mii[getRandom(Mii.length)];
         skin = "";
     } else {
-        if (Perso.nom == "Yoshi") {
+        if (Perso.nom[lang] == "Yoshi") {
             skin = skinsYoshi[getRandom(skinsYoshi.length)];
-        } else if (Perso.nom == "Maskass") {
+        } else if (Perso.nom[lang] == "Maskass") {
             skin = skinsMaskass[getRandom(skinsMaskass.length)];
-        } else if (Perso.nom == "Mario de métal") {
+        } else if (Perso.nom[lang] == "Mario de métal") {
             skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
-        } else if (Perso.nom == "Inkling fille") {
+        } else if (Perso.nom[lang] == "Inkling fille") {
             skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
-        } else if (Perso.nom == "Inkling garçon") {
+        } else if (Perso.nom[lang] == "Inkling garçon") {
             skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
-        } else if (Perso.nom == "Link") {
+        } else if (Perso.nom[lang] == "Link") {
             skin = skinsLink[getRandom(skinsLink.length)];
-        } else if (Perso.nom == "Birdo") {
+        } else if (Perso.nom[lang] == "Birdo") {
             skin = skinsBirdo[getRandom(skinsBirdo.length)];
         } else {
             skin = "";
         }
     }
 
-    document.getElementsByClassName("name")[4].textContent = Perso.nom + " " + skin;
+    document.getElementsByClassName("name")[4].textContent = Perso.nom[lang] + " " + skin;
 
     if (skin == "") {
-        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + ".webp";
+        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom[0] + ".webp";
     } else {
-        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom + " " + skin + ".webp";
+        document.getElementById("personnage2").src = "img/personnages/" + Perso.nom[0] + " " + skin + ".webp";
     }
 
     //addToHistory(Perso, skin, Karts, Roues, Ailes, 2);
@@ -369,31 +383,31 @@ document.getElementById("personnage3").addEventListener("click", () => {
         Perso = Mii[getRandom(Mii.length)];
         skin = "";
     } else {
-        if (Perso.nom == "Yoshi") {
+        if (Perso.nom[lang] == "Yoshi") {
             skin = skinsYoshi[getRandom(skinsYoshi.length)];
-        } else if (Perso.nom == "Maskass") {
+        } else if (Perso.nom[lang] == "Maskass") {
             skin = skinsMaskass[getRandom(skinsMaskass.length)];
-        } else if (Perso.nom == "Mario de métal") {
+        } else if (Perso.nom[lang] == "Mario de métal") {
             skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
-        } else if (Perso.nom == "Inkling fille") {
+        } else if (Perso.nom[lang] == "Inkling fille") {
             skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
-        } else if (Perso.nom == "Inkling garçon") {
+        } else if (Perso.nom[lang] == "Inkling garçon") {
             skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
-        } else if (Perso.nom == "Link") {
+        } else if (Perso.nom[lang] == "Link") {
             skin = skinsLink[getRandom(skinsLink.length)];
-        } else if (Perso.nom == "Birdo") {
+        } else if (Perso.nom[lang] == "Birdo") {
             skin = skinsBirdo[getRandom(skinsBirdo.length)];
         } else {
             skin = "";
         }
     }
 
-    document.getElementsByClassName("name")[8].textContent = Perso.nom + " " + skin;
+    document.getElementsByClassName("name")[8].textContent = Perso.nom[lang] + " " + skin;
 
     if (skin == "") {
-        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + ".webp";
+        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom[0] + ".webp";
     } else {
-        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom + " " + skin + ".webp";
+        document.getElementById("personnage3").src = "img/personnages/" + Perso.nom[0] + " " + skin + ".webp";
     }
 
     //addToHistory(Perso, skin, Karts, Roues, Ailes, 3);
@@ -410,31 +424,31 @@ document.getElementById("personnage4").addEventListener("click", () => {
         Perso = Mii[getRandom(Mii.length)];
         skin = "";
     } else {
-        if (Perso.nom == "Yoshi") {
+        if (Perso.nom[lang] == "Yoshi") {
             skin = skinsYoshi[getRandom(skinsYoshi.length)];
-        } else if (Perso.nom == "Maskass") {
+        } else if (Perso.nom[lang] == "Maskass") {
             skin = skinsMaskass[getRandom(skinsMaskass.length)];
-        } else if (Perso.nom == "Mario de métal") {
+        } else if (Perso.nom[lang] == "Mario de métal") {
             skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
-        } else if (Perso.nom == "Inkling fille") {
+        } else if (Perso.nom[lang] == "Inkling fille") {
             skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
-        } else if (Perso.nom == "Inkling garçon") {
+        } else if (Perso.nom[lang] == "Inkling garçon") {
             skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
-        } else if (Perso.nom == "Link") {
+        } else if (Perso.nom[lang] == "Link") {
             skin = skinsLink[getRandom(skinsLink.length)];
-        } else if (Perso.nom == "Birdo") {
+        } else if (Perso.nom[lang] == "Birdo") {
             skin = skinsBirdo[getRandom(skinsBirdo.length)];
         } else {
             skin = "";
         }
     }
 
-    document.getElementsByClassName("name")[12].textContent = Perso.nom + " " + skin;
+    document.getElementsByClassName("name")[12].textContent = Perso.nom[lang] + " " + skin;
 
     if (skin == "") {
-        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + ".webp";
+        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom[0] + ".webp";
     } else {
-        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom + " " + skin + ".webp";
+        document.getElementById("personnage4").src = "img/personnages/" + Perso.nom[0] + " " + skin + ".webp";
     }
 
     //addToHistory(Perso, skin, Karts, Roues, Ailes, 4);
@@ -461,9 +475,9 @@ document.getElementById("kart1").addEventListener("click", () => {
     var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + AileEnPapier.miniTurbo + 4
     var Invincibility = Perso.invincibility + Karts.invincibility + Roues.invincibility + Ailes.invincibility + 4;
 
-    document.getElementsByClassName("name")[1].textContent = Karts.nom;
+    document.getElementsByClassName("name")[1].textContent = Karts.nom[lang];
 
-    document.getElementById("kart1").src = "img/karts/" + Karts.nom + ".webp";
+    document.getElementById("kart1").src = "img/karts/" + Karts.nom[0] + ".webp";
 
     var DocVitesse = document.getElementById("vitesseRoute");
     var DocVitesseEau = document.getElementById("vitesseEau");
@@ -503,9 +517,9 @@ document.getElementById("kart2").addEventListener("click", () => {
     var Ailes = currentAile;
     var Perso = currentPerso;
 
-    document.getElementsByClassName("name")[5].textContent = Karts.nom;
+    document.getElementsByClassName("name")[5].textContent = Karts.nom[lang];
 
-    document.getElementById("kart2").src = "img/karts/" + Karts.nom + ".webp";
+    document.getElementById("kart2").src = "img/karts/" + Karts.nom[0] + ".webp";
 
     addToHistory(Perso, "", Karts, Roues, Ailes, 2);
 })
@@ -517,9 +531,9 @@ document.getElementById("kart3").addEventListener("click", () => {
     var Ailes = currentAile;
     var Perso = currentPerso;
 
-    document.getElementsByClassName("name")[9].textContent = Karts.nom;
+    document.getElementsByClassName("name")[9].textContent = Karts.nom[lang];
 
-    document.getElementById("kart3").src = "img/karts/" + Karts.nom + ".webp";
+    document.getElementById("kart3").src = "img/karts/" + Karts.nom[0] + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
@@ -531,9 +545,9 @@ document.getElementById("kart4").addEventListener("click", () => {
     var Ailes = currentAile;
     var Perso = currentPerso;
 
-    document.getElementsByClassName("name")[13].textContent = Karts.nom;
+    document.getElementsByClassName("name")[13].textContent = Karts.nom[lang];
 
-    document.getElementById("kart4").src = "img/karts/" + Karts.nom + ".webp";
+    document.getElementById("kart4").src = "img/karts/" + Karts.nom[lang] + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 4);
 })
@@ -559,9 +573,9 @@ document.getElementById("roue1").addEventListener("click", () => {
     var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4
     var Invincibility = Perso.invincibility + Karts.invincibility + Roues.invincibility + Ailes.invincibility + 4;
 
-    document.getElementsByClassName("name")[2].textContent = Roues.nom;
+    document.getElementsByClassName("name")[2].textContent = Roues.nom[lang];
 
-    document.getElementById("roue1").src = "img/roues/" + Roues.nom + ".webp";
+    document.getElementById("roue1").src = "img/roues/" + Roues.nom[0] + ".webp";
 
     var DocVitesse = document.getElementById("vitesseRoute");
     var DocVitesseEau = document.getElementById("vitesseEau");
@@ -601,9 +615,9 @@ document.getElementById("roue2").addEventListener("click", () => {
     var Perso = currentPerso;
     var Karts = currentKart;
 
-    document.getElementsByClassName("name")[6].textContent = Roues.nom;
+    document.getElementsByClassName("name")[6].textContent = Roues.nom[lang];
 
-    document.getElementById("roue2").src = "img/roues/" + Roues.nom + ".webp";
+    document.getElementById("roue2").src = "img/roues/" + Roues.nom[0] + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 2);
 })
@@ -615,9 +629,9 @@ document.getElementById("roue3").addEventListener("click", () => {
     var Perso = currentPerso;
     var Karts = currentKart;
 
-    document.getElementsByClassName("name")[10].textContent = Roues.nom;
+    document.getElementsByClassName("name")[10].textContent = Roues.nom[lang];
 
-    document.getElementById("roue3").src = "img/roues/" + Roues.nom + ".webp";
+    document.getElementById("roue3").src = "img/roues/" + Roues.nom[lang] + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
@@ -629,9 +643,9 @@ document.getElementById("roue4").addEventListener("click", () => {
     var Perso = currentPerso;
     var Karts = currentKart;
 
-    document.getElementsByClassName("name")[14].textContent = Roues.nom;
+    document.getElementsByClassName("name")[14].textContent = Roues.nom[lang];
 
-    document.getElementById("roue4").src = "img/roues/" + Roues.nom + ".webp";
+    document.getElementById("roue4").src = "img/roues/" + Roues.nom[0] + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 4);
 })
@@ -657,9 +671,9 @@ document.getElementById("aile1").addEventListener("click", () => {
     var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4
     var Invincibility = Perso.invincibility + Karts.invincibility + Roues.invincibility + Ailes.invincibility + 4;
 
-    document.getElementsByClassName("name")[3].textContent = Ailes.nom;
+    document.getElementsByClassName("name")[3].textContent = Ailes.nom[lang];
 
-    document.getElementById("aile1").src = "img/ailes/" + Ailes.nom + ".webp";
+    document.getElementById("aile1").src = "img/ailes/" + Ailes.nom[0] + ".webp";
 
     var DocVitesse = document.getElementById("vitesseRoute");
     var DocVitesseEau = document.getElementById("vitesseEau");
@@ -698,9 +712,9 @@ document.getElementById("aile2").addEventListener("click", () => {
     var Karts = currentKart;
     var Roues = currentRoue;
 
-    document.getElementsByClassName("name")[7].textContent = Ailes.nom;
+    document.getElementsByClassName("name")[7].textContent = Ailes.nom[lang];
 
-    document.getElementById("aile2").src = "img/ailes/" + Ailes.nom + ".webp";
+    document.getElementById("aile2").src = "img/ailes/" + Ailes.nom[0] + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 2);
 })
@@ -712,9 +726,9 @@ document.getElementById("aile3").addEventListener("click", () => {
     var Karts = currentKart;
     var Roues = currentRoue;
 
-    document.getElementsByClassName("name")[11].textContent = Ailes.nom;
+    document.getElementsByClassName("name")[11].textContent = Ailes.nom[lang];
 
-    document.getElementById("aile3").src = "img/ailes/" + Ailes.nom + ".webp";
+    document.getElementById("aile3").src = "img/ailes/" + Ailes.nom[0] + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 3);
 })
@@ -726,9 +740,9 @@ document.getElementById("aile4").addEventListener("click", () => {
     var Karts = currentKart;
     var Roues = currentRoue;
 
-    document.getElementsByClassName("name")[15].textContent = Ailes.nom;
+    document.getElementsByClassName("name")[15].textContent = Ailes.nom[lang];
 
-    document.getElementById("aile4").src = "img/ailes/" + Ailes.nom + ".webp";
+    document.getElementById("aile4").src = "img/ailes/" + Ailes.nom[0] + ".webp";
 
     //addToHistory(Perso, "", Karts, Roues, Ailes, 4);
 })
