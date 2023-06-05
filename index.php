@@ -44,6 +44,8 @@ include "fonctionsPhp/vues.php";
     </aside>
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
+        <a href="index.php?lang=fr">fr</a>
+        <a href="index.php?lang=fr-CA">fr-CA</a>
         <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 4)</p></div>
         <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-4" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight" alt="exit"><img src='./img/icons/exit.png' id="exitday" alt="exit"></a>
         <section id="personnageAleatoire">

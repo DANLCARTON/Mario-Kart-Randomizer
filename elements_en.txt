@@ -1,0 +1,122 @@
+Mario - Mario
+Luigi - Luigi
+Peach - Peach
+Daisy - Daisy
+Harmonie - Rosalina
+Mario Tanuki - Tanooki Mario
+Peach Chat - Cat Peach
+Birdo - Birdo
+Yoshi - Yoshi
+Toad - Toad
+Koopa - Koopa Troopa
+Maskass - Shy Guy
+Lakitu - Lakitu
+Toadette - Toadette
+Roi Boo - King Boo
+Bébé Mario - Baby Mario
+Bébé Luigi - Baby Luigi
+Bébé Peach - Baby Peach
+Bébé Daisy - Baby Daisy
+Bébé Harmonie - Baby Rosalina
+Mario de Métal - Metal Mario (Gold Mario)
+Peach d'or rose - Pink Gold Peach
+Wario - Wario
+Waluigi - Waluigi
+Donkey Kong - Donkey Kong
+Bowser - Bowser
+Skelerex - Dry Bones
+Bowser Jr. - Bowser Jr.
+Bowser Skelet - Dry Bowser
+Lemmy - Lemmy
+Larry - Larry
+Wendy - Wendy
+Ludwig - Ludwig
+Iggy - Iggy
+Roy - Roy
+Morton - Morton
+Fille inkling - Inkling Girl
+Garçon inkling - Inkling Boy
+Link - Link
+Villageois - Villager
+Villageoise - Villager
+Marie - Isabelle
+Mii - Mii (Small, Medium, Large)
+
+Kart Standard - Standard Kart
+Rétro - Pipe Frame
+Proto 8 - Mach 8
+Nautomobile - Steel Drive
+Chabriolet - Cat Cruiser
+Mach-célère - Circuit Special
+Tubul R3 - Tri-Speeder
+Beat-bolide - Badwagon
+Cavalkart - Prancer
+Paracoccinelly - Buggybud
+Caravéloce - Landship
+Sneakart - Bounder
+Propulsar - Sports Coupé
+Or - Gold Kart
+GLA - GLA
+W25 Flèche d'Argent - W 25 Silver Arrow
+300 SL Roadster - 300 SL Roadster
+Blue Falcon - Blue Falcon
+Buggy Tanuki - Tanooki Kart
+Intrépide - B Dasher
+Autorinho - Streetle
+Magikart - P-Wing
+Koopa-mobile - Koopa Clown
+
+Moto Standard - Standard Bike
+Météore - Comet
+Sport GP - Sport Bike
+Cybertrombe - The Duke
+Flamboyante - Flame Rider
+Mécabécane - Varmint
+Scootinette - Mr Scooty
+Épervier - Jet Bike
+Yoshimoto - Yoshi Bike
+Destrier de Légende - Master Cycle
+Destrier de Légende 0.1 - Master Cycle Zero
+Scooter AC - City Tripper
+
+Quad Standard - Standard Quad
+Quad Wiggler - Wild Wiggler
+Quad Nounours - Teddy Buggy
+Malécycle - Bone Rattler
+Kartoon - Splat Buggy
+Missle Tornade - Inkstriker
+
+Standard - Normal
+Mastodonte - Monster
+Roller - Roller
+Classique - Slim
+Lisse - Slick
+Métal - Metal
+Bouton - Button
+Hors-piste - Off-Road
+Éponge - Sponge
+Bois - Wooden
+Coussin - Cushion
+Standard Bleu - Normal Blue
+Mastoflamme - Funly Monster
+Roller azur - Azure Roller
+Classique rouge - Crimson Slim
+Cyber Lisse - Cyber Slick
+Hors-piste retro - Retro Off-Road
+Or - Gold Wheels
+GLA - GLA Wheels
+Triforce - Triforce Tyres
+Archéonique - Ancient Tyres
+Feuille - Leaf Tyres
+
+Standard - Super Glider
+Aile nuage - Cloud Glider
+Aile Wario - Wario Wing
+Dendinaile - Waddle Wing
+Ombrelle Peach - Peach Parasol
+Parachute - Parachute
+Parapente - Parafall
+Aile Fleurie - Flower Glider
+Bowser-Volant - Bowser Kite
+Planeur - Plane Glider
+Parapente MKTV - MKTV Parafoil
