@@ -45,7 +45,7 @@ Mii - Mii (Small, Medium, Large)
 Kart Standard - Standard Kart
 Rétro - Pipe Frame
 Proto 8 - Mach 8
-Nautomobile - Steel Drive
+Nautomobile - Steel Driver
 Chabriolet - Cat Cruiser
 Mach-célère - Circuit Special
 Tubul R3 - Tri-Speeder
@@ -72,7 +72,7 @@ Sport GP - Sport Bike
 Cybertrombe - The Duke
 Flamboyante - Flame Rider
 Mécabécane - Varmint
-Scootinette - Mr Scooty
+Scootinette - Mr. Scooty
 Épervier - Jet Bike
 Yoshimoto - Yoshi Bike
 Destrier de Légende - Master Cycle
@@ -98,7 +98,7 @@ Hors-piste - Off-Road
 Bois - Wooden
 Coussin - Cushion
 Standard Bleu - Normal Blue
-Mastoflamme - Funly Monster
+Mastoflamme - Funky Monster
 Roller azur - Azure Roller
 Classique rouge - Crimson Slim
 Cyber Lisse - Cyber Slick
@@ -115,8 +115,12 @@ Aile Wario - Wario Wing
 Dendinaile - Waddle Wing
 Ombrelle Peach - Peach Parasol
 Parachute - Parachute
-Parapente - Parafall
+Parapente - Parafoil
 Aile Fleurie - Flower Glider
 Bowser-Volant - Bowser Kite
 Planeur - Plane Glider
 Parapente MKTV - MKTV Parafoil
+Or - Gold Glider
+Aile Hylienne - Hylian Kite
+Paravoile - Paraglider
+Aile en Papier - Paper Glider
