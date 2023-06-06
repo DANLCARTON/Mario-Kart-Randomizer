@@ -50,6 +50,7 @@ include "fonctionsPhp/vues.php";
         <a href="index.php?lang=en-US">en-US</a>
         <a href="index.php?lang=de">de</a>
         <a href="index.php?lang=es">es</a>
+        <a href="index.php?lang=it">it</a>
         <a href="index.php?lang=nl">nl</a>
         <a href="index.php?lang=pt">pt</a>
         <a href="index.php?lang=ru">ru</a>
