@@ -1348,7 +1348,7 @@ let Flamboyante = {
 };
 
 let QuadWiggler = {
-    nom: ["Quad Wiggler", "VTT nounours"],
+    nom: ["Quad Wiggler", "VTT Wiggler"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 3,

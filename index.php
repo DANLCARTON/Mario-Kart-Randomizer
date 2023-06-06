@@ -46,6 +46,17 @@ include "fonctionsPhp/vues.php";
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
         <a href="index.php?lang=fr">fr</a>
         <a href="index.php?lang=fr-CA">fr-CA</a>
+        <a href="index.php?lang=en">en</a>
+        <a href="index.php?lang=en-US">en-US</a>
+        <a href="index.php?lang=de">de</a>
+        <a href="index.php?lang=es">es</a>
+        <a href="index.php?lang=nl">nl</a>
+        <a href="index.php?lang=pt">pt</a>
+        <a href="index.php?lang=ru">ru</a>
+        <a href="index.php?lang=ja">ja</a>
+        <a href="index.php?lang=ko">ko</a>
+        <a href="index.php?lang=zh-Hant">zh-Hant</a>
+        <a href="index.php?lang=zh-Hans">zh-Hans</a>
         <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 4)</p></div>
         <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-4" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight" alt="exit"><img src='./img/icons/exit.png' id="exitday" alt="exit"></a>
         <section id="personnageAleatoire">
