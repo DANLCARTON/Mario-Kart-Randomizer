@@ -1,0 +1,126 @@
+Mario - Mario
+Luigi - Luigi
+Peach - Peach
+Daisy - Daisy
+Harmonie - Rosalina
+Mario Tanuki - Tanuki-Mario
+Peach Chat - Katzen-Peach
+Birdo - Birdo
+Yoshi - Yoshi
+Toad - Toad
+Koopa - Koopa
+Maskass - Shy Guy
+Lakitu - Lakitu
+Toadette - Toadette
+Roi Boo - König Buu Huu
+Bébé Mario - Baby Mario
+Bébé Luigi - Baby Luigi
+Bébé Peach - Baby Peach
+Bébé Daisy - Baby Daisy
+Bébé Harmonie - Baby Rosalina
+Mario de Métal - Metall-Mario (Gold-Mario)
+Peach d'or rose - Rosagold-Peach
+Wario - Wario
+Waluigi - Waluigi
+Donkey Kong - Donkey Kong
+Bowser - Bowser
+Skelerex - Knochentrocken
+Bowser Jr. - Bowser Jr.
+Bowser Skelet - Knochen-Bowser
+Lemmy - Lemmy
+Larry - Larry
+Wendy - Wendy
+Ludwig - Ludwig
+Iggy - Iggy
+Roy - Roy
+Morton - Morton
+Fille inkling - Inkling-Mädchen
+Garçon inkling - Inkling-Junge
+Link - Link
+Villageois - Bewohner
+Villageoise - Bewohnerin
+Marie - Melinda
+Mii - Mii
+
+Kart Standard - Standard-Kart
+Rétro - Go-Kart
+Proto 8 - Turboflitzer
+Nautomobile - U-Kart
+Chabriolet - Katzen-Cabrio
+Mach-célère - Rennwagen
+Tubul R3 - Dreirad-Bolide
+Beat-bolide - Cool-Cabrio
+Cavalkart - Kirmes-Droschke
+Paracoccinelly - Pünktchen-Kart
+Caravéloce - PS-Galeere
+Sneakart - Sauseschuh
+Propulsar - Sportcoupé
+Or - Gold-Kart
+GLA - GLA
+W25 Flèche d'Argent - W 25 Sliberpfeil
+300 SL Roadster - 300 SL Roadster
+Blue Falcon - Blue Falcon
+Buggy Tanuki - Tanuki-Kart
+Intrépide - Bolide
+Autorinho - Fichtenbock
+Magikart - Flügel-Raser
+Koopa-mobile - Clown-Kutsche
+
+Moto Standard - Standard-Bike
+Météore - Turbo-Bike
+Sport GP - Renn-Bike
+Cybertrombe - Hyper-Bike
+Flamboyante - Flammen-Bike
+Mécabécane - Cross-Bike
+Scootinette - Roller
+Épervier - Jet-Bike
+Yoshimoto - Yoshi-Bike
+Destrier de Légende - Eponator
+Destrier de Légende 0.1 - Eponator Zero
+Scooter AC - Fashion-Scooter
+
+Quad Standard - Standard-Quad
+Quad Wiggler - Wilder Wiggler
+Quad Nounours - Bärchen-Bolide
+Malécycle - Knochenmühle
+Kartoon - Splat-Quad
+Missle Tornade - Tintferno-Quad
+
+Standard - Standard
+Mastodonte - Riesig
+Roller - Klein
+Classique - Retro
+Lisse - Slick
+Métal - Metall
+Bouton - Knopf
+Hors-piste - Rallye
+Éponge - Schwamm
+Bois - Holz
+Coussin - Kissen
+Standard Bleu - Standard (blau)
+Mastoflamme - Riesig (orange)
+Roller azur - Klein (türkis)
+Classique rouge - Retro (rot)
+Cyber Lisse - Slick (violett)
+Hors-piste retro - Rallye (weiß)
+Or - Goldräder
+GLA - GLA
+Triforce - Triforce
+Archéonique - Antik
+Feuille - Blatt
+
+Standard - Standard
+Aile nuage - Wolkenballons
+Aile Wario - Wario-Gleiter
+Dendinaile - Feisthörnchen
+Ombrelle Peach - Sonnenschirm
+Parachute - Fallschirm
+Parapente - Gleitschirm
+Aile Fleurie - Blumengleiter
+Bowser-Volant - Bowser-Gleiter
+Planeur - Segelflieger
+Parapente MKTV - MKTV-Gleiter
+Or - Goldgleiter
+Aile Hylienne - Hyrule-Gleiter
+Paravoile - Parasegel
+Aile en Papier - Papierflieger
