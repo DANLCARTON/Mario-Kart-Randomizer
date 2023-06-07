@@ -1,0 +1,126 @@
+Mario - マリオ 
+Luigi - ルイージ 
+Peach - ピーチ 
+Daisy - デイジー 
+Harmonie - ロゼッタ
+Mario Tanuki - タヌキマリオ 
+Peach Chat - ネコピーチ 
+Birdo - キャセリン  
+Yoshi - ヨッシー 
+Toad - キノピオ 
+Koopa - ノコノコ 
+Maskass - ヘイホー 
+Lakitu - ジュゲム 
+Toadette - キノピコ
+Roi Boo - キングテセサ
+Bébé Mario - ベビィマリオ
+Bébé Luigi - ベビィルイージ
+Bébé Peach - ベビィピーチ
+Bébé Daisy - ベビィデイジー
+Bébé Harmonie - ベビィロゼッタ
+Mario de Métal - メタルマリオ (ゴールドマリオ)
+Peach d'or rose - ピンクゴールドピーチ
+Wario - ワリオ 
+Waluigi - ワルイージ 
+Donkey Kong - ドンキーコング 
+Bowser - クッパ 
+Skelerex - カロン 
+Bowser Jr. - クッパJr. 
+Bowser Skelet - ぼねクッパ 
+Lemmy - レミー 
+Larry - ラリー 
+Wendy - ウェンディ 
+Ludwig - ルドウィッグ 
+Iggy - イギー 
+Roy - ロイ 
+Morton - モートン 
+Fille inkling - ガール 
+Garçon inkling - ボーイ 
+Link - リンク 
+Villageois - むらびと 
+Villageoise - むらびと 
+Marie - むらびと 
+Mii - Мии  (Small, Medium, Large)
+
+Kart Standard - スタンダードカート
+Rétro - スケルトン
+Proto 8 - Gフォース 
+Nautomobile - スティールダイバー
+Chabriolet - ネコクラシカル 
+Mach-célère - ターボᆞワン 
+Tubul R3 - トライムッシュ 
+Beat-bolide - ビートデイモン 
+Cavalkart - プリンセスコーチ 
+Paracoccinelly - パタテンテン 
+Caravéloce - クッパシップ 
+Sneakart - スニーカート 
+Propulsar - スーパースター 
+Or - ゴールドカート 
+GLA - GLA
+W25 Flèche d'Argent - W 25 シルバーアロー
+300 SL Roadster - 300 SL ロードスター
+Blue Falcon - ブルーファルコン 
+Buggy Tanuki - タヌキバギー 
+Intrépide - Bダッシュ 
+Autorinho - わくわくビートル 
+Magikart - Pウイング 
+Koopa-mobile - クッパクラウン 
+
+Moto Standard - スタンダードバイク 
+Météore - スーパーコメット 
+Sport GP - マッハGP 
+Cybertrombe - マキシマム 
+Flamboyante - バーニングボール 
+Mécabécane - モト・ドーザー
+Scootinette - そらまめ 
+Épervier - ジェットライダー 
+Yoshimoto - ヨッシーバイク
+Destrier de Légende - マスターバイク  
+Destrier de Légende 0.1 - マスターバイク零式 
+Scooter AC - きせかえスクーター  
+
+Quad Standard - スタンダードATV 
+Quad Wiggler - ハナチャンバギー
+Quad Nounours - くまライド
+Malécycle - バウザートライク 
+Kartoon - スプラバギー 
+Missle Tornade - トルネード  
+
+Standard - ノーマルタイヤ
+Mastodonte - ワイルドタイヤ
+Roller - ローラータイヤ
+Classique - リングタイヤ
+Lisse - スリックタイヤ
+Métal - メタルタイヤ
+Bouton - ボタンタイヤ
+Hors-piste - ブロックタイヤ
+Éponge - スポンジタイヤ
+Bois - ウッドリング
+Coussin - クッションタイヤ
+Standard Bleu - ノーマルブルー
+Mastoflamme - ワイルドホット
+Roller azur - スカイローラー
+Classique rouge - スパイシーリング
+Cyber Lisse - サイバースリック
+Hors-piste retro - クリームブロック
+Or - ゴールドタイヤ
+GLA - GLAホイール 
+Triforce - トライフォースタイヤ  
+Archéonique - 古代のタイヤ  
+Feuille - リーフタイヤ  
+
+Standard - スーパーカイト
+Aile nuage - もくもくバルーン 
+Aile Wario - ワリオカイト 
+Dendinaile - ズングリカイト 
+Ombrelle Peach - ピーチパラソル 
+Parachute - パラシュート 
+Parapente - パラフォイル 
+Aile Fleurie - フラワーカイト 
+Bowser-Volant - クッパだこ 
+Planeur - セイルプレーン 
+Parapente MKTV - パラフォイル MKTV 
+Or - ゴールドカイト 
+Aile Hylienne - ハイラルカイト  
+Paravoile - パラセール 
+Aile en Papier - かみひこうき  
