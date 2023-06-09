@@ -6,8 +6,6 @@ if (URLparams.has('lang')) {
     var language = URLparams.get("lang");
 }
 
-
-
 document.getElementsByTagName("html")[0].lang = language;
 
 function langId(lang) {
@@ -23,6 +21,7 @@ function langId(lang) {
     else if (lang == "ru") return 9;
     else if (lang == "ja") return 10;
     else if (lang == "ko") return 11;
+    else if (lang == "zh-Hans") return 12;
     else return 0;
 }
 
