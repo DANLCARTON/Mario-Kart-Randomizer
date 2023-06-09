@@ -186,6 +186,37 @@ $circuitsES = array(
 
 $arenesES = array("Estadio de Batalla", "Cielo Azucarado", "Palacio Dragón", "Estación Lunar", "3DS Pueblo Wuhu", "GCN Mansión de Luigi", "SNES Circuito de Batalla 1", "Parque Viaducto");
 
+// - - - - - I T A L I E N - - - - - 
+
+$circuitsIT = array(
+    "Trofeo Fungo" => array("Stadio Mario Kart", "Parco Aquatico", "Dolce Dolce Canyon", "Rovine di Twomp"),
+    "Trofeo Fiore" => array("Circuito di Mario", "Riviera di Toad", "Cittadella Tremarella", "Cascate di Tipo Timido"),
+    "Trofeo Stella" => array("Aeroporto del Sole", "Laguna Delfino", "Elettrodromo", "Monte Wario"),
+    "Trofeo Speciale" => array("Vascello Nuvolante", "Deserto di Tartosso", "Cestello di Bowser", "Pista Arcobaleno"),
+    "Trofeo Uovo" => array("GCN Circuito di Yoshi", "Arena Excitebike", "Muraglia del Drago", "Mute City"),
+    "Trofeo Crossing" => array("GCN Baby Park", "GBA Terra del Formaggio", "Boscodromo", "Animal Crossing"),
+    "Trofeo Guscio" => array("Wii Prateria Verde", "GBA Ciruito di Mario", "DS Spiaggia Smack", "N64 Autostrada di Toad"),
+    "Trofeo Banana" => array("GCN Desertico Desierto", "SNES Pianura Ciambella 3", "N64 Pista Reale", "3DS Giungla DK"),
+    "Trofeo Foglia" => array("DS Stadio di Wario", "GCN Circuito Gelato", "3DS Melodidromo", "N64 Valle di Yoshi"),
+    "Trofeo Fulmine" => array("DS Pista Tictac", "3DS Tubirinto Piranha", "Wii Vulcano Brontolone", "N64 Pista Arcobaleno"),
+    "Trofeo Triforza" => array("Wii Miniera d'oro di Wario", "SNES Pista Arcobaleno", "Pista Polare", "Circuito di Hyrule"),
+    "Trofeo Campanella" => array("3DS Koopa City", "GBA Strada del Fiocco", "Mariopolitana", "Big Blue"),
+    "Trofeo Scatto dorato" => array("Tour Promenade di Parigi", "3DS Circuito di Toad", "N64 Cioccocanyon", "Wii Outlet Cocco"),
+    "Trofeo Gattofortuna" => array("Tour Neon di Tokyo", "DS Colli Fungo", "GBA Giardino Nuvola", "Covo ninja"),
+    "Trofeo Rapa" => array("Tour Veduta di New York", "SNES Circuito di Mario 3", "N64 Deserto Kalimari", "DS Flipper di Waluigi"),
+    "Trofeo Elica" => array("Tour Sprint a Sydney", "GBA Terra delle nevi", "Wii Gola Fungo", "Cieli stracciatella"),
+    "Trofeo Roccia" => array("Tour Giro di Londra", "GBA Lago di Boo", "3DS Monte Roccioso", "Wii Pista degli aceri"),
+    "Trofeo Luna" => array("Tour Gita a Berlino", "DS Giardino di Peach", "Valico Addobbo", "3DS Pista Arcobaleno"),
+    "Trofeo Frutta" => array("Tour Amsterdam in derapata", "GBA Parco Lungofiume", "Wii Pista snowboard DK", "Isola Yoshi"),
+    "Trofeo Boomerang" => array("Tour Bangkok a manetta", "DS Circuito di Mario", "GCN Stadio di Waluigi", "Tour Singapore a tutto gas"),
+    // "Trofeo Piuma" => array("", "", "", ""),
+    // "Trofeo Ciliegia" => array("", "", "", ""),
+    // "Trofeo Ghianda" => array("", "", "", ""),
+    // "Trofeo Spinoso" => array("", "", "", "")
+);
+
+$arenesIT = array("Kartodromo", "Dolce Dolce Regno", "Palazzo del drago", "Base lunare", "3DS Borgo Wuhu ", "GCN Palazzo di Luigi", "SNES Percorso di guerra 1", "Periferia urbana");
+
 if (isset($_GET["lang"])) {
     $lang = $_GET["lang"];
     if ($lang == "fr") {
@@ -206,6 +237,9 @@ if (isset($_GET["lang"])) {
     } else if ($lang == "es") {
         $circuits = $circuitsES;
         $arenes = $arenesES;
+    } else if ($lang == "it") {
+        $circuits = $circuitsIT;
+        $arenes = $arenesIT;
     }
     else {
         $circuits = $circuitsFR;
