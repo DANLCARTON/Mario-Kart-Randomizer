@@ -6,6 +6,10 @@ if (URLparams.has('lang')) {
     var language = URLparams.get("lang");
 }
 
+
+
+document.getElementsByTagName("html")[0].lang = language;
+
 function langId(lang) {
     if (lang == "fr") return 0;
     else if (lang == "fr-CA") return 1;
@@ -18,6 +22,7 @@ function langId(lang) {
     else if (lang == "pt") return 8;
     else if (lang == "ru") return 9;
     else if (lang == "ja") return 10;
+    else if (lang == "ko") return 11;
     else return 0;
 }
 

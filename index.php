@@ -11,7 +11,7 @@ include "fonctionsPhp/vues.php";
 
 <!DOCTYPE html>
 
-<html lang="fr">
+<html lang="">
 
 <head>
     <meta charset="utf-8" />
