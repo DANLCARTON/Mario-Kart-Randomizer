@@ -217,6 +217,37 @@ $circuitsIT = array(
 
 $arenesIT = array("Kartodromo", "Dolce Dolce Regno", "Palazzo del drago", "Base lunare", "3DS Borgo Wuhu ", "GCN Palazzo di Luigi", "SNES Percorso di guerra 1", "Periferia urbana");
 
+// - - - - - N E E R L A N D A I S - - - - -
+
+$circuitsNL = array(
+    "Paddenstoelbeker" => array("Mario Kart-Stadion", "Waterpretpark", "Zoetekauwcanyon", "Thwomps Tempel"),
+    "Bloemenbeker" => array("Mario's Circuit", "Toad-Baai", "Boo's Duizelhuis", "Shy Guys Kristalmijn"),
+    "Sterrenbeker" => array("Sunshine Airport", "Dolfijnenparadijs", "Electrodome", "Wario's Winterberg"),
+    "Speciale beker" => array("Wildewolkenweg", "Dry Bowser Woestijn", "Bowsers Kasteel", "Regenboogbaan"),
+    "Eierbeker" => array("GCN Yoshi's Circuit", "Excitebike-Arena", "Drakendreef", "Mute City"),
+    "Crossing-beker" => array("GCN Babypark", "GBA Kaasland", "Wervelwoud", "Animal Crossing"),
+    "Schildbeker" => array("Wii Boe-Boe-Boerenland", "GBA Mario's Circuit", "DS Cheep Cheep-Strand", "N64 Toad Tolweg"),
+    "Bananenbaker" => array("GCN Zinderende Zandvlakte", "SNES Donutvlakte 3", "N64 Koninklijke Kartbaan", "3DS DK's Jungle"),
+    "Blaadjesbeker" => array("DS Wario's Stadion", "GCN IJzige IJsbaan", "3DS Muziekcircuit", "N64 Yoshi's Vallei"),
+    "Bliksembeker" => array("DS Tik-Tak-Klok", "3DS Piranha Plant-Parkoers", "Wii Dondervulkaan", "N64 Regenboogbaan"),
+    "Triforce-beker" => array("Wii Wario's Goudmijn", "SNES Regenboogbaan", "Toads Poolbasis", "Hyrule-Circuit"),
+    "Superbelbeker" => array("3DS Bowser City", "GBA Sprintlint", "Mario's Metro", "Big Blue"),
+    "Goudensprintbeker" => array("Tour Parijs-Promenade", "3DS Toads Circuit", "N64 Chocokloof", "Wii Kokosnootplaza"),
+    "Gelukskatbeker" => array("Tour Tokio-Toer", "DS Paddenstoelenpas", "GBA Wolkenhof", "Ninjaschool"),
+    "Knollenbeker" => array("Tour New Tork Drive", "SNES Mario's Circuit 3", "N64 Wildwestwoestijn", "DS Waluigi's Flipperkast"),
+    "Propellerbeker" => array("Tour Sydney-Sprint", "GBA Sneeuwland", "Wii Paddenstoelengrot", "Stracciatellastraat"),
+    "Rotsbeker" => array("Tour Londen-Ronde", "GBA Boo-Bruggen", "3DS Kampioensberg", "Wii Wiggler Woud"),
+    "Maanbeker" => array("Tour Berlijn-Bezoek", "DS Peach' Paleistuin", "Dennenboomdorp", "3DS Regenboogbaan"),
+    "Fruitbeker" => array("Tour Aflslag Amsterdam", "GBA Rivieroever", "Wii DS's Skipark", "Yoshi's Eiland"),
+    "Boemerangbeker" => array("Tour Bangkok-Break", "DS Mario's Circuit", "GCN Waluigi's Stadion", "Tour Singapore-Skyline"),
+    // "Veerbeker" => array("", "", "", ""),
+    // "Kerserbeker" => array("", "", "", ""),
+    // "Eikenbeker" => array("", "", "", ""),
+    // "Spiny-beker" => array("", "", "", "")
+);
+
+$arenesNL = array("Gevechtsstadion", "Zoetekauwkasteel", "Drakendojo", "Maanbasis", "3DS Wuhu-Stad ", "GCN Luigi's Landgoed", "SNES Gevechtsarena 1", "Forelviaduct");
+
 if (isset($_GET["lang"])) {
     $lang = $_GET["lang"];
     if ($lang == "fr") {
@@ -240,6 +271,9 @@ if (isset($_GET["lang"])) {
     } else if ($lang == "it") {
         $circuits = $circuitsIT;
         $arenes = $arenesIT;
+    } else if ($lang == "nl") {
+        $circuits = $circuitsNL;
+        $arenes = $arenesNL;
     }
     else {
         $circuits = $circuitsFR;
