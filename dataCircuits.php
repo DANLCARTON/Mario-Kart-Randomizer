@@ -139,6 +139,9 @@ if (isset($_GET["lang"])) {
         $circuits = $circuitsENUS;
         $arenes = $arenesENUS;
     }
+} else {
+    $circuits = $circuitsFR;
+    $arenes = $arenesFR;
 }
 
 ?>
