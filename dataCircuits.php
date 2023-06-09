@@ -155,6 +155,37 @@ $circuitsDE = array(
 
 $arenesDE = array("Kampfarena", "Zuckersüßes Schloss", "Drachen-Palast", "Mondkolonie", "3DS Wuhu-Stadt", "GCN Luigi's Mansion", "SNES Kampfkurs 1", "Dekbahnstation");
 
+// - - - - - E S P A G N O L - - - - -
+
+$circuitsES = array(
+    "Copa Champiñón" => array("Estadio Mario Kart", "Parque Acuático", "Barranco Goloso", "Ruinas Roca Picuda"),
+    "Copa Flor" => array("Circuito Mario", "Puerto Toad", "Mansión Retorcida", "Cataratas Shy Guy"),
+    "Copa Estrella" => array("Aeropuerto Soleado", "Cala Delfín", "Discoestadio", "Cumbre Wario"),
+    "Copa Especial" => array("Ruta Celeste", "Dunas Huesitos", "Castillo de Bowser", "Senda Arco Iris"),
+    "Copa Huevo" => array("GCN Circuito Yoshi", "Estadio Excitebike", "Ruta Dragón", "Mute City"),
+    "Copa Crossing" => array("GCN Parque Bebé", "GBA Tierra de Queso", "Bosque Mágico", "Animal Crossing"),
+    "Copa Carapazón" => array("Wii Pradera Mu-Mu", "GBA Circuito Mario", "DS Playa Cheep Cheep", "N64 Autopista Toad"),
+    "Copa Plátano" => array("GCN Desierto Seco-Seco", "SNES Prado Rosquilla 3", "N64 Pista Real", "3DS Jungla DK"),
+    "Copa Hoja" => array("DS Estadio Wario", "GCN Tierra Sorbete", "3DS Circuito Musical", "N64 Valle de Yoshi"),
+    "Copa Centrella" => array("DS Reloj Tictac", "3DS Tuberías Planta Piraña", "Wii Volcán Gruñón", "N64 Senda Arco Iris"),
+    "Copa Trifuerza" => array("Wii Mina de Wario", "SNES Senda Arco Iris", "Base Polar", "Circuito de Hyrule"),
+    "Copa Campana" => array("3DS Ciudad Koopa", "GBA Ruta del Lazo", "Estación Tilín-Tilón", "Big Blue"),
+    "Copa Turbo Dorada" => array("Tour Bulevares de París", "3DS Circuito Toad", "N64 Monte Chocolade", "Wii Centro Cocotero"),
+    "Copa Felina Fortuna" => array("Tour Circuito Tokio", "DS Colinas Champiñón", "GBA Jardín Celeste", "Mansión Ninja"),
+    "Copa Nabo" => array("Tour Visita a Nueva York", "SNES Circuito Mario 3", "N64 Desierto Kalimari", "DS Pinball Waluigi"),
+    "Copa Helicóptero" => array("Tour Sídney sin Pausa", "GBA Tierra Nevada", "Wii Barranco Champiñón", "Cielos Helados"),
+    "Copa Roca" => array("Tour Ronda por Londres", "GBA Lago de Boo", "3DS Montaña Roqui-Roque", "Wii Senda del Arce"),
+    "Copa Luna" => array("Tour Berlín de Vértigo", "DS Jardín de Peach", "Aldea de los Regalos", "3DS Senda Arco Iris"),
+    "Copa Fruta" => array("Tour Derrapes en Ámsterdam", "GBA Parque de la Rivera", "Wii Cumbre DK", "Isla de Yoshi"),
+    "Copa Boomerang" => array("Tour Atardecer en Bangkok", "DS Circuito Mario", "GCN Estadio Waluigi", "Tour Acelerón en Singapur"),
+    // "Copa Pluma" => array("", "", "", ""),
+    // "Copa Cereza" => array("", "", "", ""),
+    // "Copa Bellota" => array("", "", "", ""),
+    // "Copa Pinchos" => array("", "", "", "")
+);
+
+$arenesES = array("Estadio de Batalla", "Cielo Azucarado", "Palacio Dragón", "Estación Lunar", "3DS Pueblo Wuhu", "GCN Mansión de Luigi", "SNES Circuito de Batalla 1", "Parque Viaducto");
+
 if (isset($_GET["lang"])) {
     $lang = $_GET["lang"];
     if ($lang == "fr") {
@@ -172,7 +203,11 @@ if (isset($_GET["lang"])) {
     } else if ($lang == "de") {
         $circuits = $circuitsDE;
         $arenes = $arenesDE;
-    } else {
+    } else if ($lang == "es") {
+        $circuits = $circuitsES;
+        $arenes = $arenesES;
+    }
+    else {
         $circuits = $circuitsFR;
         $arenes = $arenesFR;
     }
