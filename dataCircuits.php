@@ -124,6 +124,37 @@ $circuitsENUS = array(
 
 $arenesENUS = array("Battle Stadium", "Sweet Sweet Kingdom", "Dragon Palace", "Lunar Colony", "3DS Wuhu Town", "GCN Luigi's Mansion", "SNES Battle Course 1", "Urchin Underpass");
 
+// - - - - - A L L E M A N D - - - - -
+
+$circuitsDE = array(
+    "Pilz-Cup" => array("Mario Kart-Stadion", "Wasserpark", "Zuckersüßer Canyon", "Steinblock-Ruinen"),
+    "Bluem-Cup" => array("Marios Piste", "Toads Hafenstadt", "Gruselwusel-Villa", "Shy Guys Wasserfälle"),
+    "Stern-Cup" => array("Sonnenflughafen", "Delfinlagune", "Discodrom", "Wario-Abfahrt"),
+    "Spezial-Cup" => array("Wolkenstraße", "Knochentrockene Dünen", "Bowsers Festung", "Regenbogen-Boulevard"),
+    "Ei-Cup" => array("Yoshis Piste", "Excitebike-Stadion", "Große Drachenmauer", "Mute City"),
+    "Crossing-Cup" => array("GCN Baby-Park", "GBA Käseland", "Wilder Wipfelweg", "Animal Crossing-Dorf"),
+    "Panzer-Cup" => array("Wii Kuhmuh Weide", "GBA Marios Piste", "DS Cheep-Cheep-Strand", "N64 Toads Autobahn"),
+    "Bananen-Cup" => array("GCN Staubtrockene Wüste", "SNES Donut-Ebene 3", "N64 Königliche Rennpiste", "3DS DK Dschungel"),
+    "Blatt-Cup" => array("DS Wario-Arena", "GCN Sorbet-Land", "3DS Instrumentalpiste", "N64 Yoshi-Tal"),
+    "Blitz-Cup" => array("DS Ticktack-Trauma", "3DS Rohrenreserei", "Wii Vulkangrollen", "N64 Regenbogen-Boulevard"),
+    "Trifoce-Cup" => array("Wii Warios Goldmine", "SNES Regenbogen-Boulevard", "Polarkreis-Parcours", "Hyrule-Piste"),
+    "Glocken-Cup" => array("3DS Koopa-Großstadtfieber", "GBA Party-Straße", "Marios Metro", "Big Blue"),
+    "Goldener Turbo-Cup" => array("Tour Paris-Parcours", "3DS Toads Piste", "N64 Schoko-Sumpf", "Wii Kokos-Promenade"),
+    "Glückskatzen-Cup" => array("Tour Tokio-Tempotour", "DS Pilz-Pass", "GBA Wolkenpiste", "Ninja-Dojo"),
+    "Rüben-Cup" => array("Tour New-York-Speedway", "SNES Marios Piste 3", "N64 Kalimari-Wüste", "DS Waluigi-Flipper"),
+    "Propeller-Cup" => array("Tour Sydney-Spritztour", "GBA Schneeland", "Wii Pliz-Schlucht", "Eiscreme-Eskapade"),
+    "Fels-Cup" => array("Tour London-Tour", "GBA Huu-Buu-Tal", "3DS Gebirgspfad", "Wii Blätterwald"),
+    "Mond-Cup" => array("Tour Plaster von Berlin", "DS Peachs Schlossgarten", "Bergbescherung", "3DS Regenbogen-Boulevard"),
+    "Frucht-Cup" => array("Tour Ausfahrt Amsterdam", "GBA Flussufer-Park", "Wii DK Skikane", "Yoshis Eiland"),
+    "Bumerang-Cup" => array("Tour Bangkok-Abendrot", "DS Marios Piste", "GCN Waluigi-Arena", "Tour Überholspur Singapur"),
+    // "Feder-Cup" => array ("", "", "", ""),
+    // "Doppelkirschen-Cup" => array ("", "", "", ""),
+    // "Eichel-Cup" => array ("", "", "", ""),
+    // "Stachi-Cup" => array ("", "", "", "")
+);
+
+$arenesDE = array("Kampfarena", "Zuckersüßes Schloss", "Drachen-Palast", "Mondkolonie", "3DS Wuhu-Stadt", "GCN Luigi's Mansion", "SNES Kampfkurs 1", "Dekbahnstation");
+
 if (isset($_GET["lang"])) {
     $lang = $_GET["lang"];
     if ($lang == "fr") {
@@ -138,6 +169,12 @@ if (isset($_GET["lang"])) {
     } else if ($lang == "en-US") {
         $circuits = $circuitsENUS;
         $arenes = $arenesENUS;
+    } else if ($lang == "de") {
+        $circuits = $circuitsDE;
+        $arenes = $arenesDE;
+    } else {
+        $circuits = $circuitsFR;
+        $arenes = $arenesFR;
     }
 } else {
     $circuits = $circuitsFR;
