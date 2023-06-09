@@ -3,7 +3,7 @@
 // fr-fr | fr-ca
 
 let BebePeach = {
-    nom: ["Bébé Peach", "Bébé Peach"],
+    nom: ["Bébé Peach", "Bébé Peach", "Baby Peach"],
     vitesse: 1,
     vitesseEau: 1,
     vitesseAir: 1,
@@ -20,7 +20,7 @@ let BebePeach = {
 };
 
 let BebeDaisy = {
-    nom: ["Bébé Peach", "Bébé Daisy"],
+    nom: ["Bébé Peach", "Bébé Daisy", "Baby Daisy"],
     vitesse: 1,
     vitesseEau: 1,
     vitesseAir: 1,
@@ -37,7 +37,7 @@ let BebeDaisy = {
 };
 
 let BebeHarmonie = {
-    nom: ["Bébé Harmonie", "Bébé Rosalina"],
+    nom: ["Bébé Harmonie", "Bébé Rosalina", "Baby Rosalina"],
     vitesse: 1,
     vitesseEau: 1,
     vitesseAir: 1,
@@ -54,7 +54,7 @@ let BebeHarmonie = {
 };
 
 let Lemmy = {
-    nom: ["Lemmy", "Lemmy"],
+    nom: ["Lemmy", "Lemmy", "Lemmy"],
     vitesse: 1,
     vitesseEau: 1,
     vitesseAir: 1,
@@ -71,7 +71,7 @@ let Lemmy = {
 };
 
 let BebeMario = {
-    nom: ["Bébé Mario", "Bébé Mario"],
+    nom: ["Bébé Mario", "Bébé Mario", "Baby Mario"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 2,
@@ -88,7 +88,7 @@ let BebeMario = {
 };
 
 let BebeLuigi = {
-    nom: ["Bébé Mario", "Bébé Mario"],
+    nom: ["Bébé Luigi", "Bébé Luigi", "Baby Luigi"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 2,
@@ -105,7 +105,7 @@ let BebeLuigi = {
 };
 
 let Skelerex = {
-    nom: ["Skelerex", "Skelex"],
+    nom: ["Skelerex", "Skelex", "Dry Bones"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 2,
@@ -122,7 +122,7 @@ let Skelerex = {
 };
 
 let MiiLeger = {
-    nom: ["Mii Léger", "Mii Léger"],
+    nom: ["Mii Léger", "Mii Léger", "Small Mii"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 2,
@@ -139,7 +139,7 @@ let MiiLeger = {
 };
 
 let Toadette = {
-    nom: ["Toadette", "Toadette"],
+    nom: ["Toadette", "Toadette", "Toadette"],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -156,7 +156,7 @@ let Toadette = {
 };
 
 let Wendy = {
-    nom: ["Wendy", "Wendy"],
+    nom: ["Wendy", "Wendy", "Wendy"],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -173,7 +173,7 @@ let Wendy = {
 };
 
 let Marie = {
-    nom: ["Marie", "Marie"],
+    nom: ["Marie", "Marie", "Isabelle"],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -190,7 +190,7 @@ let Marie = {
 };
 
 let Koopa = {
-    nom: ["Koopa", "Koopa"],
+    nom: ["Koopa", "Koopa", "Koopa Troopa"],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -207,7 +207,7 @@ let Koopa = {
 };
 
 let Lakitu = {
-    nom: ["Lakitu", "Lakitou"],
+    nom: ["Lakitu", "Lakitou", "Lakitu"],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -224,7 +224,7 @@ let Lakitu = {
 };
 
 let BowserJr = {
-    nom: ["Bowser Jr.", "Bowser Jr."],
+    nom: ["Bowser Jr.", "Bowser Jr.", "Bowser Jr."],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -241,7 +241,7 @@ let BowserJr = {
 };
 
 let Toad = {
-    nom: ["Toad", "Toad"],
+    nom: ["Toad", "Toad", "Toad"],
     vitesse: 4,
     vitesseEau: 4,
     vitesseAir: 4,
@@ -258,7 +258,7 @@ let Toad = {
 };
 
 let Maskass = {
-    nom: ["Maskass", "Maskache"],
+    nom: ["Maskass", "Maskache", "Shy Guy"],
     vitesse: 4,
     vitesseEau: 4,
     vitesseAir: 4,
@@ -275,7 +275,7 @@ let Maskass = {
 };
 
 let Larry = {
-    nom: ["Larry", "Larry"],
+    nom: ["Larry", "Larry", "Larry"],
     vitesse: 4,
     vitesseEau: 4,
     vitesseAir: 4,
@@ -292,7 +292,7 @@ let Larry = {
 };
 
 let PeachChat = {
-    nom: ["Peach Chat", "Peach chat"],
+    nom: ["Peach Chat", "Peach chat", "Cat Peach"],
     vitesse: 5,
     vitesseEau: 5,
     vitesseAir: 5,
@@ -309,7 +309,7 @@ let PeachChat = {
 };
 
 let Villageoise = {
-    nom: ["Villageoise", "Habitante"],
+    nom: ["Villageoise", "Habitante", "Villager"],
     vitesse: 5,
     vitesseEau: 5,
     vitesseAir: 5,
@@ -326,7 +326,7 @@ let Villageoise = {
 };
 
 let InklingFille = {
-    nom: ["Inkling fille", "Fille inkling"],
+    nom: ["Inkling fille", "Fille inkling", "Inkling Girl"],
     vitesse: 5,
     vitesseEau: 5,
     vitesseAir: 5,
@@ -343,7 +343,7 @@ let InklingFille = {
 };
 
 let Peach = {
-    nom: ["Peach", "Peach"],
+    nom: ["Peach", "Peach", "Peach"],
     vitesse: 6,
     vitesseEau: 6,
     vitesseAir: 6,
@@ -360,7 +360,7 @@ let Peach = {
 };
 
 let Daisy = {
-    nom: ["Daisy", "Daisy"],
+    nom: ["Daisy", "Daisy", "Daisy"],
     vitesse: 6,
     vitesseEau: 6,
     vitesseAir: 6,
@@ -377,7 +377,7 @@ let Daisy = {
 };
 
 let Yoshi = {
-    nom: ["Yoshi", "Yoshi"],
+    nom: ["Yoshi", "Yoshi", "Yoshi"],
     vitesse: 6,
     vitesseEau: 6,
     vitesseAir: 6,
@@ -394,7 +394,7 @@ let Yoshi = {
 };
 
 let MarioTanuki = {
-    nom: ["Mario Tanuki", "Mario tanooki"],
+    nom: ["Mario Tanuki", "Mario tanooki", "Tanooki Mario"],
     vitesse: 6,
     vitesseEau: 6,
     vitesseAir: 6,
@@ -411,7 +411,7 @@ let MarioTanuki = {
 };
 
 let Villageois = {
-    nom: ["Villageois", "Habitant"],
+    nom: ["Villageois", "Habitant", "Villager"],
     vitesse: 6,
     vitesseEau: 6,
     vitesseAir: 6,
@@ -428,7 +428,7 @@ let Villageois = {
 };
 
 let InklingGarcon = {
-    nom: ["Inkling garçon", "Garçon inkling"],
+    nom: ["Inkling garçon", "Garçon inkling", "Inkling Boy"],
     vitesse: 6,
     vitesseEau: 6,
     vitesseAir: 6,
@@ -445,7 +445,7 @@ let InklingGarcon = {
 };
 
 let Mario = {
-    nom: ["Mario", "Mario"],
+    nom: ["Mario", "Mario", "Mario"],
     vitesse: 7,
     vitesseEau: 7,
     vitesseAir: 7,
@@ -462,7 +462,7 @@ let Mario = {
 };
 
 let Ludwig = {
-    nom: ["Ludwig", "Ludwig"],
+    nom: ["Ludwig", "Ludwig", "Ludwig"],
     vitesse: 7,
     vitesseEau: 7,
     vitesseAir: 7,
@@ -479,7 +479,7 @@ let Ludwig = {
 };
 
 let MiiMoyen = {
-    nom: ["Mii Moyen", "Mii Moyen"],
+    nom: ["Mii Moyen", "Mii Moyen", "Medium Mii"],
     vitesse: 7,
     vitesseEau: 7,
     vitesseAir: 7,
@@ -496,7 +496,7 @@ let MiiMoyen = {
 };
 
 let Luigi = {
-    nom: ["Luigi", "Luigi"],
+    nom: ["Luigi", "Luigi", "Luigi"],
     vitesse: 7,
     vitesseEau: 7,
     vitesseAir: 7,
@@ -513,7 +513,7 @@ let Luigi = {
 };
 
 let Iggy = {
-    nom: ["Iggy", "Iggy"],
+    nom: ["Iggy", "Iggy", "Iggy"],
     vitesse: 7,
     vitesseEau: 7,
     vitesseAir: 7,
@@ -530,7 +530,7 @@ let Iggy = {
 };
 
 let MarioDeMetal = {
-    nom: ["Mario de métal", "Mario de métal"],
+    nom: ["Mario de métal", "Mario de métal", "Metal Mario"],
     vitesse: 8,
     vitesseEau: 8,
     vitesseAir: 8,
@@ -547,7 +547,7 @@ let MarioDeMetal = {
 };
 
 let PeachDOrRose = {
-    nom: ["Peach d'or rose", "Peach d'or rose"],
+    nom: ["Peach d'or rose", "Peach d'or rose", "Pink Gold Peach"],
     vitesse: 8,
     vitesseEau: 8,
     vitesseAir: 8,
@@ -564,7 +564,7 @@ let PeachDOrRose = {
 };
 
 let Harmonie = {
-    nom: "Harmonie",
+    nom: ["Harmonie", "Rosalina", "Rosalina"],
     vitesse: 8,
     vitesseEau: 8,
     vitesseAir: 8,
@@ -581,7 +581,7 @@ let Harmonie = {
 };
 
 let Link = {
-    nom: ["Link", "Link"],
+    nom: ["Link", "Link", "Link"],
     vitesse: 8,
     vitesseEau: 8,
     vitesseAir: 8,
@@ -598,7 +598,7 @@ let Link = {
 };
 
 let RoiBoo = {
-    nom: ["Roi Boo", "Roi Boo"],
+    nom: ["Roi Boo", "Roi Boo", "King Boo"],
     vitesse: 8,
     vitesseEau: 8,
     vitesseAir: 8,
@@ -615,7 +615,7 @@ let RoiBoo = {
 };
 
 let DonkeyKong = {
-    nom: ["Donkey Kong", "Donkey Kong"],
+    nom: ["Donkey Kong", "Donkey Kong", "Donkey Kong"],
     vitesse: 9,
     vitesseEau: 9,
     vitesseAir: 9,
@@ -632,7 +632,7 @@ let DonkeyKong = {
 };
 
 let Waluigi = {
-    nom: ["Waluigi", "Waluigi"],
+    nom: ["Waluigi", "Waluigi", "Waluigi"],
     vitesse: 9,
     vitesseEau: 9,
     vitesseAir: 9,
@@ -649,7 +649,7 @@ let Waluigi = {
 };
 
 let Roy = {
-    nom: ["Roy", "Roy"],
+    nom: ["Roy", "Roy", "Roy"],
     vitesse: 9,
     vitesseEau: 9,
     vitesseAir: 9,
@@ -666,7 +666,7 @@ let Roy = {
 };
 
 let Wario = {
-    nom: ["Wario", "Wario"],
+    nom: ["Wario", "Wario", "Wario"],
     vitesse: 10,
     vitesseEau: 10,
     vitesseAir: 10,
@@ -683,7 +683,7 @@ let Wario = {
 };
 
 let BowserSkelet = {
-    nom: ["Bowser Skelet", "Bowser Skelet"],
+    nom: ["Bowser Skelet", "Bowser Skelet", "Dry Bowser"],
     vitesse: 10,
     vitesseEau: 10,
     vitesseAir: 10,
@@ -700,7 +700,7 @@ let BowserSkelet = {
 };
 
 let Bowser = {
-    nom: ["Bowser", "Bowser"],
+    nom: ["Bowser", "Bowser", "Bowser"],
     vitesse: 10,
     vitesseEau: 10,
     vitesseAir: 10,
@@ -717,7 +717,7 @@ let Bowser = {
 };
 
 let Morton = {
-    nom: ["Morton", "Morton"],
+    nom: ["Morton", "Morton", "Morton"],
     vitesse: 10,
     vitesseEau: 10,
     vitesseAir: 10,
@@ -734,7 +734,7 @@ let Morton = {
 };
 
 let MiiLourd = {
-    nom: ["Mii Lourd", "Mii Lourd"],
+    nom: ["Mii Lourd", "Mii Lourd", "Large Mii"],
     vitesse: 10,
     vitesseEau: 10,
     vitesseAir: 10,
@@ -751,7 +751,7 @@ let MiiLourd = {
 };
 
 let Birdo = {
-    nom: ["Birdo", "Birdo"],
+    nom: ["Birdo", "Birdo", "Birdo"],
     vitesse: 5,
     vitesseEau: 5,
     vitesseAir: 5,
@@ -770,7 +770,7 @@ let Birdo = {
 // KARTS ----------------------------------------
 
 let KartStandard = {
-    nom: ["Kart Standard", "Kart standard"],
+    nom: ["Kart Standard", "Kart standard", "Standard Kart"],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -787,7 +787,7 @@ let KartStandard = {
 };
 
 let Cybertrombe = {
-    nom: ["Cybertrombe", "Cybertrombe"],
+    nom: ["Cybertrombe", "Cybertrombe", "The Duke"],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -804,7 +804,7 @@ let Cybertrombe = {
 };
 
 let SLRoadster = {
-    nom: ["300SL Roadster", "300 SL Roadster"],
+    nom: ["300 SL Roadster", "300 SL Roadster", "300 SL Roadster"],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -821,7 +821,7 @@ let SLRoadster = {
 };
 
 let Retro = {
-    nom: ["Rétro", "Rétro"],
+    nom: ["Rétro", "Rétro", "Pipe Frame"],
     vitesse: 1,
     vitesseEau: 3,
     vitesseAir: 1,
@@ -838,7 +838,7 @@ let Retro = {
 };
 
 let Mecabecane = {
-    nom: ["Mécabécane", "Mécabécane"],
+    nom: ["Mécabécane", "Mécabécane", "Varmint"],
     vitesse: 1,
     vitesseEau: 3,
     vitesseAir: 1,
@@ -855,7 +855,7 @@ let Mecabecane = {
 };
 
 let ScooterAC = {
-    nom: ["Scooter AC", "Scooter AC"],
+    nom: ["Scooter AC", "Scooter AC", "City Tripper"],
     vitesse: 1,
     vitesseEau: 3,
     vitesseAir: 1,
@@ -872,7 +872,7 @@ let ScooterAC = {
 };
 
 let Proto8 = {
-    nom: ["Proto 8", "Mach 8"],
+    nom: ["Proto 8", "Mach 8", "Mach 8"],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 4,
@@ -889,7 +889,7 @@ let Proto8 = {
 };
 
 let Propulsar = {
-    nom: ["Propulsar", "Coupé sport"],
+    nom: ["Propulsar", "Coupé sport", "Sports Coupé"],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 4,
@@ -906,7 +906,7 @@ let Propulsar = {
 };
 
 let MissileTornade = {
-    nom: ["Missile Tornade", "Missile Tornade"],
+    nom: ["Missile Tornade", "Missile Tornade", "Inkstriker"],
     vitesse: 3,
     vitesseEau: 3,
     vitesseAir: 4,
@@ -923,7 +923,7 @@ let MissileTornade = {
 };
 
 let Nautomobile = {
-    nom: ["Nautomobile", "Nauticomobile"],
+    nom: ["Nautomobile", "Nauticomobile", "Steel Diver"],
     vitesse: 4,
     vitesseEau: 5,
     vitesseAir: 0,
@@ -940,7 +940,7 @@ let Nautomobile = {
 };
 
 let TubulR3 = {
-    nom: ["Tubul R3", "Tubul R3"],
+    nom: ["Tubul R3", "Tubul R3", "Tri-Speeder"],
     vitesse: 4,
     vitesseEau: 5,
     vitesseAir: 0,
@@ -957,7 +957,7 @@ let TubulR3 = {
 };
 
 let Malecycle = {
-    nom: ["Malécycle", "Tricyclos"],
+    nom: ["Malécycle", "Tricyclos", "Bone Rattler"],
     vitesse: 4,
     vitesseEau: 5,
     vitesseAir: 0,
@@ -974,7 +974,7 @@ let Malecycle = {
 };
 
 let Chabriolet = {
-    nom: ["Chabriolet", "Chabriolet"],
+    nom: ["Chabriolet", "Chabriolet", "Cat Cruiser"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 4,
@@ -991,7 +991,7 @@ let Chabriolet = {
 };
 
 let Meteore = {
-    nom: ["Météore", "Turboto"],
+    nom: ["Météore", "Turboto", "Comet"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 4,
@@ -1008,7 +1008,7 @@ let Meteore = {
 };
 
 let Yoshimoto = {
-    nom: ["Yoshimoto", "Moto Yoshi"],
+    nom: ["Yoshimoto", "Moto Yoshi", "Yoshi Bike"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 4,
@@ -1025,7 +1025,7 @@ let Yoshimoto = {
 };
 
 let QuadNounours = {
-    nom: ["Quad Nounours", "VTT nounours"],
+    nom: ["Quad Nounours", "VTT nounours", "Teddy Buggy"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 4,
@@ -1042,7 +1042,7 @@ let QuadNounours = {
 };
 
 let MachCelere = {
-    nom: ["Mach-Célère", "Rapido"],
+    nom: ["Mach-Célère", "Rapido", "Circuit Special"],
     vitesse: 5,
     vitesseEau: 1,
     vitesseAir: 2,
@@ -1059,7 +1059,7 @@ let MachCelere = {
 };
 
 let Intrepide = {
-    nom: ["Intrépide", "Intrépide"],
+    nom: ["Intrépide", "Intrépide", "B Dasher"],
     vitesse: 5,
     vitesseEau: 1,
     vitesseAir: 2,
@@ -1076,7 +1076,7 @@ let Intrepide = {
 };
 
 let Magikart = {
-    nom: ["Magikart", "Magikart"],
+    nom: ["Magikart", "Magikart", "P-Wing"],
     vitesse: 5,
     vitesseEau: 1,
     vitesseAir: 2,
@@ -1093,7 +1093,7 @@ let Magikart = {
 };
 
 let BeatBolide = {
-    nom: ["Beat-Bolide", "Stereo-bolide"],
+    nom: ["Beat-Bolide", "Stereo-bolide", "Badwagon"],
     vitesse: 5,
     vitesseEau: 2,
     vitesseAir: 1,
@@ -1110,7 +1110,7 @@ let BeatBolide = {
 };
 
 let QuadStandard = {
-    nom: ["Quad Standard", "VTT standard"],
+    nom: ["Quad Standard", "VTT standard", "Standard Quad"],
     vitesse: 5,
     vitesseEau: 2,
     vitesseAir: 1,
@@ -1127,7 +1127,7 @@ let QuadStandard = {
 };
 
 let KartGLA = {
-    nom: ["GLA", "GLA"],
+    nom: ["GLA", "GLA", "GLA"],
     vitesse: 5,
     vitesseEau: 2,
     vitesseAir: 1,
@@ -1144,7 +1144,7 @@ let KartGLA = {
 };
 
 let Cavalkart = {
-    nom: ["Cavalkart", "Deux-chevaux"],
+    nom: ["Cavalkart", "Deux-chevaux", "Prancer"],
     vitesse: 4,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -1161,7 +1161,7 @@ let Cavalkart = {
 };
 
 let SportGP = {
-    nom: ["Sport GP", "Sport GP"],
+    nom: ["Sport GP", "Sport GP", "Sport Bike"],
     vitesse: 4,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -1178,7 +1178,7 @@ let SportGP = {
 };
 
 let Epervier = {
-    nom: ["Épervier", "Galaxycle"],
+    nom: ["Épervier", "Galaxycle", "Jet Bike"],
     vitesse: 4,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -1195,7 +1195,7 @@ let Epervier = {
 };
 
 let Paracoccinelly = {
-    nom: ["Paracoccinelly", "Paracoccinelly"],
+    nom: ["Paracoccinelly", "Paracoccinelly", "Buggybud"],
     vitesse: 0,
     vitesseEau: 1,
     vitesseAir: 1,
@@ -1212,7 +1212,7 @@ let Paracoccinelly = {
 };
 
 let Scootinette = {
-    nom: ["Scootinette", "Scootinette"],
+    nom: ["Scootinette", "Scootinette", "Mr. Scooty"],
     vitesse: 0,
     vitesseEau: 1,
     vitesseAir: 1,
@@ -1229,7 +1229,7 @@ let Scootinette = {
 };
 
 let Caraveloce = {
-    nom: ["Caravéloce", "Bateau roulant"],
+    nom: ["Caravéloce", "Bateau roulant", "Landship"],
     vitesse: 1,
     vitesseEau: 5,
     vitesseAir: 2,
@@ -1246,7 +1246,7 @@ let Caraveloce = {
 };
 
 let Autorinho = {
-    nom: ["Autorhino", "Coléokart"],
+    nom: ["Autorhino", "Coléokart", "Streetle"],
     vitesse: 1,
     vitesseEau: 5,
     vitesseAir: 2,
@@ -1263,7 +1263,7 @@ let Autorinho = {
 };
 
 let Sneakart = {
-    nom: ["Sneakart", "Espakart"],
+    nom: ["Sneakart", "Espakart", "Bounder"],
     vitesse: 4,
     vitesseEau: 2,
     vitesseAir: 3,
@@ -1280,7 +1280,7 @@ let Sneakart = {
 };
 
 let KartOr = {
-    nom: ["Or", "Kart doré"],
+    nom: ["Or", "Kart doré", "Gold Kart"],
     vitesse: 4,
     vitesseEau: 2,
     vitesseAir: 3,
@@ -1297,7 +1297,7 @@ let KartOr = {
 };
 
 let DestrierDeLegende = {
-    nom: ["Destrier de légende", "Destrier légendaire"],
+    nom: ["Destrier de légende", "Destrier légendaire", "Master Cycle"],
     vitesse: 4,
     vitesseEau: 2,
     vitesseAir: 3,
@@ -1314,7 +1314,7 @@ let DestrierDeLegende = {
 };
 
 let MotoStandard = {
-    nom: ["Moto Standard", "Moto standard"],
+    nom: ["Moto Standard", "Moto standard", "Standard Bike"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 3,
@@ -1331,7 +1331,7 @@ let MotoStandard = {
 };
 
 let Flamboyante = {
-    nom: ["Flamboyante", "Flamboyante"],
+    nom: ["Flamboyante", "Flamboyante", "Flame Rider"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 3,
@@ -1348,7 +1348,7 @@ let Flamboyante = {
 };
 
 let QuadWiggler = {
-    nom: ["Quad Wiggler", "VTT Wiggler"],
+    nom: ["Quad Wiggler", "VTT Wiggler", "Wild Wiggler"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 3,
@@ -1365,7 +1365,7 @@ let QuadWiggler = {
 };
 
 let W25FlecheDArgent = {
-    nom: ["W25 Flèche d'Argent", "W25 Flèche d'Argent"],
+    nom: ["W25 Flèche d'Argent", "W25 Flèche d'Argent", "W 25 Silver Arrow"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 3,
@@ -1382,7 +1382,7 @@ let W25FlecheDArgent = {
 };
 
 let BlueFalcon = {
-    nom: ["Blue Falcon", "Blue Falcon"],
+    nom: ["Blue Falcon", "Blue Falcon", "Blue Falcon"],
     vitesse: 4,
     vitesseEau: 2,
     vitesseAir: 3,
@@ -1399,7 +1399,7 @@ let BlueFalcon = {
 };
 
 let Kartoon = {
-    nom: ["Kartoon", "Kartoon"],
+    nom: ["Kartoon", "Kartoon", "Splat Buggy"],
     vitesse: 4,
     vitesseEau: 2,
     vitesseAir: 3,
@@ -1416,7 +1416,7 @@ let Kartoon = {
 };
 
 let BuggyTanuki = {
-    nom: ["Buggy Tanuki", "Kart tanooki"],
+    nom: ["Buggy Tanuki", "Kart tanooki", "Tanooki Kart"],
     vitesse: 2,
     vitesseEau: 4,
     vitesseAir: 3,
@@ -1433,7 +1433,7 @@ let BuggyTanuki = {
 };
 
 let KoopaMobile = {
-    nom: ["Koopa-Mobile", "Clown Koopa"],
+    nom: ["Koopa-Mobile", "Clown Koopa", "Koopa Clown"],
     vitesse: 2,
     vitesseEau: 4,
     vitesseAir: 3,
@@ -1450,7 +1450,7 @@ let KoopaMobile = {
 };
 
 let DestrierDeLegende01 = {
-    nom: ["Destrier de Légende 0.1", "Destrier Légendaire alpha"],
+    nom: ["Destrier de Légende 0.1", "Destrier Légendaire alpha", "Master Cycle Zero"],
     vitesse: 2,
     vitesseEau: 4,
     vitesseAir: 3,
@@ -1469,7 +1469,7 @@ let DestrierDeLegende01 = {
 // ROUES ----------------------------------------
 
 let RouesStandard = {
-    nom: ["Roues Standard", "Standard"],
+    nom: ["Roues Standard", "Standard", "Normal"],
     vitesse: 2,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -1486,7 +1486,7 @@ let RouesStandard = {
 };
 
 let StandardBleu = {
-    nom: ["Standard Bleu", "Standard bleu"],
+    nom: ["Standard Bleu", "Standard bleu", "Normal Blue"],
     vitesse: 2,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -1503,7 +1503,7 @@ let StandardBleu = {
 };
 
 let RouesGLA = {
-    nom: ["GLA", "GLA"],
+    nom: ["GLA", "GLA", "GLA Wheels"],
     vitesse: 2,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -1520,7 +1520,7 @@ let RouesGLA = {
 };
 
 let Mastodonte = {
-    nom: ["Mastodonte", "Mastodonte"],
+    nom: ["Mastodonte", "Mastodonte", "Monster"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 1,
@@ -1537,7 +1537,7 @@ let Mastodonte = {
 };
 
 let MastoFlamme = {
-    nom: ["Masto-Flammes", "Masto-flamme"],
+    nom: ["Masto-Flammes", "Masto-flamme", "Funky Monster"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 1,
@@ -1554,7 +1554,7 @@ let MastoFlamme = {
 };
 
 let Archeonique = {
-    nom: ["Archéonique", "Archéonique"],
+    nom: ["Archéonique", "Archéonique", "Ancient Tyres"],
     vitesse: 2,
     vitesseEau: 2,
     vitesseAir: 1,
@@ -1571,7 +1571,7 @@ let Archeonique = {
 };
 
 let Roller = {
-    nom: ["Roller", "Mini"],
+    nom: ["Roller", "Mini", "Roller"],
     vitesse: 0,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -1588,7 +1588,7 @@ let Roller = {
 };
 
 let RollerAzur = {
-    nom: ["Roller Azur", "Mini azur"],
+    nom: ["Roller Azur", "Mini azur", "Azure Roller"],
     vitesse: 0,
     vitesseEau: 3,
     vitesseAir: 3,
@@ -1605,7 +1605,7 @@ let RollerAzur = {
 };
 
 let Classique = {
-    nom: ["Classique", "Classique"],
+    nom: ["Classique", "Classique", "Slim"],
     vitesse: 3,
     vitesseEau: 2,
     vitesseAir: 2,
@@ -1622,7 +1622,7 @@ let Classique = {
 };
 
 let Bois = {
-    nom: ["Bois", "Bois"],
+    nom: ["Bois", "Bois", "Wooden"],
     vitesse: 3,
     vitesseEau: 2,
     vitesseAir: 2,
@@ -1639,7 +1639,7 @@ let Bois = {
 };
 
 let ClassiqueRouge = {
-    nom: ["Classique Rouge", "Classique rouge"],
+    nom: ["Classique Rouge", "Classique rouge", "Crimson Slim"],
     vitesse: 3,
     vitesseEau: 2,
     vitesseAir: 2,
@@ -1656,7 +1656,7 @@ let ClassiqueRouge = {
 };
 
 let Lisse = {
-    nom: ["Lisse", "Lisse"],
+    nom: ["Lisse", "Lisse", "Slick"],
     vitesse: 4,
     vitesseEau: 0,
     vitesseAir: 0,
@@ -1673,7 +1673,7 @@ let Lisse = {
 };
 
 let CyberLisse = {
-    nom: ["Cyber-Lisse", "Cyber-Lisse"],
+    nom: ["Cyber-Lisse", "Cyber-Lisse", "Cyber Slick"],
     vitesse: 4,
     vitesseEau: 0,
     vitesseAir: 0,
@@ -1690,7 +1690,7 @@ let CyberLisse = {
 };
 
 let Metal = {
-    nom: ["Métal", "Métal"],
+    nom: ["Métal", "Métal", "Metal"],
     vitesse: 4,
     vitesseEau: 3,
     vitesseAir: 2,
@@ -1707,7 +1707,7 @@ let Metal = {
 };
 
 let RouesOr = {
-    nom: ["Or", "Or"],
+    nom: ["Or", "Or", "Gold Wheels"],
     vitesse: 4,
     vitesseEau: 3,
     vitesseAir: 2,
@@ -1724,7 +1724,7 @@ let RouesOr = {
 };
 
 let Bouton = {
-    nom: ["Bouton", "Bouton"],
+    nom: ["Bouton", "Bouton", "Button"],
     vitesse: 1,
     vitesseEau: 2,
     vitesseAir: 2,
@@ -1741,7 +1741,7 @@ let Bouton = {
 };
 
 let Feuille = {
-    nom: ["Feuille", "Feuille"],
+    nom: ["Feuille", "Feuille", "Leaf Tyres"],
     vitesse: 1,
     vitesseEau: 2,
     vitesseAir: 2,
@@ -1758,7 +1758,7 @@ let Feuille = {
 };
 
 let HorsPiste = {
-    nom: ["Hors-Piste", "Hors-piste"],
+    nom: ["Hors-Piste", "Hors-piste", "Off-Road"],
     vitesse: 3,
     vitesseEau: 4,
     vitesseAir: 1,
@@ -1775,7 +1775,7 @@ let HorsPiste = {
 };
 
 let HorsPisteRetro = {
-    nom: ["Hors-Piste Rétro", "Hors-piste Rétro"],
+    nom: ["Hors-Piste Rétro", "Hors-piste Rétro", "Retro Off-Road"],
     vitesse: 3,
     vitesseEau: 4,
     vitesseAir: 1,
@@ -1792,7 +1792,7 @@ let HorsPisteRetro = {
 };
 
 let Triforce = {
-    nom: ["Triforce", "Triforce"],
+    nom: ["Triforce", "Triforce", "Triforce Tyres"],
     vitesse: 3,
     vitesseEau: 4,
     vitesseAir: 1,
@@ -1809,7 +1809,7 @@ let Triforce = {
 };
 
 let Eponge = {
-    nom: ["Éponge", "Éponge"],
+    nom: ["Éponge", "Éponge", "Sponge"],
     vitesse: 1,
     vitesseEau: 1,
     vitesseAir: 4,
@@ -1826,7 +1826,7 @@ let Eponge = {
 };
 
 let Coussin = {
-    nom: ["Coussin", "Coussin"],
+    nom: ["Coussin", "Coussin", "Cushion"],
     vitesse: 1,
     vitesseEau: 1,
     vitesseAir: 4,
@@ -1845,7 +1845,7 @@ let Coussin = {
 // AILES ----------------------------------------
 
 let AileStandard = {
-    nom: ["Aile Standard", "Aile standard"],
+    nom: ["Aile Standard", "Aile standard", "Super Glider"],
     vitesse: 1,
     vitesseEau: 1,
     vitesseAir: 2,
@@ -1862,7 +1862,7 @@ let AileStandard = {
 };
 
 let Dendinaile = {
-    nom: ["Dandinaile", "Dendinaile"],
+    nom: ["Dandinaile", "Dendinaile", "Waddle Wing"],
     vitesse: 1,
     vitesseEau: 1,
     vitesseAir: 2,
@@ -1879,7 +1879,7 @@ let Dendinaile = {
 };
 
 let AileHylienne = {
-    nom: ["Aile Hylienne", "Aile hylienne"],
+    nom: ["Aile Hylienne", "Aile hylienne", "Hylian Kite"],
     vitesse: 1,
     vitesseEau: 1,
     vitesseAir: 2,
@@ -1896,7 +1896,7 @@ let AileHylienne = {
 };
 
 let AileNuages = {
-    nom: ["Aile Nuages", "Aile nuage"],
+    nom: ["Aile Nuages", "Aile nuage", "Cloud Glider"],
     vitesse: 0,
     vitesseEau: 1,
     vitesseAir: 1,
@@ -1913,7 +1913,7 @@ let AileNuages = {
 };
 
 let Parachute = {
-    nom: ["Parachute", "Parachute"],
+    nom: ["Parachute", "Parachute", "Parachute"],
     vitesse: 0,
     vitesseEau: 1,
     vitesseAir: 1,
@@ -1930,7 +1930,7 @@ let Parachute = {
 };
 
 let AileFleurie = {
-    nom: ["Aile Fleurie", "Aile fleurie"],
+    nom: ["Aile Fleurie", "Aile fleurie", "Flower Glider"],
     vitesse: 0,
     vitesseEau: 1,
     vitesseAir: 1,
@@ -1947,7 +1947,7 @@ let AileFleurie = {
 };
 
 let AileEnPapier = {
-    nom: ["Aile en papier", "Aile en papier"],
+    nom: ["Aile en papier", "Aile en papier", "Paper Glider"],
     vitesse: 0,
     vitesseEau: 1,
     vitesseAir: 1,
@@ -1964,7 +1964,7 @@ let AileEnPapier = {
 };
 
 let AileWario = {
-    nom: ["Aile Wario", "Aile Wario"],
+    nom: ["Aile Wario", "Aile Wario", "Wario Wing"],
     vitesse: 1,
     vitesseEau: 0,
     vitesseAir: 2,
@@ -1981,7 +1981,7 @@ let AileWario = {
 };
 
 let Planeur = {
-    nom: ["Planeur", "Planeur"],
+    nom: ["Planeur", "Planeur", "Plane Glider"],
     vitesse: 1,
     vitesseEau: 0,
     vitesseAir: 2,
@@ -1998,7 +1998,7 @@ let Planeur = {
 };
 
 let AileOr = {
-    nom: ["Or", "Cerf-volant doré"],
+    nom: ["Or", "Cerf-volant doré", "Gold Glider"],
     vitesse: 1,
     vitesseEau: 0,
     vitesseAir: 2,
@@ -2015,7 +2015,7 @@ let AileOr = {
 };
 
 let Paravoile = {
-    nom: ["Paravoile", "Paravoile"],
+    nom: ["Paravoile", "Paravoile", "Paraglider"],
     vitesse: 1,
     vitesseEau: 0,
     vitesseAir: 2,
@@ -2032,7 +2032,7 @@ let Paravoile = {
 };
 
 let OmbrellePeach = {
-    nom: ["Ombrelle Peach", "Ombrelle Peach"],
+    nom: ["Ombrelle Peach", "Ombrelle Peach", "Peach Parasol"],
     vitesse: 0,
     vitesseEau: 0,
     vitesseAir: 1,
@@ -2049,7 +2049,7 @@ let OmbrellePeach = {
 };
 
 let Parapente = {
-    nom: ["Parapente", "Parapente"],
+    nom: ["Parapente", "Parapente", "Parafoil"],
     vitesse: 0,
     vitesseEau: 0,
     vitesseAir: 1,
@@ -2066,7 +2066,7 @@ let Parapente = {
 };
 
 let BowserVolant = {
-    nom: ["Bowser-Volant", "Bowser-volant"],
+    nom: ["Bowser-Volant", "Bowser-volant", "Bowser Kite"],
     vitesse: 0,
     vitesseEau: 0,
     vitesseAir: 1,
@@ -2083,7 +2083,7 @@ let BowserVolant = {
 };
 
 let ParapenteMKTV = {
-    nom: ["Parapente MKTV", "Parapente MKTV"],
+    nom: ["Parapente MKTV", "Parapente MKTV", "MKTV Parafoil"],
     vitesse: 0,
     vitesseEau: 0,
     vitesseAir: 1,
