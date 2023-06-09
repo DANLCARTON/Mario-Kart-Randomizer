@@ -403,6 +403,37 @@ $circuitsZHHANS = array(
 
 $arenesZHHANS = array("对战竞技场", "空中甜点王国", "龙之道场", "月球空间站", "3DS 乌富城 ", "GC 路易吉洋馆", "SFC 对战赛道1", "海星高架下");
 
+// - - - - - C H I N O I S   T R A D I T I O N N E L - - - - -
+
+$circuitsZHHANT = array(
+    "蘑菇盃" => array ("瑪利歐賽車競技場", "水上樂園", "甜點峽谷", "咚咚遺跡"),
+    "花朵盃" => array ("瑪利歐賽道", "奇諾比奧海港", "扭曲洋樓", "嘿呵礦山"),
+    "星星盃" => array ("陽光機場", "海豚海角", "電子幻界", "瓦利歐雪山"),
+    "特別盃" => array ("空中花園", "骨骨沙漠", "庫巴城堡", "彩虹之路"),
+    "圓蛋盃" => array ("GC 耀西賽道", "越野摩托車", "龍盤之路", "寂靜城市"),
+    "動物盃" => array ("GC 寶寶公園", "GBA 起司樂園", "自然之路", "動物森友會"),
+    "龜殼盃" => array ("Wii 牛牛農場", "GBA 瑪利歐賽道", "DS 泡泡魚海灘", "N64 奇諾比奧公路"),
+    "香蕉盃" => array ("GC 乾旱沙漠", "SFC 甜圈平原3", "N64 碧姬公主賽道", "3DS DK叢林"),
+    "樹葉盃" => array ("DS 瓦利歐競技場", "GC 冰凍樂園", "3DS 音樂公園", "N64 耀西谷"),
+    "閃電盃" => array ("DS 滴答時鐘", "3DS 食人花滑道", "Wii 震震火山", "N64 彩虹之路"),
+    "薩爾達盃" => array ("Wii 瓦利歐礦山", "SFC 彩虹之路", "滑滑扭扭樂", "海拉魯賽道"),
+    "鈴鐺盃" => array ("3DS 新庫巴市", "GBA 緞帶之路", "鈴鈴地鐵", "碧海"),
+    "強力盃" => array ("Tour 巴黎兜風", "3DS 奇諾比奧賽道", "N64 巧克力山", "Wii 椰子廣場"),
+    "招財貓盃" => array ("Tour 東京賽道", "DS 蘑菇山脊路", "GBA 空中花園", "忍者莊園"),
+    "大頭菜盃" => array ("Tour 紐約分鐘", "SFC 瑪利歐賽道3", "N64 乾旱沙漠", "DS 瓦路易吉彈珠台"),
+    "螺旋槳盃" => array ("Tour 雪梨衝刺", "GBA 白雪天地", "Wii 蘑菇峽谷", "冰品摩天樓"),
+    "滾滾石盃" => array ("Tour 倫敦環線", "GBA 害羞幽靈湖", "3DS 岩岩山", "Wii 楓樹屋"),
+    "月亮盃" => array ("Tour 柏林小道", "DS 碧姬公主花園", "歡樂山", "3DS 彩虹之路"),
+    "水果盃" => array ("Tour 阿姆斯特丹漂流", "GBA 河岸公園", "Wii DK單板滑雪越野賽", "耀西島"),
+    "迴旋鏢盃" => array ("Tour 曼谷飆速", "DS 瑪利歐賽道", "GC 瓦路易吉競技場", "Tour 新加坡競速賽道"),
+    // "羽毛盃" => array("", "", "", ""),
+    // "樱桃盃" => array("", "", "", ""),
+    // "橡栗盃" => array("", "", "", ""),
+    // "刺刺龜盃" => array("", "", "", ""),
+);
+
+$arenesZHHANT = array("對戰競技場", "空中甜點王國", "龍之道場", "月球基地", "3DS 烏富城 ", "GC 路易吉洋樓", "SFC 對戰賽道1", "海星高架下");
+
 if (isset($_GET["lang"])) {
     $lang = $_GET["lang"];
     if ($lang == "fr") {
@@ -444,6 +475,9 @@ if (isset($_GET["lang"])) {
     } else if ($lang == "zh-Hans") {
         $circuits = $circuitsZHHANS;
         $arenes = $arenesZHHANS;
+    } else if ($lang == "zh-Hant") {
+        $circuits = $circuitsZHHANT;
+        $arenes = $arenesZHHANT;
     }
     else {
         $circuits = $circuitsFR;
