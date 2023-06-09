@@ -22,6 +22,7 @@ function langId(lang) {
     else if (lang == "ja") return 10;
     else if (lang == "ko") return 11;
     else if (lang == "zh-Hans") return 12;
+    else if (lang == "zh-Hant") return 13;
     else return 0;
 }
 
