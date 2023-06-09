@@ -1,6 +1,8 @@
 <?php
 
-$circuits = array(
+// - - - - - F R A N C A I S - - - - - 
+
+$circuitsFR = array(
     "Coupe Champignon" => array ("Champidrome", "Parc Glougloop", "Piste aux délices", "Temple Thwomp"), // 
     "Coupe Fleur" => array ("Circuit Mario", "Promenade Toad", "Manoir Trempé", "Cascade Maskass"), // 
     "Coupe Étoile" => array ("Aéroport Azur", "Lagon Tourbillon", "Club Mario", "Descente Givrée"),
@@ -27,6 +29,48 @@ $circuits = array(
     // "Coupe à épines" => array ("", "", "", "")
 );
 
-$arenes = array("Stade Bousculade", "Île aux délices", "Palais du dragon", "Colonie lunaire", "3DS Wuhuville", "GCN Manoir de Luigi", "SNES Arène Bataille 1", "Passage Turbot")
+$arenesFR = array("Stade Bousculade", "Île aux délices", "Palais du dragon", "Colonie lunaire", "3DS Wuhuville", "GCN Manoir de Luigi", "SNES Arène Bataille 1", "Passage Turbot");
+
+// - - - - - F R A N C A I S    Q U E B E C O I S - - - - - 
+
+$circuitsFRCA = array(
+    "Coupe Champignon" => array ("Champidrome", "Parc Aquatique", "Canyon Gourmand", "Temple Ka-Bang"), // 
+    "Coupe Fleur" => array ("Circuit Mario", "Promenade Toad", "Manoir Englouti", "Chutes Maskache"), // 
+    "Coupe Étoile" => array ("Aéroport Azur", "Lagon Tourbillon", "Électrodrome", "Descente Givrée"),
+    "Coupe Spéciale" => array ("Dans les nuages", "Désert Toussec", "Château de Bowser", "Route Arc-en-ciel"),
+    "Coupe Œuf" => array ("GCN Circuit Yoshi", "Arène d'Excitebike", "Route du dragon", "Mute City"),
+    "Coupe Crossing" => array ("GCN Parc Baby", "GBA Pays Fromage", "Passage Feuillage", "Animal Crossing"),
+    "Coupe Carapace" => array ("Wii Prairie Meuh Meuh", "GBA Circuit Mario", "DS Plage Aquazo", "N64 Autoroute Toad"),
+    "Coupe Banane" => array ("GCN Désert Sec Sec", "SNES Plaine Beigne 3", "N64 Autodrome Royal", "3DS Forêt Tropicale DK"),
+    "Coupe Feuille" => array ("DS Stade Wario", "GCN Royaume Sorbet", "3DS Piste musicale", "N64 Vallée Yoshi"),
+    "Coupe Éclair" => array("DS Horloge Tic-Tac", "3DS Égout Piranha", "Wii Volcan Grondant", "N64 Route Arc-en-ciel"),
+    "Coupe Triforce" => array ("Wii Mine d'Or de Wario", "SNES Route Arc-en-ciel", "Station Glagla", "Circuit d'Hyrule"),
+    "Coupe Clochette" => array("3DS Koopapolis", "GBA Route Ruban", "Métro Turbo", "Big Blue"),
+    "Coupe Turbo dorée" => array("Tour Promenade à Paris", "3DS Circuit Toad", "N64 Montagne Choco", "Wii Supermarché Coco"),
+    "Coupe Maneki-neko" => array ("Tour Traversée de Tokyo", "DS Corniche Champignon", "GBA Jardin Volant", "Dojo Ninja"),
+    "Coupe Navet" => array ("Tour Escapade new-yorkaise", "SNES Circuit Mario 3", "N64 Désert Kalimari", "DS Flipper Waluigi"),
+    "Coupe Hélico" => array ("Tour Sprint à Sydney", "GBA Pays Neigeux", "Wii Gorge Champignon", "Cité Sorbet"),
+    "Coupe Pierre" => array ("Tour Détour à Londres", "GBA Lac Boo", "3DS Mont Éboulis", "Wii Bois Vermeil"),
+    "Coupe Lune" => array ("Tour Balade berlinoise", "DS Jardin Peach", "Mont Festif", "3DS Route Arc-en-ciel"),
+    "Coupe Fruit" => array ("Tour Escapade à Amsterdam", "GBA Riverside Parc", "Wii Pic DK", "Île de Yoshi"),
+    "Coupe Boomerang" => array ("Tour Bousculade à Bangkok", "DS Circuit Mario", "GCN Stade Waluigi", "Tour Poursuite à Singapour"),
+    // "Coupe Plume" => array ("", "", "", ""),
+    // "Coupe Cerises" => array ("", "", "", ""),
+    // "Coupe Gland" => array ("", "", "", ""),
+    // "Coupe à épines" => array ("", "", "", "")
+);
+
+$arenesFRCA = array("Stade Bousculade", "Royaume Gourmand", "Palais du dragon", "Colonie lunaire", "3DS Wuhuville", "GCN Manoir de Luigi", "SNES Arène Bataille 1", "Passage Turbot");
+
+if (isset($_GET["lang"])) {
+    $lang = $_GET["lang"];
+    if ($lang == "fr") {
+        $circuits = $circuitsFR;
+        $arenes = $arenesFR;
+    } else if ($lang == "fr-CA") {
+        $circuits = $circuitsFRCA;
+        $arenes = $arenesFRCA;
+    }
+}
 
 ?>
