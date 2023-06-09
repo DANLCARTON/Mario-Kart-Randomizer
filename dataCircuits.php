@@ -62,6 +62,37 @@ $circuitsFRCA = array(
 
 $arenesFRCA = array("Stade Bousculade", "Royaume Gourmand", "Palais du dragon", "Colonie lunaire", "3DS Wuhuville", "GCN Manoir de Luigi", "SNES Arène Bataille 1", "Passage Turbot");
 
+// - - - - - A N G L A I S - - - - -
+
+$circuitsEN = array(
+    "Mushroom Cup" => array ("Mario Kart Stadium", "Water Park", "Sweet Sweet Canyon", "Thwomp Ruins"), // 
+    "Flower Cup" => array ("Mario Circuit", "Toad Harbour", "Twisted Mansion", "Shy Guy Falls"), // 
+    "Star Cup" => array ("Sunshine Airport", "Dolphin Shoals", "Electrodrome", "Mount Wario"),
+    "Special Cup" => array ("Cloudtop Cruise", "Bone Dry Dunes", "Bowser Castle", "Rainbow Road"),
+    "Egg Cup" => array ("GCN Yoshi Circuit", "Excitebike Arena", "Dragon Driftway", "Mute City"),
+    "Crossing Cup" => array ("GCN Baby Park", "GBA Cheese Land", "Wild Woods", "Animal Crossing"),
+    "Shell Cup" => array ("Wii Moo Moo Meadows", "GBA Mario Circuit", "DS Cheep Cheep Beach", "N64 Toad's Turnpike"),
+    "Banana Cup" => array ("GCN Dry Dry Desert", "SNES Donut Plains 3", "N64 Royal Raceway", "3DS DK Jungle"),
+    "Leaf Cup" => array ("DS Wario Stadium", "GCN Sherbet Land", "3DS Melody Motorway", "N64 Yoshi Valley"),
+    "Lightning Cup" => array("DS Tick-Tock Clock", "3DS Piranha Plant Pipeway", "Wii Grumble Volcano", "N64 Rainbow Road"),
+    "Triforce Cup" => array ("Wii Wario's Gold Mine", "SNES Rainbow Road", "Ice Ice Outpost", "Hyrule Circuit"),
+    "Bell Cup" => array("3DS Koopa City", "GBA Ribbon Road", "Super Bell Subway", "Big Blue"),
+    "Golden Dash Cup" => array("Tour Paris Promenade", "3DS Toad Circuit", "N64 Choco Mountain", "Wii Coconut Mall"),
+    "Lucky Cat Cup" => array ("Tour Tokyo Blur", "DS Shroom Ridge", "GBA Sky Garden", "Ninja Hideaway"),
+    "Turnip Cup" => array ("Tour New York Minute", "SNES Mario Circuit 3", "N64 Kalimari Desert", "DS Waluigi Pinball"),
+    "Propeller Cup" => array ("Tour Sydney Sprint", "GBA Snow Land", "Wii Mushroom Gorge", "Sky-High Sundae"),
+    "Rock Cup" => array ("Tour London Loop", "GBA Boo Lake", "3DS Alpine Pass", "Wii Maple Treeway"),
+    "Moon Cup" => array ("Tour Berlin Byways", "DS Peach Gardens", "Merry Mountain", "3DS Rainbow Road"),
+    "Fruit Cup" => array ("Tour Amsterdam Drift", "GBA Riverside Park", "Wii DK's Snowboard Cross", "Yoshi's Island"),
+    "Boomerang Cup" => array ("Tour Bangkok Rush", "DS Mario Circuit", "GCN Waluigi Stadium", "Tour Singapore Speedway"),
+    // "Feather Cup" => array ("", "", "", ""),
+    // "Cherry Cup" => array ("", "", "", ""),
+    // "Acorn Cup" => array ("", "", "", ""),
+    // "Spiny Cup" => array ("", "", "", "")
+);
+
+$arenesEN = array("Battle Stadium", "Sweet Sweet Kingdom", "Dragon Palace", "Lunar Colony", "3DS Wuhu Town", "GCN Luigi's Mansion", "SNES Battle Course 1", "Urchin Underpass");
+
 if (isset($_GET["lang"])) {
     $lang = $_GET["lang"];
     if ($lang == "fr") {
@@ -70,6 +101,9 @@ if (isset($_GET["lang"])) {
     } else if ($lang == "fr-CA") {
         $circuits = $circuitsFRCA;
         $arenes = $arenesFRCA;
+    } else if ($lang == "en") {
+        $circuits = $circuitsEN;
+        $arenes = $arenesEN;
     }
 }
 
