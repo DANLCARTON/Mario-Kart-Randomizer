@@ -11,6 +11,7 @@ function langId(lang) {
     else if (lang == "fr-CA") return 1;
     else if (lang == "en") return 2;
     else if (lang == "en-US") return 3;
+    else if (lang == "de") return 4;
     else return 0;
 }
 
