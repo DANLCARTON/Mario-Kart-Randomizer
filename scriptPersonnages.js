@@ -17,6 +17,7 @@ function langId(lang) {
     else if (lang == "nl") return 7;
     else if (lang == "pt") return 8;
     else if (lang == "ru") return 9;
+    else if (lang == "ja") return 10;
     else return 0;
 }
 
