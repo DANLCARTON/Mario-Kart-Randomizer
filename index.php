@@ -44,6 +44,7 @@ include "fonctionsPhp/vues.php";
     </aside>
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
+        <div class="subh1 subtitle"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 4)</p></div>
         <a href="index.php?lang=fr">fr</a>
         <a href="index.php?lang=fr-CA">fr-CA</a>
         <a href="index.php?lang=en">en</a>
@@ -58,13 +59,12 @@ include "fonctionsPhp/vues.php";
         <a href="index.php?lang=ko">ko</a>
         <a href="index.php?lang=zh-Hant">zh-Hant</a>
         <a href="index.php?lang=zh-Hans">zh-Hans</a>
-        <div class="subh1"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 4)</p></div>
         <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-4" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight" alt="exit"><img src='./img/icons/exit.png' id="exitday" alt="exit"></a>
         <section id="personnageAleatoire">
 
-            <h2>Personnage aléatoire</h2>
+            <h2 class="randomCharacter">Personnage aléatoire</h2>
 
-            <p> Cliquez sur le bouton "Générer" ci-dessous pour afficher une combinaison aléatoire. Si l'un des élément ne vous plaît pas, cliquez sur son image pour le changer ! Vous êtes plusieurs sur le même appareil ? Affichez une nouvelle combinaison à l'aide du bouton "+". Jusqu'à quatre joueurs peuvent être affichés. </p>
+            <p class="randomCharacterExplanations"> Cliquez sur le bouton "Générer" ci-dessous pour afficher une combinaison aléatoire. Si l'un des élément ne vous plaît pas, cliquez sur son image pour le changer ! Vous êtes plusieurs sur le même appareil ? Affichez une nouvelle combinaison à l'aide du bouton "+". Jusqu'à quatre joueurs peuvent être affichés. </p>
 
             <div id="setContainer">
 
@@ -186,6 +186,7 @@ include "fonctionsPhp/vues.php";
     <script type="module" src="scriptCircuits.js"></script>
     <script type="module" src="scriptObjets.js"></script>
     <script type="module" src="themes.js"></script>
+    <script type="module" src="textContent.js"></script>
     <img src="./img/icons/td.jpg" id="ee" alt="Easter Egg">
 </body>
 

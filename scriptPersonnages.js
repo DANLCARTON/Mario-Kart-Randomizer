@@ -1,4 +1,5 @@
 import { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, MiiLeger, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, MiiMoyen, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, MiiLourd, KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01, RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin, AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant, Birdo } from "./stats.js";
+import { langId } from "./translatedTextContent.js";
 
 var URLparams = new URLSearchParams(window.location.search);
 var language;
@@ -7,24 +8,6 @@ if (URLparams.has('lang')) {
 }
 
 document.getElementsByTagName("html")[0].lang = language;
-
-function langId(lang) {
-    if (lang == "fr") return 0;
-    else if (lang == "fr-CA") return 1;
-    else if (lang == "en") return 2;
-    else if (lang == "en-US") return 3;
-    else if (lang == "de") return 4;
-    else if (lang == "es") return 5;
-    else if (lang == "it") return 6;
-    else if (lang == "nl") return 7;
-    else if (lang == "pt") return 8;
-    else if (lang == "ru") return 9;
-    else if (lang == "ja") return 10;
-    else if (lang == "ko") return 11;
-    else if (lang == "zh-Hans") return 12;
-    else if (lang == "zh-Hant") return 13;
-    else return 0;
-}
 
 var lang = langId(language);
 

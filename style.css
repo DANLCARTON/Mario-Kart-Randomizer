@@ -26,8 +26,8 @@
     --bgff8: #ff8;
     --bgffb: #ffb;
     --bgfff: #fff;
-    --bg-color-1: var(--bgbbb);
-    --bg-color-2: var(--bgbbb);
+    --bg-color-1: var(--bgfff);
+    --bg-color-2: var(--bgfff);
     --text-color-paragraph: #353535;
     --shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     --link: var(--bg88f);
@@ -93,13 +93,13 @@ main {
 }
 
 h1 {
-    margin: 15px 0;
     font-weight: bolder;
     color: var(--text-color-paragraph);
     font-size: 50px;
 }
 
-.subh1 p {
+.subh1,
+.subtitle {
     font-size: 25px;
     line-height: 0;
     font-weight: 500;

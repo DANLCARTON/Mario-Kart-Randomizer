@@ -1,5 +1,5 @@
-var bgCol1 = "var(--bgfb8)";
-var bgCol2 = "var(--bg88f)";
+var bgCol1 = "var(--bgfff)";
+var bgCol2 = "var(--bgfff)";
 
 var iconList = Array("set", "exit")
 

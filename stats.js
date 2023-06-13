@@ -1,6 +1,6 @@
 // PERSONNAGES ----------------------------------
 
-// fr-fr | fr-ca | en-uk | en-us | de | es | it | nl | pt
+// fr-fr | fr-ca | en-uk | en-us | de | es | it | nl | pt | ru | ja | ko | zh-Hans | zh-Hant
 
 let BebePeach = {
     nom: ["Bébé Peach", "Bébé Peach", "Baby Peach", "Baby Peach", "Baby Peach", "Bebé Peach", "Baby Peach", "Baby Peach", "Peach Bebé", "Малыш Пич", "ベビィピーチ", "베이비피치", "桃花公主宝贝", "碧姬公主寶寶"],
