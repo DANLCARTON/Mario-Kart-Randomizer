@@ -1,8 +1,9 @@
 <div id="objectsButtons">
-    <input type="radio" name="nbObjects" value="ffew"> <label>Très Peu d'objets</label><br>
-    <input type="radio" name="nbObjects" value="few"> <label>Peu d'objets </label><br>
-    <input type="radio" name="nbObjects" value="regu"> <label>Moitié d'objets </label><br>
-    <input type="radio" name="nbObjects" value="lot"> <label>Beaucoup d'objets </label><br>
-    <input type="radio" name="nbObjects" value="llot"> <label>Nombreux d'objets </label><br>
-    <input type="radio" name="nbObjects" value="rand" checked> <label> Nombre aléatoire</label>
+    <input type="radio" name="nbObjects" value="ffew"> <label class="ffew">Très Peu d'objets</label><br>
+    <input type="radio" name="nbObjects" value="few"> <label class="few">Peu d'objets </label><br>
+    <input type="radio" name="nbObjects" value="regu"> <label class="mid">Moitié d'objets </label><br>
+    <input type="radio" name="nbObjects" value="lot"> <label class="lot">Beaucoup d'objets </label><br>
+    <input type="radio" name="nbObjects" value="llot"> <label class="llot">Nombreux d'objets </label><br>
+    <input type="radio" name="nbObjects" value="rand" checked> <label class="rand"> Nombre aléatoire</label>
 </div>
+

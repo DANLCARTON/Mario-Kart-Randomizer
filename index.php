@@ -44,7 +44,7 @@ include "fonctionsPhp/vues.php";
     </aside>
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
-        <div class="subh1 subtitle"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 4)</p></div>
+        <div class="subh1 subtitle"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 5)</p></div>
         <a href="index.php?lang=fr">fr</a>
         <a href="index.php?lang=fr-CA">fr-CA</a>
         <a href="index.php?lang=en">en</a>
@@ -105,9 +105,9 @@ include "fonctionsPhp/vues.php";
 
         <section id="objetsPersonnalises">
 
-            <h2>Objets personnalisés aléatoires</h2>
+            <h2 class="randomItems">Objets personnalisés aléatoires</h2>
 
-            <p class="desc">Cliquez sur le bouton "Choisir" en bas de la section pour afficher une sélection aléatoire d'objets pour le nouveau Mode Personnalisé. Choisissez la quantité d'objets que vous souhaitez voir apparaître sur la droite de la grille. </p>
+            <p class="desc randomItemsExplanations">Cliquez sur le bouton "Choisir" en bas de la section pour afficher une sélection aléatoire d'objets pour le nouveau Mode Personnalisé. Choisissez la quantité d'objets que vous souhaitez voir apparaître sur la droite de la grille. </p>
 
             <div id="divItems">
 
@@ -118,23 +118,23 @@ include "fonctionsPhp/vues.php";
 
             </div>
 
-            <div id="chooseItem"> <button href="#" onlick="return  false">Choisir</button> </div>
-            <div id="resetItem"> <button href="#" onlick="return  false">Remettre à zéro</button> </div>
+            <div id="chooseItem"> <button href="#" onlick="return false" class="choose">Choisir</button> </div>
+            <div id="resetItem"> <button href="#" onlick="return false" class="reset">Remettre à zéro</button> </div>
 
         </section>
 
         <hr>
 
         <section id="circuitAleatoire">
-            <h2>Circuit aléatoire sans remise</h2>
+            <h2 class="randomCircuit">Circuit aléatoire sans répétition</h2>
 
-            <p class="desc">Cliquez sur le bouton "Choisir" ci-dessous pour sélectionner aléatoirement l'un des 64 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton "Remettre à zero" situé tout en bas.</p>
+            <p class="desc randomCircuitExplanations">Cliquez sur le bouton "Choisir" ci-dessous pour sélectionner aléatoirement l'un des 64 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton "Remettre à zero" situé tout en bas.</p>
 
             <article>
 
                 <?php require "dataCircuits.php"; ?>   
 
-                <div id="choose"> <button href="#" onlick="return  false">Choisir</button> </div>
+                <div id="choose"> <button href="#" onlick="return  false" class="choose">Choisir</button> </div>
 
                 <div class="grilleCircuits">
 
@@ -148,20 +148,20 @@ include "fonctionsPhp/vues.php";
                 compteurCircuits();
                 ?>
 
-                <div id="reset"> <button href="#" onlick="return false">Remettre à zéro</button> </div>
+                <div id="reset"> <button href="#" onlick="return false" class="reset">Remettre à zéro</button> </div>
 
             </article>
 
             <hr>
 
             
-            <h2>Arène bataille aléatoire sans remise</h2>
+            <h2 class="randomArena">Arène bataille aléatoire sans répétition</h2>
 
             <article>
 
                 <?php require "dataCircuits.php"; ?>   
 
-                <div id="chooseArena"> <button href="#" onlick="return  false">Choisir</button> </div>
+                <div id="chooseArena"> <button href="#" onlick="return false" class="choose">Choisir</button> </div>
 
                 <div class="grilleArenes">
 
@@ -175,7 +175,7 @@ include "fonctionsPhp/vues.php";
                 compteurArenes();
                 ?>
 
-                <div id="resetArena"> <button href="#" onlick="return false">Remettre à zéro</button> </div>
+                <div id="resetArena"> <button href="#" onlick="return false" class="reset">Remettre à zéro</button> </div>
 
             </article>
 
