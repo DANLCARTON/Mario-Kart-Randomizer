@@ -45,20 +45,7 @@ include "fonctionsPhp/vues.php";
     <main>
         <h1>RANDOMIZER<br />MARIO KART 8 DELUXE<br></h1>
         <div class="subh1 subtitle"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 5)</p></div>
-        <a href="index.php?lang=fr">fr</a>
-        <a href="index.php?lang=fr-CA">fr-CA</a>
-        <a href="index.php?lang=en">en</a>
-        <a href="index.php?lang=en-US">en-US</a>
-        <a href="index.php?lang=de">de</a>
-        <a href="index.php?lang=es">es</a>
-        <a href="index.php?lang=it">it</a>
-        <a href="index.php?lang=nl">nl</a>
-        <a href="index.php?lang=pt">pt</a>
-        <a href="index.php?lang=ru">ru</a>
-        <a href="index.php?lang=ja">ja</a>
-        <a href="index.php?lang=ko">ko</a>
-        <a href="index.php?lang=zh-Hant">zh-Hant</a>
-        <a href="index.php?lang=zh-Hans">zh-Hans</a>
+
         <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-4" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight" alt="exit"><img src='./img/icons/exit.png' id="exitday" alt="exit"></a>
         <section id="personnageAleatoire">
 
@@ -188,6 +175,38 @@ include "fonctionsPhp/vues.php";
     <script type="module" src="themes.js"></script>
     <script type="module" src="textContent.js"></script>
     <img src="./img/icons/td.jpg" id="ee" alt="Easter Egg">
+
+    
+    <footer>
+        <div id="footer-grid">
+            <div class="footerDesc">
+                <p><b>Mario Kart 8 Deluxe Randomizer <span class="subtitle footerSubtitle">+ Pass circuits additionnels (Vague 5)</span></b></p>
+                <p>Randomizer for Mario Kart 8 Deluxe! - Randomly generate a character, a kart combination, custom mode items and a random track for Mario Kart 8 Deluxe!</p>
+            </div>
+            <div class="languages"> 
+                <div><img src="img/flags/fr.webp" alt="fr"><a href="index.php?lang=fr">Français</a><br></div>
+                <div><img src="img/flags/fr-CA.webp" alt="fr"><a href="index.php?lang=fr-CA">Français (Amérique)</a><br></div>
+                <div><img src="img/flags/en.webp" alt="fr"><a href="index.php?lang=en">English</a><br></div>
+                <div><img src="img/flags/en-US.webp" alt="fr"><a href="index.php?lang=en-US">English (America)</a><br></div>
+                <div><img src="img/flags/es.webp" alt="fr"><a href="index.php?lang=es">Español</a><br></div>
+                <div><img src="img/flags/pt.webp" alt="fr"><a href="index.php?lang=pt">Português</a><br></div>
+                <div><img src="img/flags/it.webp" alt="fr"><a href="index.php?lang=it">Italiano</a><br></div>
+                <div><img src="img/flags/de.webp" alt="fr"><a href="index.php?lang=de">Deutsch</a><br></div>
+                <div><img src="img/flags/nl.webp" alt="fr"><a href="index.php?lang=nl">Nederlands</a><br></div>
+                <div><img src="img/flags/ru.webp" alt="fr"><a href="index.php?lang=ru">Русский</a><br></div>
+                <div><img src="img/flags/ja.webp" alt="ja"><a href="index.php?lang=ja">日本語</a><br></div>
+                <div><img src="img/flags/ko.webp" alt="ko"><a href="index.php?lang=ko">한국어</a><br></div>
+                <div><img src="img/flags/zh-Hans.webp" alt="zh-Hans"><a href="index.php?lang=zh-Hans">简化字</a><br></div>
+                <div><img src="img/flags/zh-Hant.webp" alt="zh-Hant"><a href="index.php?lang=zh-Hant">正體字</a></div>
+            </div>
+            <div class="links">
+                <p><i>Feel free to report any errors or bugs you see on the website, as I'm working alone on this project and I don't speak all the languages available (but I really wanted to include them all).</i></p>
+                <p><i>Don't hesitate to suggest new features too! I'll be happy to consider them. Maybe I'll try to work on your proposition if I like it :)</i></p>
+                <div><img src="img/icons/github.webp" alt="issues"><a href="https://github.com/DANLCARTON/Mario-Kart-Randomizer/issues">Create a new issue here</a></div>
+            </div>
+        </div
+    </footer>
+
 </body>
 
 </html>

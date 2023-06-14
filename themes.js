@@ -1,13 +1,13 @@
 var bgCol1 = "var(--bgfff)";
-var bgCol2 = "var(--bgfff)";
+var bgCol2 = "var(--bgf8b)";
 
 var iconList = Array("set", "exit")
 
 function setNightTheme() {
     let root = document.querySelector(':root');
     root.style.setProperty('--bg-color-1', '#111');
-    root.style.setProperty('--bg-color-2', '#111');
-    root.style.setProperty('--text-color-paragraph', '#fff');
+    root.style.setProperty('--bg-color-2', '#222');
+    root.style.setProperty('--text-color-paragraph', '#dcdcdc');
     for (let i = 0; i < iconList.length; i++) {
         document.getElementById(iconList[i] + "night").style.setProperty('display', "none");
         document.getElementById(iconList[i] + "day").style.setProperty('display', "inline-block");
@@ -48,4 +48,4 @@ document.getElementById("setday").addEventListener("click", () => {
     setDayTheme();
 })
 
-export { bgCol1 };
+export { bgCol1, bgCol2 };

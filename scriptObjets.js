@@ -1,4 +1,4 @@
-import { bgCol1 } from "./themes.js";
+import { bgCol2 } from "./themes.js";
 
 var items = Array("banana", "tripleBananas", "greenShell", "tripleGreenShells", "redShell", "tripleRedShells", "spinyShell", "bobOmb", "mushroom", "tripleMushrooms", "goldenMushroom", "bulletBill", "blooper", "lightning", "star", "fireFlower", "boomerangFlower", "piranhaPlant", "superHorn", "crazyEight", "coin", "boo", "feather");
 
@@ -24,7 +24,7 @@ function getOdds() {
 function colorItem(item) {
     let toColor = document.getElementById(item);
     toColor.classList.add("selected");
-    toColor.style.backgroundColor = bgCol1;
+    toColor.style.backgroundColor = bgCol2;
 }
 
 function pickItems() {

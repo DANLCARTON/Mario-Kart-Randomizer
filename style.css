@@ -27,14 +27,15 @@
     --bgffb: #ffb;
     --bgfff: #fff;
     --bg-color-1: var(--bgfff);
-    --bg-color-2: var(--bgfff);
+    --bg-color-2: var(--bgf8b);
     --text-color-paragraph: #353535;
     --shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     --link: var(--bg88f);
 }
 
 html {
-    background: linear-gradient(135deg, var(--bg-color-1), var(--bg-color-2));
+    /*background: linear-gradient(135deg, var(--bg-color-1), var(--bg-color-2));*/
+    background: var(--bg-color-1);
     width: 100%;
     min-height: 100vh;
     text-align: center;
@@ -45,6 +46,63 @@ html {
 body {
     margin: 0;
     width: 100%;
+}
+
+footer {
+    background-color: var(--bg-color-2);
+    box-shadow: var(--shadow);
+}
+
+#footer-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+footer img {}
+
+footer a {
+    padding: 0;
+    margin: 0;
+    border: none;
+    margin: 0 0 5px 10px;
+}
+
+footer a:hover {
+    background-color: #00000000;
+    box-shadow: none;
+    border: none;
+    text-decoration: underline;
+}
+
+.footerDesc,
+.links {
+    padding: 10px 50px;
+    text-align: left;
+}
+
+.links img {
+    border-radius: 4px;
+    transform: translateY(10px);
+    height: 30px
+}
+
+.footerSubtitle {
+    text-transform: lowercase;
+}
+
+.languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    text-align: left;
+}
+
+.languages img {
+    border-radius: 4px;
+    transform: translateY(5px);
+    height: 20px
 }
 
 aside {
@@ -98,8 +156,7 @@ h1 {
     font-size: 50px;
 }
 
-.subh1,
-.subtitle {
+.subh1 {
     font-size: 25px;
     line-height: 0;
     font-weight: 500;
@@ -678,6 +735,10 @@ button:hover {
 }
 
 @media screen and (max-width: 1249px) and (min-width: 769px) {
+    #footer-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     #circuitAleatoire {
         max-width: 850px;
         margin: 0 auto;
@@ -705,6 +766,13 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
+    #footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .languages img {
+        display: none;
+    }
     .grilleCircuits {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -717,8 +785,18 @@ button:hover {
 }
 
 @media screen and (max-width: 425px) {
+    #footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    footer {
+        width: 100%;
+    }
+    .languages img {
+        display: none;
+    }
     html {
-        background: linear-gradient(180deg, var(--bg-color-1), var(--bg-color-2));
+        background: var(--bg-color-1);
     }
     .element img:hover {
         filter: drop-shadow(0 0 10px #ffffffff);
