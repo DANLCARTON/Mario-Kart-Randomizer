@@ -51,6 +51,7 @@ body {
 footer {
     background-color: var(--bg-color-2);
     box-shadow: var(--shadow);
+    min-width: 816px;
 }
 
 #footer-grid {
@@ -59,8 +60,6 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
-
-footer img {}
 
 footer a {
     padding: 0;
@@ -789,11 +788,14 @@ button:hover {
         display: grid;
         grid-template-columns: 1fr;
     }
-    footer {
-        width: 100%;
+    .languages {
+        padding: 10px 50px;
     }
     .languages img {
         display: none;
+    }
+    footer a {
+        font-size: 25px;
     }
     html {
         background: var(--bg-color-1);

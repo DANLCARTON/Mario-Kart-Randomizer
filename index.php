@@ -169,11 +169,13 @@ include "fonctionsPhp/vues.php";
         </section>
         
     </main>
+
     <script type="module" src="scriptPersonnages.js"></script>
     <script type="module" src="scriptCircuits.js"></script>
     <script type="module" src="scriptObjets.js"></script>
     <script type="module" src="themes.js"></script>
     <script type="module" src="textContent.js"></script>
+    <script type="module" src="translatedTextContent.js"></script>
     <img src="./img/icons/td.jpg" id="ee" alt="Easter Egg">
 
     
@@ -185,9 +187,9 @@ include "fonctionsPhp/vues.php";
             </div>
             <div class="languages"> 
                 <div><img src="img/flags/fr.webp" alt="fr"><a href="index.php?lang=fr">Français</a><br></div>
-                <div><img src="img/flags/fr-CA.webp" alt="fr"><a href="index.php?lang=fr-CA">Français (Amérique)</a><br></div>
+                <div><img src="img/flags/fr-CA.webp" alt="fr"><a href="index.php?lang=fr-CA">Français (Québec)</a><br></div>
                 <div><img src="img/flags/en.webp" alt="fr"><a href="index.php?lang=en">English</a><br></div>
-                <div><img src="img/flags/en-US.webp" alt="fr"><a href="index.php?lang=en-US">English (America)</a><br></div>
+                <div><img src="img/flags/en-US.webp" alt="fr"><a href="index.php?lang=en-US">English (US)</a><br></div>
                 <div><img src="img/flags/es.webp" alt="fr"><a href="index.php?lang=es">Español</a><br></div>
                 <div><img src="img/flags/pt.webp" alt="fr"><a href="index.php?lang=pt">Português</a><br></div>
                 <div><img src="img/flags/it.webp" alt="fr"><a href="index.php?lang=it">Italiano</a><br></div>
@@ -204,7 +206,7 @@ include "fonctionsPhp/vues.php";
                 <p><i>Don't hesitate to suggest new features too! I'll be happy to consider them. Maybe I'll try to work on your proposition if I like it :)</i></p>
                 <div><img src="img/icons/github.webp" alt="issues"><a href="https://github.com/DANLCARTON/Mario-Kart-Randomizer/issues">Create a new issue here</a></div>
             </div>
-        </div
+        </div>      
     </footer>
 
 </body>

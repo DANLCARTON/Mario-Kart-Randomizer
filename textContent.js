@@ -1,4 +1,4 @@
-import { translatedTextContent, langId } from "./translatedTextContent";
+import { translatedTextContent, langId } from "./translatedTextContent.js";
 
 var URLparams = new URLSearchParams(window.location.search);
 var language;
