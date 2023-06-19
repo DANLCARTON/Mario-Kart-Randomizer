@@ -177,16 +177,12 @@ for ($i = 0; $i <= 3; $i++) {
 }
 echo "</div>\n";
 
-/*
-
 echo "<div class=\"coupe notFinished\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[20]."</p>\n";
 for ($i = 0; $i <= 3; $i++) {
     echo "<p class=\"circuit TR". strval($i+80) ."\">".$circuits[array_keys($circuits)[20]][$i]."</p>\n";
 }
 echo "</div>\n";
-
-
 
 echo "<div class=\"coupe notFinished\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[21]."</p>\n";
@@ -195,7 +191,7 @@ for ($i = 0; $i <= 3; $i++) {
 }
 echo "</div>\n";
 
-
+/*
 
 echo "<div class=\"coupe notFinished\">\n";
 echo "<p class=\"nomCoupe\">".array_keys($circuits)[22]."</p>\n";
