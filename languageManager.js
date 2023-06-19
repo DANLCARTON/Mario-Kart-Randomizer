@@ -40,6 +40,9 @@ function languageManager2() {
         console.log("Found language from URL parameters");
         return language;
     } else if (localLang !== null) {
+        var currentURL = window.location.href;
+        var newURL = currentURL + "?lang=" + localLang;
+        window.location.replace(newURL);
         console.log("Found language from local storage");
         return localLang;
     } else {
@@ -48,9 +51,7 @@ function languageManager2() {
         console.log("Found language from navigator parameters");
 
         // Redirection uniquement si la langue n'est pas déjà présente dans l'URL
-        if (!urlParams.has("lang")) {
-            window.location.replace(newURL);
-        }
+        window.location.replace(newURL);
 
         return userLanguage;
     }
