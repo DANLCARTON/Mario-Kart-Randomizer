@@ -6,7 +6,7 @@ let themeSecondaryColor = accCol;
 let circuitsNonTires = [];
 let circuitSelectionne = 0;
 let circuitDejaTires = [];
-let nombreDeCircuits = 80;
+let nombreDeCircuits = 88;
 for (var i = 0; i <= nombreDeCircuits - 1; i++) {
     circuitsNonTires[i] = "TR" + i;
 }
