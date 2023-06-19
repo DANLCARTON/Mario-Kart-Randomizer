@@ -188,24 +188,25 @@ include "fonctionsPhp/vues.php";
             </div>
             <div class="languages"> 
                 <div><img src="img/flags/fr.webp" alt="fr"><a href="index.php?lang=fr" onclick="localStorage.setItem('lang', 'fr')">Français</a><br></div>
-                <div><img src="img/flags/fr-CA.webp" alt="fr"><a href="index.php?lang=fr-CA">Français (Québec)</a><br></div>
-                <div><img src="img/flags/en.webp" alt="fr"><a href="index.php?lang=en">English</a><br></div>
-                <div><img src="img/flags/en-US.webp" alt="fr"><a href="index.php?lang=en-US">English (US)</a><br></div>
-                <div><img src="img/flags/es.webp" alt="fr"><a href="index.php?lang=es">Español</a><br></div>
-                <div><img src="img/flags/pt.webp" alt="fr"><a href="index.php?lang=pt">Português</a><br></div>
-                <div><img src="img/flags/it.webp" alt="fr"><a href="index.php?lang=it">Italiano</a><br></div>
-                <div><img src="img/flags/de.webp" alt="fr"><a href="index.php?lang=de">Deutsch</a><br></div>
+                <div><img src="img/flags/fr-CA.webp" alt="fr"><a href="index.php?lang=fr-CA" onclick="localStorage.setItem('lang', 'fr-CA')">Français (Québec)</a><br></div>
+                <div><img src="img/flags/en.webp" alt="fr"><a href="index.php?lang=en" onclick="localStorage.setItem('lang', 'en')">English</a><br></div>
+                <div><img src="img/flags/en-US.webp" alt="fr"><a href="index.php?lang=en-US" onclick="localStorage.setItem('lang', 'en-US')">English (US)</a><br></div>
+                <div><img src="img/flags/es.webp" alt="fr"><a href="index.php?lang=es" onclick="localStorage.setItem('lang', 'es')">Español</a><br></div>
+                <div><img src="img/flags/pt.webp" alt="fr"><a href="index.php?lang=pt" onclick="localStorage.setItem('lang', 'pt')">Português</a><br></div>
+                <div><img src="img/flags/it.webp" alt="fr"><a href="index.php?lang=it" onclick="localStorage.setItem('lang', 'it')">Italiano</a><br></div>
+                <div><img src="img/flags/de.webp" alt="fr"><a href="index.php?lang=de" onclick="localStorage.setItem('lang', 'de')">Deutsch</a><br></div>
                 <div><img src="img/flags/nl.webp" alt="fr"><a href="index.php?lang=nl" onclick="localStorage.setItem('lang', 'nl')">Nederlands</a><br></div>
-                <div><img src="img/flags/ru.webp" alt="fr"><a href="index.php?lang=ru">Русский</a><br></div>
-                <div><img src="img/flags/ja.webp" alt="ja"><a href="index.php?lang=ja">日本語</a><br></div>
-                <div><img src="img/flags/ko.webp" alt="ko"><a href="index.php?lang=ko">한국어</a><br></div>
-                <div><img src="img/flags/zh-Hans.webp" alt="zh-Hans"><a href="index.php?lang=zh-Hans">简化字</a><br></div>
-                <div><img src="img/flags/zh-Hant.webp" alt="zh-Hant"><a href="index.php?lang=zh-Hant">正體字</a></div>
+                <div><img src="img/flags/ru.webp" alt="fr"><a href="index.php?lang=ru" onclick="localStorage.setItem('lang', 'ru')">Русский</a><br></div>
+                <div><img src="img/flags/ja.webp" alt="ja"><a href="index.php?lang=ja" onclick="localStorage.setItem('lang', 'ja')">日本語</a><br></div>
+                <div><img src="img/flags/ko.webp" alt="ko"><a href="index.php?lang=ko" onclick="localStorage.setItem('lang', 'ko')">한국어</a><br></div>
+                <div><img src="img/flags/zh-Hans.webp" alt="zh-Hans"><a href="index.php?lang=zh-Hans" onclick="localStorage.setItem('lang', 'zh-Hans')">简化字</a><br></div>
+                <div><img src="img/flags/zh-Hant.webp" alt="zh-Hant"><a href="index.php?lang=zh-Hant" onclick="localStorage.setItem('lang', 'zh-Hant')">正體字</a></div>
             </div>
             <div class="links">
                 <p><i>Feel free to report any errors or bugs you see on the website, as I'm working alone on this project and I don't speak all the languages available (but I really wanted to include them all).</i></p>
                 <p><i>Don't hesitate to suggest new features too! I'll be happy to consider them. Maybe I'll try to work on your proposition if I like it :)</i></p>
                 <div><img src="img/icons/github.webp" alt="issues"><a href="https://github.com/DANLCARTON/Mario-Kart-Randomizer/issues">Create a new issue here</a></div>
+                <div><img src="img/icons/et.webp" alt="issues"><a href="mailto:ericthiberge@ericthiberge.fr">ericthiberge@ericthiberge.fr</a></div>
             </div>
         </div>      
     </footer>
