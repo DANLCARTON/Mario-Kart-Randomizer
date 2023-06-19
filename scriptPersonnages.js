@@ -63,6 +63,7 @@ function roll(id, statsB) {
     var Karts = currentKart;
     var Roues = currentRoue;
     var Ailes = currentAile;
+
     if (Perso == Mii) {
         Perso = Mii[getRandom(Mii.length)];
         skin = "";
@@ -130,7 +131,11 @@ function roll(id, statsB) {
         stats(Invincibility, DocInvincibility);
     }
 
-    document.getElementsByClassName("name")[4 * (id - 1) + 0].textContent = Perso.nom[lang] + " " + skin;
+    if (lang == 0 || lang == 1) {
+        document.getElementsByClassName("name")[4 * (id - 1) + 0].textContent = Perso.nom[lang] + " " + skin;
+    } else {
+        document.getElementsByClassName("name")[4 * (id - 1) + 0].textContent = Perso.nom[lang];
+    }
     document.getElementsByClassName("name")[4 * (id - 1) + 1].textContent = Karts.nom[lang];
     document.getElementsByClassName("name")[4 * (id - 1) + 2].textContent = Roues.nom[lang];
     document.getElementsByClassName("name")[4 * (id - 1) + 3].textContent = Ailes.nom[lang];
@@ -289,7 +294,11 @@ document.getElementById("personnage1").addEventListener("click", () => {
     var MiniTurbo = Perso.miniTurbo + Karts.miniTurbo + Roues.miniTurbo + Ailes.miniTurbo + 4;
     var Invincibility = Perso.invincibility + Karts.invincibility + Roues.invincibility + Ailes.invincibility + 4;;
 
-    document.getElementsByClassName("name")[0].textContent = Perso.nom[lang] + " " + skin;
+    if (lang == 0 || lang == 1) {
+        document.getElementsByClassName("name")[0].textContent = Perso.nom[lang] + " " + skin;
+    } else {
+        document.getElementsByClassName("name")[0].textContent = Perso.nom[lang];
+    }
 
     if (skin == "") {
         document.getElementById("personnage1").src = "img/personnages/" + Perso.nom[0] + ".webp";
@@ -358,7 +367,11 @@ document.getElementById("personnage2").addEventListener("click", () => {
         }
     }
 
-    document.getElementsByClassName("name")[4].textContent = Perso.nom[lang] + " " + skin;
+    if (lang == 0 || lang == 1) {
+        document.getElementsByClassName("name")[4].textContent = Perso.nom[lang] + " " + skin;
+    } else {
+        document.getElementsByClassName("name")[4].textContent = Perso.nom[lang];
+    }
 
     if (skin == "") {
         document.getElementById("personnage2").src = "img/personnages/" + Perso.nom[0] + ".webp";
@@ -399,7 +412,11 @@ document.getElementById("personnage3").addEventListener("click", () => {
         }
     }
 
-    document.getElementsByClassName("name")[8].textContent = Perso.nom[lang] + " " + skin;
+    if (lang == 0 || lang == 1) {
+        document.getElementsByClassName("name")[8].textContent = Perso.nom[lang] + " " + skin;
+    } else {
+        document.getElementsByClassName("name")[8].textContent = Perso.nom[lang];
+    }
 
     if (skin == "") {
         document.getElementById("personnage3").src = "img/personnages/" + Perso.nom[0] + ".webp";
@@ -440,7 +457,11 @@ document.getElementById("personnage4").addEventListener("click", () => {
         }
     }
 
-    document.getElementsByClassName("name")[12].textContent = Perso.nom[lang] + " " + skin;
+    if (lang == 0 || lang == 1) {
+        document.getElementsByClassName("name")[12].textContent = Perso.nom[lang] + " " + skin;
+    } else {
+        document.getElementsByClassName("name")[12].textContent = Perso.nom[lang];
+    }
 
     if (skin == "") {
         document.getElementById("personnage4").src = "img/personnages/" + Perso.nom[0] + ".webp";
