@@ -170,6 +170,7 @@ include "fonctionsPhp/vues.php";
         
     </main>
 
+    <script type="module" src="languageManager.js"></script>
     <script type="module" src="scriptPersonnages.js"></script>
     <script type="module" src="scriptCircuits.js"></script>
     <script type="module" src="scriptObjets.js"></script>
@@ -186,7 +187,7 @@ include "fonctionsPhp/vues.php";
                 <p>Randomizer for Mario Kart 8 Deluxe! - Randomly generate a character, a kart combination, custom mode items and a random track for Mario Kart 8 Deluxe!</p>
             </div>
             <div class="languages"> 
-                <div><img src="img/flags/fr.webp" alt="fr"><a href="index.php?lang=fr">Français</a><br></div>
+                <div><img src="img/flags/fr.webp" alt="fr"><a href="index.php?lang=fr" onclick="localStorage.setItem('lang', 'fr')">Français</a><br></div>
                 <div><img src="img/flags/fr-CA.webp" alt="fr"><a href="index.php?lang=fr-CA">Français (Québec)</a><br></div>
                 <div><img src="img/flags/en.webp" alt="fr"><a href="index.php?lang=en">English</a><br></div>
                 <div><img src="img/flags/en-US.webp" alt="fr"><a href="index.php?lang=en-US">English (US)</a><br></div>
@@ -194,7 +195,7 @@ include "fonctionsPhp/vues.php";
                 <div><img src="img/flags/pt.webp" alt="fr"><a href="index.php?lang=pt">Português</a><br></div>
                 <div><img src="img/flags/it.webp" alt="fr"><a href="index.php?lang=it">Italiano</a><br></div>
                 <div><img src="img/flags/de.webp" alt="fr"><a href="index.php?lang=de">Deutsch</a><br></div>
-                <div><img src="img/flags/nl.webp" alt="fr"><a href="index.php?lang=nl">Nederlands</a><br></div>
+                <div><img src="img/flags/nl.webp" alt="fr"><a href="index.php?lang=nl" onclick="localStorage.setItem('lang', 'nl')">Nederlands</a><br></div>
                 <div><img src="img/flags/ru.webp" alt="fr"><a href="index.php?lang=ru">Русский</a><br></div>
                 <div><img src="img/flags/ja.webp" alt="ja"><a href="index.php?lang=ja">日本語</a><br></div>
                 <div><img src="img/flags/ko.webp" alt="ko"><a href="index.php?lang=ko">한국어</a><br></div>

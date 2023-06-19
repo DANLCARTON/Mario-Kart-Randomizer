@@ -1,12 +1,7 @@
 import { translatedTextContent, langId } from "./translatedTextContent.js";
+import { language } from "./languageManager.js";
 
-var URLparams = new URLSearchParams(window.location.search);
-var language;
-if (URLparams.has('lang')) {
-    var language = URLparams.get("lang");
-}
-
-let lang = langId(language)
+let lang = langId(language);
 
 window.addEventListener("load", () => {
     console.log(translatedTextContent);
