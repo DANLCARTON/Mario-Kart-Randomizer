@@ -1,7 +1,7 @@
-import { bgCol1, bgCol2 } from "./themes.js";
+import { bgCol1, bgCol2, accCol } from "./themes.js";
 
 let themeMainColor = bgCol1;
-let themeSecondaryColor = bgCol2;
+let themeSecondaryColor = accCol;
 
 let circuitsNonTires = [];
 let circuitSelectionne = 0;

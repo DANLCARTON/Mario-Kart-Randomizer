@@ -26,16 +26,19 @@
     --bgff8: #ff8;
     --bgffb: #ffb;
     --bgfff: #fff;
-    --bg-color-1: var(--bgfff);
-    --bg-color-2: var(--bgf8b);
+    /*--bg-color-1: var(--bgfff);
+    --bg-color-2: var(--bgf8b);*/
+    --bg-color-2: #e0ffff;
+    --bg-color-2: #ffe0ff;
+    --acc-color: #78ff78;
     --text-color-paragraph: #353535;
     --shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     --link: var(--bg88f);
 }
 
 html {
-    /*background: linear-gradient(135deg, var(--bg-color-1), var(--bg-color-2));*/
-    background: var(--bg-color-1);
+    background: linear-gradient(135deg, var(--bg-color-1), var(--bg-color-2));
+    /*background: var(--bg-color-1);*/
     width: 100%;
     min-height: 100vh;
     text-align: center;
@@ -49,7 +52,7 @@ body {
 }
 
 footer {
-    background-color: var(--bg-color-2);
+    background: var(--bg-color-1);
     box-shadow: var(--shadow);
     min-width: 816px;
 }
