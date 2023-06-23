@@ -434,6 +434,68 @@ $circuitsZHHANT = array(
 
 $arenesZHHANT = array("對戰競技場", "空中甜點王國", "龍之道場", "月球基地", "3DS 烏富城 ", "GC 路易吉洋樓", "SFC 對戰賽道1", "海星高架下");
 
+ // - - - - - E S P A G N O L   D ' A M E R I Q U E   L A T I N E - - - - -
+
+$circuitsESHA = array(
+    "Copa Champiñón" => array("Estadio Mario Kart", "Parque Acuático", "Barranco Goloso", "Ruinas Don Pisotón"),
+    "Copa Flor" => array("Circuito Mario", "Puerto Toad", "Mansión Retorcida", "Cataratas Shy Guy"),
+    "Copa Estrella" => array("Aeropuerto Soleado", "Cala Delfín", "Electródromo", "Cumbre Wario"),
+    "Copa Especial" => array("Ruta Celeste", "Dunas Huesitos", "Castillo de Bowser", "Senda Arco Iris"),
+    "Copa Huevo" => array("GCN Circuito Yoshi", "Estadio Excitebike", "Ruta Dragón", "Ciudad Muda"),
+    "Copa Crossing" => array("GCN Parque Bebé", "GBA Tierra de Queso", "Bosque Mágico", "Animal Crossing"),
+    "Copa Carapazón" => array("Wii Pradera Mu-Mu", "GBA Circuito Mario", "DS Playa Cheep Cheep", "N64 Autopista Toad"),
+    "Copa Plátano" => array("GCN Desierto Seco", "SNES Prado Rosquilla 3", "N64 Pista Real", "3DS Jungla DK"),
+    "Copa Hoja" => array("DS Estadio Wario", "GCN Tierra Sorbete", "3DS Autopista Musical", "N64 Valle de Yoshi"),
+    "Copa Centrella" => array("DS Reloj Tictac", "3DS Tuberías Planta Piraña", "Wii Volcán Gruñón", "N64 Senda Arco Iris"),
+    "Copa Trifuerza" => array("Wii Mina de Wario", "SNES Senda Arco Iris", "Base Polar", "Circuito de Hyrule"),
+    "Copa Campana" => array("3DS Ciudad Koopa", "GBA Ruta Listón", "Metro Campana", "Gran Azul"),
+    "Copa Turbo Dorada" => array("Tour Bulevares de París", "3DS Circuito Toad", "N64 Monte Chocolade", "Wii Centro Cocotero"),
+    "Copa Felina Fortuna" => array("Tour Circuito Tokio", "DS Colinas Champiñón", "GBA Jardín Celeste", "Mansión Ninja"),
+    "Copa Nabo" => array("Tour Visita a Nueva York", "SNES Circuito Mario 3", "N64 Desierto Kalimari", "DS Pinball Waluigi"),
+    "Copa Helicóptero" => array("Tour Sídney sin Pausa", "GBA Tierra Nevada", "Wii Barranco Champiñón", "Cielos Helados"),
+    "Copa Roca" => array("Tour Ronda por Londres", "GBA Lago de Boo", "3DS Montaña Roqui-Roque", "Wii Camino Forestal"),
+    "Copa Luna" => array("Tour Berlín de Vértigo", "DS Jardín de Peach", "Aldea de los Regalos", "3DS Senda Arco Iris"),
+    "Copa Fruta" => array("Tour Ámsterdam acelerada", "GBA Parque de la Rivera", "Wii Cumbre DK", "Isla de Yoshi"),
+    "Copa Boomerang" => array("Tour Atardecer en Bangkok", "DS Circuito Mario", "GCN Estadio Waluigi", "Tour Acelerón en Singapur"),
+    "Copa Pluma" => array ("NC", "NC", "NC", "NC"),
+    "Copa Cereza" => array ("NC", "NC", "NC", "NC"),
+    // "Copa Bellota" => array("", "", "", ""),
+    // "Copa Pinchos" => array("", "", "", "")
+);
+
+$arenesESHA = array("Estadio de Batalla", "Cielo Azucarado", "Palacio Dragón", "Estación Lunar", "3DS Pueblo Wuhu", "GCN Mansión de Luigi", "SNES Circuito de Batalla 1", "Parque Viaducto");
+
+// - - - - - P O R T U G A I S   B R E S I L I E N - - - - -
+
+$circuitsPTBR = array(
+    "Taça Cogumelo" => array("Estádio Mario Kart", "Parque Aquático", "Desfiladeiro Doce", "Ruínas do Granitão"),
+    "Taça Flor" => array("Circuito Mario ", "Baía do Toad", "Mansão Revolta", "Cascata do Masquito"),
+    "Taça Estrela" => array("Aeroporto Alvorada", "Lagoa de Golfinho", "Circuito Elétrico", "Monte Wario"),
+    "Taça Especial" => array("Via Nublada", "Dunas Caveirinha", "Castelo do Bowser", "Avenida Arco-íris "),
+    "Taça Ovo" => array("GCN Circuito Yoshi", "Arena Excitebike", "Estrada do Dragão", "Mute City"),
+    "Taça Crossing" => array("GCN Parque Bebê ", "GBA Mundo do Queijo", "Floresta Misteriosa", "Animal Crossing"),
+    "Taça Carapaça" => array("Wii Prado Mu Mu", "GBA Circuito Mario ", "DS Praia Cheep Cheep", "N64 Autoestrada do Toad"),
+    "Taça Banana" => array("GCN Areias Destertas", "SNES Planície Rosquinha 3 ", "N64 Rodovia Real ", "3DS Selva DK"),
+    "Taça Folha" => array("DS Estádio Wario", "GCN Circuito Gelado", "3DS Autopista Musical ", "N64 Vale Yoshi "),
+    "Taça Relâmpago" => array("DS Relógio Tiquetaque", "3DS Canos Planta Piranha", "Wii Vulcão Rezingão", "N64 Avenida Arco-íris "),
+    "Taça Triforce" => array("Wii Mina de Ouro do Wario", "SNES Avenida Arco-íris ", "Circuito Ártico", "Circuito de Hyrule"),
+    "Taça Guizo" => array("3DS Cidade Bowser ", "GBA Estrada de Fita", "Metro Mario", "Big Blue"),
+    "Taça Turbo Dourada" => array("Tour Bulevar de Paris ", "3DS Circuito Toad ", "N64 Montanha Chocolate ", "Wii Shopping Coqueiral "),
+    "Taça Gato da Sorte" => array("Tour Velocidade em Tóquio", "DS Serra Cogumelo ", "GBA Jardim Celeste", "Mansão Ninja"),
+    "Taça Nabo" => array("Tour Visita a Nova Iorque", "SNES Circuito Mario  3", "Deserto Kalimari", "DS Pinball Waluigi "),
+    "Taça Hélica" => array("Tour Volta em Sydney ", "GBA Terra Nevada", "Wii Ravina Cogumelo", "Altos Sorvetes "),
+    "Taça Pedra" => array("Tour Arrancada em Londres ", "GBA Lago Bu", "3DS Montanha Rochosa ", "Wii Bosque de Bordo "),
+    "Taça Lua" => array("Tour Berlim Bucólica ", "DS Jardim Peach ", "Vila dos Presentes ", "3DS Avenida Arco-íris "),
+    "Taça Fruta" => array("Tour Amsterdã Acelerada ", "GBA Parque Fluvial", "Wii Cordilheira DK ", "Ilha Yoshi "),
+    "Taça Bumerangue" => array("Tour Agito em Bangkok ", "DS Circuito Mario ", "GCN Estádio Waluigi", "Tour Singapura Sublime "),
+    "Taça Pluma" => array ("NC", "NC", "NC", "NC"),
+    "Taça Cereja" => array ("NC", "NC", "NC", "NC"),
+    // "Taça Bolota" => array("", "", "", ""),
+    // "Taça Espinhos" => array("", "", "", "")
+);
+
+$arenesPTBR = array("Arena de Combate", "Reino Doce", "Palácio dos Dragões", "Colónia Lunar", "3DS Cidade Wuhu ", "GCN Mansão do Luigi", "SNES Batalha 1", "Periferia Urbana");
+
 if (isset($_GET["lang"])) {
     $lang = $_GET["lang"];
     if ($lang == "fr") {
@@ -478,6 +540,12 @@ if (isset($_GET["lang"])) {
     } else if ($lang == "zh-Hant") {
         $circuits = $circuitsZHHANT;
         $arenes = $arenesZHHANT;
+    } else if ($lang == "es-HA") {
+        $circuits = $circuitsESHA;
+        $arenes = $arenesESHA;
+    } else if ($lang == "pt-BR") {
+        $circuits = $circuitsPTBR;
+        $arenes = $arenesPTBR;
     }
     else {
         $circuits = $circuitsFR;
