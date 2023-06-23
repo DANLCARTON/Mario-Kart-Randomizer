@@ -24,7 +24,7 @@ $circuitsFR = array(
     "Coupe Fruit" => array ("Tour Virée à Amsterdam", "GBA Riverside Parc", "Wii Pic DK", "Île de Yoshi"),
     "Coupe Boomerang" => array ("Tour Bousculade à Bangkok", "DS Circuit Mario", "GCN Stade Waluigi", "Tour Poursuite à Singapour"),
     "Coupe Plume" => array ("NC", "NC", "NC", "NC"),
-    "Coupe Cerises" => array ("NC", "NC", "NC", "NC"),
+    "Coupe Cerises" => array ("NC", "NC", "NC", "Course à la propreté"),
     // "Coupe Gland" => array ("", "", "", ""),
     // "Coupe à épines" => array ("", "", "", "")
 );
@@ -55,7 +55,7 @@ $circuitsFRCA = array(
     "Coupe Fruit" => array ("Tour Escapade à Amsterdam", "GBA Riverside Parc", "Wii Pic DK", "Île de Yoshi"),
     "Coupe Boomerang" => array ("Tour Bousculade à Bangkok", "DS Circuit Mario", "GCN Stade Waluigi", "Tour Poursuite à Singapour"),
     "Coupe Plume" => array ("NC", "NC", "NC", "NC"),
-    "Coupe Cerises" => array ("NC", "NC", "NC", "NC"),
+    "Coupe Cerises" => array ("NC", "NC", "NC", "Course à la propreté"),
     // "Coupe Gland" => array ("", "", "", ""),
     // "Coupe à épines" => array ("", "", "", "")
 );
@@ -86,7 +86,7 @@ $circuitsEN = array(
     "Fruit Cup" => array ("Tour Amsterdam Drift", "GBA Riverside Park", "Wii DK's Snowboard Cross", "Yoshi's Island"),
     "Boomerang Cup" => array ("Tour Bangkok Rush", "DS Mario Circuit", "GCN Waluigi Stadium", "Tour Singapore Speedway"),
     "Feather Cup" => array ("NC", "NC", "NC", "NC"),
-    "Cherry Cup" => array ("NC", "NC", "NC", "NC"),
+    "Cherry Cup" => array ("NC", "NC", "NC", "Squeaky Clean Sprint"),
     // "Acorn Cup" => array ("", "", "", ""),
     // "Spiny Cup" => array ("", "", "", "")
 );
@@ -117,7 +117,7 @@ $circuitsENUS = array(
     "Fruit Cup" => array ("Tour Amsterdam Drift", "GBA Riverside Park", "Wii DK Summit", "Yoshi's Island"),
     "Boomerang Cup" => array ("Tour Bangkok Rush", "DS Mario Circuit", "GCN Waluigi Stadium", "Tour Singapore Speedway"),
     "Feather Cup" => array ("NC", "NC", "NC", "NC"),
-    "Cherry Cup" => array ("NC", "NC", "NC", "NC"),
+    "Cherry Cup" => array ("NC", "NC", "NC", "Squeaky Clean Sprint"),
     // "Acorn Cup" => array ("", "", "", ""),
     // "Spiny Cup" => array ("", "", "", "")
 );
@@ -148,7 +148,7 @@ $circuitsDE = array(
     "Frucht-Cup" => array("Tour Ausfahrt Amsterdam", "GBA Flussufer-Park", "Wii DK Skikane", "Yoshis Eiland"),
     "Bumerang-Cup" => array("Tour Bangkok-Abendrot", "DS Marios Piste", "GCN Waluigi-Arena", "Tour Überholspur Singapur"),
     "Feder-Cup" => array ("NC", "NC", "NC", "NC"),
-    "Doppelkirschen-Cup" => array ("NC", "NC", "NC", "NC"),
+    "Doppelkirschen-Cup" => array ("NC", "NC", "NC", "Bad-Parcours"),
     // "Eichel-Cup" => array ("", "", "", ""),
     // "Stachi-Cup" => array ("", "", "", "")
 );
@@ -179,7 +179,7 @@ $circuitsES = array(
     "Copa Fruta" => array("Tour Derrapes en Ámsterdam", "GBA Parque de la Rivera", "Wii Cumbre DK", "Isla de Yoshi"),
     "Copa Boomerang" => array("Tour Atardecer en Bangkok", "DS Circuito Mario", "GCN Estadio Waluigi", "Tour Acelerón en Singapur"),
     "Copa Pluma" => array ("NC", "NC", "NC", "NC"),
-    "Copa Cereza" => array ("NC", "NC", "NC", "NC"),
+    "Copa Cereza" => array ("NC", "NC", "NC", "Escusado Acelerado"),
     // "Copa Bellota" => array("", "", "", ""),
     // "Copa Pinchos" => array("", "", "", "")
 );
@@ -210,7 +210,7 @@ $circuitsIT = array(
     "Trofeo Frutta" => array("Tour Amsterdam in derapata", "GBA Parco Lungofiume", "Wii Pista snowboard DK", "Isola Yoshi"),
     "Trofeo Boomerang" => array("Tour Bangkok a manetta", "DS Circuito di Mario", "GCN Stadio di Waluigi", "Tour Singapore a tutto gas"),
     "Trofeo Piuma" => array ("NC", "NC", "NC", "NC"),
-    "Trofeo Ciliegia" => array ("NC", "NC", "NC", "NC"),
+    "Trofeo Ciliegia" => array ("NC", "NC", "NC", "Corsa in bagno"),
     // "Trofeo Ghianda" => array("", "", "", ""),
     // "Trofeo Spinoso" => array("", "", "", "")
 );
@@ -241,7 +241,7 @@ $circuitsNL = array(
     "Fruitbeker" => array("Tour Aflslag Amsterdam", "GBA Rivieroever", "Wii DS's Skipark", "Yoshi's Eiland"),
     "Boemerangbeker" => array("Tour Bangkok-Break", "DS Mario's Circuit", "GCN Waluigi's Stadion", "Tour Singapore-Skyline"),
     "Veerbeker" => array ("NC", "NC", "NC", "NC"),
-    "Kerserbeker" => array ("NC", "NC", "NC", "NC"),
+    "Kerserbeker" => array ("NC", "NC", "NC", "Badderbaan"),
     // "Eikenbeker" => array("", "", "", ""),
     // "Spiny-beker" => array("", "", "", "")
 );
@@ -272,7 +272,7 @@ $circuitsPT = array(
     "Taça Fruta" => array("Tour Deslizes em Amesterdão", "GBA Parque Fluvial", "Wii Pico DK", "Ilha do Yoshi"),
     "Taça Bumerangue" => array("Tour Ocaso em Banguecoque", "DS Circuito do Mario", "GCN Estádio Waluigi", "Tour Vertigem em Singapura"),
     "Taça Pluma" => array ("NC", "NC", "NC", "NC"),
-    "Taça Cereja" => array ("NC", "NC", "NC", "NC"),
+    "Taça Cereja" => array ("NC", "NC", "NC", "Percurso Sanitário"),
     // "Taça Bolota" => array("", "", "", ""),
     // "Taça Espinhos" => array("", "", "", "")
 );
@@ -303,7 +303,7 @@ $circuitsRU = array(
     "Кубок фрукта" => array("Tour Заезд в Амстердаме", "GBA Прибрежный парк", "Wii Сноуборд-кросс ДК", "Остров Йоши"),
     "Кубок бумеранга" => array("Tour Час пик в Бангкоке", "DS Трасса Марио", "GCN Стадион Валуиджи", "Tour Суета в Сингепуре"),
     "Кубок пера" => array ("NC", "NC", "NC", "NC"),
-    "Кубок вышен" => array ("NC", "NC", "NC", "NC"),
+    "Кубок вышен" => array ("NC", "NC", "NC", "??????"),
     // "Кубок желудя" => array("", "", "", ""),
     // "Кубок колючкина" => array("", "", "", ""),
 );
@@ -334,7 +334,7 @@ $circuitsJP = array(
     "フルーツカップ" => array ("Tour アムステルダムブルーム", "GBA リバーサイドパーク", "Wii DKスノーボードクロス", "ヨッシーアイランド"),
     "ブーメランカップ" => array ("Tour バンコクラッシュ", "DS マリオサーキット", "GC ワルイージスタジアム", "Tour シンガポールスプラッシュ"),
     "ハネカップ" => array ("NC", "NC", "NC", "NC"),
-    "チェリーカップ" => array ("NC", "NC", "NC", "NC"),
+    "チェリーカップ" => array ("NC", "NC", "NC", "シャボンロード"),
     // "ドングリカップ" => array("", "", "", ""),
     // "トゲゾーカップ" => array("", "", "", "")
 );
@@ -365,7 +365,7 @@ $circuitsKO = array(
     "과일 컵" => array("Tour 암스테르담 블룸", "GBA 리버사이드 파크", "Wii DK 스노보드 크로스", "요시 아일랜드"),
     "푸르트 컵" => array("Tour 방콕 크래쉬", "DS 마리오 서킷", "GC 와루이지 스타디움", "Tour 싱가포르 스플래시"),
     "깃털 컵" => array ("NC", "NC", "NC", "NC"),
-    "체리 컵" => array ("NC", "NC", "NC", "NC"),
+    "체리 컵" => array ("NC", "NC", "NC", "비눗방울 로드"),
     // "도토리 컵" => array("", "", "", ""),
     // "가시돌이 컵" => array("", "", "", "")
 );
@@ -396,7 +396,7 @@ $circuitsZHHANS = array(
     "水果杯" => array("Tour 阿姆斯特丹漂流", "GBA 河岸公园", "Wii DK单板滑雪障碍追逐", "耀西岛"),
     "回旋镖杯" => array("Tour 曼谷飙速", "DS 马力欧赛道", "GC 瓦路易吉竞技场", "Tour 新加坡竞速赛道"),
     "羽毛杯" => array ("NC", "NC", "NC", "NC"),
-    "樱桃杯" => array ("NC", "NC", "NC", "NC"),
+    "樱桃杯" => array ("NC", "NC", "NC", "肥皂泡之路"),
     // "橡栗杯" => array("", "", "", ""),
     // "刺刺龟杯" => array("", "", "", ""),
 );
@@ -427,7 +427,7 @@ $circuitsZHHANT = array(
     "水果盃" => array ("Tour 阿姆斯特丹漂流", "GBA 河岸公園", "Wii DK單板滑雪越野賽", "耀西島"),
     "迴旋鏢盃" => array ("Tour 曼谷飆速", "DS 瑪利歐賽道", "GC 瓦路易吉競技場", "Tour 新加坡競速賽道"),
     "羽毛盃" => array ("NC", "NC", "NC", "NC"),
-    "樱桃盃" => array ("NC", "NC", "NC", "NC"),
+    "樱桃盃" => array ("NC", "NC", "NC", "??????"),
     // "橡栗盃" => array("", "", "", ""),
     // "刺刺龜盃" => array("", "", "", ""),
 );
@@ -458,7 +458,7 @@ $circuitsESHA = array(
     "Copa Fruta" => array("Tour Ámsterdam acelerada", "GBA Parque de la Rivera", "Wii Cumbre DK", "Isla de Yoshi"),
     "Copa Boomerang" => array("Tour Atardecer en Bangkok", "DS Circuito Mario", "GCN Estadio Waluigi", "Tour Acelerón en Singapur"),
     "Copa Pluma" => array ("NC", "NC", "NC", "NC"),
-    "Copa Cereza" => array ("NC", "NC", "NC", "NC"),
+    "Copa Cereza" => array ("NC", "NC", "NC", "Escusado Acelerado"),
     // "Copa Bellota" => array("", "", "", ""),
     // "Copa Pinchos" => array("", "", "", "")
 );
@@ -489,7 +489,7 @@ $circuitsPTBR = array(
     "Taça Fruta" => array("Tour Amsterdã Acelerada ", "GBA Parque Fluvial", "Wii Cordilheira DK ", "Ilha Yoshi "),
     "Taça Bumerangue" => array("Tour Agito em Bangkok ", "DS Circuito Mario ", "GCN Estádio Waluigi", "Tour Singapura Sublime "),
     "Taça Pluma" => array ("NC", "NC", "NC", "NC"),
-    "Taça Cereja" => array ("NC", "NC", "NC", "NC"),
+    "Taça Cereja" => array ("NC", "NC", "NC", "Percurso Sanitário"),
     // "Taça Bolota" => array("", "", "", ""),
     // "Taça Espinhos" => array("", "", "", "")
 );
