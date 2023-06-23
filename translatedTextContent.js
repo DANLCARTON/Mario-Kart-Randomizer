@@ -326,6 +326,7 @@ let translatedTextContent = {
 };
 
 function langId(lang) {
+    console.log(lang)
     if (lang == "fr") return 0;
     else if (lang == "fr-CA") return 1;
     else if (lang == "en") return 2;
@@ -340,6 +341,8 @@ function langId(lang) {
     else if (lang == "ko") return 11;
     else if (lang == "zh-Hans") return 12;
     else if (lang == "zh-Hant") return 13;
+    else if (lang == "es-HA") return 14;
+    else if (lang == "pt-BR") return 15;
     else return 0;
 }
 
