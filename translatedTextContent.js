@@ -15,7 +15,9 @@ let translatedTextContent = {
         10: "+ コース追加パス (第5弾)", // Japonais
         11: "+ 부스터 코스 패스 (제5탄)", // Coréen
         12: "+ 新增赛道通行证 (第5彈)", // Chinois simplifié
-        13: "+ 新增賽道通行證 (第5彈)" // Chinois traditionnel
+        13: "+ 新增賽道通行證 (第5彈)", // Chinois traditionnel
+        14: "+ PASE DE PISTAS EXTRAS (Entrega 5)", // Espagnol
+        15: "+ PASSE DE PISTAS ADICIONAIS (Parte 5)" // Portugais
     },
     randomCharacter: {
         0: "Personnage aléatoire",
@@ -31,7 +33,9 @@ let translatedTextContent = {
         10: "ランダムキャラクター",
         11: "무작위 캐릭터",
         12: "随机人物",
-        13: "隨機人物"
+        13: "隨機人物",
+        14: "Personaje aleatorio",
+        15: "Personagem aleatório"
 
     },
     randomCharacterExplanations: {
@@ -48,7 +52,9 @@ let translatedTextContent = {
         10: "下の「生成」ボタンをクリックすると、ランダムな組み合わせが表示されます。 気に入らない要素がある場合は、その画像をクリックして変更してください。 同じデバイスを複数人で使用していますか? 「＋」ボタンで新しい組み合わせを表示します。 最大4人のプレイヤーを表示できます。", // Japonais
         11: "임의의 조합을 표시하려면 아래의 \"생성\" 버튼을 클릭하십시오. 요소 중 하나가 마음에 들지 않으면 해당 이미지를 클릭하여 변경하십시오! 같은 기기에 여러 명이 있습니까? \"+\" 버튼을 사용하여 새 조합을 표시합니다. 최대 4명의 플레이어를 표시할 수 있습니다.", // Coréen
         12: "点击下面的 \"生成\" 按钮，显示一个随机组合。如果你不喜欢其中一个元素，请点击它的图像来改变它! 同一设备上有多个人？使用 \"+\" 按钮来显示一个新的组合。最多可以显示四个玩家。", // Chinois simplifié
-        13: "單擊下面的“生成”按鈕以顯示隨機組合。如果您不喜歡其中一個元素，只需單擊該圖像即可進行更改！多個人在同一台設備上？使用“+”按鈕顯示新的組合。最多可顯示 4 個玩家。" // Chinois traditionnel
+        13: "單擊下面的“生成”按鈕以顯示隨機組合。如果您不喜歡其中一個元素，只需單擊該圖像即可進行更改！多個人在同一台設備上？使用“+”按鈕顯示新的組合。最多可顯示 4 個玩家。", // Chinois traditionnel
+        14: "Haz clic en el botón \"Generar\" para que aparezca una combinación aleatoria. Si no te gusta uno de los elementos, haz clic en su imagen para cambiarlo. ¿Más de una persona en el mismo dispositivo? Utiliza el botón \"+\" para mostrar una nueva combinación. Se pueden mostrar hasta cuatro jugadores.",
+        15: "Clique no botão \"Gerar\" abaixo para visualizar uma combinação aleatória. Se não gostar de um dos elementos, clique na respectiva imagem para o alterar! Mais do que uma pessoa no mesmo dispositivo? Utilize o botão \"+\" para visualizar uma nova combinação. Podem ser apresentados até quatro jogadores."
     },
     playerNamePlaceholder: {
         0: "Entrez votre nom ici", // Français
@@ -64,7 +70,9 @@ let translatedTextContent = {
         10: "ここにあなたの名前を入力してください", // Japonais
         11: "여기에 이름을 입력하세요", // Coréen
         12: "在这里输入你的名字", // Chinois simplifié
-        13: "在這裡輸入你的名字" // Chinois traditionnel
+        13: "在這裡輸入你的名字", // Chinois traditionnel
+        14: "Introduzca su nombre aquí",
+        15: "Digite seu nome aqui"
     },
     generate: {
         0: "Générer", // Français
@@ -80,7 +88,9 @@ let translatedTextContent = {
         10: "生成", // Japonais
         11: "생성", // Coréen
         12: "生成", // Chinois simplifié
-        13: "生成" // Chinois traditionnel
+        13: "生成", // Chinois traditionnel
+        14: "Generar",
+        15: "Gerar"
     },
     // stats : voir vues/stats.php
     historyButton: {
@@ -97,7 +107,9 @@ let translatedTextContent = {
         10: "履歴を表示する", // Japonais
         11: "기록 보기", // Coréen
         12: "显示历史", // Chinois simplifié
-        13: "顯示歷史" // Chinois traditionnel
+        13: "顯示歷史", // Chinois traditionnel
+        14: "Mostrar historial",
+        15: "Mostrar histórico"
     },
     randomItems: {
         0: "Objets personnalisés aléatoires", // Français
@@ -113,7 +125,9 @@ let translatedTextContent = {
         10: "ランダムなカスタムアイテム", // Japonais
         11: "무작위 맞춤 항목 ", // Coréen
         12: "随机定制物品", // Chinois simplifié
-        13: "隨機定制物品" // Chinois traditionnel
+        13: "隨機定制物品", // Chinois traditionnel
+        14: "Objetos personalizados aleatorios",
+        15: "Itens personalizados aleatórios"
     },
     ffew: {
         0: "Très Peu d'objets", // Français
@@ -129,7 +143,9 @@ let translatedTextContent = {
         10: "非常に少ないオブジェクト", // Japonais
         11: "매우 적은 항목 ", // Coréen
         12: "很少物品", // ChinoisSimplifié
-        13: "很少物品" // ChinoisTraditionnel
+        13: "很少物品", // ChinoisTraditionnel
+        14: "Muy pocos objetos",
+        15: "Muito Poucos Itens"
     },
     few: {
         0: "Peu d'objets", // Français
@@ -145,7 +161,9 @@ let translatedTextContent = {
         10: "ほとんどない", // Japonais
         11: "몇 개의 항목", // Coréen
         12: "少量物品", // ChinoisSimplifié
-        13: "少量物品" // ChinoisTraditionnel
+        13: "少量物品", // ChinoisTraditionnel
+        14: "Pocos objetos",
+        15: "Poucos Itens"
     },
     mid: {
         0: "Moitié d'objets", // Français
@@ -161,7 +179,9 @@ let translatedTextContent = {
         10: "半数程度", // Japonais
         11: "반 항목", // Coréen
         12: "一半物品", // ChinoisSimplifié
-        13: "一半物品" // ChinoisTraditionnel
+        13: "一半物品", // ChinoisTraditionnel
+        14: "Mitad de objetos",
+        15: "Metade dos Itens"
     },
     lot: {
         0: "Beaucoup d'objets", // Français
@@ -177,7 +197,9 @@ let translatedTextContent = {
         10: "多くの物", // Japonais
         11: "많은 항목", // Coréen
         12: "许多物品", // ChinoisSimplifié
-        13: "許多物品" // ChinoisTraditionnel
+        13: "許多物品", // ChinoisTraditionnel
+        14: "Muchos objetos",
+        15: "Muitos Itens"
     },
     llot: {
         0: "Nombreux objets", // Français
@@ -193,7 +215,9 @@ let translatedTextContent = {
         10: "多品種", // Japonais
         11: "더 많은 개체", // Coréen
         12: "大量物品", // ChinoisSimplifié
-        13: "大量物品" // ChinoisTraditionnel
+        13: "大量物品", // ChinoisTraditionnel
+        14: "Numerosos objetos",
+        15: "Numerosos Itens"
     },
     rand: {
         0: "Nombre aléatoire", // Français
@@ -209,7 +233,9 @@ let translatedTextContent = {
         10: "乱数", // Japonais
         11: "임의의 숫자", // Coréen
         12: "随机数字", // ChinoisSimplifié
-        13: "隨機數字" // ChinoisTraditionnel
+        13: "隨機數字", // ChinoisTraditionnel
+        14: "Número aleatorio",
+        15: "Número Aleatório"
     },
     randomItemsExplanations: {
         0: "Cliquez sur le bouton \"Choisir\" en bas de la section pour afficher une sélection aléatoire d'objets pour le nouveau Mode Personnalisé. Choisissez la quantité d'objets que vous souhaitez voir apparaître sur la droite de la grille.", // Français
@@ -225,7 +251,9 @@ let translatedTextContent = {
         10: "セクションの下部にある「選択」ボタンをクリックすると、新しいカスタムモード用のオブジェクトがランダムに表示されます。グリッドの右側に表示させたいオブジェクトの数を選びます。", // Japonais
         11: "섹션 하단의 '선택' 버튼을 클릭하면 새로운 사용자 지정 모드에 사용할 개체를 무작위로 선택할 수 있습니다. 그리드 오른쪽에 표시할 개체 수를 선택합니다.", // Coréen
         12: "点击该部分底部的 \"选择\" 按钮，为新的自定义模式显示随机选择的对象。选择你希望出现在网格右侧的对象数量。", // ChinoisSimplifié
-        13: "點擊該部分底部的 \"選擇\" 按鈕，為新的自定義模式顯示隨機選擇的對象。選擇你希望出現在網格右側的對像數量。" // ChinoisTraditionnel
+        13: "點擊該部分底部的 \"選擇\" 按鈕，為新的自定義模式顯示隨機選擇的對象。選擇你希望出現在網格右側的對像數量。", // ChinoisTraditionnel
+        14: "Haga clic en el botón \"Elegir\" situado en la parte inferior de la sección para mostrar una selección aleatoria de objetos para el nuevo Modo personalizado. Elige el número de objetos que quieres que aparezcan en la parte derecha de la cuadrícula.",
+        15: "Clique no botão \"Escolher\" na parte inferior da secção para visualizar uma selecção aleatória de objectos para o novo Modo Personalizado. Escolha o número de objectos que pretende que apareçam no lado direito da grelha."
     },
     choose: {
         0: "Choisir", // Français
@@ -241,7 +269,9 @@ let translatedTextContent = {
         10: "選ぶ", // Japonais
         11: "선택하다", // Coréen
         12: "选择", // ChinoisSimplifié
-        13: "選擇" // ChinoisTraditionnel
+        13: "選擇", // ChinoisTraditionnel
+        14: "Elegir",
+        15: "Escolher"
     },
     reset: {
         0: "Remettre à zéro", // Français
@@ -257,7 +287,9 @@ let translatedTextContent = {
         10: "リセットする", // Japonais
         11: "초기화하다", // Coréen
         12: "重置", // ChinoisSimplifié
-        13: "重設" // ChinoisTraditionnel
+        13: "重設", // ChinoisTraditionnel
+        14: "Reiniciar",
+        15: "Redefinir"
     },
     randomCircuit: {
         0: "Circuit aléatoire sans répétition", // Français
@@ -273,7 +305,9 @@ let translatedTextContent = {
         10: "繰り返しのないランダムなサーキット", // Japonais
         11: "반복 없는 무작위 서킷", // Coréen
         12: "无重复随机赛道", // ChinoisSimplifié
-        13: "無重複隨機賽道" // ChinoisTraditionnel
+        13: "無重複隨機賽道", // ChinoisTraditionnel
+        14: "Circuito Aleatorio sin Repetición",
+        15: "Circuito Aleatório sem Repetição"
     },
     randomCircuitExplanations: {
         0: "Cliquez sur le bouton \"Choisir\" ci-dessous pour sélectionner aléatoirement l'un des 88 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton \"Remettre à zero\" situé tout en bas.", // Français
@@ -289,7 +323,9 @@ let translatedTextContent = {
         10: "下の「選ぶ」ボタンをクリックすると、プレイ可能な88のサーキットの中からランダムに1つを選ぶことができます。好きなサーキットでプレイしたい場合は、クリックして選択することも可能です。再び選択できるようにしたい場合は、そのトラックをクリックすると、再び選択できるようになります。すべてのトラックを選択したら、いくつかのトラックの選択を解除するか、下部の「ゼロにリセット」ボタンを使ってください。", // Japonais
         11: "아래의 '선택' 버튼을 클릭하면 88개의 재생 가능한 서킷 중 하나를 무작위로 선택할 수 있습니다. 원하는 트랙에서 플레이하고 싶다면 해당 트랙을 클릭하여 선택할 수도 있습니다. 트랙을 다시 선택하려면 해당 트랙을 클릭하여 다시 사용할 수 있도록 설정하세요. 모든 트랙을 선택했으면 몇 개를 선택 해제하거나 하단의 '0으로 초기화' 버튼을 사용하세요.", // Coréen
         12: "点击下面的 \"选择 \"按钮，在88个可玩的电路中随机选择一个。如果你想在你选择的赛道上玩，你也可以通过点击来选择一个。如果你想让某条赛道再次被选中，点击它就可以让它再次发挥作用。一旦所有的赛道都被选中，可以取消选择一些，或者使用底部的 \"重置为零 \"按钮。", // ChinoisSimplifié
-        13: "點擊下面的 \"選擇 \"按鈕，在88個可玩的電路中隨機選擇一個。如果你想在你選擇的賽道上玩，你也可以通過點擊來選擇一個。如果你想讓某條賽道再次被選中，點擊它就可以讓它再次發揮作用。一旦所有的賽道都被選中，可以取消選擇一些，或者使用底部的 \"重置為零 \"按鈕。" // ChinoisTraditionnel
+        13: "點擊下面的 \"選擇 \"按鈕，在88個可玩的電路中隨機選擇一個。如果你想在你選擇的賽道上玩，你也可以通過點擊來選擇一個。如果你想讓某條賽道再次被選中，點擊它就可以讓它再次發揮作用。一旦所有的賽道都被選中，可以取消選擇一些，或者使用底部的 \"重置為零 \"按鈕。", // ChinoisTraditionnel
+        14: "Haz clic en el botón \"Elegir\" para seleccionar al azar uno de los 88 circuitos jugables. Si quieres jugar en un circuito de tu elección, también puedes seleccionarlo haciendo clic sobre él. Si quieres que una pista vuelva a ser seleccionable, haz clic sobre ella para que vuelva a estar disponible. Una vez seleccionadas todas las pistas, anula la selección de algunas o utiliza el botón \"Reiniciar\" de la parte inferior.",
+        15: "Clique no botão \"Escolher\" abaixo para seleccionar aleatoriamente um dos 88 circuitos jogáveis. Se quiseres jogar numa pista à tua escolha, também podes seleccionar uma clicando nela. Se quiseres que uma pista volte a ser seleccionável, clica nela para a tornares novamente disponível. Quando todas as pistas tiverem sido seleccionadas, anula a selecção de algumas ou utiliza o botão \"Reiniciar\" na parte inferior."
     },
     randomArena: {
         0: "Arène bataille aléatoire sans répétition", // Français
@@ -305,7 +341,9 @@ let translatedTextContent = {
         10: "繰り返しのないランダムなバトルアリーナ", // Japonais
         11: "반복 없는 무작위 전투 아레나", // Coréen
         12: "无重复随机战斗场", // ChinoisSimplifié
-        13: "無重複隨機戰鬥場" // ChinoisTraditionnel
+        13: "無重複隨機戰鬥場", // ChinoisTraditionnel
+        14: "Arena de Batalla Aleatoria sin Repetición",
+        15: "Arena de Batalha Aleatória sem Repetição"
     },
     battleArena: {
         0: "Arènes Bataille", // Français
@@ -321,7 +359,9 @@ let translatedTextContent = {
         10: "バトルアリーナ", // Japonais
         11: "전투 아레나", // Coréen
         12: "战斗场", // ChinoisSimplifié
-        13: "戰鬥場" // ChinoisTraditionnel
+        13: "戰鬥場", // ChinoisTraditionnel
+        14: "Arenas de Batalla",
+        15: "Arenas de Batalha"
     }
 };
 
