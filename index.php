@@ -192,7 +192,9 @@ include "fonctionsPhp/vues.php";
                 <div><img src="img/flags/en.webp" alt="fr"><a href="index.php?lang=en" onclick="localStorage.setItem('lang', 'en')">English</a><br></div>
                 <div><img src="img/flags/en-US.webp" alt="fr"><a href="index.php?lang=en-US" onclick="localStorage.setItem('lang', 'en-US')">English (US)</a><br></div>
                 <div><img src="img/flags/es.webp" alt="fr"><a href="index.php?lang=es" onclick="localStorage.setItem('lang', 'es')">Español</a><br></div>
+                <div><img src="img/flags/es-HA.webp" alt="fr"><a href="index.php?lang=es-HA" onclick="localStorage.setItem('lang', 'es-HA')">Español (HA)</a><br></div>
                 <div><img src="img/flags/pt.webp" alt="fr"><a href="index.php?lang=pt" onclick="localStorage.setItem('lang', 'pt')">Português</a><br></div>
+                <div><img src="img/flags/pt-BR.webp" alt="fr"><a href="index.php?lang=pt-BR" onclick="localStorage.setItem('lang', 'pt-BR')">Português (Brazil)</a><br></div>
                 <div><img src="img/flags/it.webp" alt="fr"><a href="index.php?lang=it" onclick="localStorage.setItem('lang', 'it')">Italiano</a><br></div>
                 <div><img src="img/flags/de.webp" alt="fr"><a href="index.php?lang=de" onclick="localStorage.setItem('lang', 'de')">Deutsch</a><br></div>
                 <div><img src="img/flags/nl.webp" alt="fr"><a href="index.php?lang=nl" onclick="localStorage.setItem('lang', 'nl')">Nederlands</a><br></div>
