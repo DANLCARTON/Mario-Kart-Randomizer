@@ -765,7 +765,60 @@ let Birdo = {
     adherence: 3,
     miniTurbo: 3,
     invincibility: 3
-}
+};
+
+let FloraPiranha = {
+    nom: ["Flora Piranha", "Petey Piranha", "Petey Piranha", "Petey Piranha", "Mutant-Tyranha", "Floro Piraña", "Pipino Piranha", "Petey Piranha", "Petey Piranha", "пиранья Пети", "ボスパックン", "뻐끔왕", "吞食花老大", "吞食花老大", "Pepito Piraña", "Petey Piranha"],
+    vitesse: 0,
+    vitesseEau: 0,
+    vitesseAir: 0,
+    vitesseAntiGravite: 0,
+    acceleration: 0,
+    poids: 0,
+    maniabilite: 0,
+    maniabiliteEau: 0,
+    maniabiliteAir: 0,
+    maniabiliteAntiGravite: 0,
+    adherence: 0,
+    miniTurbo: 0,
+    invincibility: 0
+};
+
+let Wiggler = {
+    nom: ["Wiggler", "Wiggler", "Wiggler", "Wiggler", "Wiggler", "Floruga", "Torcibruco", "Wiggler", "Lagartola", "Егоза", "ハナチャン", "꽃충이", "花毛毛", "花毛毛", "Floruga", "Wiggler"],
+    vitesse: 0,
+    vitesseEau: 0,
+    vitesseAir: 0,
+    vitesseAntiGravite: 0,
+    acceleration: 0,
+    poids: 0,
+    maniabilite: 0,
+    maniabiliteEau: 0,
+    maniabiliteAir: 0,
+    maniabiliteAntiGravite: 0,
+    adherence: 0,
+    miniTurbo: 0,
+    invincibility: 0
+};
+
+let Kamek = {
+    nom: ["Kamek", "Kamek", "Kamek", "Kamek", "Kamek", "Kamek", "Kamek", "Kamek", "Kamek", "Камек", "カメック", "마귀", "卡美克", "卡美克", "Kamek", "Kamek"],
+    vitesse: 0,
+    vitesseEau: 0,
+    vitesseAir: 0,
+    vitesseAntiGravite: 0,
+    acceleration: 0,
+    poids: 0,
+    maniabilite: 0,
+    maniabiliteEau: 0,
+    maniabiliteAir: 0,
+    maniabiliteAntiGravite: 0,
+    adherence: 0,
+    miniTurbo: 0,
+    invincibility: 0
+};
+
+// fr-fr | fr-ca | en-uk | en-us | de | es | it | nl | pt | ru | ja | ko | zh-Hans | zh-Hant | es-HA | pt-BR
 
 // KARTS ----------------------------------------
 
@@ -2099,7 +2152,7 @@ let ParapenteMKTV = {
     invincibility: 0
 };
 
-export { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, MiiLeger, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, MiiMoyen, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, MiiLourd, Birdo };
+export { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, MiiLeger, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, MiiMoyen, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, MiiLourd, Birdo, FloraPiranha, Wiggler, Kamek };
 export { KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01 };
 export { RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin }
 export { AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant };
