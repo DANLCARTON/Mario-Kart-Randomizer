@@ -580,7 +580,6 @@ button:hover {
     padding: 4px;
     border-radius: 20px;
     transition: ease-in-out .2s;
-    line-height: ;
 }
 
 .coupe::before {
@@ -752,6 +751,11 @@ button:hover {
     filter: drop-shadow(0 0 10px #ffffffff);
 }
 
+#footer-line {
+    display: none;
+    margin: 100px 0 0 0;
+}
+
 @media screen and (max-width: 1249px) and (min-width: 769px) {
     #footer-grid {
         display: grid;
@@ -803,9 +807,15 @@ button:hover {
 }
 
 @media screen and (max-width: 425px) {
+    #footer-line {
+        display: block;
+    }
     #footer-grid {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    footer {
+        box-shadow: none;
     }
     .languages {
         padding: 10px 50px;

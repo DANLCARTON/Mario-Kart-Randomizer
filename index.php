@@ -167,6 +167,8 @@ include "fonctionsPhp/vues.php";
             </article>
 
         </section>
+
+        <hr id="footer-line">
         
     </main>
 
@@ -178,7 +180,6 @@ include "fonctionsPhp/vues.php";
     <script type="module" src="textContent.js"></script>
     <script type="module" src="translatedTextContent.js"></script>
     <img src="./img/icons/td.jpg" id="ee" alt="Easter Egg">
-
     
     <footer>
         <div id="footer-grid">
