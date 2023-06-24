@@ -19,7 +19,6 @@ include "fonctionsPhp/vues.php";
     <link rel="icon" href="./img/personnages/Mario.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Mario Kart 8 Randomizer </title>
-    <meta name="theme-color" content="#bf8" />
     <meta name="keywords" content="mario, kart, 8, huit, eight, random, aléatoire, aleatoire, randomizer, eric, thiberge, couscous, stop regarder là >///<, plus de keywords !!, Марио, Карт, マリオカート, 마리오, 카트, 马力欧卡丁车, 瑪利歐賽車, acht, ocho, otto, oito, восемь, 八, hachi, 여덟, yeodeol, 八, 八, ba, zufällig, zufallig, aleatorio, casuale, willekeurig, aleatório, случайный, sluchainyy, ランダム, randamu, 무작위의, mujakwi-ui, 随机, suíjī, suiji, 隨機, générateur, generateur, Zufallsgenerator, generador, randomizzatore, gerador, генератор, случайных, чисел, ランダマイザー, 랜덤, 생성기, raendeom, seongsaeng-gi, 随机生成器, 隨機生成器, shēngchéngqì, shengchengqi" />
     <meta name="description" content="[Now available in multiple languages !!] • Randomizer for Mario Kart 8 Deluxe! - Randomly generate a character, a kart combination, custom mode items and a random track for Mario Kart 8 Deluxe!"/>
     <meta name="http-equiv" content="Cache-Control: max-age:3678400" />
