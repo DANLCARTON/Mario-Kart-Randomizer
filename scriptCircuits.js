@@ -175,7 +175,7 @@ for (let i = 0; i < nombreDeCircuits; i++) {
                         document.getElementsByClassName(circuitDejaTires[i])[0].setAttribute("style", "background-color: #353535; color: #ccc;");
                     }
                 }
-                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: none; filter: drop-shadow(0 0 10px #ffffff50); color: #353535");
+                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: none; filter: drop-shadow(0 0 10px #ffffff50); color: #ccc");
                 circuitSelectionne = document.getElementsByClassName("TR" + i)[0];
                 circuitDejaTires.splice(j, 1, "");
                 circuitsNonTires.splice(j, 1, "TR" + j);
