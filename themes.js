@@ -4,6 +4,8 @@ var accCol = "#78ff78"
 
 var iconList = Array("set", "exit")
 
+var theme = localStorage.getItem("currentTheme");
+
 function setNightTheme() {
     let root = document.querySelector(':root');
     root.style.setProperty('--bg-color-1', '#252525');
@@ -14,6 +16,7 @@ function setNightTheme() {
         document.getElementById(iconList[i] + "day").style.setProperty('display', "inline-block");
     }
     localStorage.setItem("currentTheme", "night");
+    theme = "night"
 }
 
 function setDayTheme() {
@@ -26,6 +29,7 @@ function setDayTheme() {
         document.getElementById(iconList[i] + "day").style.setProperty('display', "none");
     }
     localStorage.setItem("currentTheme", "day");
+    theme = "day";
 }
 
 function applyPreviousTheme(theme) {
@@ -36,8 +40,11 @@ function applyPreviousTheme(theme) {
     }
 }
 
+function getCurrentTheme() {
+    return theme
+}
+
 window.addEventListener("load", () => {
-    let theme = localStorage.getItem("currentTheme");
     applyPreviousTheme(theme);
 })
 
@@ -49,4 +56,4 @@ document.getElementById("setday").addEventListener("click", () => {
     setDayTheme();
 })
 
-export { bgCol1, bgCol2, accCol };
+export { bgCol1, bgCol2, accCol, getCurrentTheme };

@@ -1,4 +1,4 @@
-import { bgCol1, bgCol2, accCol } from "./themes.js";
+import { bgCol1, bgCol2, accCol, getCurrentTheme } from "./themes.js";
 
 let themeMainColor = bgCol1;
 let themeSecondaryColor = accCol;
@@ -175,7 +175,13 @@ for (let i = 0; i < nombreDeCircuits; i++) {
                         document.getElementsByClassName(circuitDejaTires[i])[0].setAttribute("style", "background-color: #353535; color: #ccc;");
                     }
                 }
-                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: none; filter: drop-shadow(0 0 10px #ffffff50); color: #ccc");
+                let color = "#353535";
+                if (getCurrentTheme() == "day") {
+                    color = "#353535";
+                } else {
+                    color = "ccc";
+                }
+                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: none; filter: none; color: "+color);
                 circuitSelectionne = document.getElementsByClassName("TR" + i)[0];
                 circuitDejaTires.splice(j, 1, "");
                 circuitsNonTires.splice(j, 1, "TR" + j);
