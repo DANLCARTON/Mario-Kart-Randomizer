@@ -232,10 +232,11 @@ button {
     border-radius: 100px;
     transition: ease-in-out .2s;
     font-weight: bold;
+    font-size: larger;
     border: none;
     /*font-family: Tahoma, Arial, sans-serif;*/
     font-family: "Poppins", Arial, sans-serif;
-    font-size: 15px;
+    /*font-size: 15px;*/
     cursor: pointer;
 }
 
