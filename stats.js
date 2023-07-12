@@ -84,7 +84,7 @@ let BebeMario = {
     maniabiliteAntiGravite: 8,
     adherence: 4,
     miniTurbo: 5,
-    invincibility: 6
+    invincibility: 5
 };
 
 let BebeLuigi = {
@@ -101,7 +101,7 @@ let BebeLuigi = {
     maniabiliteAntiGravite: 8,
     adherence: 4,
     miniTurbo: 5,
-    invincibility: 6
+    invincibility: 5
 };
 
 let Skelerex = {
@@ -118,7 +118,7 @@ let Skelerex = {
     maniabiliteAntiGravite: 8,
     adherence: 4,
     miniTurbo: 5,
-    invincibility: 6
+    invincibility: 5
 };
 
 let MiiLeger = {
@@ -135,7 +135,7 @@ let MiiLeger = {
     maniabiliteAntiGravite: 8,
     adherence: 4,
     miniTurbo: 5,
-    invincibility: 6
+    invincibility: 5
 };
 
 let Toadette = {
@@ -152,7 +152,7 @@ let Toadette = {
     maniabiliteAntiGravite: 7,
     adherence: 2,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 3
 };
 
 let Wendy = {
@@ -169,7 +169,7 @@ let Wendy = {
     maniabiliteAntiGravite: 7,
     adherence: 2,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 3
 };
 
 let Marie = {
@@ -186,7 +186,7 @@ let Marie = {
     maniabiliteAntiGravite: 7,
     adherence: 2,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 3
 };
 
 let Koopa = {
@@ -203,7 +203,7 @@ let Koopa = {
     maniabiliteAntiGravite: 7,
     adherence: 5,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 4
 };
 
 let Lakitu = {
@@ -220,7 +220,7 @@ let Lakitu = {
     maniabiliteAntiGravite: 7,
     adherence: 5,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 4
 };
 
 let BowserJr = {
@@ -237,7 +237,7 @@ let BowserJr = {
     maniabiliteAntiGravite: 7,
     adherence: 5,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 4
 };
 
 let Toad = {
@@ -254,7 +254,7 @@ let Toad = {
     maniabiliteAntiGravite: 7,
     adherence: 4,
     miniTurbo: 4,
-    invincibility: 4
+    invincibility: 3
 };
 
 let Maskass = {
@@ -271,7 +271,7 @@ let Maskass = {
     maniabiliteAntiGravite: 7,
     adherence: 4,
     miniTurbo: 4,
-    invincibility: 4
+    invincibility: 3
 };
 
 let Larry = {
@@ -288,7 +288,7 @@ let Larry = {
     maniabiliteAntiGravite: 7,
     adherence: 4,
     miniTurbo: 4,
-    invincibility: 4
+    invincibility: 3
 };
 
 let PeachChat = {
@@ -304,8 +304,8 @@ let PeachChat = {
     maniabiliteAir: 6,
     maniabiliteAntiGravite: 6,
     adherence: 3,
-    miniTurbo: 3,
-    invincibility: 4
+    miniTurbo: 4,
+    invincibility: 5
 };
 
 let Villageoise = {
@@ -321,8 +321,8 @@ let Villageoise = {
     maniabiliteAir: 6,
     maniabiliteAntiGravite: 6,
     adherence: 3,
-    miniTurbo: 3,
-    invincibility: 4
+    miniTurbo: 4,
+    invincibility: 5
 };
 
 let InklingFille = {
@@ -338,8 +338,8 @@ let InklingFille = {
     maniabiliteAir: 6,
     maniabiliteAntiGravite: 6,
     adherence: 3,
-    miniTurbo: 3,
-    invincibility: 4
+    miniTurbo: 4,
+    invincibility: 5
 };
 
 let Peach = {
@@ -356,7 +356,7 @@ let Peach = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 3
+    invincibility: 5
 };
 
 let Daisy = {
@@ -373,7 +373,7 @@ let Daisy = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 3
+    invincibility: 5
 };
 
 let Yoshi = {
@@ -390,7 +390,7 @@ let Yoshi = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 3
+    invincibility: 5
 };
 
 let MarioTanuki = {
@@ -407,7 +407,7 @@ let MarioTanuki = {
     maniabiliteAntiGravite: 5,
     adherence: 1,
     miniTurbo: 3,
-    invincibility: 3
+    invincibility: 5
 };
 
 let Villageois = {
@@ -424,7 +424,7 @@ let Villageois = {
     maniabiliteAntiGravite: 5,
     adherence: 1,
     miniTurbo: 3,
-    invincibility: 3
+    invincibility: 5
 };
 
 let InklingGarcon = {
@@ -441,7 +441,7 @@ let InklingGarcon = {
     maniabiliteAntiGravite: 5,
     adherence: 1,
     miniTurbo: 3,
-    invincibility: 3
+    invincibility: 5
 };
 
 let Mario = {
@@ -543,7 +543,7 @@ let MarioDeMetal = {
     maniabiliteAntiGravite: 3,
     adherence: 1,
     miniTurbo: 1,
-    invincibility: 1
+    invincibility: 3
 };
 
 let PeachDOrRose = {
@@ -560,7 +560,7 @@ let PeachDOrRose = {
     maniabiliteAntiGravite: 3,
     adherence: 1,
     miniTurbo: 1,
-    invincibility: 1
+    invincibility: 3
 };
 
 let Harmonie = {
@@ -577,7 +577,7 @@ let Harmonie = {
     maniabiliteAntiGravite: 3,
     adherence: 3,
     miniTurbo: 2,
-    invincibility: 2
+    invincibility: 4
 };
 
 let Link = {
@@ -594,7 +594,7 @@ let Link = {
     maniabiliteAntiGravite: 3,
     adherence: 3,
     miniTurbo: 2,
-    invincibility: 2
+    invincibility: 4
 };
 
 let RoiBoo = {
@@ -611,7 +611,7 @@ let RoiBoo = {
     maniabiliteAntiGravite: 3,
     adherence: 3,
     miniTurbo: 2,
-    invincibility: 2
+    invincibility: 4
 };
 
 let DonkeyKong = {
@@ -628,7 +628,7 @@ let DonkeyKong = {
     maniabiliteAntiGravite: 2,
     adherence: 0,
     miniTurbo: 1,
-    invincibility: 1
+    invincibility: 4
 };
 
 let Waluigi = {
@@ -645,7 +645,7 @@ let Waluigi = {
     maniabiliteAntiGravite: 2,
     adherence: 0,
     miniTurbo: 1,
-    invincibility: 1
+    invincibility: 4
 };
 
 let Roy = {
@@ -662,7 +662,7 @@ let Roy = {
     maniabiliteAntiGravite: 2,
     adherence: 0,
     miniTurbo: 1,
-    invincibility: 1
+    invincibility: 4
 };
 
 let Wario = {
@@ -679,7 +679,7 @@ let Wario = {
     maniabiliteAntiGravite: 1,
     adherence: 1,
     miniTurbo: 0,
-    invincibility: 1
+    invincibility: 5
 };
 
 let BowserSkelet = {
@@ -696,7 +696,7 @@ let BowserSkelet = {
     maniabiliteAntiGravite: 1,
     adherence: 1,
     miniTurbo: 0,
-    invincibility: 1
+    invincibility: 5
 };
 
 let Bowser = {
@@ -713,7 +713,7 @@ let Bowser = {
     maniabiliteAntiGravite: 0,
     adherence: 0,
     miniTurbo: 0,
-    invincibility: 1
+    invincibility: 6
 };
 
 let Morton = {
@@ -730,7 +730,7 @@ let Morton = {
     maniabiliteAntiGravite: 0,
     adherence: 0,
     miniTurbo: 0,
-    invincibility: 1
+    invincibility: 6
 };
 
 let MiiLourd = {
@@ -747,7 +747,7 @@ let MiiLourd = {
     maniabiliteAntiGravite: 0,
     adherence: 0,
     miniTurbo: 0,
-    invincibility: 1
+    invincibility: 6
 };
 
 let Birdo = {
@@ -764,58 +764,58 @@ let Birdo = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 3,
-    invincibility: 3
+    invincibility: 5
 };
 
 let FloraPiranha = {
     nom: ["Flora Piranha", "Petey Piranha", "Petey Piranha", "Petey Piranha", "Mutant-Tyranha", "Floro Piraña", "Pipino Piranha", "Petey Piranha", "Petey Piranha", "пиранья Пети", "ボスパックン", "뻐끔왕", "吞食花老大", "吞食花老大", "Pepito Piraña", "Petey Piranha"],
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
-    acceleration: 0,
-    poids: 0,
-    maniabilite: 0,
-    maniabiliteEau: 0,
-    maniabiliteAir: 0,
-    maniabiliteAntiGravite: 0,
-    adherence: 0,
-    miniTurbo: 0,
-    invincibility: 0
+    vitesse: 8,
+    vitesseEau: 8,
+    vitesseAir: 8,
+    vitesseAntiGravite: 8,
+    acceleration: 1,
+    poids: 10,
+    maniabilite: 3,
+    maniabiliteEau: 3,
+    maniabiliteAir: 3,
+    maniabiliteAntiGravite: 3,
+    adherence: 1,
+    miniTurbo: 1,
+    invincibility: 3
 };
 
 let Wiggler = {
     nom: ["Wiggler", "Wiggler", "Wiggler", "Wiggler", "Wiggler", "Floruga", "Torcibruco", "Wiggler", "Lagartola", "Егоза", "ハナチャン", "꽃충이", "花毛毛", "花毛毛", "Floruga", "Wiggler"],
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
-    acceleration: 0,
-    poids: 0,
-    maniabilite: 0,
-    maniabiliteEau: 0,
-    maniabiliteAir: 0,
-    maniabiliteAntiGravite: 0,
+    vitesse: 9,
+    vitesseEau: 9,
+    vitesseAir: 9,
+    vitesseAntiGravite: 9,
+    acceleration: 1,
+    poids: 8,
+    maniabilite: 2,
+    maniabiliteEau: 2,
+    maniabiliteAir: 2,
+    maniabiliteAntiGravite: 2,
     adherence: 0,
-    miniTurbo: 0,
-    invincibility: 0
+    miniTurbo: 1,
+    invincibility: 4
 };
 
 let Kamek = {
     nom: ["Kamek", "Kamek", "Kamek", "Kamek", "Kamek", "Kamek", "Kamek", "Kamek", "Kamek", "Камек", "カメック", "마귀", "卡美克", "卡美克", "Kamek", "Kamek"],
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
-    acceleration: 0,
-    poids: 0,
-    maniabilite: 0,
-    maniabiliteEau: 0,
-    maniabiliteAir: 0,
-    maniabiliteAntiGravite: 0,
-    adherence: 0,
-    miniTurbo: 0,
-    invincibility: 0
+    vitesse: 7,
+    vitesseEau: 7,
+    vitesseAir: 7,
+    vitesseAntiGravite: 7,
+    acceleration: 2,
+    poids: 6,
+    maniabilite: 5,
+    maniabiliteEau: 5,
+    maniabiliteAir: 5,
+    maniabiliteAntiGravite: 5,
+    adherence: 1,
+    miniTurbo: 3,
+    invincibility: 3
 };
 
 // fr-fr | fr-ca | en-uk | en-us | de | es | it | nl | pt | ru | ja | ko | zh-Hans | zh-Hant | es-HA | pt-BR
@@ -875,7 +875,7 @@ let SLRoadster = {
 
 let Retro = {
     nom: ["Rétro", "Rétro", "Pipe Frame", "Pipe Frame", "Go-Kart", "Tubiturbo", "Tuboturbo", "Skelter", "Tubomóvel", "труботуpбо", "スケルトン", "스켈레톤", "管架车", "管架車", "Mach 8", "Mach 8"],
-    vitesse: 1,
+    vitesse: 2,
     vitesseEau: 3,
     vitesseAir: 1,
     vitesseAntiGravite: 1,
@@ -892,7 +892,7 @@ let Retro = {
 
 let Mecabecane = {
     nom: ["Mécabécane", "Mécabécane", "Varmint", "Varmint", "Cross-Bike", "Mototerreno", "Tubocicletta", "Offroadracer", "Crosse", "Стройбайк", "モト・ドーザー", "모터도저", "推土机摩托", "推土機摩托車", "Mototerreno", "Crosse"],
-    vitesse: 1,
+    vitesse: 2,
     vitesseEau: 3,
     vitesseAir: 1,
     vitesseAntiGravite: 1,
@@ -909,7 +909,7 @@ let Mecabecane = {
 
 let ScooterAC = {
     nom: ["Scooter AC", "Scooter AC", "City Tripper", "City Tripper", "Fashion-Scooter", "Cicloneta", "Scooter Crossing", "Stadscooter", "Scooter Citadina", "Мотороллер", "きせかえスクーター", "시터트리퍼", "换装摩托", "換裝小綿羊", "Motoneta", "Scooter Citadina"],
-    vitesse: 1,
+    vitesse: 2,
     vitesseEau: 3,
     vitesseAir: 1,
     vitesseAntiGravite: 1,
@@ -1107,7 +1107,7 @@ let MachCelere = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 2,
     adherence: 1,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 6
 };
 
@@ -1124,7 +1124,7 @@ let Intrepide = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 2,
     adherence: 1,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 6
 };
 
@@ -1141,7 +1141,7 @@ let Magikart = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 2,
     adherence: 1,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 6
 };
 
@@ -1158,7 +1158,7 @@ let BeatBolide = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 1,
     adherence: 5,
-    miniTurbo: 1,
+    miniTurbo: 3,
     invincibility: 7
 };
 
@@ -1175,7 +1175,7 @@ let QuadStandard = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 1,
     adherence: 5,
-    miniTurbo: 1,
+    miniTurbo: 3,
     invincibility: 6
 };
 
@@ -1192,7 +1192,7 @@ let KartGLA = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 1,
     adherence: 5,
-    miniTurbo: 1,
+    miniTurbo: 3,
     invincibility: 7
 };
 
@@ -1283,7 +1283,7 @@ let Scootinette = {
 
 let Caraveloce = {
     nom: ["Caravéloce", "Bateau roulant", "Landship", "Landship", "PS-Galeere", "Autonave", "Naveloce", "Flitzfregat", "Autonavio", "Каравелла", "クッパシップ", "쿠파십", "酷霸王飞船", "庫巴飛船", "Nave Bowser", "Autonave"],
-    vitesse: 1,
+    vitesse: 2,
     vitesseEau: 5,
     vitesseAir: 2,
     vitesseAntiGravite: 0,
@@ -1300,7 +1300,7 @@ let Caraveloce = {
 
 let Autorinho = {
     nom: ["Autorhino", "Coléokart", "Streetle", "Streetle", "Fichtenbock", "Insecturbo", "Scarabuggy", "Sjeesbeestje", "Escaravelho", "Рог-рейсер", "わくわくビートル", "두근두근비틀", "怦怦甲壳虫", "怦怦甲蟲", "Kartrópodo", "Kartrópode"],
-    vitesse: 1,
+    vitesse: 2,
     vitesseEau: 5,
     vitesseAir: 2,
     vitesseAntiGravite: 0,
@@ -1470,7 +1470,7 @@ let Kartoon = {
 
 let BuggyTanuki = {
     nom: ["Buggy Tanuki", "Kart tanooki", "Tanooki Kart", "Tanooki Kart", "Tanuki-Kart", "Kart Tanuki", "Turbotanuki", "Turbo-Tanuki", "Tanuki Turbo", "Турбо-Тануки", "タヌキバギー", "너구리버기", "狸猫越野车", "狸貓越野賽車", "Kart Tanuki", "Kart Tanuki"],
-    vitesse: 2,
+    vitesse: 1,
     vitesseEau: 4,
     vitesseAir: 3,
     vitesseAntiGravite: 3,
@@ -1481,13 +1481,13 @@ let BuggyTanuki = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 7,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 4
 };
 
 let KoopaMobile = {
     nom: ["Koopa-Mobile", "Clown Koopa", "Koopa Clown", "Koopa Clown", "Clown-Kutsche", "Helikoopa", "Clown Koopa", "Koopa-clown", "Palhaço Koopa", "Клоуномобиль", "クッパクラウン", "쿠파피에로", "酷霸王小丑飞船", "庫巴小丑飛船", "Koopayaso", "Cápsula Koopalhaço"],
-    vitesse: 2,
+    vitesse: 1,
     vitesseEau: 4,
     vitesseAir: 3,
     vitesseAntiGravite: 3,
@@ -1498,13 +1498,13 @@ let KoopaMobile = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 7,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 3
 };
 
 let DestrierDeLegende01 = {
     nom: ["Destrier de Légende 0.1", "Destrier Légendaire alpha", "Master Cycle Zero", "Master Cycle Zero", "Eponator Zero", "Moto Hyliana Alfa", "Destriero di Hyrule Zero", "Triforcer Zero", "Corcel de Hyrule Zero", "Трифорсаж-0", "マスターバイク零式 ", "마스터바이크 제로", "大师摩托Zero", "達人摩托車Zero", "Moto Hyliana Alfa", "Corcel de Hyrule Zero"],
-    vitesse: 2,
+    vitesse: 1,
     vitesseEau: 4,
     vitesseAir: 3,
     vitesseAntiGravite: 3,
@@ -1515,7 +1515,7 @@ let DestrierDeLegende01 = {
     maniabiliteAir: 3,
     maniabiliteAntiGravite: 3,
     adherence: 7,
-    miniTurbo: 4,
+    miniTurbo: 5,
     invincibility: 3
 };
 
@@ -1574,7 +1574,7 @@ let RouesGLA = {
 
 let Mastodonte = {
     nom: ["Mastodonte", "Mastodonte", "Monster", "Monster", "Riesig", "Todoterreno", "Maxi", "Monster", "Grande", "Гигантские", "ワイルドタイヤ", "와일드타이어", "狂野轮胎", "狂野輪胎", "Todoterreno", "Grande"],
-    vitesse: 2,
+    vitesse: 3,
     vitesseEau: 2,
     vitesseAir: 1,
     vitesseAntiGravite: 2,
@@ -1591,7 +1591,7 @@ let Mastodonte = {
 
 let MastoFlamme = {
     nom: ["Masto-Flammes", "Masto-flamme", "Funky Monster", "Hot Monster", "Riesig (orange)", "Todoterreno cítrico", "Maxi arancio", "Monster (funky)", "Grande Laranja", "Рыжие гигантские", "ワイルドホット", "와일드핫", "火辣狂野", "火辣狂野", "Todoterreno cítrico", "Grande Laranja"],
-    vitesse: 2,
+    vitesse: 3,
     vitesseEau: 2,
     vitesseAir: 1,
     vitesseAntiGravite: 2,
@@ -1608,7 +1608,7 @@ let MastoFlamme = {
 
 let Archeonique = {
     nom: ["Archéonique", "Archéonique", "Ancient Tyres", "Ancient Tires", "Antik", "Ancestral", "Ancestrali", "Geavanceerd", "Pneus ancestrais", "Древине", "古代のタイヤ", "고대타이어", "古代轮胎", "古代輪胎", "Ancestral", "Pneus ancestrais"],
-    vitesse: 2,
+    vitesse: 3,
     vitesseEau: 2,
     vitesseAir: 1,
     vitesseAntiGravite: 2,
@@ -1721,7 +1721,7 @@ let Lisse = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 2,
     adherence: 0,
-    miniTurbo: 1,
+    miniTurbo: 2,
     invincibility: 4
 };
 
@@ -1738,7 +1738,7 @@ let CyberLisse = {
     maniabiliteAir: 1,
     maniabiliteAntiGravite: 2,
     adherence: 0,
-    miniTurbo: 1,
+    miniTurbo: 2,
     invincibility: 4
 };
 
@@ -1755,7 +1755,7 @@ let Metal = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 1,
     adherence: 1,
-    miniTurbo: 1,
+    miniTurbo: 2,
     invincibility: 5
 };
 
@@ -1772,7 +1772,7 @@ let RouesOr = {
     maniabiliteAir: 0,
     maniabiliteAntiGravite: 1,
     adherence: 1,
-    miniTurbo: 1,
+    miniTurbo: 2,
     invincibility: 4
 };
 
@@ -1823,7 +1823,7 @@ let HorsPiste = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 2,
     adherence: 6,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 6
 };
 
@@ -1840,7 +1840,7 @@ let HorsPisteRetro = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 2,
     adherence: 6,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 6
 };
 
@@ -1857,7 +1857,7 @@ let Triforce = {
     maniabiliteAir: 2,
     maniabiliteAntiGravite: 2,
     adherence: 6,
-    miniTurbo: 2,
+    miniTurbo: 3,
     invincibility: 5
 };
 
