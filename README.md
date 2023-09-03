@@ -116,6 +116,48 @@
 
 - Changement de la couleur de fond en orange et bleu pour coller aux couleurs des coupes de la vague 4. Le thème sombre reste néanmoins disponible
 
-### 2. SEO
+# RANDOMIZER MARIO KART 8 DELUXE - PASS CIRCUITS ADDITIONNELS (VAGUE 5)
+***Qu'est-ce qui a changé ?***
+
+## I. PARTIE PERSONNAGES ET KARTS
+
+- Trois nouveaux personnages à été ajoutés au jeu : **Flora Piranha**, **Kamek** et **Wiggler** ! Ils peuvent donc désormais apparaître dans la selection aléatoire de personnage. 
+    - Dans les premiers jours après la mise en ligne de la mise à jour du site, les images représentant Les personnages seront remplacées par un point d'intérrogation. → J'ai juste pas encore trouvé d'image mais ça arrive ASAP
+    - Même chose avec les statistiques des personnages, elles seront érronées le temps que je les obtienne
+
+## II. PARTIE CIRCUITS
+
+- Ajout des nouvelles coupes avec leurs circuits
+    - Il me manque les noms russes de certains circuits je met ça à jour ASAP
+> **Coupe Plume**
+> - *Tour* Athènes antique
+> - *GCN* Paquebot Daisy
+> - *Wii* Route Clair de Lune
+> - Course à la propreté
+> 
+> **Coupe Cerises**
+> - *Tour* Road-trip à Los Angeles
+> - *GBA* Pays Crépuscule
+> - *Wii* Cap Koopa 
+> - *Tour* Virages à Vancouver
+
+## III. AUTRES
+
+### 1. Changements esthétiques
+
+- Thèmes définitifs
+- Changement de la police (encore)
+- Ajout d'un footer
+
+### 2. Multilinguisme
+
+- Le site est désormais disponible dans 16 langues : Français, Français québécois, Englais, Englais américain, Espagnol, Espagnol d'Amérique latine, Portugais, Portugais brésilien, Italien, Allemand, Néerlandais, Russe, Japonais, Coréen, Chinois simplifié et Chinois traditionnel. Par défaut le site s'adapte aux paramètres du navigateur, changez de langue manuellement depuis le footer. 
+- Il est possible que certaines traductions soient erronnées, faites-le moi savoir [par mail à cette adresse](ericthiberge@ericthiberge.fr) 
+
+### 3. SEO
 
 - Optimisation du site pour les moteurs de recherche (J'ai découvert y'a deux semaines que le site était référencé et qu'il y a eu à un moment donné un (1) utilisateur polonais (?????) du coup ça m'a donné envie de faire les choses bien. )
+
+### 4. Monétisation
+
+- C'est pas encore fait mais j'aimerais que le site soit monétisé. Ça sera peut-être pour la prochaine mise à jour finalement.
