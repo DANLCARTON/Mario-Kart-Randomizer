@@ -1,0 +1,71 @@
+- PERSONNAGES -
+
+FR      : Flora Piranha
+FR-CA   : Petey Piranha
+EN      : Petey Piranha
+EN-US   : Petey Piranha
+ES      : Floro Piraña 
+ES-HA   : Pepito Piraña
+PT      : Petey Piranha
+PT-BR   : Petey Piranha
+IT      : Pipino Piranha 
+DE      : Mutant-Tyranha
+NL      : Petey Piranha 
+RU      : пиранья Пети
+JA      : ボスパックン
+KO      : 뻐끔왕
+ZH-HANS : 吞食花老大
+ZH-HANT : 吞食花老大
+
+FR      : Wiggler
+FR-CA   : Wiggler
+EN      : Wiggler
+EN-US   : Wiggler
+ES      : Floruga 
+ES-HA   : Floruga
+PT      : Lagartola
+PT-BR   : Wiggler
+IT      : Torcibruco
+DE      : Wiggler
+NL      : Wiggler 
+RU      : Егоза
+JA      : ハナチャン
+KO      : 꽃충이
+ZH-HANS : 花毛毛
+ZH-HANT : 花毛毛
+
+FR      : Kamek
+FR-CA   : Kamek
+EN      : Kamek
+EN-US   : Kamek
+ES      : Kamek 
+ES-HA   : Kamek
+PT      : Kamek
+PT-BR   : Kamek
+IT      : Kamek
+DE      : Kamek
+NL      : Kamek 
+RU      : Камек
+JA      : カメック
+KO      : 마귀
+ZH-HANS : 卡美克
+ZH-HANT : 卡美克
+
+ - CIRCUITS -
+
+FR      : Course à la propreté
+FR-CA   : Course à la propreté
+EN      : Squeaky Clean Sprint
+EN-US   : Squeaky Clean Sprint
+ES      : Escusado Acelerado 
+ES-HA   : Escusado Acelerado
+PT      : Percurso Sanitário
+PT-BR   : Percurso Sanitário
+IT      : Corsa in bagno
+DE      : Bad-Parcours
+NL      : Badderbaan 
+RU      : 
+JA      : シャボンロード
+KO      : 비눗방울 로드
+ZH-HANS : 肥皂泡之路
+ZH-HANT : 

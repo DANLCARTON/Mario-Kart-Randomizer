@@ -1,0 +1,126 @@
+Mario - Марио 
+Luigi - Луиджи 
+Peach - Пич 
+Daisy - Дейзи 
+Harmonie - Розалина
+Mario Tanuki - Марио Тануки 
+Peach Chat - Пич-Кошка 
+Birdo - Бирдо  
+Yoshi - Йоши 
+Toad - Тоад 
+Koopa - Купа Трупа 
+Maskass - Скромняга 
+Lakitu - Лакиту 
+Toadette - Тоадетта
+Roi Boo - Бу-Король
+Bébé Mario - Малыш Марио
+Bébé Luigi - Малыш Луиджи
+Bébé Peach - Малыш Пич
+Bébé Daisy - Малыш Дейзи
+Bébé Harmonie - Малыш Розалина
+Mario de Métal - Марио-металл (Золотой Марио)
+Peach d'or rose - Пич из роз. золота
+Wario - Варио 
+Waluigi - Валуиджи 
+Donkey Kong - Донки Конг 
+Bowser - Боузер 
+Skelerex - Купа-скелет 
+Bowser Jr. - Боузер-младший 
+Bowser Skelet - Боузер-скелет 
+Lemmy - Лемми 
+Larry - Ларри 
+Wendy - Венди 
+Ludwig - Людвиг 
+Iggy - Игги 
+Roy - Рой 
+Morton - Мортон 
+Fille inkling - Инклинг-девочка 
+Garçon inkling - Инклинг-мальчик 
+Link - Линк 
+Villageois - Житель 
+Villageoise - Жительница 
+Marie - Изабелла 
+Mii - Мии  (Small, Medium, Large)
+
+Kart Standard - Карт-стандарт
+Rétro - труботуpбо
+Proto 8 - Стратокарт 
+Nautomobile - Субмашина
+Chabriolet - Котбриолет 
+Mach-célère - Спринтер 
+Tubul R3 - Тримобиль 
+Beat-bolide - Крутачка 
+Cavalkart - Гиппокарт 
+Paracoccinelly - Крапинкарт 
+Caravéloce - Каравелла 
+Sneakart - Автокед 
+Propulsar - Спорткарт 
+Or - Золотой  карт 
+GLA - GLA
+W25 Flèche d'Argent - W 25 Silver Arrow
+300 SL Roadster - 300 SL Roadster
+Blue Falcon - Синий сокол 
+Buggy Tanuki - Турбо-Тануки
+Intrépide - Турбо В 
+Autorinho - Рог-рейсер
+Magikart - Крыло «P»
+Koopa-mobile - Клоуномобиль 
+
+Moto Standard - Мото-стандарт 
+Météore - стратобайк 
+Sport GP - супербайк 
+Cybertrombe - Рокотун 
+Flamboyante - Огневайк 
+Mécabécane - Стройбайк
+Scootinette - Мотопошка 
+Épervier - Мотолет 
+Yoshimoto - Йошицикл
+Destrier de Légende - Трифорсаж 
+Destrier de Légende 0.1 - Трифорсаж-0
+Scooter AC - Мотороллер 
+
+Quad Standard - Квадро-стандарт 
+Quad Wiggler - Егозилла
+Quad Nounours - Косолап
+Malécycle - Скелетоцикл
+Kartoon - Сплатоцикл
+Missle Tornade - Чепнигилятор 
+
+Standard - Обычные
+Mastodonte - Гигантские
+Roller - Роликовые
+Classique - Узкие
+Lisse - Слики
+Métal - Металлические
+Bouton - Пуговицы
+Hors-piste - Внедопожиые
+Éponge - Губки
+Bois - Деревынные
+Coussin - Подушки
+Standard Bleu - Обычные синие
+Mastoflamme - Рыжие гигантские
+Roller azur - Гопоубые роликовые
+Classique rouge - Красные узкие
+Cyber Lisse - Кибер-cлики
+Hors-piste retro - Ретро-внедопожиые
+Or - Золотые
+GLA - GLA
+Triforce - Трифорс 
+Archéonique - Древине 
+Feuille - С листком 
+
+Standard - Суперпланер
+Aile nuage - Облачка 
+Aile Wario - Планер Варио 
+Dendinaile - Планер-летяга 
+Ombrelle Peach - Зонтик Пич 
+Parachute - Парашют 
+Parapente - Параплан 
+Aile Fleurie - Планер-цветок 
+Bowser-Volant - Змей-Боузер 
+Planeur - Планер 
+Parapente MKTV - Параплан MKTV 
+Or - Золоной планер 
+Aile Hylienne - Хайлийский змей 
+Paravoile - Планер Хайрула
+Aile en Papier - Бумажный камолет 

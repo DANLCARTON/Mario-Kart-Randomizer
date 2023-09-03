@@ -1,0 +1,126 @@
+Mario - 马力欧 
+Luigi - 路易吉 
+Peach - 桃花公主 
+Daisy - 菊花公主 
+Harmonie - 罗莎塔
+Mario Tanuki - 狸猫马力欧 
+Peach Chat - 猫咪桃花公主 
+Birdo - 凯瑟琳  
+Yoshi - 耀西 
+Toad - 奇诺比奥 
+Koopa - 喏库喏库 
+Maskass - 嘿虎 
+Lakitu - 朱盖木 
+Toadette - 奇诺比珂
+Roi Boo - 嘘嘘鬼王
+Bébé Mario - 马力欧宝宝
+Bébé Luigi - 路易吉宝宝
+Bébé Peach - 桃花公主宝贝
+Bébé Daisy - 菊花公主宝贝
+Bébé Harmonie - 罗莎塔宝贝
+Mario de Métal - 金属马力欧
+Peach d'or rose - 粉金桃花公主
+Wario - 瓦力欧 
+Waluigi - 瓦路易吉 
+Donkey Kong - 森喜刚 
+Bowser - 酷霸王 
+Skelerex - 枯骨怪 
+Bowser Jr. - 酷霸王Jr. 
+Bowser Skelet - 枯骨酷霸王 
+Lemmy - 莱米  
+Larry - 拉里 
+Wendy - 温蒂 
+Ludwig - 路德维格 
+Iggy - 一吉 
+Roy - 洛伊 
+Morton - 莫顿 
+Fille inkling - 女孩 
+Garçon inkling - 男孩 
+Link - 林克 
+Villageois - 村民 
+Villageoise - 村民 
+Marie - 西施惠 
+Mii - Mii  (Small, Medium, Large)
+
+Kart Standard - 标准型卡丁车
+Rétro - 管架车
+Proto 8 - G力量 
+Nautomobile - 钢铁潜艇
+Chabriolet - 古典猫车 
+Mach-célère - 疾速1号 
+Tubul R3 - 三轮铁骑 
+Beat-bolide - 音爆恶魔 
+Cavalkart - 公主马车 
+Paracoccinelly - 啪嗒瓢瓢 
+Caravéloce - 酷霸王飞船 
+Sneakart - 运动鞋卡丁车 
+Propulsar - 超级之星 
+Or - 黄金卡丁车 
+GLA - GLA
+W25 Flèche d'Argent - W 25 Silver Arrow
+300 SL Roadster - 300 SL Roadster
+Blue Falcon - 蓝色猎鹰 
+Buggy Tanuki - 狸猫越野车 
+Intrépide - B冲刺 
+Autorinho - 怦怦甲壳虫 
+Magikart - P飞翼 
+Koopa-mobile - 酷霸王小丑飞船 
+
+Moto Standard - 标准型摩托车 
+Météore - 超级彗星 
+Sport GP - 音速GP 
+Cybertrombe - 极巨摩托 
+Flamboyante - 火焰弹丸 
+Mécabécane - 推土机摩托
+Scootinette - 豆豆摩托 
+Épervier - 喷气摩托 
+Yoshimoto - 耀西摩托
+Destrier de Légende - 大师摩托  
+Destrier de Légende 0.1 - 大师摩托Zero 
+Scooter AC - 换装摩托  
+
+Quad Standard - 标准型ATV 
+Quad Wiggler - 花之子越野车
+Quad Nounours - 小熊轻型车
+Malécycle - 酷霸王三轮摩托 
+Kartoon - Splat越野车 
+Missle Tornade - 龙卷风  
+
+Standard - 标准轮胎
+Mastodonte - 狂野轮胎
+Roller - 滚轮轮胎
+Classique - 细环窄胎
+Lisse - 光头轮胎
+Métal - 金属轮胎
+Bouton - 纽扣轮胎
+Hors-piste - 块状花纹轮胎
+Éponge - 海绵轮胎
+Bois - 原木环轮
+Coussin - 垫子轮胎
+Standard Bleu - 蓝色标准轮胎
+Mastoflamme - 火辣狂野
+Roller azur - 天空流轮
+Classique rouge - 深红细环窄胎
+Cyber Lisse - 赛巴光头
+Hors-piste retro - 奶油块状花纹轮胎
+Or - 黄金轮胎
+GLA - GLA车轮 
+Triforce - 三角之力轮胎  
+Archéonique - 古代轮胎  
+Feuille - 叶子轮胎  
+
+Standard - 超级滑翔翼
+Aile nuage - 云朵气球 
+Aile Wario - 瓦力欧滑翔翼 
+Dendinaile - 胖飞鼠滑翔翼 
+Ombrelle Peach - 桃花阳伞 
+Parachute - 降落伞 
+Parapente - 滑翔伞 
+Aile Fleurie - 花朵滑翔翼 
+Bowser-Volant - 酷霸王风筝 
+Planeur - 滑翔机 
+Parapente MKTV - MKTV滑翔伞
+Or - 黄金滑翔翼 
+Aile Hylienne - 海拉鲁滑翔翼  
+Paravoile - 滑翔帆 
+Aile en Papier - 纸飞机  

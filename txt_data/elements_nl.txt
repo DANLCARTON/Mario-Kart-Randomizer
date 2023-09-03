@@ -1,0 +1,126 @@
+Mario - Mario
+Luigi - Luigi
+Peach - Peach
+Daisy - Daisy
+Harmonie - Rosalina
+Mario Tanuki - Tanuki-Mario
+Peach Chat - Kat-Peach
+Birdo - Birdo
+Yoshi - Yoshi
+Toad - Toad
+Koopa - Koopa Troopa
+Maskass - Shy Guy
+Lakitu - Lakitu
+Toadette - Toadette
+Roi Boo - King Boo
+Bébé Mario - Baby Mario
+Bébé Luigi - Baby Luigi
+Bébé Peach - Baby Peach
+Bébé Daisy - Baby Daisy
+Bébé Harmonie - Baby Rosalina
+Mario de Métal - Metalen Mario (Gouden Mario)
+Peach d'or rose - Rozegouden Peach
+Wario - Wario
+Waluigi - Waluigi
+Donkey Kong - Donkey Kong
+Bowser - Bowser
+Skelerex - Dry Bones
+Bowser Jr. - Bowser Jr.
+Bowser Skelet - Dry Bowser
+Lemmy - Lemmy
+Larry - Larry
+Wendy - Wendy
+Ludwig - Ludwig
+Iggy - Iggy
+Roy - Roy
+Morton - Morton
+Fille inkling - Inkling-meisje
+Garçon inkling - Inkling-jongen
+Link - Link
+Villageois - Dorpsbewoner
+Villageoise - Dorpsbewoner
+Marie - Isabelle
+Mii - Mii
+
+Kart Standard - Standaardkart
+Rétro - Skelter
+Proto 8 - Mach 8
+Nautomobile - Diepzeeduikkar
+Chabriolet - Miauwto
+Mach-célère - Sprinter 2.0
+Tubul R3 - Driebander
+Beat-bolide - Blingbolide
+Cavalkart - Paradepaardje
+Paracoccinelly - Biddybuggy
+Caravéloce - Flitzfregat
+Sneakart - Koploper
+Propulsar - Topsporter
+Or - Gouden Kart
+GLA - GLA
+W25 Flèche d'Argent - W 25 Zilverpijl
+300 SL Roadster - 300 SL Roadster
+Blue Falcon - Blue Falcon
+Buggy Tanuki - Turbo-Tanuki
+Intrépide - Sprinter
+Autorinho - Sjeesbeestje
+Magikart - Vleugelflitser
+Koopa-mobile - Koopa-clown
+
+Moto Standard - Standaardmotor
+Météore - Megamoto Pro
+Sport GP - Circuitstrijder
+Cybertrombe - Ultrascooter
+Flamboyante - Turbochopper
+Mécabécane - Offroadracer
+Scootinette - Dreumes
+Épervier - Straatjager
+Yoshimoto - Yoshi-crosser
+Destrier de Légende - Triforcer
+Destrier de Légende 0.1 - Triforcer Zero
+Scooter AC - Stadscooter
+
+Quad Standard - Standaardquad
+Quad Wiggler - Wiggler-quad
+Quad Nounours - Knuffelquad
+Malécycle - Dry-wieler
+Kartoon - Kladderquad
+Missle Tornade - Tornado
+
+Standard - Standaard
+Mastodonte - Monster
+Roller - Mini
+Classique - Klassiek
+Lisse - Glad
+Métal - Metaal
+Bouton - Knopen
+Hors-piste - Offroad
+Éponge - Sponzen
+Bois - Hout
+Coussin - Poefen
+Standard Bleu - Standaard (blauw)
+Mastoflamme - Monster (funky)
+Roller azur - Mini (lichtblauw)
+Classique rouge - Klassiek (rood)
+Cyber Lisse - Glad (paars)
+Hors-piste retro - Offroad (retro)
+Or - Gouden wielen
+GLA - GLA-wielen
+Triforce - Triforce
+Archéonique - Geavanceerd
+Feuille - Crossing
+
+Standard - Standaard
+Aile nuage - Wolkballonnen
+Aile Wario - Wario-vlieger
+Dendinaile - Waddlewing
+Ombrelle Peach - Peach' parasol
+Parachute - Parachute
+Parapente - Glijscherm
+Aile Fleurie - Bloem
+Bowser-Volant - Bowser-vlieger
+Planeur - Zweefvliegtuig
+Parapente MKTV - MKTV-glijscherm
+Or - Gouden vleugel
+Aile Hylienne - Hyliaanse vlieger
+Paravoile - Zweefzeil
+Aile en Papier - Papieren vliegtuig

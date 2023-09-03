@@ -1,11 +1,12 @@
-import { bgCol1 } from "./themes.js";
+import { bgCol1, bgCol2, accCol, getCurrentTheme } from "./themes.js";
 
 let themeMainColor = bgCol1;
+let themeSecondaryColor = accCol;
 
 let circuitsNonTires = [];
 let circuitSelectionne = 0;
 let circuitDejaTires = [];
-let nombreDeCircuits = 80;
+let nombreDeCircuits = 88;
 for (var i = 0; i <= nombreDeCircuits - 1; i++) {
     circuitsNonTires[i] = "TR" + i;
 }
@@ -79,7 +80,7 @@ document.getElementById("choose").getElementsByTagName("button")[0].addEventList
 
     for (let i = 0; i <= circuitDejaTires.length - 1; i++) {
         if (circuitDejaTires[i] != "") {
-            document.getElementsByClassName(circuitDejaTires[i])[0].setAttribute("style", "background-color: #353535; color: #ccc;");
+            document.getElementsByClassName(circuitDejaTires[i])[0].setAttribute("style", "background-color: #353535; color: #dcdcdc;");
         }
     }
 
@@ -116,7 +117,7 @@ document.getElementById("choose").getElementsByTagName("button")[0].addEventList
         }
     }
 
-    document.getElementsByClassName("TR" + circuitId)[0].setAttribute("style", "background-color:" + themeMainColor + "; filter: drop-shadow(0 0 10px #ffffff50);");
+    document.getElementsByClassName("TR" + circuitId)[0].setAttribute("style", "background-color:" + themeSecondaryColor + "; filter: drop-shadow(0 0 10px #ffffff50); color: #353535");
     circuitSelectionne = document.getElementsByClassName("TR" + circuitId)[0];
     circuitsNonTires.splice(circuitId, 1, "");
     circuitDejaTires.splice(circuitId, 1, "TR" + circuitId);
@@ -159,7 +160,7 @@ for (let i = 0; i < nombreDeCircuits; i++) {
                         document.getElementsByClassName(circuitDejaTires[i])[0].setAttribute("style", "background-color: #353535; color: #ccc;");
                     }
                 }
-                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: " + themeMainColor + "; filter: drop-shadow(0 0 10px #ffffff50);");
+                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: " + themeSecondaryColor + "; filter: drop-shadow(0 0 10px #ffffff50); color: #353535");
                 circuitSelectionne = document.getElementsByClassName("TR" + i)[0];
                 circuitsNonTires.splice(j, 1, "");
                 circuitDejaTires.splice(j, 1, "TR" + j);
@@ -174,7 +175,13 @@ for (let i = 0; i < nombreDeCircuits; i++) {
                         document.getElementsByClassName(circuitDejaTires[i])[0].setAttribute("style", "background-color: #353535; color: #ccc;");
                     }
                 }
-                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: none; filter: drop-shadow(0 0 10px #ffffff50);");
+                let color = "#353535";
+                if (getCurrentTheme() == "day") {
+                    color = "#353535";
+                } else {
+                    color = "ccc";
+                }
+                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: none; filter: none; color: "+color);
                 circuitSelectionne = document.getElementsByClassName("TR" + i)[0];
                 circuitDejaTires.splice(j, 1, "");
                 circuitsNonTires.splice(j, 1, "TR" + j);
@@ -218,17 +225,12 @@ function nbCircuitsDejaTires(a) {
 window.addEventListener("load", () => {
     let t = document.getElementById("tires");
     let tt = document.getElementById("total");
-    let r = document.getElementById("reste");
-    t.textContent = "0";
     tt.textContent = nombreDeCircuits;
-    r.textContent = nombreDeCircuits;
 })
 
 window.addEventListener("click", () => {
     let t = document.getElementById("tires");
-    let r = document.getElementById("reste");
     t.textContent = nbCircuitsDejaTires(circuitDejaTires);
-    r.textContent = nombreDeCircuits - nbCircuitsDejaTires(circuitDejaTires);
 })
 
 // FIXATION PLACMENT BOUTON CHOISIR
@@ -286,7 +288,7 @@ document.getElementById("chooseArena").getElementsByTagName("button")[0].addEven
         }
     }
 
-    document.getElementsByClassName("AR" + arenaId)[0].setAttribute("style", "background-color: " + themeMainColor + "; filter: drop-shadow(0 0 10px #ffffff50);");
+    document.getElementsByClassName("AR" + arenaId)[0].setAttribute("style", "background-color: " + themeSecondaryColor + "; filter: drop-shadow(0 0 10px #ffffff50); color: #353535");
     areneSelectionee = document.getElementsByClassName("AR" + arenaId)[0];
     arenesNonTirees.splice(arenaId, 1, "");
     arenesDejaTirees.splice(arenaId, 1, "AR" + arenaId);
@@ -305,7 +307,7 @@ for (let i = 0; i < nombreDArenes; i++) {
                         document.getElementsByClassName(arenesDejaTirees[i])[0].setAttribute("style", "background-color: #353535; color: #ccc;");
                     }
                 }
-                document.getElementsByClassName("AR" + i)[0].setAttribute("style", "background-color: " + themeMainColor + "; filter: drop-shadow(0 0 10px #ffffff50);");
+                document.getElementsByClassName("AR" + i)[0].setAttribute("style", "background-color: " + themeSecondaryColor + "; filter: drop-shadow(0 0 10px #ffffff50); color: #353535");
                 areneSelectionee = document.getElementsByClassName("AR" + i)[0];
                 arenesNonTirees.splice(j, 1, "");
                 arenesDejaTirees.splice(j, 1, "AR" + j);
@@ -320,7 +322,7 @@ for (let i = 0; i < nombreDArenes; i++) {
                         document.getElementsByClassName(arenesDejaTirees[i])[0].setAttribute("style", "background-color: #353535; color: #ccc;");
                     }
                 }
-                document.getElementsByClassName("AR" + i)[0].setAttribute("style", "background-color: none; filter: drop-shadow(0 0 10px #ffffff50);");
+                document.getElementsByClassName("AR" + i)[0].setAttribute("style", "background-color: none; filter: drop-shadow(0 0 10px #ffffff50); color: #353535");
                 areneSelectionee = document.getElementsByClassName("AR" + i)[0];
                 arenesDejaTirees.splice(j, 1, "");
                 arenesNonTirees.splice(j, 1, "AR" + j);
@@ -353,15 +355,11 @@ document.getElementById("resetArena").getElementsByTagName("button")[0].addEvent
 window.addEventListener("load", () => {
     let t = document.getElementById("tiresArena");
     let tt = document.getElementById("totalArena");
-    let r = document.getElementById("resteArena");
     t.textContent = "0";
     tt.textContent = nombreDArenes;
-    r.textContent = nombreDArenes;
 })
 
 window.addEventListener("click", () => {
     let t = document.getElementById("tiresArena");
-    let r = document.getElementById("resteArena");
     t.textContent = nbCircuitsDejaTires(arenesDejaTirees);
-    r.textContent = nombreDArenes - nbCircuitsDejaTires(arenesDejaTirees);
 })

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
     --bg888: #888;
     --bg88b: #88b;
@@ -26,8 +27,9 @@
     --bgff8: #ff8;
     --bgffb: #ffb;
     --bgfff: #fff;
-    --bg-color-1: var(--bgbbb);
-    --bg-color-2: var(--bgbbb);
+    --bg-color-2: #e0ffff;
+    --bg-color-2: #ffe0ff;
+    --acc-color: #78ff78;
     --text-color-paragraph: #353535;
     --shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     --link: var(--bg88f);
@@ -35,16 +37,81 @@
 
 html {
     background: linear-gradient(135deg, var(--bg-color-1), var(--bg-color-2));
+    /*background: var(--bg-color-1);*/
     width: 100%;
     min-height: 100vh;
     text-align: center;
-    font-family: Tahoma, Arial, sans-serif;
+    /*ont-family: Tahoma, Arial, sans-serif;*/
+    font-family: "Poppins", Arial, sans-serif;
     color: var(--text-color-paragraph);
+}
+
+h1,
+h2 {
+    font-weight: 900 !important;
+    font-style: italic;
+    line-height: 1;
 }
 
 body {
     margin: 0;
     width: 100%;
+}
+
+footer {
+    background: var(--bg-color-1);
+    box-shadow: var(--shadow);
+    min-width: 816px;
+}
+
+#footer-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+footer a {
+    padding: 0;
+    margin: 0;
+    border: none;
+    margin: 0 0 5px 10px;
+}
+
+footer a:hover {
+    background-color: #00000000;
+    box-shadow: none;
+    border: none;
+    text-decoration: underline;
+}
+
+.footerDesc,
+.links {
+    padding: 10px 50px;
+    text-align: left;
+}
+
+.links img {
+    border-radius: 4px;
+    transform: translateY(10px);
+    height: 30px
+}
+
+.footerSubtitle {
+    text-transform: lowercase;
+}
+
+.languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    text-align: left;
+}
+
+.languages img {
+    border-radius: 4px;
+    transform: translateY(5px);
+    height: 20px
 }
 
 aside {
@@ -93,13 +160,12 @@ main {
 }
 
 h1 {
-    margin: 15px 0;
     font-weight: bolder;
     color: var(--text-color-paragraph);
     font-size: 50px;
 }
 
-.subh1 p {
+.subh1 {
     font-size: 25px;
     line-height: 0;
     font-weight: 500;
@@ -149,7 +215,8 @@ h3 {
     width: 50%;
     padding: 10px 0;
     border-radius: 20px;
-    font-family: Tahoma, Arial, sans-serif;
+    /*font-family: Tahoma, Arial, sans-serif;*/
+    font-family: "Poppins", Arial, sans-serif;
 }
 
 .playerName:focus {
@@ -165,9 +232,11 @@ button {
     border-radius: 100px;
     transition: ease-in-out .2s;
     font-weight: bold;
+    font-size: larger;
     border: none;
-    font-family: Tahoma, Arial, sans-serif;
-    font-size: 15px;
+    /*font-family: Tahoma, Arial, sans-serif;*/
+    font-family: "Poppins", Arial, sans-serif;
+    /*font-size: 15px;*/
     cursor: pointer;
 }
 
@@ -493,6 +562,12 @@ button:hover {
     -ms-user-select: none;
     user-select: none;
     font-size: 15px;
+    margin: 8px 0;
+}
+
+.nomCoupe,
+.circuit {
+    white-space: nowrap;
 }
 
 .circuit:hover {
@@ -607,7 +682,7 @@ button:hover {
 }
 
 .coupe:nth-of-type(22)::before {
-    background-image: url("./img/coupes/Cerise.webp");
+    background-image: url("./img/coupes/Cerises.webp");
 }
 
 .coupe:nth-of-type(23)::before {
@@ -677,7 +752,16 @@ button:hover {
     filter: drop-shadow(0 0 10px #ffffffff);
 }
 
+#footer-line {
+    display: none;
+    margin: 100px 0 0 0;
+}
+
 @media screen and (max-width: 1249px) and (min-width: 769px) {
+    #footer-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     #circuitAleatoire {
         max-width: 850px;
         margin: 0 auto;
@@ -705,6 +789,13 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
+    #footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .languages img {
+        display: none;
+    }
     .grilleCircuits {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -717,8 +808,27 @@ button:hover {
 }
 
 @media screen and (max-width: 425px) {
+    #footer-line {
+        display: block;
+    }
+    #footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    footer {
+        box-shadow: none;
+    }
+    .languages {
+        padding: 10px 50px;
+    }
+    .languages img {
+        display: none;
+    }
+    footer a {
+        font-size: 25px;
+    }
     html {
-        background: linear-gradient(180deg, var(--bg-color-1), var(--bg-color-2));
+        background: var(--bg-color-1);
     }
     .element img:hover {
         filter: drop-shadow(0 0 10px #ffffffff);

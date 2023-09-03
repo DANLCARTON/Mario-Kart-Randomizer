@@ -1,0 +1,126 @@
+Mario - 마리오 
+Luigi - 루이지 
+Peach - 피치 
+Daisy - 데이지 
+Harmonie - 로잘리나
+Mario Tanuki - 타누키마리오 
+Peach Chat - 고양이피치 
+Birdo - 캐서린  
+Yoshi - 요시 
+Toad - 키노피오 
+Koopa - 엉금엉금 
+Maskass - 헤이호 
+Lakitu - 김수한무 
+Toadette - 키노피코
+Roi Boo - 킹부끄
+Bébé Mario - 베이비마리오
+Bébé Luigi - 베이비루이지
+Bébé Peach - 베이비피치
+Bébé Daisy - 베이비데이지
+Bébé Harmonie - 베이비데이지
+Mario de Métal - 메탈마리오
+Peach d'or rose - 핑크골드피치
+Wario - 와리오 
+Waluigi - 왈루이지 
+Donkey Kong - 동키콩 
+Bowser - 쿠파 
+Skelerex - 와르르 
+Bowser Jr. - 쿠파주니어 
+Bowser Skelet - 즘비쿠파 
+Lemmy - 레미  
+Larry - 래리 
+Wendy - 웬디 
+Ludwig - 루드윈 
+Iggy - 이기 
+Roy - 로이 
+Morton - 모톤 
+Fille inkling - 걸 
+Garçon inkling - 보이s 
+Link - 링크 
+Villageois - 마을 주민 
+Villageoise - 마을 주민 
+Marie - 여올 
+Mii - Mii  (Small, Medium, Large)
+
+Kart Standard - 스턴더드카트
+Rétro - 스켈레톤
+Proto 8 - G포스 
+Nautomobile - 스틸드라이버
+Chabriolet - 고양이크루저 
+Mach-célère - 터보윈 
+Tubul R3 - 트라이스피더 
+Beat-bolide - 배드왜건 
+Cavalkart - 프린세스마차 
+Paracoccinelly - 펄럭무당무당버기 
+Caravéloce - 쿠파십 
+Sneakart - 스니커커트 
+Propulsar - 슈퍼스타 
+Or - 골드카트 
+GLA - GLA
+W25 Flèche d'Argent - W 25 Silver Arrow
+300 SL Roadster - 300 SL Roadster
+Blue Falcon - 블루팔콘 
+Buggy Tanuki - 너구리버기 
+Intrépide - B대시 
+Autorinho - 두근두근비틀 
+Magikart - P윙 
+Koopa-mobile - 쿠파피에로 
+
+Moto Standard - 스탠더드바이크 
+Météore - 슈퍼코멧 
+Sport GP - 마하GP 
+Cybertrombe - 액시엄 
+Flamboyante - 버닝볼 
+Mécabécane - 모터도저
+Scootinette - 바민트 
+Épervier - 제트라이더 
+Yoshimoto - 요시바이크
+Destrier de Légende - 마스터바이크  
+Destrier de Légende 0.1 - 마스터바이크 제로 
+Scooter AC - 시터트리퍼  
+
+Quad Standard - 스탠더드ATV 
+Quad Wiggler - 꽃충이버기
+Quad Nounours - 곰라이드
+Malécycle - 쿠파트라이크 
+Kartoon - 칼라버기 
+Missle Tornade - 토네이도  
+
+Standard - 노멀타이어
+Mastodonte - 와일드타이어
+Roller - 롤러타이어
+Classique - 링타이어
+Lisse - 슬릭타이어
+Métal - 에탈타이어
+Bouton - 버튼타이어
+Hors-piste - 오프로드타이어
+Éponge - 스펀지타이어
+Bois - 우드링
+Coussin - 쿠션타이어
+Standard Bleu - 노멀블루
+Mastoflamme - 와일드핫
+Roller azur - 스카이롤러
+Classique rouge - 스파이시링
+Cyber Lisse - 사이버슬릭
+Hors-piste retro - 크림오프로드
+Or - 골드타이어
+GLA - GLA휠 
+Triforce - 트라이포스타이어  
+Archéonique - 고대타이어  
+Feuille - 리프타이어  
+
+Standard - 슈퍼글라이더
+Aile nuage - 뭉게뭉게글라이더 
+Aile Wario - 와리오글라이더 
+Dendinaile - 날토리글라이더 
+Ombrelle Peach - 피치파라솔 
+Parachute - 패러슈트 
+Parapente - 패러글라이더 
+Aile Fleurie - 플라워글라이더 
+Bowser-Volant - 쿠파글라이더 
+Planeur - 플레인글라이더 
+Parapente MKTV - 패러글라이더 MKTV 
+Or - 골드글라이더 
+Aile Hylienne - 하이랄글라이더  
+Paravoile - 패러세일 
+Aile en Papier - 종이글라이더  

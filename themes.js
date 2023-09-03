@@ -1,18 +1,22 @@
-var bgCol1 = "var(--bgfb8)";
-var bgCol2 = "var(--bg88f)";
+var bgCol1 = "#e0ffff";
+var bgCol2 = "#ffe0ff";
+var accCol = "#78ff78"
 
 var iconList = Array("set", "exit")
 
+var theme = localStorage.getItem("currentTheme");
+
 function setNightTheme() {
     let root = document.querySelector(':root');
-    root.style.setProperty('--bg-color-1', '#111');
-    root.style.setProperty('--bg-color-2', '#111');
-    root.style.setProperty('--text-color-paragraph', '#fff');
+    root.style.setProperty('--bg-color-1', '#252525');
+    root.style.setProperty('--bg-color-2', '#101010');
+    root.style.setProperty('--text-color-paragraph', '#dcdcdc');
     for (let i = 0; i < iconList.length; i++) {
         document.getElementById(iconList[i] + "night").style.setProperty('display', "none");
         document.getElementById(iconList[i] + "day").style.setProperty('display', "inline-block");
     }
     localStorage.setItem("currentTheme", "night");
+    theme = "night"
 }
 
 function setDayTheme() {
@@ -25,6 +29,7 @@ function setDayTheme() {
         document.getElementById(iconList[i] + "day").style.setProperty('display', "none");
     }
     localStorage.setItem("currentTheme", "day");
+    theme = "day";
 }
 
 function applyPreviousTheme(theme) {
@@ -35,8 +40,11 @@ function applyPreviousTheme(theme) {
     }
 }
 
+function getCurrentTheme() {
+    return theme
+}
+
 window.addEventListener("load", () => {
-    let theme = localStorage.getItem("currentTheme");
     applyPreviousTheme(theme);
 })
 
@@ -48,4 +56,4 @@ document.getElementById("setday").addEventListener("click", () => {
     setDayTheme();
 })
 
-export { bgCol1 };
+export { bgCol1, bgCol2, accCol, getCurrentTheme };

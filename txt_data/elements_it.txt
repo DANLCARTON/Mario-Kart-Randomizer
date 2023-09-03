@@ -1,0 +1,126 @@
+Mario - Mario
+Luigi - Luigi
+Peach - Peach
+Daisy - Daisy
+Harmonie - Rosalinda
+Mario Tanuki - Mario tanuki
+Peach Chat - Peach gatto
+Birdo - Strutzi
+Yoshi - Yoshi
+Toad - Toad
+Koopa - Koopa
+Maskass - Tipo Timido
+Lakitu - Lakitu
+Toadette - Toadette
+Roi Boo - Re Boo
+Bébé Mario - Baby Mario
+Bébé Luigi - Baby Luigi
+Bébé Peach - Baby Peach
+Bébé Daisy - Baby Daisy
+Bébé Harmonie - Baby Rosalinda
+Mario de Métal - Mario metallo (Mario dorato)
+Peach d'or rose - Peach oro rosa
+Wario - Wario
+Waluigi - Waluigi
+Donkey Kong - Donkey Kong
+Bowser - Bowser
+Skelerex - Tartosso
+Bowser Jr. - Bowser Junior
+Bowser Skelet - Skelobowser
+Lemmy - Lemmy
+Larry - Larry
+Wendy - Wendy
+Ludwig - Ludwig
+Iggy - Iggy
+Roy - Roy
+Morton - Morton
+Fille inkling - Ragazza Inkling
+Garçon inkling - Ragazzo Inkling
+Link - Link
+Villageois - Abitante
+Villageoise - Abitante
+Marie - Fuffi
+Mii - Mii (Small, Medium, Large)
+
+Kart Standard - Kart standard
+Rétro - Tuboturbo
+Proto 8 - Mach 8
+Nautomobile - Steel Diver
+Chabriolet - Miaomobil
+Mach-célère - Autobolide GP
+Tubul R3 - Tribolide
+Beat-bolide - Discocabrio
+Cavalkart - Bicavalli
+Paracoccinelly - Coccinello volante
+Caravéloce - Naveloce
+Sneakart - Sneakerona
+Propulsar - Sportento
+Or - Kart d'oro
+GLA - GLA
+W25 Flèche d'Argent - W 25 Freccia d'argento
+300 SL Roadster - 300 SL Roadster
+Blue Falcon - Blue Falcon
+Buggy Tanuki - Turbotanuki
+Intrépide - Fulmine
+Autorinho - Scarabuggy
+Magikart - Bolide ala-P
+Koopa-mobile - Clown Koopa
+
+Moto Standard - Moto standard
+Météore - Mach Monster
+Sport GP - Motobolide GP
+Cybertrombe - Megascooter
+Flamboyante - Fiammoto
+Mécabécane - Tubocicletta
+Scootinette - Giococicletta
+Épervier - Motosaetta
+Yoshimoto - Moto Yoshi
+Destrier de Légende - Destriero di Hyrule
+Destrier de Légende 0.1 - Destriero di Hyrule Zero
+Scooter AC - Scooter Crossing
+
+Quad Standard - Quad standard
+Quad Wiggler - Quad Torcibruco
+Quad Nounours - Quad orsetto
+Malécycle - Skelomoto
+Kartoon - Splattabuggy
+Missle Tornade - Motornado
+
+Standard - Normali
+Mastodonte - Maxi
+Roller - Piccoli
+Classique - Classici
+Lisse - Da corsa
+Métal - Metallici
+Bouton - Bottonosi
+Hors-piste - Da fuoristrada
+Éponge - Spugnosi
+Bois - Legnosi
+Coussin - Imbottiti
+Standard Bleu - Normali blu
+Mastoflamme - Maxi arancio
+Roller azur - Piccoli azzurri
+Classique rouge - Classici rossi
+Cyber Lisse - Da corsa viola
+Hors-piste retro - Da fuoristrada beige
+Or - Gomme d'oro
+GLA - GLA
+Triforce - Triforza
+Archéonique - Ancestrali
+Feuille - Gomme Crossing
+
+Standard - Superplano
+Aile nuage - Paranuvolo
+Aile Wario - Deltawario
+Dendinaile - Pteroplano
+Ombrelle Peach - Parasole Peach
+Parachute - Paracadute
+Parapente - Parapendio
+Aile Fleurie - Fiordiplano
+Bowser-Volant - Aquilobowser
+Planeur - Aliante
+Parapente MKTV - Parapendio MKTV
+Or - Ala d'oro
+Aile Hylienne - Hyliante
+Paravoile - Paravela
+Aile en Papier - Cartaplano Crossing

@@ -1,0 +1,126 @@
+Mario - 瑪利歐
+Luigi - 路易吉 
+Peach - 碧姬公主 
+Daisy - 黛西公主 
+Harmonie - 羅潔塔
+Mario Tanuki - 狸貓瑪利歐
+Peach Chat - 貓咪碧姬公主 
+Birdo - 奇諾比奧  
+Yoshi - 耀西 
+Toad - 奇諾比奧 
+Koopa - 慢慢龜 
+Maskass - 嘿呵 
+Lakitu - 球蓋姆 
+Toadette - 奇諾比珂
+Roi Boo - 害羞幽靈王
+Bébé Mario - 瑪利歐寶寶
+Bébé Luigi - 路易吉寶寶
+Bébé Peach - 碧姬公主寶寶
+Bébé Daisy - 黛西公主寶寶
+Bébé Harmonie - 羅潔塔寶寶
+Mario de Métal - 金屬瑪利歐
+Peach d'or rose - 粉金色碧姬公主
+Wario - 瓦利歐 
+Waluigi - 瓦路易吉 
+Donkey Kong - 森喜剛 
+Bowser - 庫巴 
+Skelerex - 碎碎龜 
+Bowser Jr. - 庫巴Jr. 
+Bowser Skelet - 枯骨庫巴 
+Lemmy - 雷米  
+Larry - 拉里 
+Wendy - 溫緹 
+Ludwig - 洛德威格 
+Iggy - 伊吉 
+Roy - 洛伊 
+Morton - 莫顿 
+Fille inkling - 女孩 
+Garçon inkling - 男孩 
+Link - 林克 
+Villageois - 村民 
+Villageoise - 村民 
+Marie - 西施惠 
+Mii - Mii  (Small, Medium, Large)
+
+Kart Standard - 標準車
+Rétro - 管架車
+Proto 8 - G力量 
+Nautomobile - 鋼鐵潛艇
+Chabriolet - 古典貓車 
+Mach-célère - 疾速1號 
+Tubul R3 - 三輪鐵騎 
+Beat-bolide - 音爆惡魔 
+Cavalkart - 公主馬車 
+Paracoccinelly - 飛行瓢瓢 
+Caravéloce - 庫巴飛船 
+Sneakart - 運動鞋賽車 
+Propulsar - 超級之星 
+Or - 黃金標準車 
+GLA - GLA
+W25 Flèche d'Argent - W 25 Silver Arrow
+300 SL Roadster - 300 SL Roadster
+Blue Falcon - 藍色獵鷹 
+Buggy Tanuki - 狸貓越野賽車 
+Intrépide - B衝刺 
+Autorinho - 怦怦甲蟲 
+Magikart - P飛翼 
+Koopa-mobile - 庫巴小丑飛船 
+
+Moto Standard - 標準摩托車 
+Météore - 超级彗星 
+Sport GP - 音速GP 
+Cybertrombe - 極巨摩托車 
+Flamboyante - 火焰彈丸 
+Mécabécane - 推土機摩托車
+Scootinette - 豆豆摩托車
+Épervier - 憤射摩托車
+Yoshimoto - 耀西摩托車
+Destrier de Légende - 達人摩托車  
+Destrier de Légende 0.1 - 達人摩托車Zero 
+Scooter AC - 換裝小綿羊
+
+Quad Standard - 標準ATV 
+Quad Wiggler - 花毛毛越野賽車
+Quad Nounours - 小熊輕型車
+Malécycle - 庫巴三輪摩托車
+Kartoon - Splat越野賽車
+Missle Tornade - 龍捲風  
+
+Standard - 標準輪胎 
+Mastodonte - 狂野輪胎 
+Roller - 滾輪輪胎
+Classique - 細環窄胎 
+Lisse - 光頭輪胎 
+Métal - 金屬輪胎
+Bouton - 鈕扣輪胎
+Hors-piste - 塊狀花紋輪胎
+Éponge - 海綿輪胎 
+Bois - 原木環輪 
+Coussin - 墊子輪胎
+Standard Bleu - 藍色標準輪胎
+Mastoflamme - 火辣狂野
+Roller azur - 天空流輪
+Classique rouge - 深紅細環窄胎
+Cyber Lisse - 賽巴光頭
+Hors-piste retro - 乳白塊狀花紋輪胎
+Or - 黃金輪胎
+GLA - GLA車輪 
+Triforce - 三角之力輪胎  
+Archéonique - 古代輪胎  
+Feuille - 葉子輪胎  
+
+Standard - 超級滑翔翼
+Aile nuage - 雲形氣球 
+Aile Wario - 瓦利歐滑翔翼 
+Dendinaile - 胖飛鼠滑翔翼 
+Ombrelle Peach - 桃花阳伞 
+Parachute - 降落傘 
+Parapente - 飛行傘 
+Aile Fleurie - 花朵滑翔翼 
+Bowser-Volant - 庫巴風箏
+Planeur - 滑翔機
+Parapente MKTV - MKTV飛行傘
+Or - 黃金滑翔翼 
+Aile Hylienne - 海拉魯滑翔翼  
+Paravoile - 滑翔傘 
+Aile en Papier - 紙飛機  

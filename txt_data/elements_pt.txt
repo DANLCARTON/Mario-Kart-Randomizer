@@ -1,0 +1,126 @@
+Mario - Mario
+Luigi - Luigi
+Peach - Peach
+Daisy - Daisy
+Harmonie - Rosalina
+Mario Tanuki - Mario Tanuki
+Peach Chat - Peach Gata
+Birdo - Birdo
+Yoshi - Yoshi
+Toad - Toad
+Koopa - Koopa Troopa
+Maskass - Masquito
+Lakitu - Lakitu
+Toadette - Toadette
+Roi Boo - Rei Bu
+Bébé Mario - Mario Bebé
+Bébé Luigi - Luigi Bebé
+Bébé Peach - Peach Bebé
+Bébé Daisy - Daisy Bebé
+Bébé Harmonie - Rosalina Bebé
+Mario de Métal - Mario Metálico (Mario Dourado)
+Peach d'or rose - Peach Rosa Metálico
+Wario - Wario
+Waluigi - Waluigi
+Donkey Kong - Donkey Kong
+Bowser - Bowser
+Skelerex - Caveirinha
+Bowser Jr. - Bowser Jr.
+Bowser Skelet - Bowser Esqueleto
+Lemmy - Lemmy
+Larry - Larry
+Wendy - Wendy
+Ludwig - Ludwig
+Iggy - Iggy
+Roy - Roy
+Morton - Morton
+Fille inkling - Rapariga Inkling
+Garçon inkling - Rapaz Inkling
+Link - Link
+Villageois - Habitante
+Villageoise - Habitante
+Marie - Isabelle
+Mii - Mii (Small, Medium, Large)
+
+Kart Standard - Kart Padrão
+Rétro - Tubomóvel
+Proto 8 - Flecha 8
+Nautomobile - Turbomarino
+Chabriolet - Gatomóvel
+Mach-célère - Flash
+Tubul R3 - Triacelera
+Beat-bolide - Estereomóvel
+Cavalkart - Carrossel
+Paracoccinelly - Bolinhas
+Caravéloce - Autonavio
+Sneakart - Karténis
+Propulsar - Desportivo
+Or - Kart Dourado
+GLA - GLA
+W25 Flèche d'Argent - W 25 Flecha de Prata
+300 SL Roadster - 300 SL Roadster
+Blue Falcon - Blue Falcon
+Buggy Tanuki - Tanuki Turbo
+Intrépide - Turbólide
+Autorinho - Escaravelho
+Magikart - Asa P
+Koopa-mobile - Palhaço Koopa
+
+Moto Standard - Mota Padrão
+Météore - Cometa
+Sport GP - Relâmpago
+Cybertrombe - Robusta
+Flamboyante - Flamejante
+Mécabécane - Crosse
+Scootinette - Jigajoga
+Épervier - Mota a Jato
+Yoshimoto - Mota do Yoshi
+Destrier de Légende - Corcel de Hyrule
+Destrier de Légende 0.1 - Corcel de Hyrule Zero
+Scooter AC - Scooter Citadina
+
+Quad Standard - Moto 4
+Quad Wiggler - Lagartóvel
+Quad Nounours - Ursinho
+Malécycle - Trisqeleto
+Kartoon - Salpiquatro
+Missle Tornade - Tintorpedo
+
+Standard - Normal
+Mastodonte - Grande
+Roller - Pequeno
+Classique - Estreito
+Lisse - Liso
+Métal - Metálico
+Bouton - Botão
+Hors-piste - Todo-o-Terreno
+Éponge - Esponja
+Bois - Madeira
+Coussin - Almofadado
+Standard Bleu - Normal Azul
+Mastoflamme - Grande Laranja
+Roller azur - Pequeno Ciano
+Classique rouge - Estreito Carmim
+Cyber Lisse - Liso Roxo
+Hors-piste retro - TT Retro
+Or - Dourado
+GLA - Pneus GLA
+Triforce - Pneus Triforce
+Archéonique - Pneus ancestrais
+Feuille - Pneus Crossing
+
+Standard - Superparapente
+Aile nuage - Paranuvem
+Aile Wario - Asa-Wario
+Dendinaile - Ptero-Delta
+Ombrelle Peach - Guarda-sol Peach
+Parachute - Paraquedas
+Parapente - Parapente
+Aile Fleurie - Paraflor
+Bowser-Volant - Asa-Bowser
+Planeur - Ultraleve
+Parapente MKTV - Parapente MKTV
+Or - Planadouro
+Aile Hylienne - Papagaio Hyliano
+Paravoile - Asa-delta
+Aile en Papier - Asa de Papel
