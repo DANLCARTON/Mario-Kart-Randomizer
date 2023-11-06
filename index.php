@@ -52,6 +52,8 @@ include "fonctionsPhp/vues.php";
 
             <p class="randomCharacterExplanations"> Cliquez sur le bouton "Générer" ci-dessous pour afficher une combinaison aléatoire. Si l'un des élément ne vous plaît pas, cliquez sur son image pour le changer ! Vous êtes plusieurs sur le même appareil ? Affichez une nouvelle combinaison à l'aide du bouton "+". Jusqu'à quatre joueurs peuvent être affichés. </p>
 
+            <input type="checkbox" id="allowAmiibo"></input><label class="allowAmiibo">Autoriser les costumes Mii Amiibo</label>
+
             <div id="setContainer">
 
             <?php

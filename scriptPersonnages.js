@@ -18,7 +18,19 @@ var skinsInklingFille = ["orange", "verte", "rose"];
 var skinsInklingGarcon = ["bleu", "violet", "cyan"];
 var skinsLink = ["tunique verte", "tunique de prodige"];
 var skinsBirdo = ["rose", "rouge", "vert·e", "bleu·e", "bleu ciel", "jaune", "noir·e", "blanc·he", "orange"];
-var skinsMii = ["tenue standard", "tenue Mario", "tenue Luigi", "tenue Peach", "tenue Yoshi", "tenue Donkey Kong", "tenue Hylienne", "tenue Captain Falcon", "tenue Kirby", "combinaison Varia", "tenue Fox", "tenue Toad", "tenue Bowser", "tenue Wario", "tenue Harmonie", "tenue Pikmin", "tenue Animal Crossing", "tenue Mega Man", "tenue Pac-Man", "tenue Sonic", "tenue Inkling", "tenue Daisy", "tenue Flora Piranha", "tenue Wiggler", "tenue Birdo", "tenue Paracoccinelly", "tenue Toadette", "tenue Glace", "tenue Goomba", "tenue Cheep Cheep", "tenue Dauphin", "tenue Pokey", "tenue Meuh Meuh", "tenue Chomp", "tenue Bloups", "tenue Château", "tenue Bowser Skelet", "tenue Koopa Mobile"]
+
+var skinsMii = ["tenue Mario", "tenue Luigi", "tenue Peach", "tenue Yoshi", "tenue Donkey Kong", "tenue Hylienne", "tenue Captain Falcon", "tenue Kirby", "combinaison Varia", "tenue Fox", "tenue Toad", "tenue Bowser", "tenue Wario", "tenue Harmonie", "tenue Pikmin", "tenue Animal Crossing", "tenue Mega Man", "tenue Pac-Man", "tenue Sonic", "tenue Inkling", "tenue Daisy", "tenue standard", "tenue Flora Piranha", "tenue Wiggler", "tenue Birdo", "tenue Paracoccinelly", "tenue Toadette", "tenue Glace", "tenue Goomba", "tenue Cheep Cheep", "tenue Dauphin", "tenue Pokey", "tenue Meuh Meuh", "tenue Chomp", "tenue Bloups", "tenue Château", "tenue Bowser Skelet", "tenue Koopa Mobile"]
+
+var allowAmiibo = false
+
+const getMiiSkin = () => {
+    if (allowAmiibo) return skinsMii[Math.floor(Math.random() * skinsMii.length)]
+    else return skinsMii[Math.floor(Math.random() * (skinsMii.length - 21)) + 21]
+}
+
+document.getElementById("allowAmiibo").addEventListener("change", e => {
+    allowAmiibo = e.target.checked
+})
 
 var players = 1;
 
@@ -49,7 +61,8 @@ function stats(stat, docStat) {
 
 function roll(id, statsB) {
     var skin;
-    currentPerso = perso[getRandom(perso.length)];
+    // currentPerso = perso[getRandom(perso.length)];
+    currentPerso = Mii
     currentKart = karts[getRandom(karts.length)];
     currentRoue = roues[getRandom(roues.length)];
     currentAile = ailes[getRandom(ailes.length)];
@@ -73,7 +86,7 @@ function roll(id, statsB) {
     } else if (Perso.nom[0] == "Birdo") {
         skin = skinsBirdo[getRandom(skinsBirdo.length)];
     } else if (Perso.nom[0] == "Mii") {
-        skin = skinsMii[getRandom(skinsMii.length)];
+        skin = getMiiSkin()
     } else {
         skin = "";
     }
@@ -264,7 +277,7 @@ document.getElementById("personnage1").addEventListener("click", () => {
     } else if (Perso.nom[0] == "Birdo") {
         skin = skinsBirdo[getRandom(skinsBirdo.length)];
     } else if (Perso.nom[0] == "Mii") {
-        skin = skinsMii[getRandom(skinsMii.length)];
+        skin = getMiiSkin()
     } else {
         skin = "";
     }
@@ -349,7 +362,7 @@ document.getElementById("personnage2").addEventListener("click", () => {
     } else if (Perso.nom[0] == "Birdo") {
         skin = skinsBirdo[getRandom(skinsBirdo.length)];
     } else if (Perso.nom[0] == "Mii") {
-        skin = skinsMii[getRandom(skinsMii.length)];
+        skin = getMiiSkin()
     } else {
         skin = "";
     }
@@ -392,7 +405,7 @@ document.getElementById("personnage3").addEventListener("click", () => {
     } else if (Perso.nom[0] == "Birdo") {
         skin = skinsBirdo[getRandom(skinsBirdo.length)];
     } else if (Perso.nom[0] == "Mii") {
-        skin = skinsMii[getRandom(skinsMii.length)];
+        skin = getMiiSkin()
     } else {
         skin = "";
     }
@@ -435,7 +448,7 @@ document.getElementById("personnage4").addEventListener("click", () => {
     } else if (Perso.nom[0] == "Birdo") {
         skin = skinsBirdo[getRandom(skinsBirdo.length)];
     } else if (Perso.nom[0] == "Mii") {
-        skin = skinsMii[getRandom(skinsMii.length)];
+        skin = getMiiSkin()
     } else {
         skin = "";
     }
