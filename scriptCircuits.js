@@ -6,7 +6,7 @@ let themeSecondaryColor = accCol;
 let circuitsNonTires = [];
 let circuitSelectionne = 0;
 let circuitDejaTires = [];
-let nombreDeCircuits = 88;
+let nombreDeCircuits = 96;
 for (var i = 0; i <= nombreDeCircuits - 1; i++) {
     circuitsNonTires[i] = "TR" + i;
 }
@@ -181,7 +181,7 @@ for (let i = 0; i < nombreDeCircuits; i++) {
                 } else {
                     color = "ccc";
                 }
-                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: none; filter: none; color: "+color);
+                document.getElementsByClassName("TR" + i)[0].setAttribute("style", "background-color: none; filter: none; color: " + color);
                 circuitSelectionne = document.getElementsByClassName("TR" + i)[0];
                 circuitDejaTires.splice(j, 1, "");
                 circuitsNonTires.splice(j, 1, "TR" + j);

@@ -25,8 +25,8 @@ $circuitsFR = array(
     "Coupe Boomerang" => array ("Tour Bousculade à Bangkok", "DS Circuit Mario", "GCN Stade Waluigi", "Tour Poursuite à Singapour"),
     "Coupe Plume" => array ("Tour Athènes antique", "GCN Paquebot Daisy", "Wii Route Clair de Lune", "Course à la propreté"),
     "Coupe Cerises" => array ("Tour Road-trip à Los Angeles", "GBA Pays Crépuscule", "Wii Cap Koopa", "Tour Virages à Vancouver"),
-    // "Coupe Gland" => array ("", "", "", ""),
-    // "Coupe à épines" => array ("", "", "", "")
+    "Coupe Gland" => array ("Tour Roma romantica", "GCN Montagne DK", "Wii Circuit Daisy", "Ruines Plante Piranha"),
+    "Coupe à épines" => array ("Tour Méandres madrilènes", "3DS Monde glacé d'Harmonie", "SNES Château de Bowser 3", "Wii Route Arc-en-Ciel")
 );
 
 $arenesFR = array("Stade Bousculade", "Île aux délices", "Palais du dragon", "Colonie lunaire", "3DS Wuhuville", "GCN Manoir de Luigi", "SNES Arène Bataille 1", "Passage Turbot");
@@ -56,8 +56,8 @@ $circuitsFRCA = array(
     "Coupe Boomerang" => array ("Tour Bousculade à Bangkok", "DS Circuit Mario", "GCN Stade Waluigi", "Tour Poursuite à Singapour"),
     "Coupe Plume" => array ("Tour Athènes antique", "GCN Paquebot Daisy", "Wii Route Clair de Lune", "Course à la propreté"),
     "Coupe Cerises" => array ("Tour Road-trip à Los Angeles", "GBA Pays Crépuscule", "Wii Cap Koopa", "Tour Virages à Vancouver"),
-    // "Coupe Gland" => array ("", "", "", ""),
-    // "Coupe à épines" => array ("", "", "", "")
+    "Coupe Gland" => array ("Tour Roma romantica", "GCN Montagne DK", "Wii Circuit Daisy", "Ruines Plante Piranha"),
+    "Coupe à épines" => array ("Tour Méandres madrilènes", "3DS Monde glacé de Rosalina", "SNES Château de Bowser 3", "Wii Route Arc-en-Ciel")
 );
 
 $arenesFRCA = array("Stade Bousculade", "Royaume Gourmand", "Palais du dragon", "Colonie lunaire", "3DS Wuhuville", "GCN Manoir de Luigi", "SNES Arène Bataille 1", "Passage Turbot");
@@ -87,8 +87,8 @@ $circuitsEN = array(
     "Boomerang Cup" => array ("Tour Bangkok Rush", "DS Mario Circuit", "GCN Waluigi Stadium", "Tour Singapore Speedway"),
     "Feather Cup" => array ("Tour Athens Dash", "GCN Daisy Cruiser", "Wii Moonview Highway", "Squeaky Clean Sprint"),
     "Cherry Cup" => array ("Tour Los Angeles Laps", "GBA Sunset Wilds", "Wii Koopa Cape", "Tour Vancouver Velocity"),
-    // "Acorn Cup" => array ("", "", "", ""),
-    // "Spiny Cup" => array ("", "", "", "")
+    "Acorn Cup" => array ("Tour Rome Avanti", "GCN DK Mountain", "Wii Daisy Circuit", "Piranha Plant Cove"),
+    "Spiny Cup" => array ("Tour Madrid Drive", "3DS Rosalina's Ice World", "SNES Bowser's Castle 3", "Wii Rainbow Road")
 );
 
 $arenesEN = array("Battle Stadium", "Sweet Sweet Kingdom", "Dragon Palace", "Lunar Colony", "3DS Wuhu Town", "GCN Luigi's Mansion", "SNES Battle Course 1", "Urchin Underpass");
@@ -118,8 +118,8 @@ $circuitsENUS = array(
     "Boomerang Cup" => array ("Tour Bangkok Rush", "DS Mario Circuit", "GCN Waluigi Stadium", "Tour Singapore Speedway"),
     "Feather Cup" => array ("Tour Athens Dash", "GCN Daisy Cruiser", "Wii Moonview Highway", "Squeaky Clean Sprint"),
     "Cherry Cup" => array ("Tour Los Angeles Laps", "GBA Sunset Wilds", "Wii Koopa Cape", "Tour Vancouver Velocity"),
-    // "Acorn Cup" => array ("", "", "", ""),
-    // "Spiny Cup" => array ("", "", "", "")
+    "Acorn Cup" => array ("Tour Rome Avanti", "GCN DK Mountain", "Wii Daisy Circuit", "Piranha Plant Cove"),
+    "Spiny Cup" => array ("Tour Madrid Drive", "3DS Rosalina's Ice World", "SNES Bowser's Castle 3", "Wii Rainbow Road")
 );
 
 $arenesENUS = array("Battle Stadium", "Sweet Sweet Kingdom", "Dragon Palace", "Lunar Colony", "3DS Wuhu Town", "GCN Luigi's Mansion", "SNES Battle Course 1", "Urchin Underpass");
@@ -149,8 +149,8 @@ $circuitsDE = array(
     "Bumerang-Cup" => array("Tour Bangkok-Abendrot", "DS Marios Piste", "GCN Waluigi-Arena", "Tour Überholspur Singapur"),
     "Feder-Cup" => array ("Tour Athen auf Abwegen", "GCN Daisys Dampfer", "Wii Mondblickstraße", "Bad-Parcours"),
     "Doppelkirschen-Cup" => array ("Tour Los-Angeles-Strandpartie", "GBA Sonnenuntergangs-Wüste", "Wii Koopa-Kap", "Tour Vancouver-Wildpfad"),
-    // "Eichel-Cup" => array ("", "", "", ""),
-    // "Stachi-Cup" => array ("", "", "", "")
+    "Eichel-Cup" => array ("Tour Rom-Ranbazamba", "GCN DK Bergland", "Wii Daisys Piste", "Piranha-Pflanzen-Bucht"),
+    "Stachi-Cup" => array ("Tour Stadtrunfahrt Madrid", "3DS Rosalinas Eisplanet", "SNES Bowsers Festung 3", "Wii Regenbogen-Boulevard")
 );
 
 $arenesDE = array("Kampfarena", "Zuckersüßes Schloss", "Drachen-Palast", "Mondkolonie", "3DS Wuhu-Stadt", "GCN Luigi's Mansion", "SNES Kampfkurs 1", "Dekbahnstation");
@@ -180,8 +180,8 @@ $circuitsES = array(
     "Copa Boomerang" => array("Tour Atardecer en Bangkok", "DS Circuito Mario", "GCN Estadio Waluigi", "Tour Acelerón en Singapur"),
     "Copa Pluma" => array ("Tour Atenas de Altura", "GCN Crucero Daisy", "Wii Circuito Luz de Luna", "Escusado Acelerado"),
     "Copa Cereza" => array ("Tour A tope en Los Ángeles", "GBA Reserva del Poniente", "Wii Colina de Koopa", "Tour Vuelta por Vancouver"),
-    // "Copa Bellota" => array("", "", "", ""),
-    // "Copa Pinchos" => array("", "", "", "")
+    "Copa Bellota" => array("Tour Roma bajo la Luna", "GCN Montaña DK", "Wii Circuito de Daisy", "Ruines Planta Piraña"),
+    "Copa Pinchos" => array("Tour Paseo por Madrid", "3DS Glaciar de Estela", "SNES Castillo de Bowser 3", "Wii Senda Acro Iris")
 );
 
 $arenesES = array("Estadio de Batalla", "Cielo Azucarado", "Palacio Dragón", "Estación Lunar", "3DS Pueblo Wuhu", "GCN Mansión de Luigi", "SNES Circuito de Batalla 1", "Parque Viaducto");
@@ -211,8 +211,8 @@ $circuitsIT = array(
     "Trofeo Boomerang" => array("Tour Bangkok a manetta", "DS Circuito di Mario", "GCN Stadio di Waluigi", "Tour Singapore a tutto gas"),
     "Trofeo Piuma" => array ("Tour Alture di Atene", "GCN Nave di Daisy", "Wii Autostrada lunare", "Corsa in bagno"),
     "Trofeo Ciliegia" => array ("Tour Panorama di Los Angeles", "GBA Riserva naturale", "Wii Punta Koopa", "Wii Scorci di Vancouver"),
-    // "Trofeo Ghianda" => array("", "", "", ""),
-    // "Trofeo Spinoso" => array("", "", "", "")
+    "Trofeo Ghianda" => array("Tour Roma romantica", "GCN Montagne di DK", "Wii Circuito di Daisy", "Cala Planta Piranha"),
+    "Trofeo Spinoso" => array("Tour Movida di Madrid", "3DS Ghiacciaio di Rosalinda", "SNES Castello di Bowser 3", "Wii Pista Arcobaleno")
 );
 
 $arenesIT = array("Kartodromo", "Dolce Dolce Regno", "Palazzo del drago", "Base lunare", "3DS Borgo Wuhu ", "GCN Palazzo di Luigi", "SNES Percorso di guerra 1", "Periferia urbana");
@@ -242,8 +242,8 @@ $circuitsNL = array(
     "Boemerangbeker" => array("Tour Bangkok-Break", "DS Mario's Circuit", "GCN Waluigi's Stadion", "Tour Singapore-Skyline"),
     "Veerbeker" => array ("Tour Athene-Trip", "GCN Daisy's Cruiseschip", "Wii Circuito Luz de Luna", "Badderbaan"),
     "Kerserbeker" => array ("Tour Los Angeles-Boulevard", "GBA Schemersteppe", "Wii Kaap Koopa", "Vancouver-Route"),
-    // "Eikenbeker" => array("", "", "", ""),
-    // "Spiny-beker" => array("", "", "", "")
+    "Eikenbeker" => array("Tour Rome-Run", "NC", "Wii Daisy's Circuit", "Piranha Plant-Lagune"),
+    "Spiny-beker" => array("Tour Madrid-Rit", "3DS Rosalina's IJsplaneet", "SNES Bowsers Kasteel 3", "Wii Regenboogbaan")
 );
 
 $arenesNL = array("Gevechtsstadion", "Zoetekauwkasteel", "Drakendojo", "Maanbasis", "3DS Wuhu-Stad ", "GCN Luigi's Landgoed", "SNES Gevechtsarena 1", "Forelviaduct");
@@ -273,8 +273,8 @@ $circuitsPT = array(
     "Taça Bumerangue" => array("Tour Ocaso em Banguecoque", "DS Circuito do Mario", "GCN Estádio Waluigi", "Tour Vertigem em Singapura"),
     "Taça Pluma" => array ("Tour Cenas de Atenas", "GCN Cruzeiro da Daisy", "Wii Autoestrada ao Luar", "Percurso Sanitário"),
     "Taça Cereja" => array ("Tour Litoral de Los Angeles", "GBA Deserto Crepúscule", "Wii Cabo Koopa", "Tour Volta a Vancouver"),
-    // "Taça Bolota" => array("", "", "", ""),
-    // "Taça Espinhos" => array("", "", "", "")
+    "Taça Bolota" => array("Tour Giro por Roma", "GCN Montanha DK", "Wii Circuito da Daisy", "Ruínas Planta Piranha"),
+    "Taça Espinhos" => array("Tour Passeio por Madrid", "3DS Glaciar da Rosalina", "SNES Castelo do Bowser 3", "Wii Estrada Arco-Íris")
 );
 
 $arenesPT = array("Arena de Combate", "Reino Doce", "Palácio dos Dragões", "Colónia Lunar", "3DS Cidade Wuhu ", "GCN Mansão do Luigi", "SNES Batalha 1", "Periferia Urbana");
@@ -304,8 +304,8 @@ $circuitsRU = array(
     "Кубок бумеранга" => array("Tour Час пик в Бангкоке", "DS Трасса Марио", "GCN Стадион Валуиджи", "Tour Суета в Сингепуре"),
     "Кубок пера" => array ("Tour афинские красоты", "GCN Лайнер Дэйзи", "Wii Лунная магистраль", "Гонка в ванной"),
     "Кубок вышен" => array ("Tour Виды Лос-Анджелеса", "GBA Закатная пустыня", "Wii Мыс Купа", "Tour Ванкувер-вояж"),
-    // "Кубок желудя" => array("", "", "", ""),
-    // "Кубок колючкина" => array("", "", "", ""),
+    "Кубок желудя" => array("NC", "NC", "NC", "NC"),
+    "Кубок колючкина" => array("NC", "3DS Ледяной мир Розалины", "NC", "Wii Трасса Радуга"),
 );
 
 $arenesRU = array("Гоночная арена", "Королевство сладостей", "Пагода дракона", "Лунная база", "3DS Город Вуху ", "GCN Особняк Луиджи", "SNES Боевая Трасса 1", "Район Дека");
@@ -320,14 +320,14 @@ $circuitsJP = array(
     "たまごカップ" => array ("GC ヨッシーサーキット", "エキサイトバイク", "ドラゴンロード", "ミュートシティ"),
     "どうぶつカップ" => array ("GC ベビィパーク", "GBA チーズランド", "ネイチャーロード", "どうぶつの森"),
     "こうらカップ" => array ("Wii モーモーカントリー", "GBA マリオサーキット", "DS プクプクビーチ", "N64 キノピオハイウェイ"),
-    "バナナカップ" => array ("GC カラカラさばく", "SFC ドーナツへいや3", "N64 ピーチサーキット", "3DS DKジャングル"),
+    "バナナカップ" => array ("GC カラカラさばく", "SFC ドーナツへいや３", "N64 ピーチサーキット", "3DS DKジャングル"),
     "このはカップ" => array ("DS ワリオスタジアム", "GC シャーベットランド", "3DS ミュージックパーク", "N64 ヨッシーバレー"),
     "サンダーカップ" => array("DS チクタクロック", "3DS パックンスライダー", "Wii グラグラかざん", "N64 レインボーロード"),
     "ゼルダカップ" => array ("Wii ワリオこうざん", "SFC レインボーロード", "ツルツルツイスター", "ハイラルサーキット"),
     "ベルカップ" => array("3DS ネオクッパシティ", "GBA リボンロード", "リンリンメトロ", "ビッグブルー"),
     "パワフルカップ" => array("Tour パリプロムナード", "3DS キノピオサーキット", "N64 チョコマウンテン", "Wii ココナッツモール"),
     "まねきネコカップ" => array ("Tour トーキョースクランブル", "DS キノコリッジウェイ", "GBA スカイガーデン", "ニンニンドージョー"),
-    "カブカップ" => array ("Tour ニューヨークドリーム", "SFC マリオサーキット3", "N64 カラカラさばく", "DS ワルイージピンボール"),
+    "カブカップ" => array ("Tour ニューヨークドリーム", "SFC マリオサーキット３", "N64 カラカラさばく", "DS ワルイージピンボール"),
     "プロペラカップ" => array ("Tour シドニーサンシャイン", "GBA スノーランド", "Wii キノコキャニオン", "アイスビルディング"),
     "ゴロいわカップ" => array ("Tour ロンドンアベニュー", "GBA テレサレイク", "3DS ロックロックマウンテン", "Wii メイプルツリーハウス"),
     "ムーンカップ" => array ("Tour ベルリンシュトラーセ", "DS ピーチガーデン", "メリーメリーマウンテン", "3DS レインボーロード"),
@@ -335,8 +335,8 @@ $circuitsJP = array(
     "ブーメランカップ" => array ("Tour バンコクラッシュ", "DS マリオサーキット", "GC ワルイージスタジアム", "Tour シンガポールスプラッシュ"),
     "ハネカップ" => array ("Tour アテネ ポリス", "GC デイジークルーザー", "Wii ムーンリッジ＆ハイウェイ", "シャボンロード"),
     "チェリーカップ" => array ("Tour ロサンゼルスコースト", "GBA サンセットこうや", "Wii ノコノコみさき", "Tour バンクーバー バレー"),
-    // "ドングリカップ" => array("", "", "", ""),
-    // "トゲゾーカップ" => array("", "", "", "")
+    "ドングリカップ" => array("Tour ローマ アバンティ", "GC DKマウンテン", "Wii デイジーサーキット", "パックンしんでん"),
+    "トゲゾーカップ" => array("Tour マドリード グランデ", "3DS ロゼッタプラネット", "SFC クッパじょう３", "Wii レインボーロード")
 );
 
 $arenesJP = array("バトルスタジアム", "スカイスイーツ", "ドラゴンドージョー", "ムーンステーション", "3DS ウーフータウン ", "GC ルイージマンション", "SFC バトルコース1", "デカライン高架下");
@@ -358,7 +358,7 @@ $circuitsKO = array(
     "벨 컵" => array("3DS 네오 쿠파 시티", "GBA 리본 로드", "린린 메트로", "빅 블루"),
     "파워풀 컵" => array("Tour 파리 프로누아드", "3DS 키노피오 서킷", "N64 초코 마운틴", "Wii 코코넛 몰"),
     "부메랑 컵" => array("Tour 도쿄 블러", "DS 버섯 리지웨이", "GBA 스카이 가든", "닌자 도장"),
-    "무효 컵" => array("Tour 뉴욕 드림", "SFC 마리오 사쿠라", "N64 마리오 서킷 3", "DS 와루이지 핀볼"),
+    "무효 컵" => array("Tour 뉴욕 드림", "SFC 마리오 사쿠라 3", "N64 마리오 서킷", "DS 와루이지 핀볼"),
     "물풍선 컵" => array("Tour 시드니 스플래시", "GBA 눈 랜드", "Wii 버섯 캐니언", "아이스 크림 빌딩"),
     "바위 컵" => array("Tour 런던 루프", "GBA 부끄부끄 호수", "3DS 락 락 마운틴", "Wii 단풍나무 로드"),
     "문 컵" => array("Tour 베를린 스트리트", "DS 피치 가든", "메리 메리 마운틴", "3DS 무지개 로드"),
@@ -366,8 +366,8 @@ $circuitsKO = array(
     "푸르트 컵" => array("Tour 방콕 크래쉬", "DS 마리오 서킷", "GC 와루이지 스타디움", "Tour 싱가포르 스플래시"),
     "깃털 컵" => array ("Tour 아테네 폴리스", "GC 데이지 크루저", "Wii 달맞이 하이웨이", "비눗방울 로드"),
     "체리 컵" => array ("Tour 로스앤젤레스 랩", "GBA 선셋 황야", "Wii 엉금엉금 케이프", "Tour 밴쿠버 벨로시티"),
-    // "도토리 컵" => array("", "", "", ""),
-    // "가시돌이 컵" => array("", "", "", "")
+    "도토리 컵" => array("Tour 로마 아반티", "GC DK 마운틴", "Wii 데이지 서킷", "뻐끔 신전"),
+    "가시돌이 컵" => array("Tour 마드리드 그란데", "3DS 로젤리나 플래닛", "SFC 쿠파 성 3", "Wii 무지개 로드")
 );
 
 $arenesKO = array("배틀 스타디움", "스카이 스위트", "드래곤 팰리스", "문 스테이션", "3DS 우후 타운 ", "GC 루이지 맨션", "SFC 배틀 코스 1", "Urchin Underpass");
@@ -397,8 +397,8 @@ $circuitsZHHANS = array(
     "回旋镖杯" => array("Tour 曼谷飙速", "DS 马力欧赛道", "GC 瓦路易吉竞技场", "Tour 新加坡竞速赛道"),
     "羽毛杯" => array ("Tour 雅典城邦", "GC 菊花公主游轮", "Wii 月下山脊＆公路", "肥皂泡之路"),
     "樱桃杯" => array ("Tour 洛杉矶环圈", "GBA 日落荒野", "Wii 喏库喏库海角", "Tour 温哥华速度"),
-    // "橡栗杯" => array("", "", "", ""),
-    // "刺刺龟杯" => array("", "", "", ""),
+    "橡栗杯" => array("Tour 罗马前进", "GC DK山", "Wii 菊花公主赛道", "吞食花神殿"),
+    "刺刺龟杯" => array("Tour 马德里圣殿", "3DS 罗莎塔行星", "SFC 酷霸王城堡 3", "Wii 彩虹之路"),
 );
 
 $arenesZHHANS = array("对战竞技场", "空中甜点王国", "龙之道场", "月球空间站", "3DS 乌富城 ", "GC 路易吉洋馆", "SFC 对战赛道1", "海星高架下");
@@ -428,8 +428,8 @@ $circuitsZHHANT = array(
     "迴旋鏢盃" => array ("Tour 曼谷飆速", "DS 瑪利歐賽道", "GC 瓦路易吉競技場", "Tour 新加坡競速賽道"),
     "羽毛盃" => array ("Tour 雅典城邦", "GC 黛西公主遊輪", "Wii 月下山脊＆公路", "肥皂泡之路"),
     "樱桃盃" => array ("Tour 洛杉磯環圈", "GBA 日落荒野", "Wii 慢慢龜海角", "Tour 溫哥華速度"),
-    // "橡栗盃" => array("", "", "", ""),
-    // "刺刺龜盃" => array("", "", "", ""),
+    "橡栗盃" => array("Tour 羅馬前進", "GC DK高山", "Wii 黛西公主賽道", "吞食花神殿"),
+    "刺刺龜盃" => array("Tour 馬德里聖殿", "3DS 羅潔塔行星", "SFC 庫巴城堡 3", "Wii 彩虹之路"),
 );
 
 $arenesZHHANT = array("對戰競技場", "空中甜點王國", "龍之道場", "月球基地", "3DS 烏富城 ", "GC 路易吉洋樓", "SFC 對戰賽道1", "海星高架下");
@@ -459,8 +459,8 @@ $circuitsESHA = array(
     "Copa Boomerang" => array("Tour Atardecer en Bangkok", "DS Circuito Mario", "GCN Estadio Waluigi", "Tour Acelerón en Singapur"),
     "Copa Pluma" => array ("Tour Periplo ateniense", "GCN Crucero Daisy", "Wii Circuito Luz de Luna", "Escusado Acelerado"),
     "Copa Cereza" => array ("Tour A tope en Los Ángeles", "GBA Reserva Natural del Poniente", "Wii Colina de Koopa", "Tour Vuelta por Vancouver"),
-    // "Copa Bellota" => array("", "", "", ""),
-    // "Copa Pinchos" => array("", "", "", "")
+    "Copa Bellota" => array("Tour Roma bajo la Luna", "GCN Montaña DK", "Wii Circuito de Daisy", "Ruines Planta Piraña"),
+    "Copa Pinchos" => array("Tour Paseo por Madrid", "3DS Glaciar de Rosalina", "SNES Castillo de Bowser 3", "Wii Senda Acro Iris")
 );
 
 $arenesESHA = array("Estadio de Batalla", "Cielo Azucarado", "Palacio Dragón", "Estación Lunar", "3DS Pueblo Wuhu", "GCN Mansión de Luigi", "SNES Circuito de Batalla 1", "Parque Viaducto");
@@ -490,8 +490,8 @@ $circuitsPTBR = array(
     "Taça Bumerangue" => array("Tour Agito em Bangkok ", "DS Circuito Mario ", "GCN Estádio Waluigi", "Tour Singapura Sublime "),
     "Taça Pluma" => array ("Tour Cenas de Atenas", "GCN Cruzeiro Daisy", "Wii Rota Luz do Luar", "Percurso Sanitário"),
     "Taça Cereja" => array ("Tour Litoral de Los Angeles", "GBA Deserto Poente", "Wii Cabo Koopa", "Tour Vancouver Veloz"),
-    // "Taça Bolota" => array("", "", "", ""),
-    // "Taça Espinhos" => array("", "", "", "")
+    "Taça Bolota" => array("Tour Roma Enluarada", "GCN Montanha DK", "Wii Circuito Daisy", "Ruínas Planta Piranha"),
+    "Taça Espinhos" => array("Tour Madri em Disparada", "3DS Geleira Rosalina", "SNES Castelo do Bowser 3", "Wii Avenida Arco-íris")
 );
 
 $arenesPTBR = array("Arena de Combate", "Reino Doce", "Palácio dos Dragões", "Colónia Lunar", "3DS Cidade Wuhu ", "GCN Mansão do Luigi", "SNES Batalha 1", "Periferia Urbana");
