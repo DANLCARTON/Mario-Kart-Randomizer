@@ -1,0 +1,526 @@
+Mario Kart 8 Deluxe : Booster Course Pass Wave 6 Datas
+
+PERSONNAGES
+
+FR : Peachette
+FR-CA : Peachette
+EN : Peachette
+EN-US : Peachette
+ES : Peachette
+ES-HA : Peachette
+PT : Peachette
+PT-BR : Peachette
+IT : Peachette
+DE : Peachette
+NL : Peachette
+RU : Пичетта
+JP : キノピーチ
+KO : 키노피치
+ZH-HANS : 奇诺比桃公主
+ZH-HANT : 奇諾比姬公主
+
+FR : Diddy Kong
+FR-CA : Diddy Kong
+EN : Diddy Kong
+EN-US : Diddy Kong
+ES : Diddy Kong
+ES-HA : Diddy Kong
+PT : Diddy Kong
+PT-BR : Diddy Kong
+IT : Diddy Kong
+DE : Diddy Kong
+NL : Diddy Kong
+RU : Дидди Конг
+JP : ディディーコング
+KO : 디디콩
+ZH-HANS : 迪迪刚
+ZH-HANT : 狄狄剛
+
+FR : Funky Kong
+FR-CA : Funky Kong
+EN : Funky Kong
+EN-US : Funky Kong
+ES : Funky Kong
+ES-HA : Funky Kong
+PT : Funky Kong
+PT-BR : Funky Kong
+IT : Funky Kong
+DE : Funky Kong
+NL : Funky Kong
+RU : Фанки Конг
+JP : ファンキーコング
+KO : 펑키 콩
+ZH-HANS : 酷喜刚
+ZH-HANT : 酷喜剛
+
+FR : Pauline
+FR-CA : Pauline
+EN : Pauline
+EN-US : Pauline
+ES : Pauline
+ES-HA : Pauline
+PT : Pauline
+PT-BR : Pauline
+IT : Pauline
+DE : Pauline
+NL : Pauline
+RU : Полина
+JP : ポリーン
+KO : 폴린
+ZH-HANS : 宝琳
+ZH-HANT : 波琳
+
+CIRCUITS
+
+FR : Tour Roma romantica
+FR-CA : Tour Roma romantica
+EN : Tour Rome Avanti
+EN-US : Tour Rome Avanti
+ES : Tour Roma bajo la Luna
+ES-HA : Tour Roma bajo la Luna
+PT : Tour Giro por Roma
+PT-BR : Tour Roma Enluarada
+IT : Tour Roma romantica
+DE : Tour Rom-Ranbazamba
+NL : Tour Rome-Run
+RU : 
+JP : Tour ローマ アバンティ
+KO : Tour 로마 아반티
+ZH-HANS : Tour 罗马前进
+ZH-HANT : Tour 羅馬前進
+
+FR : GCN Montagne DK
+FR-CA : GCN Montagne DK
+EN : GCN DK Mountain
+EN-US : GCN DK Mountain
+ES : GCN Montaña DK
+ES-HA : GCN Montaña DK
+PT : GCN Montanha DK
+PT-BR : GCN Montanha DK
+IT : GCN Montagne di DK
+DE : GCN DK Bergland
+NL : 
+RU : 
+JP : GC DKマウンテン
+KO : GC DK 마운틴
+ZH-HANS : GC DK山
+ZH-HANT : GC DK高山
+
+FR : Wii Circuit Daisy
+FR-CA : Wii Circuit Daisy
+EN : Wii Daisy Circuit
+EN-US : Wii Daisy Circuit
+ES : Wii Circuito de Daisy
+ES-HA : Wii Circuito de Daisy
+PT : Wii Circuito da Daisy
+PT-BR : Wii Circuito Daisy
+IT : Wii Circuito di Daisy
+DE : Wii Daisys Piste
+NL : Wii Daisy's Circuit
+RU : 
+JP : Wii デイジーサーキット
+KO : Wii 데이지 서킷
+ZH-HANS : Wii 菊花公主赛道
+ZH-HANT : Wii 黛西公主賽道
+
+FR : Ruines Plante Piranha
+FR-CA : Ruines Plante Piranha
+EN : Piranha Plant Cove
+EN-US : Piranha Plant Cove
+ES : Ruinas Planta Piraña
+ES-HA : Ruinas Planta Piraña
+PT : Ruínas Planta Piranha
+PT-BR : Ruínas Planta Piranha
+IT : Cala Pianta Piranha
+DE : Piranha-Pflanzen-Bucht
+NL : Piranha Plant-Lagune
+RU : 
+JP : パックンしんでん
+KO : 뻐끔 신전
+ZH-HANS : 吞食花神殿
+ZH-HANT : 吞食花神殿
+
+FR : Tour Méandres madrilènes
+FR-CA : Tour Méandres madrilènes
+EN : Tour Madrid Drive
+EN-US : Tour Madrid Drive
+ES : Tour Paseo por Madrid
+ES-HA : Tour Paseo por Madrid
+PT : Tour Passeio por Madrid
+PT-BR : Tour Madri em Disparada
+IT : Tour Movida di Madrid
+DE : Tour Stadtrunfahrt Madrid
+NL : Tour Madrid-Rit
+RU : 
+JP : Tour マドリード グランデ
+KO : Tour 마드리드 그란데
+ZH-HANS : Tour 马德里圣殿
+ZH-HANT : Tour 馬德里聖殿
+
+FR : 3DS Monde glacé d'Harmonie
+FR-CA : 3DS Monde glacé de Rosalina
+EN : 3DS Rosalina's Ice World
+EN-US : 3DS Rosalina's Ice World
+ES : 3DS Glaciar de Estela
+ES-HA : 3DS Glaciar de Rosalina
+PT : 3DS Glaciar da Rosalina
+PT-BR : 3DS Geleira Rosalina
+IT : 3DS Ghiacciaio di Rosalinda
+DE : 3DS Rosalinas Eisplanet
+NL : 3DS Rosalina's IJsplaneet
+RU : 3DS Ледяной мир Розалины
+JP : 3DS ロゼッタプラネット
+KO : 3DS 로젤리나 플래닛
+ZH-HANS : 3DS 罗莎塔行星
+ZH-HANT : 3DS 羅潔塔行星
+
+FR : SNES Château de Bowser 3
+FR-CA : SNES Château de Bowser 3
+EN : SNES Bowser's Castle 3
+EN-US : SNES Bowser's Castle 3
+ES : SNES Castillo de Bowser 3
+ES-HA : SNES Castillo de Bowser 3
+PT : SNES Castelo do Bowser 3
+PT-BR : SNES Castelo do Bowser 3
+IT : SNES Castello di Bowser 3
+DE : SNES Bowsers Festung 3
+NL : SNES Bowsers Kasteel 3
+RU : 
+JP : SFC クッパじょう３
+KO : SFC 쿠파 성 3
+ZH-HANS : SFC 酷霸王城堡 3
+ZH-HANT : SFC 庫巴城堡 3
+
+FR : Wii Route Arc-en-Ciel
+FR-CA : Wii Route Arc-en-Ciel
+EN : Wii Rainbow Road
+EN-US : Wii Rainbow Road
+ES : Wii Senda Arco Iris
+ES-HA : Wii Senda Arco Iris
+PT : Wii Estrada Arco-Íris
+PT-BR : Wii Avenida Arco-íris
+IT : Wii Pista Arcobaleno
+DE : Wii Regenbogen-Boulevard
+NL : Wii Regenboogbaan
+RU : Wii Трасса Радуга
+JP : Wii レインボーロード
+KO : Wii 무지개 로드
+ZH-HANS : Wii 彩虹之路
+ZH-HANT : Wii 彩虹之路
+
+SKINS MII
+
+FRANÇAIS
+
+Tenue Standard
+Tenue Mario
+Tenue Luigi
+Tenue Peach
+Tenue Yoshi
+Tenue Donkey Kong
+Tenue Hylienne
+Tenue Captain Falcon
+Tenue Kirby
+Combinaison Varia
+Tenue Fox
+Tenue Toad
+Tenue Bowser
+Tenue Wario
+Tenue Harmonie
+Tenue Pikmin
+Tenue Animal Crossing
+Tenue Mega Man
+Tenue Pac-Man
+Tenue Sonic
+Tenue Inkling
+
+Tenue Daisy
+
+Tenue Flora Piranha
+Tenue Wiggler
+Tenue Birdo
+Tenue Paracoccinelly
+Tenue Toadette
+Tenue Glace (?)
+Tenue Goomba
+Tenue Cheep Cheep
+Tenue Dauphin
+Tenue Pokey
+Tenue Meuh Meuh (?)
+Tenue Chomp
+Tenue Bloups
+Tenue Château
+Tenue Boîte ?
+Tenue Bowser Skelet
+Tenue Koopa Mobile
+
+QUEBECOIS
+
+Tenue Standard
+Tenue Mario
+Tenue Luigi
+Tenue Peach
+Tenue Yoshi
+Tenue Donkey Kong
+Tenue Hylienne
+Tenue Captain Falcon
+Tenue Kirby
+Combinaison Varia
+Tenue Fox
+Tenue Toad
+Tenue Bowser
+Tenue Wario
+Tenue Rosalina
+Tenue Pikmin
+Tenue Animal Crossing
+Tenue Mega Man
+Tenue Pac-Man
+Tenue Sonic
+Tenue Inkling
+
+ANGLAIS
+
+Standard Suit
+Mario Suit
+Luigi Suit
+Peach Suit
+Yoshi Suit
+Donkey Kong Suit
+Hylian Suit
+Captain Falcon Suit
+Kirby Suit
+Varia Suit
+Fox Suit
+Toad Suit
+Bowser Suit
+Wario Suit
+Rosalina Suit
+Pikmin Suit
+Animal Crossing Suit
+Mega Man Suit
+Pac-Man Suit
+Sonic Suit
+Inkling Suit
+
+ANGLAIS AMÉRICAIN
+
+Standard Suit
+Mario Suit
+Luigi Suit
+Peach Suit
+Yoshi Suit
+Donkey Kong Suit
+Hylian Suit
+Captain Falcon Suit
+Kirby Suit
+Varia Suit
+Fox Suit
+Toad Suit
+Bowser Suit
+Wario Suit
+Rosalina Suit
+Pikmin Suit
+Animal Crossing Suit
+Mega Man Suit
+Pac-Man Suit
+Sonic Suit
+Inkling Suit
+
+ESPAGNOL
+
+Traje normal
+Traje Mario
+Traje Luigi
+Traje Peach
+Traje Yoshi
+Traje Donkey Kong
+Traje Hyliana (?)
+Traje Captain Falcon
+Traje Kirby
+Armadura Varia
+Traje Fox McCloud
+Traje Toad
+Traje Bowser
+Traje Wario
+Traje Estela
+Traje Pikmin
+Traje Animal Crossing
+Traje Mega Man
+Traje Pac-Man
+Traje Sonic
+Traje Inkling
+
+ESPAGNOL D'AMÉRIQUE LATINE
+
+Traje normal
+Traje Mario
+Traje Luigi
+Traje Peach
+Traje Yoshi
+Traje Donkey Kong
+Traje Hyliana (?)
+Traje Captain Falcon
+Traje Kirby
+Armadura Varia
+Traje Fox McCloud
+Traje Toad
+Traje Bowser
+Traje Wario
+Traje Rosalina
+Traje Pikmin
+Traje Animal Crossing
+Traje Mega Man
+Traje Pac-Man
+Traje Sonic
+Traje Inkling
+
+PORTUGAIS
+
+Fato Normal
+Fato Mario
+Fato Luigi
+Fato Peach
+Fato Yoshi
+Fato Donkey Kong
+Fato Hyliana (?)
+Fato Captain Falcon
+Fato Kirby
+Fato de Samus Varia
+Fato Fox
+Fato Toad
+Fato Bowser
+Fato Wario
+Fato Rosalina
+Fato Pikmin
+Fato Animal Crossing
+Fato Mega Man
+Fato Pac-Man
+Fato Sonic
+Fato Inkling
+
+PORTUGAIS BRESILIEN
+
+Fato Normal
+Fato Mario
+Fato Luigi
+Fato Peach
+Fato Yoshi
+Fato Donkey Kong
+Fato Hyliana (?)
+Fato Captain Falcon
+Fato Kirby
+Fato de Samus Varia
+Fato Fox
+Fato Toad
+Fato Bowser
+Fato Wario
+Fato Rosalina
+Fato Pikmin
+Fato Animal Crossing
+Fato Mega Man
+Fato Pac-Man
+Fato Sonic
+Fato Inkling
+
+ALLEMAND
+
+Standard-Outfit
+Mario-Outfit
+Luigi-Outfit
+Peach-Outfit
+Yoshi-Outfit
+Donkey Kong-Outfit
+Hylian-Outfit (?)
+Captain Falcon-Outfit
+Kirby-Outfit
+Varia Suit-Outfit
+Fox-Outfit
+Toad-Outfit
+Bowser-Outfit
+Wario-Outfit
+Rosalina-Outfit
+Pikmin-Outfit
+Animal Crossing-Outfit
+Mega Man-Outfit
+Pac-Man-Outfit
+Sonic-Outfit
+Inkling-Outfit
+
+ITALIEN
+
+Tuta standard
+Tuta Mario
+Tuta Luigi
+Tuta Peach
+Tuta Yoshi
+Tuta Donkey Kong
+Tuta Hyliana (?)
+Tuta Captain Falcon
+Tuta Kirby
+Termotuta
+Tuta Fox
+Tuta Toad
+Tuta Bowser
+Tuta Wario
+Tuta Rosalinda
+Tuta Pikmin
+Tuta Animal Crossing
+Tuta Mega Man
+Tuta Pac-Man
+Tuta Sonic
+Tuta Inkling
+
+NEERLANDAIS
+
+Standaardpak
+Mario-pak
+Luigi-pak
+Peach-pak
+Yoshi-pak
+Donkey Kong-pak
+Hylian-pak (?)
+Captain Falcon-pak
+Kirby-pak
+Varia-pak
+Fox-pak
+Toad-pak
+Bowser-pak
+Wario-pak
+Rosalina-pak
+Pikmin-pak
+Animal Crossing-pak
+Mega Man-pak
+Pac-Man-pak
+Sonic-pak
+Inkling-pak
+
+RUSSE
+
+Обычный Костюм
+Костюм Марио
+Костюм Луиджи
+Костюм Пич
+Костюм Йоши
+Костюм Донки Конг
+Костюм (?)
+Костюм Капитан Фэлкон
+Костюм Кирби
+Варякостиом
+Костюм Фокса
+Костюм Тоад
+Костюм Боузер
+Костюм Варио
+Костюм Розалина
+Костюм Пикмин (?)
+Костюм Animal Crossing (?)
+Костюм Мегамена
+Костюм Соник
+Костюм Инклинг
+
+JAPONAIS
+
+COREEN
+
+CHINOIS SIMPLIFIE
+
+CHINOIS TRADITIONNEL

@@ -786,6 +786,77 @@ let Kamek = {
 
 // fr-fr | fr-ca | en-uk | en-us | de | es | it | nl | pt | ru | ja | ko | zh-Hans | zh-Hant | es-HA | pt-BR
 
+
+let Peachette = {
+    nom: ["Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Пичетта", "キノピーチ", "키노피치", "奇诺比桃公主", "奇諾比姬公主", "Peachette", "Peachette"],
+    vitesse: 0,
+    vitesseEau: 0,
+    vitesseAir: 0,
+    vitesseAntiGravite: 0,
+    acceleration: 0,
+    poids: 0,
+    maniabilite: 0,
+    maniabiliteEau: 0,
+    maniabiliteAir: 0,
+    maniabiliteAntiGravite: 0,
+    adherence: 0,
+    miniTurbo: 0,
+    invincibility: 0
+}
+
+let DiddyKong = {
+    nom: ["Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Дидди Конг", "ディディーコング", "디디콩", "迪迪刚", "狄狄剛", "Diddy Kong", "Diddy Kong"],
+    vitesse: 0,
+    vitesseEau: 0,
+    vitesseAir: 0,
+    vitesseAntiGravite: 0,
+    acceleration: 0,
+    poids: 0,
+    maniabilite: 0,
+    maniabiliteEau: 0,
+    maniabiliteAir: 0,
+    maniabiliteAntiGravite: 0,
+    adherence: 0,
+    miniTurbo: 0,
+    invincibility: 0
+}
+
+let FunkyKong = {
+    nom: ["Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Фанки Конг", "ファンキーコング", "펑키 콩", "酷喜刚", "酷喜剛", "Funky Kong", "Funky Kong"],
+    vitesse: 0,
+    vitesseEau: 0,
+    vitesseAir: 0,
+    vitesseAntiGravite: 0,
+    acceleration: 0,
+    poids: 0,
+    maniabilite: 0,
+    maniabiliteEau: 0,
+    maniabiliteAir: 0,
+    maniabiliteAntiGravite: 0,
+    adherence: 0,
+    miniTurbo: 0,
+    invincibility: 0
+}
+
+let Pauline = {
+    nom: ["Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Полина", "ポリーン", "폴린", "宝琳", "波琳", "Pauline", "Pauline"],
+    vitesse: 0,
+    vitesseEau: 0,
+    vitesseAir: 0,
+    vitesseAntiGravite: 0,
+    acceleration: 0,
+    poids: 0,
+    maniabilite: 0,
+    maniabiliteEau: 0,
+    maniabiliteAir: 0,
+    maniabiliteAntiGravite: 0,
+    adherence: 0,
+    miniTurbo: 0,
+    invincibility: 0
+}
+
+// fr-fr | fr-ca | en-uk | en-us | de | es | it | nl | pt | ru | ja | ko | zh-Hans | zh-Hant | es-HA | pt-BR
+
 // KARTS ----------------------------------------
 
 let KartStandard = {
@@ -2118,7 +2189,7 @@ let ParapenteMKTV = {
     invincibility: 0
 };
 
-export { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, Mii, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, Birdo, FloraPiranha, Wiggler, Kamek };
+export { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, Mii, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, Birdo, FloraPiranha, Wiggler, Kamek, Peachette, DiddyKong, FunkyKong, Pauline };
 export { KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01 };
 export { RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin }
 export { AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant };
