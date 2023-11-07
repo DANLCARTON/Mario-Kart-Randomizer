@@ -379,7 +379,7 @@ let translatedTextContent = {
         12: "授权 Amiibo Mii 服装",
         13: "授權 Amiibo Mii 服飾",
         14: "Autorizar los trajes Mii Amiibo",
-        15: "Autorizar fatos Mii Amiibo"
+        15: "Autorizar fatos Mii Amiibo",
     }
 };
 
