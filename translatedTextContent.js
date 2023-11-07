@@ -2,22 +2,22 @@
 
 let translatedTextContent = {
     subtitle: {
-        0: "+ PASS CIRCUITS ADDITIONNELS (Vague 5)", // Français
-        1: "+ PASSE DE CIRCUITS ADDITIONNELS (Vague 5)", // Français Québécois
-        2: "+ BOOSTER COURSE PASS (Wave 5)", // Anglais
-        3: "+ BOOSTER COURSE PASS (Wave 5)", // Anglais Américain
-        4: "+ BOOSTER-STRECKENPASS (Welle 5)", // Allemand
-        5: "+ PASE DE PISTAS EXTRAS (Entrega 5)", // Espagnol
-        6: "+ PASS PERSCOSI AGGIUNTIVI (Pacchetto 5)", // Italien
-        7: "+ CIRCUIT-UITBREIDINGSPAS (Set 5)", // Néerlandais
-        8: "+ PASSE DE PISTAS ADICIONAIS (Parte 5)", // Portugais
-        9: "+ ТАЛОН НА ДОПОЛНИТЕЛЬНЫЕ ТРАССЫ (Смутно 5)", // Russe
-        10: "+ コース追加パス (第5弾)", // Japonais
-        11: "+ 부스터 코스 패스 (제5탄)", // Coréen
-        12: "+ 新增赛道通行证 (第5彈)", // Chinois simplifié
-        13: "+ 新增賽道通行證 (第5彈)", // Chinois traditionnel
-        14: "+ PASE DE PISTAS EXTRAS (Entrega 5)", // Espagnol
-        15: "+ PASSE DE PISTAS ADICIONAIS (Parte 5)" // Portugais
+        0: "+ PASS CIRCUITS ADDITIONNELS", // Français
+        1: "+ PASSE DE CIRCUITS ADDITIONNELS", // Français Québécois
+        2: "+ BOOSTER COURSE PASS", // Anglais
+        3: "+ BOOSTER COURSE PASS", // Anglais Américain
+        4: "+ BOOSTER-STRECKENPASS", // Allemand
+        5: "+ PASE DE PISTAS EXTRAS", // Espagnol
+        6: "+ PASS PERSCOSI AGGIUNTIVI", // Italien
+        7: "+ CIRCUIT-UITBREIDINGSPAS", // Néerlandais
+        8: "+ PASSE DE PISTAS ADICIONAIS", // Portugais
+        9: "+ ТАЛОН НА ДОПОЛНИТЕЛЬНЫЕ ТРАССЫ", // Russe
+        10: "+ コース追加パス", // Japonais
+        11: "+ 부스터 코스 패스", // Coréen
+        12: "+ 新增赛道通行证", // Chinois simplifié
+        13: "+ 新增賽道通行證", // Chinois traditionnel
+        14: "+ PASE DE PISTAS EXTRAS", // Espagnol
+        15: "+ PASSE DE PISTAS ADICIONAIS" // Portugais
     },
     randomCharacter: {
         0: "Personnage aléatoire",
@@ -351,7 +351,7 @@ let translatedTextContent = {
         2: "Battle Arenas", // Anglais
         3: "Battle Arenas", // AnglaisAméricain
         4: "Kampfarenen", // Allemand
-        5: "Arenas de Batalla", // Espagnol
+        5: "Arenas de Batalla", // Espagnole
         6: "Arene di Battaglia", // Italien
         7: "Strijdarena's", // Néerlandais
         8: "Arenas de Batalha", // Portugais
@@ -362,6 +362,24 @@ let translatedTextContent = {
         13: "戰鬥場", // ChinoisTraditionnel
         14: "Arenas de Batalla",
         15: "Arenas de Batalha"
+    },
+    allowAmiibo: {
+        0: "Autoriser les costumes Mii Amiibo",
+        1: "Autoriser les costumes Mii Amiibo",
+        2: "Authorise Amiibo Mii costumes",
+        3: "Authorise Amiibo Mii costumes",
+        4: "Amiibo Mii-Kostüme zulassen",
+        5: "Autorizar los trajes Mii Amiibo",
+        6: "Autorizzare i costumi Mii Amiibo",
+        7: "Amiibo Mii-kostuums autoriseren",
+        8: "Autorizar fatos Mii Amiibo",
+        9: "Авторизация костюмов Mii Amiibo",
+        10: "Amiibo Miiコスチュームの認証",
+        11: "아미이보 미이 코스튬 승인하기",
+        12: "授权 Amiibo Mii 服装",
+        13: "授權 Amiibo Mii 服飾",
+        14: "Autorizar los trajes Mii Amiibo",
+        15: "Autorizar fatos Mii Amiibo"
     }
 };
 

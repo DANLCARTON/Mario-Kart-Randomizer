@@ -106,4 +106,6 @@ window.addEventListener("load", () => {
         battleArena[i].textContent = translatedTextContent.battleArena[lang]
     }
 
+    let allowAmiibo = [...document.getElementsByClassName("allowAmiibo")]
+    allowAmiibo.map(div => div.textContent = translatedTextContent.allowAmiibo[lang])
 })
