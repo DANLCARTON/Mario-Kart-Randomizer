@@ -886,7 +886,747 @@ const gameRules = {
                 ]
             }
         }
-    }
+    },
+    "it": {
+        vsMode: {
+            modes: {
+                name: "Modalità di gioco",
+                rules: [
+                    "GP 50cc",
+                    "GP 100cc",
+                    "GP 150cc",
+                    "GP speculare",
+                    "GP 200cc"
+                ]
+            },
+            teams: {
+                name: "Squadre",
+                rules: [
+                    "Sfida individuale",
+                    "Sfida a squadre"
+                ]
+            },
+            items: {
+                name: "Oggetti",
+                rules: [
+                    "Oggetti normali",
+                    "Solo gusci",
+                    "Solo banane",
+                    "Solo funghi",
+                    "Solo bob-ombe",
+                    "Solo monete",
+                    "Nessun oggetto",
+                    "Oggetti devastanti",
+                    "Oggetti personalizzati"
+                ]
+            },
+            com: {
+                name: "CPU",
+                rules: [
+                    "Senza CPU",
+                    "CPU facile",
+                    "CPU normale",
+                    "CPU difficile"
+                ]
+            },
+            comVehicles: {
+                name: "Veicoli CPU",
+                rules: [
+                    "Tutti i veicoli",
+                    "Solo kart",
+                    "Solo moto"
+                ]
+            },
+            courses: {
+                name: "Percorsi",
+                rules: [
+                    "A scelta",
+                    "In ordine",
+                    "Casuale"
+                ]
+            },
+            raceCount: {
+                name: "Numero di corse",
+                rules: [
+                    "4 corse",
+                    "6 corse",
+                    "8 corse",
+                    "12 corse",
+                    "16 corse",
+                    "24 corse",
+                    "32 corse",
+                    "48 corse"
+                ]
+            }
+        },
+        battleMode: {
+            modes: {
+                name: "Modalità di gioco",
+                rules: [
+                    "Battaglia pallocini",
+                    "Guardie e ladri",
+                    "Bob-omba a tappeto",
+                    "Acchiappamonete",
+                    "Ruba il sole custode",
+                    "Battaglia casuale"
+                ]
+            },
+            teams: {
+                name: "Squadre",
+                rules: [
+                    "Sfida individuale",
+                    "Sfida a squadre"
+                ]
+            },
+            items: {
+                name: "Oggetti",
+                rules: [
+                    "Oggetti normali",
+                    "Oggetti devastanti",
+                    "Oggetti abilità",
+                    "Oggetti personalizzati"
+                ]
+            },
+            roundTime: {
+                name: "Durata di una gara",
+                rules: [
+                    "1 minuto",
+                    "2 minuti",
+                    "3 minuti",
+                    "4 minuti",
+                    "5 minuti"
+                ]
+            },
+            com: {
+                name: "CPU",
+                rules: [
+                    "Senza CPU",
+                    "CPU facile",
+                    "CPU normale",
+                    "CPU difficile"
+                ]
+            },
+            comVehicles: {
+                name: "Veicoli CPU",
+                rules: [
+                    "Tutti i veicoli",
+                    "Solo kart",
+                    "Solo moto"
+                ]
+            },
+            courses: {
+                name: "Percorsi",
+                rules: [
+                    "A scelta",
+                    "In ordine",
+                    "Casuale"
+                ]
+            },
+            roundCount: {
+                name: "Numero di gare",
+                rules: [
+                    "4 gare",
+                    "6 gare",
+                    "8 gare",
+                    "12 gare",
+                    "16 gare",
+                    "24 gare"
+                ]
+            }
+        }
+    },
+    "nl": {
+        vsMode: {
+            modes: {
+                name: "Spelmodus",
+                rules: [
+                    "GP (50 cc)",
+                    "GP (100 cc)",
+                    "GP (150 cc)",
+                    "GP (spiegel)",
+                    "GP (200 cc)"
+                ]
+            },
+            teams: {
+                name: "Teams",
+                rules: [
+                    "Ieder voor zich",
+                    "In teams"
+                ]
+            },
+            items: {
+                name: "Voorwerpen",
+                rules: [
+                    "Normaal",
+                    "Schilden",
+                    "Bananen",
+                    "Paddenstoelen",
+                    "Bob-ombs",
+                    "Munten",
+                    "Geen voorwerpen",
+                    "Hectische stand",
+                    "Zelf instellen"
+                ]
+            },
+            com: {
+                name: "CPU",
+                rules: [
+                    "Zonder CPU",
+                    "CPU makkelijk",
+                    "CPU normaal",
+                    "CPU moeilijk"
+                ]
+            },
+            comVehicles: {
+                name: "CPU-voertuigen",
+                rules: [
+                    "Alle voertuigen",
+                    "Karts",
+                    "Motoren"
+                ]
+            },
+            courses: {
+                name: "Circuits",
+                rules: [
+                    "Naar keuze",
+                    "Op volgorde",
+                    "Willekeurig"
+                ]
+            },
+            raceCount: {
+                name: "Aantal races",
+                rules: [
+                    "4 races",
+                    "6 races",
+                    "8 races",
+                    "12 races",
+                    "16 races",
+                    "24 races",
+                    "32 races",
+                    "48 races"
+                ]
+            }
+        },
+        battleMode: {
+            modes: {
+                name: "Spelmodus",
+                rules: [
+                    "Ballongevecht",
+                    "Boevenjacht",
+                    "Bob-omb-bende",
+                    "Muntengevecht",
+                    "Zonnestrijd",
+                    "Willekeurig gevecht"
+                ]
+            },
+            teams: {
+                name: "Teams",
+                rules: [
+                    "Ieder voor zich",
+                    "In teams"
+                ]
+            },
+            items: {
+                name: "Voorwerpen",
+                rules: [
+                    "Normaal",
+                    "Hectische stand",
+                    "Ervaren",
+                    "Zelf instellen"
+                ]
+            },
+            roundTime: {
+                name: "Tijsduur per ronde",
+                rules: [
+                    "1 minuut",
+                    "2 minuten",
+                    "3 minuten",
+                    "4 minuten",
+                    "5 minuten"
+                ]
+            },
+            com: {
+                name: "CPU",
+                rules: [
+                    "Zonder CPU",
+                    "CPU makkelijk",
+                    "CPU normaal",
+                    "CPU moeilijk"
+                ]
+            },
+            comVehicles: {
+                name: "CPU-voertuigen",
+                rules: [
+                    "Alle voertuigen",
+                    "Karts",
+                    "Motoren"
+                ]
+            },
+            courses: {
+                name: "Circuits",
+                rules: [
+                    "Naar keuze",
+                    "Op volgorde",
+                    "Willekeurig"
+                ]
+            },
+            roundCount: {
+                name: "Aantal rondes",
+                rules: [
+                    "4 rondes",
+                    "6 rondes",
+                    "8 rondes",
+                    "12 rondes",
+                    "16 rondes",
+                    "24 rondes"
+                ]
+            }
+        }
+    },
+    "pt": {
+        vsMode: {
+            modes: {
+                name: "Modo de jogo",
+                rules: [
+                    "GP de 50cc",
+                    "GP de 100cc",
+                    "GP de 150cc",
+                    "GP Espelho",
+                    "GP de 200cc"
+                ]
+            },
+            teams: {
+                name: "Equipas",
+                rules: [
+                    "Sem equipas",
+                    "Por equipas"
+                ]
+            },
+            items: {
+                name: "Itens",
+                rules: [
+                    "Itens normais",
+                    "Carapaças",
+                    "Bananas",
+                    "Cogumelos",
+                    "Bob-ombas",
+                    "Apenas moedas",
+                    "Sem itens/moedas",
+                    "Itens aluciantes",
+                    "Personalizados"
+                ]
+            },
+            com: {
+                name: "Nível CPU",
+                rules: [
+                    "Sem CPU",
+                    "CPU fácil",
+                    "CPU normal",
+                    "CPU difícil"
+                ]
+            },
+            comVehicles: {
+                name: "Veículos CPU",
+                rules: [
+                    "Todos os veículos",
+                    "Apenas karts",
+                    "Apenas motas"
+                ]
+            },
+            courses: {
+                name: "Pistas",
+                rules: [
+                    "Escolher",
+                    "Por ordem",
+                    "Aleatório"
+                ]
+            },
+            raceCount: {
+                name: "N.° de Corridas",
+                rules: [
+                    "4 corridas",
+                    "6 corridas",
+                    "8 corridas",
+                    "12 corridas",
+                    "16 corridas",
+                    "24 corridas",
+                    "32 corridas",
+                    "48 corridas"
+                ]
+            }
+        },
+        battleMode: {
+            modes: {
+                name: "Modo de jogo",
+                rules: [
+                    "Batalha de Balões",
+                    "Polícia e Ladrões",
+                    "Batalha de Bob-ombas",
+                    "Batalha de Moedas",
+                    "Caça ao Sol",
+                    "Batalha Aleatória"
+                ]
+            },
+            teams: {
+                name: "Equipas",
+                rules: [
+                    "Sem equipas",
+                    "Por equipas"
+                ]
+            },
+            items: {
+                name: "Itens",
+                rules: [
+                    "Itens normais",
+                    "Itens aluciantes",
+                    "Itens táticos",
+                    "Personalizados"
+                ]
+            },
+            roundTime: {
+                name: "Duração",
+                rules: [
+                    "1 minuto",
+                    "2 minutos",
+                    "3 minutos",
+                    "4 minutos",
+                    "5 minutos"
+                ]
+            },
+            com: {
+                name: "Nível CPU",
+                rules: [
+                    "Sem CPU",
+                    "CPU fácil",
+                    "CPU normal",
+                    "CPU difícil"
+                ]
+            },
+            comVehicles: {
+                name: "Veículos CPU",
+                rules: [
+                    "Todos os veículos",
+                    "Apenas karts",
+                    "Apenas motas"
+                ]
+            },
+            courses: {
+                name: "Pistas",
+                rules: [
+                    "Escolher",
+                    "Por ordem",
+                    "Aleatório"
+                ]
+            },
+            roundCount: {
+                name: "N.° de Rondas",
+                rules: [
+                    "4 rondas",
+                    "6 rondas",
+                    "8 rondas",
+                    "12 rondas",
+                    "16 rondas",
+                    "24 rondas"
+                ]
+            }
+        }
+    },
+    "pt-BR": {
+        vsMode: {
+            modes: {
+                name: "Modo de jogo",
+                rules: [
+                    "GP de 50cc",
+                    "GP de 100cc",
+                    "GP de 150cc",
+                    "GP Espelho",
+                    "GP de 200cc"
+                ]
+            },
+            teams: {
+                name: "Equipas",
+                rules: [
+                    "Sem equipas",
+                    "Por equipas"
+                ]
+            },
+            items: {
+                name: "Itens",
+                rules: [
+                    "Itens normais",
+                    "Carapaças",
+                    "Bananas",
+                    "Cogumelos",
+                    "Bob-ombas",
+                    "Apenas moedas",
+                    "Sem itens/moedas",
+                    "Itens aluciantes",
+                    "Personalizados"
+                ]
+            },
+            com: {
+                name: "Nível CPU",
+                rules: [
+                    "Sem CPU",
+                    "CPU fácil",
+                    "CPU normal",
+                    "CPU difícil"
+                ]
+            },
+            comVehicles: {
+                name: "Veículos CPU",
+                rules: [
+                    "Todos os veículos",
+                    "Apenas karts",
+                    "Apenas motas"
+                ]
+            },
+            courses: {
+                name: "Pistas",
+                rules: [
+                    "Escolher",
+                    "Por ordem",
+                    "Aleatório"
+                ]
+            },
+            raceCount: {
+                name: "N.° de Corridas",
+                rules: [
+                    "4 corridas",
+                    "6 corridas",
+                    "8 corridas",
+                    "12 corridas",
+                    "16 corridas",
+                    "24 corridas",
+                    "32 corridas",
+                    "48 corridas"
+                ]
+            }
+        },
+        battleMode: {
+            modes: {
+                name: "Modo de jogo",
+                rules: [
+                    "Batalha de Balões",
+                    "Polícia e Ladrões",
+                    "Batalha de Bob-ombas",
+                    "Batalha de Moedas",
+                    "Caça ao Sol",
+                    "Batalha Aleatória"
+                ]
+            },
+            teams: {
+                name: "Equipas",
+                rules: [
+                    "Sem equipas",
+                    "Por equipas"
+                ]
+            },
+            items: {
+                name: "Itens",
+                rules: [
+                    "Itens normais",
+                    "Itens aluciantes",
+                    "Itens táticos",
+                    "Personalizados"
+                ]
+            },
+            roundTime: {
+                name: "Duração",
+                rules: [
+                    "1 minuto",
+                    "2 minutos",
+                    "3 minutos",
+                    "4 minutos",
+                    "5 minutos"
+                ]
+            },
+            com: {
+                name: "Nível CPU",
+                rules: [
+                    "Sem CPU",
+                    "CPU fácil",
+                    "CPU normal",
+                    "CPU difícil"
+                ]
+            },
+            comVehicles: {
+                name: "Veículos CPU",
+                rules: [
+                    "Todos os veículos",
+                    "Apenas karts",
+                    "Apenas motas"
+                ]
+            },
+            courses: {
+                name: "Pistas",
+                rules: [
+                    "Escolher",
+                    "Por ordem",
+                    "Aleatório"
+                ]
+            },
+            roundCount: {
+                name: "N.° de Rondas",
+                rules: [
+                    "4 rondas",
+                    "6 rondas",
+                    "8 rondas",
+                    "12 rondas",
+                    "16 rondas",
+                    "24 rondas"
+                ]
+            }
+        }
+    },
+    "es-HA": {
+        vsMode: {
+            modes: {
+                name: "Modo de juego",
+                rules: [
+                    "Carrera de 50cc",
+                    "Carrera de 100cc",
+                    "Carrera de 150cc",
+                    "Carrera espejo",
+                    "Carrera de 200cc"
+                ]
+            },
+            teams: {
+                name: "Equipos",
+                rules: [
+                    "Sin equipos",
+                    "Por equipos"
+                ]
+            },
+            items: {
+                name: "Objetos",
+                rules: [
+                    "Normales",
+                    "Carapazones",
+                    "Plátanos",
+                    "Champiñones",
+                    "Bob-ombas",
+                    "Monedas",
+                    "Sin objeos",
+                    "Potentes",
+                    "Personalizados"
+                ]
+            },
+            com: {
+                name: "Nivel CPU",
+                rules: [
+                    "Sin CPU",
+                    "CPU fácil",
+                    "CPU normal",
+                    "CPU difícil"
+                ]
+            },
+            comVehicles: {
+                name: "Vehículos CPU",
+                rules: [
+                    "Todos los vehículos",
+                    "Karts",
+                    "Motos"
+                ]
+            },
+            courses: {
+                name: "Pistas",
+                rules: [
+                    "Elegir",
+                    "Por orden",
+                    "Aleatorio"
+                ]
+            },
+            raceCount: {
+                name: "Carreras",
+                rules: [
+                    "4 carreras",
+                    "6 carreras",
+                    "8 carreras",
+                    "12 carreras",
+                    "16 carreras",
+                    "24 carreras",
+                    "32 carreras",
+                    "48 carreras"
+                ]
+            }
+        },
+        battleMode: {
+            modes: {
+                name: "Modo de juego",
+                rules: [
+                    "Batalla de globos",
+                    "Patrulla Piraña",
+                    "Bob-ombardeo",
+                    "Batalla de monedas",
+                    "Asalto al sol",
+                    "Batalla aleatoria"
+                ]
+            },
+            teams: {
+                name: "Equipos",
+                rules: [
+                    "Sin equipos",
+                    "Por equipos"
+                ]
+            },
+            items: {
+                name: "Objets",
+                rules: [
+                    "Normales",
+                    "Potentes",
+                    "Tácticos",
+                    "Personalizados"
+                ]
+            },
+            roundTime: {
+                name: "Duración de las rondas",
+                rules: [
+                    "1 minuto",
+                    "2 minutos",
+                    "3 minutos",
+                    "4 minutos",
+                    "5 minutos"
+                ]
+            },
+            com: {
+                name: "Nivel CPU",
+                rules: [
+                    "Sin CPU",
+                    "CPU fácil",
+                    "CPU normal",
+                    "CPU difícil"
+                ]
+            },
+            comVehicles: {
+                name: "Vehículos CPU",
+                rules: [
+                    "Todos los vehículos",
+                    "Karts",
+                    "Motos"
+                ]
+            },
+            courses: {
+                name: "Circuitos",
+                rules: [
+                    "Elegir",
+                    "Por orden",
+                    "Aleatorio"
+                ]
+            },
+            roundCount: {
+                name: "Runden",
+                rules: [
+                    "4 rondas",
+                    "6 rondas",
+                    "8 rondas",
+                    "12 rondas",
+                    "16 rondas",
+                    "24 rondas"
+                ]
+            }
+        }
+    },
 }
 
 export default gameRules

@@ -388,16 +388,16 @@ let translatedTextContent = {
         3: "VS Race", // AnglaisAméricain
         4: "Versus-Rennen", // Allemand
         5: "Carrera VS.", // Espagnole
-        6: "", // Italien
-        7: "", // Néerlandais
-        8: "", // Portugais
+        6: "Corsa sfida", // Italien
+        7: "Versusrace", // Néerlandais
+        8: "Corrida VS", // Portugais
         9: "", // Russe
         10: "", // Japonais
         11: "", // Coréen
         12: "", // ChinoisSimplifié
         13: "", // ChinoisTraditionnel
-        14: "", // espagnol ha
-        15: "" // portugais brzzil
+        14: "Carrera vs.", // espagnol ha
+        15: "Corrida VS" // portugais brzzil
     },
     bataille: {
         0: "Bataille", // Français
@@ -406,16 +406,16 @@ let translatedTextContent = {
         3: "Battle", // AnglaisAméricain
         4: "Schlacht", // Allemand
         5: "Batalla", // Espagnole
-        6: "", // Italien
-        7: "", // Néerlandais
-        8: "", // Portugais
+        6: "Battaglia", // Italien
+        7: "Gevecht", // Néerlandais
+        8: "Batalha", // Portugais
         9: "", // Russe
         10: "", // Japonais
         11: "", // Coréen
         12: "", // ChinoisSimplifié
         13: "", // ChinoisTraditionnel
-        14: "",
-        15: ""
+        14: "Batalla",
+        15: "Batalha"
     }
 };
 
