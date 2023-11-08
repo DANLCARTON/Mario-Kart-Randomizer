@@ -442,6 +442,154 @@ const gameRules = {
                 ]
             }
         }
+    },
+    "en-US": {
+        vsMode: {
+            modes: {
+                name: "Mode",
+                rules: [
+                    "50cc Race",
+                    "100cc Race",
+                    "150cc Race",
+                    "Mirror Race",
+                    "200cc Race"
+                ]
+            },
+            teams: {
+                name: "Teams",
+                rules: [
+                    "No Teams",
+                    "Team Game"
+                ]
+            },
+            items: {
+                name: "Items",
+                rules: [
+                    "Normal Items",
+                    "Shells Only",
+                    "Bananas Only",
+                    "Mushrooms Only",
+                    "Bob-ombs Only",
+                    "No Items",
+                    "No Items or Coins",
+                    "Frantic Items",
+                    "Custom Items"
+                ]
+            },
+            com: {
+                name: "COM",
+                rules: [
+                    "No COM",
+                    "Easy COM",
+                    "Normal COM",
+                    "Hard COM"
+                ]
+            },
+            comVehicles: {
+                name: "COM Vehicles",
+                rules: [
+                    "All Vehicles",
+                    "Karts Only",
+                    "Bikes Only"
+                ]
+            },
+            courses: {
+                name: "Courses",
+                rules: [
+                    "Choose",
+                    "In Order",
+                    "Random"
+                ]
+            },
+            raceCount: {
+                name: "Races",
+                rules: [
+                    "4 Races",
+                    "6 Races",
+                    "8 Races",
+                    "12 Races",
+                    "16 Races",
+                    "24 Races",
+                    "32 Races",
+                    "48 Races"
+                ]
+            }
+        },
+        battleMode: {
+            modes: {
+                name: "Mode",
+                rules: [
+                    "Balloon Battle",
+                    "Renegade Roundup",
+                    "Bob-omb Blast",
+                    "Coin Runners",
+                    "Shine Thief",
+                    "Random Battle"
+                ]
+            },
+            teams: {
+                name: "Teams",
+                rules: [
+                    "No Teams",
+                    "Team Game"
+                ]
+            },
+            items: {
+                name: "Objets",
+                rules: [
+                    "Normal Items",
+                    "Frantic Items",
+                    "Skilled Items",
+                    "Custom Items"
+                ]
+            },
+            roundTime: {
+                name: "Round Length",
+                rules: [
+                    "1 Minute",
+                    "2 Minutes",
+                    "3 Minutes",
+                    "4 Minutes",
+                    "5 Minutes"
+                ]
+            },
+            com: {
+                name: "COM",
+                rules: [
+                    "No COM",
+                    "Easy COM",
+                    "Normal COM",
+                    "Hard COM"
+                ]
+            },
+            comVehicles: {
+                name: "COM Vehicles",
+                rules: [
+                    "All Vehicles",
+                    "Karts Only",
+                    "Bikes Only"
+                ]
+            },
+            courses: {
+                name: "Courses",
+                rules: [
+                    "Choose",
+                    "In Order",
+                    "Random"
+                ]
+            },
+            roundCount: {
+                name: "Rounds",
+                rules: [
+                    "4 Rounds",
+                    "6 Rounds",
+                    "8 Rounds",
+                    "12 Rounds",
+                    "16 Rounds",
+                    "24 Rounds"
+                ]
+            }
+        }
     }
 }
 
