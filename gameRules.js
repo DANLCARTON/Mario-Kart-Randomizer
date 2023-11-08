@@ -241,7 +241,7 @@ const gameRules = {
             items: {
                 name: "Objets",
                 rules: [
-                    "Normauw",
+                    "Normaux",
                     "Explosifs",
                     "Tactiques",
                     "Mode personnalisé"
@@ -291,6 +291,154 @@ const gameRules = {
                     "12 manches",
                     "16 manches",
                     "24 manches"
+                ]
+            }
+        }
+    },
+    "en": {
+        vsMode: {
+            modes: {
+                name: "Mode",
+                rules: [
+                    "50cc Grand Prix",
+                    "100cc Grand Prix",
+                    "150cc Grand Prix",
+                    "Mirror Grand Prix",
+                    "200cc Grand Prix"
+                ]
+            },
+            teams: {
+                name: "Teams",
+                rules: [
+                    "No Teams",
+                    "Team Game"
+                ]
+            },
+            items: {
+                name: "Items",
+                rules: [
+                    "Normal Items",
+                    "Shells Only",
+                    "Bananas Only",
+                    "Mushrooms Only",
+                    "Bob-ombs Only",
+                    "No Items",
+                    "No Items or Coins",
+                    "Frantic Items",
+                    "Custom Items"
+                ]
+            },
+            com: {
+                name: "CPU",
+                rules: [
+                    "No CPU",
+                    "Easy CPU",
+                    "Normal CPU",
+                    "Hard CPU"
+                ]
+            },
+            comVehicles: {
+                name: "CPU Vehicles",
+                rules: [
+                    "All Vehicles",
+                    "Karts Only",
+                    "Bikes Only"
+                ]
+            },
+            courses: {
+                name: "Courses",
+                rules: [
+                    "Choose",
+                    "In Order",
+                    "Random"
+                ]
+            },
+            raceCount: {
+                name: "Races",
+                rules: [
+                    "4 Races",
+                    "6 Races",
+                    "8 Races",
+                    "12 Races",
+                    "16 Races",
+                    "24 Races",
+                    "32 Races",
+                    "48 Races"
+                ]
+            }
+        },
+        battleMode: {
+            modes: {
+                name: "Mode",
+                rules: [
+                    "Balloon Battle",
+                    "Renegade Roundup",
+                    "Bob-omb Blast",
+                    "Coin Runners",
+                    "Shine Thief",
+                    "Random Battle"
+                ]
+            },
+            teams: {
+                name: "Teams",
+                rules: [
+                    "No Teams",
+                    "Team Game"
+                ]
+            },
+            items: {
+                name: "Objets",
+                rules: [
+                    "Normal Items",
+                    "Frantic Items",
+                    "Skilled Items",
+                    "Custom Items"
+                ]
+            },
+            roundTime: {
+                name: "Round Length",
+                rules: [
+                    "1 Minute",
+                    "2 Minutes",
+                    "3 Minutes",
+                    "4 Minutes",
+                    "5 Minutes"
+                ]
+            },
+            com: {
+                name: "CPU",
+                rules: [
+                    "No CPU",
+                    "Easy CPU",
+                    "Normal CPU",
+                    "Hard CPU"
+                ]
+            },
+            comVehicles: {
+                name: "CPU Vehicles",
+                rules: [
+                    "All Vehicles",
+                    "Karts Only",
+                    "Bikes Only"
+                ]
+            },
+            courses: {
+                name: "Courses",
+                rules: [
+                    "Choose",
+                    "In Order",
+                    "Random"
+                ]
+            },
+            roundCount: {
+                name: "Rounds",
+                rules: [
+                    "4 Rounds",
+                    "6 Rounds",
+                    "8 Rounds",
+                    "12 Rounds",
+                    "16 Rounds",
+                    "24 Rounds"
                 ]
             }
         }
