@@ -590,6 +590,302 @@ const gameRules = {
                 ]
             }
         }
+    },
+    "de": {
+        vsMode: {
+            modes: {
+                name: "Spielmodus",
+                rules: [
+                    "GP (50 ccm)",
+                    "GP (100 ccm)",
+                    "GP (150 ccm)",
+                    "GP (gespiegelt)",
+                    "GP (200 ccm)"
+                ]
+            },
+            teams: {
+                name: "Teams",
+                rules: [
+                    "Ohne Teams",
+                    "Mit Teams"
+                ]
+            },
+            items: {
+                name: "Items",
+                rules: [
+                    "Standard",
+                    "Panzer",
+                    "Bananen",
+                    "Pilze",
+                    "Bob-ombs",
+                    "Nur Münzen",
+                    "Ohne Items/Münzen",
+                    "Furios",
+                    "Individuell"
+                ]
+            },
+            com: {
+                name: "COM",
+                rules: [
+                    "Ohne COM",
+                    "COM leicht",
+                    "COM normal",
+                    "COM schwierig"
+                ]
+            },
+            comVehicles: {
+                name: "COM-Fahrzeuge",
+                rules: [
+                    "Alle Fahrzeuge",
+                    "Nur Karts",
+                    "Nur Bikes"
+                ]
+            },
+            courses: {
+                name: "Strecke",
+                rules: [
+                    "Auswahl",
+                    "Der Reihe nach",
+                    "Zufällig"
+                ]
+            },
+            raceCount: {
+                name: "Rennen",
+                rules: [
+                    "4 Rennen",
+                    "6 Rennen",
+                    "8 Rennen",
+                    "12 Rennen",
+                    "16 Rennen",
+                    "24 Rennen",
+                    "32 Rennen",
+                    "48 Rennen"
+                ]
+            }
+        },
+        battleMode: {
+            modes: {
+                name: "Spielmodus",
+                rules: [
+                    "Ballonschlacht",
+                    "Räuber und Gendarm",
+                    "Bob-omb-Wurf",
+                    "Münzenjäger",
+                    "Insignien-Diebstahl",
+                    "Zufallsschlacht"
+                ]
+            },
+            teams: {
+                name: "Teams",
+                rules: [
+                    "Ohne Teams",
+                    "Mit Teams"
+                ]
+            },
+            items: {
+                name: "Objets",
+                rules: [
+                    "Standard",
+                    "Furios",
+                    "Dezent",
+                    "Individuell"
+                ]
+            },
+            roundTime: {
+                name: "Rundendauer",
+                rules: [
+                    "1 Minute",
+                    "2 Minuten",
+                    "3 Minuten",
+                    "4 Minuten",
+                    "5 Minuten"
+                ]
+            },
+            com: {
+                name: "COM",
+                rules: [
+                    "Ohne COM",
+                    "COM leicht",
+                    "COM normal",
+                    "COM schwierig"
+                ]
+            },
+            comVehicles: {
+                name: "COM-Fahrzeuge",
+                rules: [
+                    "Alle Fahrzeuge",
+                    "Nur Karts",
+                    "Nur Bikes"
+                ]
+            },
+            courses: {
+                name: "Strecke",
+                rules: [
+                    "Auswahl",
+                    "Der Reihe nach",
+                    "Zufällig"
+                ]
+            },
+            roundCount: {
+                name: "Runden",
+                rules: [
+                    "4 Runden",
+                    "6 Runden",
+                    "8 Runden",
+                    "12 Runden",
+                    "16 Runden",
+                    "24 Runden"
+                ]
+            }
+        }
+    },
+    "de": {
+        vsMode: {
+            modes: {
+                name: "Spielmodus",
+                rules: [
+                    "GP (50 ccm)",
+                    "GP (100 ccm)",
+                    "GP (150 ccm)",
+                    "GP (gespiegelt)",
+                    "GP (200 ccm)"
+                ]
+            },
+            teams: {
+                name: "Teams",
+                rules: [
+                    "Ohne Teams",
+                    "Mit Teams"
+                ]
+            },
+            items: {
+                name: "Items",
+                rules: [
+                    "Standard",
+                    "Panzer",
+                    "Bananen",
+                    "Pilze",
+                    "Bob-ombs",
+                    "Nur Münzen",
+                    "Ohne Items/Münzen",
+                    "Furios",
+                    "Individuell"
+                ]
+            },
+            com: {
+                name: "COM",
+                rules: [
+                    "Ohne COM",
+                    "COM leicht",
+                    "COM normal",
+                    "COM schwierig"
+                ]
+            },
+            comVehicles: {
+                name: "COM-Fahrzeuge",
+                rules: [
+                    "Alle Fahrzeuge",
+                    "Nur Karts",
+                    "Nur Bikes"
+                ]
+            },
+            courses: {
+                name: "Strecke",
+                rules: [
+                    "Auswahl",
+                    "Der Reihe nach",
+                    "Zufällig"
+                ]
+            },
+            raceCount: {
+                name: "Rennen",
+                rules: [
+                    "4 Rennen",
+                    "6 Rennen",
+                    "8 Rennen",
+                    "12 Rennen",
+                    "16 Rennen",
+                    "24 Rennen",
+                    "32 Rennen",
+                    "48 Rennen"
+                ]
+            }
+        },
+        battleMode: {
+            modes: {
+                name: "Spielmodus",
+                rules: [
+                    "Ballonschlacht",
+                    "Räuber und Gendarm",
+                    "Bob-omb-Wurf",
+                    "Münzenjäger",
+                    "Insignien-Diebstahl",
+                    "Zufallsschlacht"
+                ]
+            },
+            teams: {
+                name: "Teams",
+                rules: [
+                    "Ohne Teams",
+                    "Mit Teams"
+                ]
+            },
+            items: {
+                name: "Objets",
+                rules: [
+                    "Standard",
+                    "Furios",
+                    "Dezent",
+                    "Individuell"
+                ]
+            },
+            roundTime: {
+                name: "Rundendauer",
+                rules: [
+                    "1 Minute",
+                    "2 Minuten",
+                    "3 Minuten",
+                    "4 Minuten",
+                    "5 Minuten"
+                ]
+            },
+            com: {
+                name: "COM",
+                rules: [
+                    "Ohne COM",
+                    "COM leicht",
+                    "COM normal",
+                    "COM schwierig"
+                ]
+            },
+            comVehicles: {
+                name: "COM-Fahrzeuge",
+                rules: [
+                    "Alle Fahrzeuge",
+                    "Nur Karts",
+                    "Nur Bikes"
+                ]
+            },
+            courses: {
+                name: "Strecke",
+                rules: [
+                    "Auswahl",
+                    "Der Reihe nach",
+                    "Zufällig"
+                ]
+            },
+            roundCount: {
+                name: "Runden",
+                rules: [
+                    "4 Runden",
+                    "6 Runden",
+                    "8 Runden",
+                    "12 Runden",
+                    "16 Runden",
+                    "24 Runden"
+                ]
+            }
+        }
     }
 }
 
