@@ -16,6 +16,7 @@ include "fonctionsPhp/vues.php";
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gameRules.css" />
     <link rel="icon" href="./img/personnages/Mario.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Mario Kart 8 Randomizer </title>
@@ -86,6 +87,47 @@ include "fonctionsPhp/vues.php";
             </article>
 
             <?php history() ?>
+
+        </section>
+
+        <hr>
+
+        <section id="reglesAleatoires">
+
+            <h2 class="gameRules">Règles de jeu aléatoires</h2>
+
+            <h3 class="gameRulesSubtitle modeCourseVS">Mode Course VS</h3>
+
+            <button href='#' onlick='return false' class='generate' id="rollRulesVSMode">Générer</button>
+
+            <div>
+                <div class="rules">
+                    <p class="ruleTitle vsModeMode"></p>       <p class="ruleRule selectedVsModeMode"></p>
+                    <p class="ruleTitle vsModeTeams"></p>      <p class="ruleRule selectedVsModeTeams"></p>
+                    <p class="ruleTitle vsModeItems"></p>      <p class="ruleRule selectedVsModeItems"></p>
+                    <p class="ruleTitle vsModeCom"></p>        <p class="ruleRule selectedVsModeCom"></p>
+                    <p class="ruleTitle vsModeComVehicles"></p><p class="ruleRule selectedVsModeComVehicles"></p>
+                    <p class="ruleTitle vsModeCourses"></p>    <p class="ruleRule selectedVsModeCourses"></p>
+                    <p class="ruleTitle vsModeRaceCount"></p>  <p class="ruleRule selectedVsModeRaceCount"></p>
+                </div>
+            </div>
+
+            <h3 class="gameRulesSubtitle modeBataille">Mode Bataille</h3>
+
+            <button href='#' onlick='return false' class='generate' id="rollRulesBattleMode">Générer</button>
+
+            <div class="rules">
+                <p class="ruleTitle battleModeMode"></p>       <p class="ruleRule selectedBattleModeMode"></p>
+                <p class="ruleTitle battleModeTeams"></p>      <p class="ruleRule selectedBattleModeTeams"></p>
+                <p class="ruleTitle battleModeItems"></p>      <p class="ruleRule selectedBattleModeItems"></p>
+                <p class="ruleTitle battleModeRoundTime"></p>  <p class="ruleRule selectedBattleModeRoundTime"></p>
+                <p class="ruleTitle battleModeCom"></p>        <p class="ruleRule selectedBattleModeCom"></p>
+                <p class="ruleTitle battleModeComVehicles"></p><p class="ruleRule selectedBattleModeComVehicles"></p>
+                <p class="ruleTitle battleModeCourses"></p>    <p class="ruleRule selectedBattleModeCourses"></p>
+                <p class="ruleTitle battleModeRoundCount"></p> <p class="ruleRule selectedBattleModeRoundCount"></p>
+            </div>
+
+            
 
         </section>
 
@@ -180,6 +222,8 @@ include "fonctionsPhp/vues.php";
     <script type="module" src="themes.js"></script>
     <script type="module" src="textContent.js"></script>
     <script type="module" src="translatedTextContent.js"></script>
+    <script type="module" src="gameRules.js"></script>
+    <script type="module" src="gameRulesManager.js"></script>
     <img src="./img/icons/td.jpg" id="ee" alt="Easter Egg">
     
     <footer>

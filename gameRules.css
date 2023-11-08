@@ -1,0 +1,162 @@
+.gameRulesSubtitle {
+    font-size: 24px;
+}
+
+
+/* ALED */
+
+.vsModeMode {
+    grid-area: a;
+}
+
+.selectedVsModeMode {
+    grid-area: b
+}
+
+.vsModeTeams {
+    grid-area: c;
+}
+
+.selectedVsModeTeams {
+    grid-area: d;
+}
+
+.vsModeItems {
+    grid-area: e
+}
+
+.selectedVsModeItems {
+    grid-area: f
+}
+
+.vsModeCom {
+    grid-area: g
+}
+
+.selectedVsModeCom {
+    grid-area: h
+}
+
+.vsModeComVehicles {
+    grid-area: i
+}
+
+.selectedVsModeComVehicles {
+    grid-area: j
+}
+
+.vsModeCourses {
+    grid-area: k
+}
+
+.selectedVsModeCourses {
+    grid-area: l
+}
+
+.vsModeRaceCount {
+    grid-area: m
+}
+
+.selectedVsModeRaceCount {
+    grid-area: n
+}
+
+.battleModeMode {
+    grid-area: a;
+}
+
+.selectedBattleModeMode {
+    grid-area: b
+}
+
+.battleModeTeams {
+    grid-area: c;
+}
+
+.selectedBattleModeTeams {
+    grid-area: d;
+}
+
+.battleModeItems {
+    grid-area: e
+}
+
+.selectedBattleModeItems {
+    grid-area: f
+}
+
+.battleModeRoundTime {
+    grid-area: g
+}
+
+.selectedBattleModeRoundTime {
+    grid-area: h
+}
+
+.battleModeCom {
+    grid-area: i
+}
+
+.selectedBattleModeCom {
+    grid-area: j
+}
+
+.battleModeComVehicles {
+    grid-area: k
+}
+
+.selectedBattleModeComVehicles {
+    grid-area: l
+}
+
+.battleModeCourses {
+    grid-area: m
+}
+
+.selectedBattleModeCourses {
+    grid-area: n
+}
+
+.battleModeRoundCount {
+    grid-area: o
+}
+
+.selectedBattleModeRoundCount {
+    grid-area: p
+}
+
+
+/* FIN ALED */
+
+.rules {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "a b i j" "c d k l" "e f m n" "g h o p";
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.rules p {
+    padding: 5px;
+}
+
+.ruleTitle {
+    text-align: right;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+}
+
+.ruleRule {
+    text-align: left;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+.ruleRule:hover {
+    background-color: #ffffff50;
+    box-shadow: 0 0 10px 0 #ffffffff;
+    transform: scale(105%);
+    border-radius: 10px;
+}
