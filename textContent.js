@@ -108,4 +108,10 @@ window.addEventListener("load", () => {
 
     let allowAmiibo = [...document.getElementsByClassName("allowAmiibo")];
     allowAmiibo.map(div => div.textContent = translatedTextContent.allowAmiibo[lang]);
+
+    let courseVS = [...document.getElementsByClassName("courseVS")];
+    courseVS.map(div => div.textContent = translatedTextContent.courseVS[lang]);
+
+    let bataille = [...document.getElementsByClassName("bataille")];
+    bataille.map(div => div.textContent = translatedTextContent.bataille[lang]);
 })

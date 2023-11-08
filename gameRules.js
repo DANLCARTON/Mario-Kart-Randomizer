@@ -79,6 +79,7 @@ const gameRules = {
                     "Traque sur la piste",
                     "Bob-ombs à gogo",
                     "Bataille de pièces",
+                    "Capture de soleil",
                     "Bataille aléatoire"
                 ]
             },
@@ -119,6 +120,154 @@ const gameRules = {
             },
             comVehicles: {
                 name: "Véhicules IA",
+                rules: [
+                    "Tous les véhicules",
+                    "Karts",
+                    "Motos"
+                ]
+            },
+            courses: {
+                name: "Circuits",
+                rules: [
+                    "Au choix",
+                    "Dans l'ordre",
+                    "Aléatoire"
+                ]
+            },
+            roundCount: {
+                name: "Nombre de manches",
+                rules: [
+                    "4 manches",
+                    "6 manches",
+                    "8 manches",
+                    "12 manches",
+                    "16 manches",
+                    "24 manches"
+                ]
+            }
+        }
+    },
+    "fr-CA": {
+        vsMode: {
+            modes: {
+                name: "Mode",
+                rules: [
+                    "Course 50cc",
+                    "Course 100cc",
+                    "Course 150cc",
+                    "Course Miroir",
+                    "Course 200cc"
+                ]
+            },
+            teams: {
+                name: "Équipes",
+                rules: [
+                    "Chacun pour soi",
+                    "En équipes"
+                ]
+            },
+            items: {
+                name: "Objets",
+                rules: [
+                    "Normaux",
+                    "Carapaces",
+                    "Bananes",
+                    "Champignons",
+                    "Bob-ombs",
+                    "Sans objets",
+                    "Ni objets ni pièces",
+                    "Explosifs",
+                    "Mode personnalisé"
+                ]
+            },
+            com: {
+                name: "ORDI",
+                rules: [
+                    "Sans ORDI",
+                    "ORDI facile",
+                    "ORDI normal",
+                    "ORDI difficile"
+                ]
+            },
+            comVehicles: {
+                name: "Véhicules ORDI",
+                rules: [
+                    "Tous les véhicules",
+                    "Karts",
+                    "Motos"
+                ]
+            },
+            courses: {
+                name: "Circuits",
+                rules: [
+                    "Au choix",
+                    "Dans l'ordre",
+                    "Aléatoire"
+                ]
+            },
+            raceCount: {
+                name: "Nombre de courses",
+                rules: [
+                    "4 courses",
+                    "6 courses",
+                    "8 courses",
+                    "12 courses",
+                    "16 courses",
+                    "24 courses",
+                    "32 courses",
+                    "48 courses"
+                ]
+            }
+        },
+        battleMode: {
+            modes: {
+                name: "Mode",
+                rules: [
+                    "Bataille de ballons",
+                    "Traque sur la piste",
+                    "Bob-ombs à gogo",
+                    "Bataille de pièces",
+                    "Capture de soleil",
+                    "Bataille aléatoire"
+                ]
+            },
+            teams: {
+                name: "Équipes",
+                rules: [
+                    "Chacun pour soi",
+                    "En équipes"
+                ]
+            },
+            items: {
+                name: "Objets",
+                rules: [
+                    "Normauw",
+                    "Explosifs",
+                    "Tactiques",
+                    "Mode personnalisé"
+                ]
+            },
+            roundTime: {
+                name: "Durée d'une manche",
+                rules: [
+                    "1 minute",
+                    "2 minutes",
+                    "3 minutes",
+                    "4 minutes",
+                    "5 minutes"
+                ]
+            },
+            com: {
+                name: "ORDI",
+                rules: [
+                    "Sans ORDI",
+                    "ORDI facile",
+                    "ORDI normal",
+                    "ORDI difficile"
+                ]
+            },
+            comVehicles: {
+                name: "Véhicules ORDI",
                 rules: [
                     "Tous les véhicules",
                     "Karts",

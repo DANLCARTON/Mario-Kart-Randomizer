@@ -96,7 +96,7 @@ include "fonctionsPhp/vues.php";
 
             <h2 class="gameRules">Règles de jeu aléatoires</h2>
 
-            <h3 class="gameRulesSubtitle modeCourseVS">Mode Course VS</h3>
+            <h3 class="gameRulesSubtitle courseVS">Course VS</h3>
 
             <button href='#' onlick='return false' class='generate' id="rollRulesVSMode">Générer</button>
 
@@ -112,7 +112,7 @@ include "fonctionsPhp/vues.php";
                 </div>
             </div>
 
-            <h3 class="gameRulesSubtitle modeBataille">Mode Bataille</h3>
+            <h3 class="gameRulesSubtitle bataille">Bataille</h3>
 
             <button href='#' onlick='return false' class='generate' id="rollRulesBattleMode">Générer</button>
 

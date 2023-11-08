@@ -380,6 +380,42 @@ let translatedTextContent = {
         13: "授權 Amiibo Mii 服飾",
         14: "Autorizar los trajes Mii Amiibo",
         15: "Autorizar fatos Mii Amiibo",
+    },
+    courseVS: {
+        0: "Course VS", // Français
+        1: "Course c.", // FrançaisQuébécois
+        2: "", // Anglais
+        3: "", // AnglaisAméricain
+        4: "", // Allemand
+        5: "", // Espagnole
+        6: "", // Italien
+        7: "", // Néerlandais
+        8: "", // Portugais
+        9: "", // Russe
+        10: "", // Japonais
+        11: "", // Coréen
+        12: "", // ChinoisSimplifié
+        13: "", // ChinoisTraditionnel
+        14: "", // espagnol ha
+        15: "" // portugais brzzil
+    },
+    bataille: {
+        0: "Bataille", // Français
+        1: "Bataille", // FrançaisQuébécois
+        2: "", // Anglais
+        3: "", // AnglaisAméricain
+        4: "", // Allemand
+        5: "", // Espagnole
+        6: "", // Italien
+        7: "", // Néerlandais
+        8: "", // Portugais
+        9: "", // Russe
+        10: "", // Japonais
+        11: "", // Coréen
+        12: "", // ChinoisSimplifié
+        13: "", // ChinoisTraditionnel
+        14: "",
+        15: ""
     }
 };
 
