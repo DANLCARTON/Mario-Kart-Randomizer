@@ -133,7 +133,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: "a b i j" "c d k l" "e f m n" "g h o p";
-    max-width: 800px;
+    max-width: 840px;
     margin: 10px auto;
 }
 

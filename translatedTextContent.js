@@ -387,7 +387,7 @@ let translatedTextContent = {
         2: "VS Race", // Anglais
         3: "VS Race", // AnglaisAméricain
         4: "Versus-Rennen", // Allemand
-        5: "", // Espagnole
+        5: "Carrera VS.", // Espagnole
         6: "", // Italien
         7: "", // Néerlandais
         8: "", // Portugais
@@ -405,7 +405,7 @@ let translatedTextContent = {
         2: "Battle", // Anglais
         3: "Battle", // AnglaisAméricain
         4: "Schlacht", // Allemand
-        5: "", // Espagnole
+        5: "Batalla", // Espagnole
         6: "", // Italien
         7: "", // Néerlandais
         8: "", // Portugais

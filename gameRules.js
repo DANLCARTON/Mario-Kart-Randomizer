@@ -739,150 +739,150 @@ const gameRules = {
             }
         }
     },
-    "de": {
+    "es": {
         vsMode: {
             modes: {
-                name: "Spielmodus",
+                name: "Modo de juego",
                 rules: [
-                    "GP (50 ccm)",
-                    "GP (100 ccm)",
-                    "GP (150 ccm)",
-                    "GP (gespiegelt)",
-                    "GP (200 ccm)"
+                    "GP de 50cc",
+                    "GP de 100cc",
+                    "GP de 150cc",
+                    "GP espejo",
+                    "GP de 200cc"
                 ]
             },
             teams: {
-                name: "Teams",
+                name: "Equipos",
                 rules: [
-                    "Ohne Teams",
-                    "Mit Teams"
+                    "Sin equipos",
+                    "Por equipos"
                 ]
             },
             items: {
-                name: "Items",
+                name: "Objetos",
                 rules: [
-                    "Standard",
-                    "Panzer",
-                    "Bananen",
-                    "Pilze",
+                    "Objetos normales",
+                    "Carapazones",
+                    "Plátanos",
+                    "Champiñones",
                     "Bob-ombs",
-                    "Nur Münzen",
-                    "Ohne Items/Münzen",
-                    "Furios",
-                    "Individuell"
+                    "Monedas",
+                    "Sin objeos",
+                    "Objetos alocados",
+                    "Personalizados"
                 ]
             },
             com: {
-                name: "COM",
+                name: "Nivel CPU",
                 rules: [
-                    "Ohne COM",
-                    "COM leicht",
-                    "COM normal",
-                    "COM schwierig"
+                    "Sin CPU",
+                    "CPU fácil",
+                    "CPU normal",
+                    "CPU difícil"
                 ]
             },
             comVehicles: {
-                name: "COM-Fahrzeuge",
+                name: "Vehículos CPU",
                 rules: [
-                    "Alle Fahrzeuge",
-                    "Nur Karts",
-                    "Nur Bikes"
+                    "Todos los vehículos",
+                    "Karts",
+                    "Motos"
                 ]
             },
             courses: {
-                name: "Strecke",
+                name: "Circuitos",
                 rules: [
-                    "Auswahl",
-                    "Der Reihe nach",
-                    "Zufällig"
+                    "Elegir",
+                    "Por orden",
+                    "Aleatorio"
                 ]
             },
             raceCount: {
-                name: "Rennen",
+                name: "Carreras",
                 rules: [
-                    "4 Rennen",
-                    "6 Rennen",
-                    "8 Rennen",
-                    "12 Rennen",
-                    "16 Rennen",
-                    "24 Rennen",
-                    "32 Rennen",
-                    "48 Rennen"
+                    "4 carreras",
+                    "6 carreras",
+                    "8 carreras",
+                    "12 carreras",
+                    "16 carreras",
+                    "24 carreras",
+                    "32 carreras",
+                    "48 carreras"
                 ]
             }
         },
         battleMode: {
             modes: {
-                name: "Spielmodus",
+                name: "Modo de juego",
                 rules: [
-                    "Ballonschlacht",
-                    "Räuber und Gendarm",
-                    "Bob-omb-Wurf",
-                    "Münzenjäger",
-                    "Insignien-Diebstahl",
-                    "Zufallsschlacht"
+                    "Batalla de globos",
+                    "Patrulla Piraña",
+                    "Bob-ombardeo",
+                    "Batalla de monedas",
+                    "Asalto al sol",
+                    "Batalla aleatoria"
                 ]
             },
             teams: {
-                name: "Teams",
+                name: "Equipos",
                 rules: [
-                    "Ohne Teams",
-                    "Mit Teams"
+                    "Sin equipos",
+                    "Por equipos"
                 ]
             },
             items: {
                 name: "Objets",
                 rules: [
-                    "Standard",
-                    "Furios",
-                    "Dezent",
-                    "Individuell"
+                    "Objetos normales",
+                    "Objetos alocados",
+                    "Objetos tácticos",
+                    "Personalizados"
                 ]
             },
             roundTime: {
-                name: "Rundendauer",
+                name: "Duración de las rondas",
                 rules: [
-                    "1 Minute",
-                    "2 Minuten",
-                    "3 Minuten",
-                    "4 Minuten",
-                    "5 Minuten"
+                    "1 minuto",
+                    "2 minutos",
+                    "3 minutos",
+                    "4 minutos",
+                    "5 minutos"
                 ]
             },
             com: {
-                name: "COM",
+                name: "Nivel CPU",
                 rules: [
-                    "Ohne COM",
-                    "COM leicht",
-                    "COM normal",
-                    "COM schwierig"
+                    "Sin CPU",
+                    "CPU fácil",
+                    "CPU normal",
+                    "CPU difícil"
                 ]
             },
             comVehicles: {
-                name: "COM-Fahrzeuge",
+                name: "Vehículos CPU",
                 rules: [
-                    "Alle Fahrzeuge",
-                    "Nur Karts",
-                    "Nur Bikes"
+                    "Todos los vehículos",
+                    "Karts",
+                    "Motos"
                 ]
             },
             courses: {
-                name: "Strecke",
+                name: "Circuitos",
                 rules: [
-                    "Auswahl",
-                    "Der Reihe nach",
-                    "Zufällig"
+                    "Elegir",
+                    "Por orden",
+                    "Aleatorio"
                 ]
             },
             roundCount: {
                 name: "Runden",
                 rules: [
-                    "4 Runden",
-                    "6 Runden",
-                    "8 Runden",
-                    "12 Runden",
-                    "16 Runden",
-                    "24 Runden"
+                    "4 rondas",
+                    "6 rondas",
+                    "8 rondas",
+                    "12 rondas",
+                    "16 rondas",
+                    "24 rondas"
                 ]
             }
         }
