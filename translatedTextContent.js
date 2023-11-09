@@ -416,6 +416,24 @@ let translatedTextContent = {
         13: "對戰", // ChinoisTraditionnel
         14: "Batalla",
         15: "Batalha"
+    },
+    gameRules: {
+        0: "Règles de jeu aléatoire", // Français
+        1: "Règles de jeu aléatoire", // FrançaisQuébécois
+        2: "Random game rules", // Anglais
+        3: "Random game rules", // AnglaisAméricain
+        4: "Zufällige Spielregeln", // Allemand
+        5: "Reglas de juego alaetorias", // Espagnole
+        6: "Regole di gioco casuali", // Italien
+        7: "Willekeurige spelregels", // Néerlandais
+        8: "Regras de jogo aleatório", // Portugais
+        9: "Правила случайной игры", // Russe
+        10: "ランダムゲームのルール", // Japonais
+        11: "무작위 게임 규칙", // Coréen
+        12: "随机游戏规则", // ChinoisSimplifié
+        13: "隨機遊戲規則", // ChinoisTraditionnel
+        14: "Reglas de juego alaetorias",
+        15: "Batalha"
     }
 };
 

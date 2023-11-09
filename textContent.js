@@ -114,4 +114,7 @@ window.addEventListener("load", () => {
 
     let bataille = [...document.getElementsByClassName("bataille")];
     bataille.map(div => div.textContent = translatedTextContent.bataille[lang]);
+
+    let gameRules = [...document.getElementsByClassName("gameRules")];
+    gameRules.map(div => div.textContent = translatedTextContent.gameRules[lang])
 })
