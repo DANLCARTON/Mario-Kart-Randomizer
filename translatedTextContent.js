@@ -418,8 +418,8 @@ let translatedTextContent = {
         15: "Batalha"
     },
     gameRules: {
-        0: "Règles de jeu aléatoire", // Français
-        1: "Règles de jeu aléatoire", // FrançaisQuébécois
+        0: "Règles de jeu aléatoires", // Français
+        1: "Règles de jeu aléatoires", // FrançaisQuébécois
         2: "Random game rules", // Anglais
         3: "Random game rules", // AnglaisAméricain
         4: "Zufällige Spielregeln", // Allemand
