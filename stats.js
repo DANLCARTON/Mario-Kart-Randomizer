@@ -288,7 +288,7 @@ let PeachChat = {
     maniabiliteAntiGravite: 6,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 3
 };
 
 let Villageoise = {
@@ -305,7 +305,7 @@ let Villageoise = {
     maniabiliteAntiGravite: 6,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 3
 };
 
 let InklingFille = {
@@ -322,7 +322,7 @@ let InklingFille = {
     maniabiliteAntiGravite: 6,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 3
 };
 
 let Peach = {
@@ -339,7 +339,7 @@ let Peach = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 1
 };
 
 let Daisy = {
@@ -356,7 +356,7 @@ let Daisy = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 1
 };
 
 let Yoshi = {
@@ -373,7 +373,7 @@ let Yoshi = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 1
 };
 
 let MarioTanuki = {
@@ -389,8 +389,8 @@ let MarioTanuki = {
     maniabiliteAir: 5,
     maniabiliteAntiGravite: 5,
     adherence: 1,
-    miniTurbo: 3,
-    invincibility: 5
+    miniTurbo: 4,
+    invincibility: 1
 };
 
 let Villageois = {
@@ -406,8 +406,8 @@ let Villageois = {
     maniabiliteAir: 5,
     maniabiliteAntiGravite: 5,
     adherence: 1,
-    miniTurbo: 3,
-    invincibility: 5
+    miniTurbo: 4,
+    invincibility: 1
 };
 
 let InklingGarcon = {
@@ -423,8 +423,8 @@ let InklingGarcon = {
     maniabiliteAir: 5,
     maniabiliteAntiGravite: 5,
     adherence: 1,
-    miniTurbo: 3,
-    invincibility: 5
+    miniTurbo: 4,
+    invincibility: 1
 };
 
 let Mario = {
@@ -730,7 +730,7 @@ let Birdo = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 3,
-    invincibility: 5
+    invincibility: 1
 };
 
 let FloraPiranha = {
@@ -747,7 +747,7 @@ let FloraPiranha = {
     maniabiliteAntiGravite: 3,
     adherence: 1,
     miniTurbo: 1,
-    invincibility: 3
+    invincibility: 6
 };
 
 let Wiggler = {
@@ -789,70 +789,70 @@ let Kamek = {
 
 let Peachette = {
     nom: ["Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Пичетта", "キノピーチ", "키노피치", "奇诺比桃公主", "奇諾比姬公主", "Peachette", "Peachette"],
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
-    acceleration: 0,
-    poids: 0,
-    maniabilite: 0,
-    maniabiliteEau: 0,
-    maniabiliteAir: 0,
-    maniabiliteAntiGravite: 0,
-    adherence: 0,
-    miniTurbo: 0,
-    invincibility: 0
+    vitesse: 6,
+    vitesseEau: 6,
+    vitesseAir: 6,
+    vitesseAntiGravite: 6,
+    acceleration: 3,
+    poids: 4,
+    maniabilite: 5,
+    maniabiliteEau: 5,
+    maniabiliteAir: 5,
+    maniabiliteAntiGravite: 5,
+    adherence: 3,
+    miniTurbo: 4,
+    invincibility: 1
 }
 
 let DiddyKong = {
     nom: ["Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Дидди Конг", "ディディーコング", "디디콩", "迪迪刚", "狄狄剛", "Diddy Kong", "Diddy Kong"],
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
-    acceleration: 0,
-    poids: 0,
-    maniabilite: 0,
-    maniabiliteEau: 0,
-    maniabiliteAir: 0,
-    maniabiliteAntiGravite: 0,
-    adherence: 0,
-    miniTurbo: 0,
-    invincibility: 0
+    vitesse: 5,
+    vitesseEau: 5,
+    vitesseAir: 5,
+    vitesseAntiGravite: 5,
+    acceleration: 4,
+    poids: 3,
+    maniabilite: 6,
+    maniabiliteEau: 6,
+    maniabiliteAir: 6,
+    maniabiliteAntiGravite: 6,
+    adherence: 3,
+    miniTurbo: 4,
+    invincibility: 3
 }
 
 let FunkyKong = {
     nom: ["Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Фанки Конг", "ファンキーコング", "펑키 콩", "酷喜刚", "酷喜剛", "Funky Kong", "Funky Kong"],
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
+    vitesse: 10,
+    vitesseEau: 10,
+    vitesseAir: 10,
+    vitesseAntiGravite: 10,
     acceleration: 0,
-    poids: 0,
-    maniabilite: 0,
-    maniabiliteEau: 0,
-    maniabiliteAir: 0,
-    maniabiliteAntiGravite: 0,
-    adherence: 0,
+    poids: 9,
+    maniabilite: 1,
+    maniabiliteEau: 1,
+    maniabiliteAir: 1,
+    maniabiliteAntiGravite: 1,
+    adherence: 1,
     miniTurbo: 0,
-    invincibility: 0
+    invincibility: 5
 }
 
 let Pauline = {
     nom: ["Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Полина", "ポリーン", "폴린", "宝琳", "波琳", "Pauline", "Pauline"],
-    vitesse: 0,
-    vitesseEau: 0,
-    vitesseAir: 0,
-    vitesseAntiGravite: 0,
-    acceleration: 0,
-    poids: 0,
-    maniabilite: 0,
-    maniabiliteEau: 0,
-    maniabiliteAir: 0,
-    maniabiliteAntiGravite: 0,
-    adherence: 0,
-    miniTurbo: 0,
-    invincibility: 0
+    vitesse: 8,
+    vitesseEau: 8,
+    vitesseAir: 8,
+    vitesseAntiGravite: 8,
+    acceleration: 1,
+    poids: 7,
+    maniabilite: 3,
+    maniabiliteEau: 3,
+    maniabiliteAir: 3,
+    maniabiliteAntiGravite: 3,
+    adherence: 3,
+    miniTurbo: 2,
+    invincibility: 4
 }
 
 // fr-fr | fr-ca | en-uk | en-us | de | es | it | nl | pt | ru | ja | ko | zh-Hans | zh-Hant | es-HA | pt-BR
