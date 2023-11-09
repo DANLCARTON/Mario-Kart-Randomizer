@@ -393,9 +393,9 @@ let translatedTextContent = {
         8: "Corrida VS", // Portugais
         9: "Гонка", // Russe
         10: "VS レース", // Japonais
-        11: "", // Coréen
-        12: "", // ChinoisSimplifié
-        13: "", // ChinoisTraditionnel
+        11: "VS 레이스", // Coréen
+        12: "VS赛", // ChinoisSimplifié
+        13: "VS賽", // ChinoisTraditionnel
         14: "Carrera vs.", // espagnol ha
         15: "Corrida VS" // portugais brzzil
     },
@@ -411,9 +411,9 @@ let translatedTextContent = {
         8: "Batalha", // Portugais
         9: "Бой", // Russe
         10: "バトル", // Japonais
-        11: "", // Coréen
-        12: "", // ChinoisSimplifié
-        13: "", // ChinoisTraditionnel
+        11: "배틀", // Coréen
+        12: "对战", // ChinoisSimplifié
+        13: "對戰", // ChinoisTraditionnel
         14: "Batalla",
         15: "Batalha"
     }
