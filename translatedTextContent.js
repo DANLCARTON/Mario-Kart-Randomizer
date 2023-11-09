@@ -391,8 +391,8 @@ let translatedTextContent = {
         6: "Corsa sfida", // Italien
         7: "Versusrace", // Néerlandais
         8: "Corrida VS", // Portugais
-        9: "", // Russe
-        10: "", // Japonais
+        9: "Гонка", // Russe
+        10: "VS レース", // Japonais
         11: "", // Coréen
         12: "", // ChinoisSimplifié
         13: "", // ChinoisTraditionnel
@@ -409,8 +409,8 @@ let translatedTextContent = {
         6: "Battaglia", // Italien
         7: "Gevecht", // Néerlandais
         8: "Batalha", // Portugais
-        9: "", // Russe
-        10: "", // Japonais
+        9: "Бой", // Russe
+        10: "バトル", // Japonais
         11: "", // Coréen
         12: "", // ChinoisSimplifié
         13: "", // ChinoisTraditionnel
