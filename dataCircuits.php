@@ -242,7 +242,7 @@ $circuitsNL = array(
     "Boemerangbeker" => array("Tour Bangkok-Break", "DS Mario's Circuit", "GCN Waluigi's Stadion", "Tour Singapore-Skyline"),
     "Veerbeker" => array ("Tour Athene-Trip", "GCN Daisy's Cruiseschip", "Wii Circuito Luz de Luna", "Badderbaan"),
     "Kerserbeker" => array ("Tour Los Angeles-Boulevard", "GBA Schemersteppe", "Wii Kaap Koopa", "Vancouver-Route"),
-    "Eikenbeker" => array("Tour Rome-Run", "NC", "Wii Daisy's Circuit", "Piranha Plant-Lagune"),
+    "Eikenbeker" => array("Tour Rome-Run", "GCN DK-Gebergte", "Wii Daisy's Circuit", "Piranha Plant-Lagune"),
     "Spiny-beker" => array("Tour Madrid-Rit", "3DS Rosalina's IJsplaneet", "SNES Bowsers Kasteel 3", "Wii Regenboogbaan")
 );
 
