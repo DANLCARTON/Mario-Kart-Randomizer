@@ -137,6 +137,14 @@
     margin: 10px auto;
 }
 
+@media screen and (max-width: 425px) {
+    .rules {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "a b" "c d" "e f" "g h" "i j" "k l" "m n" "o p";
+    }
+}
+
 .rules p {
     padding: 5px;
 }
