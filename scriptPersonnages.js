@@ -61,8 +61,8 @@ function stats(stat, docStat) {
 
 function roll(id, statsB) {
     var skin;
-    // currentPerso = perso[getRandom(perso.length)];
-    currentPerso = Mii
+    currentPerso = perso[getRandom(perso.length)];
+    // currentPerso = Mii
     currentKart = karts[getRandom(karts.length)];
     currentRoue = roues[getRandom(roues.length)];
     currentAile = ailes[getRandom(ailes.length)];
