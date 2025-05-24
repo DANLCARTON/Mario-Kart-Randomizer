@@ -106,4 +106,20 @@ window.addEventListener("load", () => {
         battleArena[i].textContent = translatedTextContent.battleArena[lang]
     }
 
+    let comingSoon = document.getElementsByClassName("comingSoon");
+    for (let i = 0; i < comingSoon.length; ++i) {
+        comingSoon[i].textContent = translatedTextContent.comingSoon[lang]
+    }
+
+    let allowAmiibo = [...document.getElementsByClassName("allowAmiibo")];
+    allowAmiibo.map(div => div.textContent = translatedTextContent.allowAmiibo[lang]);
+
+    let courseVS = [...document.getElementsByClassName("courseVS")];
+    courseVS.map(div => div.textContent = translatedTextContent.courseVS[lang]);
+
+    let bataille = [...document.getElementsByClassName("bataille")];
+    bataille.map(div => div.textContent = translatedTextContent.bataille[lang]);
+
+    let gameRules = [...document.getElementsByClassName("gameRules")];
+    gameRules.map(div => div.textContent = translatedTextContent.gameRules[lang])
 })

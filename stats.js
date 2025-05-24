@@ -121,23 +121,6 @@ let Skelerex = {
     invincibility: 5
 };
 
-let MiiLeger = {
-    nom: ["Mii Léger", "Mii Léger", "Small Mii", "Small Mii", "Mii-Licht", "Mii Ligero", "Mii Leggero", "Licht Mii", "Mii Leve", "Легкий Mii", "軽いMii", "가벼운 Mii", "小的Mii", "小的Mii", "Mii Ligero", "Mii Leve"],
-    vitesse: 2,
-    vitesseEau: 2,
-    vitesseAir: 2,
-    vitesseAntiGravite: 2,
-    acceleration: 5,
-    poids: 1,
-    maniabilite: 8,
-    maniabiliteEau: 8,
-    maniabiliteAir: 8,
-    maniabiliteAntiGravite: 8,
-    adherence: 4,
-    miniTurbo: 5,
-    invincibility: 5
-};
-
 let Toadette = {
     nom: ["Toadette", "Toadette", "Toadette", "Toadette", "Toadette", "Toadette", "Toadette", "Toadette", "Toadette", "Тоадетта", "キノピコ", "키노피코", "奇诺比珂", "奇諾比珂", "Toadette", "Toadette"],
     vitesse: 3,
@@ -305,7 +288,7 @@ let PeachChat = {
     maniabiliteAntiGravite: 6,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 3
 };
 
 let Villageoise = {
@@ -322,7 +305,7 @@ let Villageoise = {
     maniabiliteAntiGravite: 6,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 3
 };
 
 let InklingFille = {
@@ -339,7 +322,7 @@ let InklingFille = {
     maniabiliteAntiGravite: 6,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 3
 };
 
 let Peach = {
@@ -356,7 +339,7 @@ let Peach = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 1
 };
 
 let Daisy = {
@@ -373,7 +356,7 @@ let Daisy = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 1
 };
 
 let Yoshi = {
@@ -390,7 +373,7 @@ let Yoshi = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 4,
-    invincibility: 5
+    invincibility: 1
 };
 
 let MarioTanuki = {
@@ -406,8 +389,8 @@ let MarioTanuki = {
     maniabiliteAir: 5,
     maniabiliteAntiGravite: 5,
     adherence: 1,
-    miniTurbo: 3,
-    invincibility: 5
+    miniTurbo: 4,
+    invincibility: 1
 };
 
 let Villageois = {
@@ -423,8 +406,8 @@ let Villageois = {
     maniabiliteAir: 5,
     maniabiliteAntiGravite: 5,
     adherence: 1,
-    miniTurbo: 3,
-    invincibility: 5
+    miniTurbo: 4,
+    invincibility: 1
 };
 
 let InklingGarcon = {
@@ -440,8 +423,8 @@ let InklingGarcon = {
     maniabiliteAir: 5,
     maniabiliteAntiGravite: 5,
     adherence: 1,
-    miniTurbo: 3,
-    invincibility: 5
+    miniTurbo: 4,
+    invincibility: 1
 };
 
 let Mario = {
@@ -478,8 +461,8 @@ let Ludwig = {
     invincibility: 3
 };
 
-let MiiMoyen = {
-    nom: ["Mii Moyen", "Mii Moyen", "Medium Mii", "Medium Mii", "Mii-Medium", "Mii Promedio", "Mii Medio", "Gemiddeld Mii", "Mii Mediano", "Cредний mii", "中間Mii", "일반 Mii", "普通的Mii", "普通的Mii", "Mii Promedio", "Mii Mediano"],
+let Mii = {
+    nom: ["Mii", "Mii", "Mii", "Mii", "Mii", "Mii", "Mii", "Mii", "Mii", "Mii", "Mii", "Mii", "Mii", "Mii", "Mii", "Mii"],
     vitesse: 7,
     vitesseEau: 7,
     vitesseAir: 7,
@@ -733,23 +716,6 @@ let Morton = {
     invincibility: 6
 };
 
-let MiiLourd = {
-    nom: ["Mii Lourd", "Mii Lourd", "Large Mii", "Large Mii", "Mii-Schwer", "Mii Pesado", "Mii Pesante", "Zwaar Mii", " Mii Pesado", "Tяжелый Mii", "重いMii", "헤비 Mii", "大的Mii", "大的Mii", "Mii Pesado", "Mii Pesado"],
-    vitesse: 10,
-    vitesseEau: 10,
-    vitesseAir: 10,
-    vitesseAntiGravite: 10,
-    acceleration: 0,
-    poids: 10,
-    maniabilite: 0,
-    maniabiliteEau: 0,
-    maniabiliteAir: 0,
-    maniabiliteAntiGravite: 0,
-    adherence: 0,
-    miniTurbo: 0,
-    invincibility: 6
-};
-
 let Birdo = {
     nom: ["Birdo", "Birdo", "Birdo", "Birdo", "Birdo", "Birdo", "Strutzi", "Birdo", "Birdo", "Бирдо", "キャセリン", "캐서린", "凯瑟琳", "奇諾比奧", "Birdo", "Birdo"],
     vitesse: 5,
@@ -764,7 +730,7 @@ let Birdo = {
     maniabiliteAntiGravite: 5,
     adherence: 3,
     miniTurbo: 3,
-    invincibility: 5
+    invincibility: 1
 };
 
 let FloraPiranha = {
@@ -781,7 +747,7 @@ let FloraPiranha = {
     maniabiliteAntiGravite: 3,
     adherence: 1,
     miniTurbo: 1,
-    invincibility: 3
+    invincibility: 6
 };
 
 let Wiggler = {
@@ -817,6 +783,77 @@ let Kamek = {
     miniTurbo: 3,
     invincibility: 3
 };
+
+// fr-fr | fr-ca | en-uk | en-us | de | es | it | nl | pt | ru | ja | ko | zh-Hans | zh-Hant | es-HA | pt-BR
+
+
+let Peachette = {
+    nom: ["Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Peachette", "Пичетта", "キノピーチ", "키노피치", "奇诺比桃公主", "奇諾比姬公主", "Peachette", "Peachette"],
+    vitesse: 6,
+    vitesseEau: 6,
+    vitesseAir: 6,
+    vitesseAntiGravite: 6,
+    acceleration: 3,
+    poids: 4,
+    maniabilite: 5,
+    maniabiliteEau: 5,
+    maniabiliteAir: 5,
+    maniabiliteAntiGravite: 5,
+    adherence: 3,
+    miniTurbo: 4,
+    invincibility: 1
+}
+
+let DiddyKong = {
+    nom: ["Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Diddy Kong", "Дидди Конг", "ディディーコング", "디디콩", "迪迪刚", "狄狄剛", "Diddy Kong", "Diddy Kong"],
+    vitesse: 5,
+    vitesseEau: 5,
+    vitesseAir: 5,
+    vitesseAntiGravite: 5,
+    acceleration: 4,
+    poids: 3,
+    maniabilite: 6,
+    maniabiliteEau: 6,
+    maniabiliteAir: 6,
+    maniabiliteAntiGravite: 6,
+    adherence: 3,
+    miniTurbo: 4,
+    invincibility: 3
+}
+
+let FunkyKong = {
+    nom: ["Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Funky Kong", "Фанки Конг", "ファンキーコング", "펑키 콩", "酷喜刚", "酷喜剛", "Funky Kong", "Funky Kong"],
+    vitesse: 10,
+    vitesseEau: 10,
+    vitesseAir: 10,
+    vitesseAntiGravite: 10,
+    acceleration: 0,
+    poids: 9,
+    maniabilite: 1,
+    maniabiliteEau: 1,
+    maniabiliteAir: 1,
+    maniabiliteAntiGravite: 1,
+    adherence: 1,
+    miniTurbo: 0,
+    invincibility: 5
+}
+
+let Pauline = {
+    nom: ["Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Pauline", "Полина", "ポリーン", "폴린", "宝琳", "波琳", "Pauline", "Pauline"],
+    vitesse: 8,
+    vitesseEau: 8,
+    vitesseAir: 8,
+    vitesseAntiGravite: 8,
+    acceleration: 1,
+    poids: 7,
+    maniabilite: 3,
+    maniabiliteEau: 3,
+    maniabiliteAir: 3,
+    maniabiliteAntiGravite: 3,
+    adherence: 3,
+    miniTurbo: 2,
+    invincibility: 4
+}
 
 // fr-fr | fr-ca | en-uk | en-us | de | es | it | nl | pt | ru | ja | ko | zh-Hans | zh-Hant | es-HA | pt-BR
 
@@ -2152,7 +2189,7 @@ let ParapenteMKTV = {
     invincibility: 0
 };
 
-export { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, MiiLeger, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, MiiMoyen, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, MiiLourd, Birdo, FloraPiranha, Wiggler, Kamek };
+export { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, Mii, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, Birdo, FloraPiranha, Wiggler, Kamek, Peachette, DiddyKong, FunkyKong, Pauline };
 export { KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01 };
 export { RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin }
 export { AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant };

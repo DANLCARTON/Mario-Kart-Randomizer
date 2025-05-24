@@ -1,4 +1,4 @@
-import { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, MiiLeger, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, MiiMoyen, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, MiiLourd, KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01, RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin, AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant, Birdo, FloraPiranha, Wiggler, Kamek } from "./stats.js";
+import { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, Mii, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01, RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin, AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant, Birdo, FloraPiranha, Wiggler, Kamek, Peachette, DiddyKong, FunkyKong, Pauline } from "./stats.js";
 import { langId } from "./translatedTextContent.js";
 import { language } from "./languageManager.js";
 
@@ -6,9 +6,7 @@ document.getElementsByTagName("html")[0].lang = language;
 
 var lang = langId(language);
 
-var Mii = [MiiLeger, MiiMoyen, MiiLourd]
-
-var perso = [BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, Mii, Birdo, FloraPiranha, Wiggler, Kamek];
+var perso = [BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, Mii, Birdo, FloraPiranha, Wiggler, Kamek, Peachette, DiddyKong, FunkyKong, Pauline];
 var karts = [KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01];
 var roues = [RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin];
 var ailes = [AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant];
@@ -20,6 +18,19 @@ var skinsInklingFille = ["orange", "verte", "rose"];
 var skinsInklingGarcon = ["bleu", "violet", "cyan"];
 var skinsLink = ["tunique verte", "tunique de prodige"];
 var skinsBirdo = ["rose", "rouge", "vert·e", "bleu·e", "bleu ciel", "jaune", "noir·e", "blanc·he", "orange"];
+
+var skinsMii = ["tenue Mario", "tenue Luigi", "tenue Peach", "tenue Yoshi", "tenue Donkey Kong", "tenue Hylienne", "tenue Captain Falcon", "tenue Kirby", "combinaison Varia", "tenue Fox", "tenue Toad", "tenue Bowser", "tenue Wario", "tenue Harmonie", "tenue Pikmin", "tenue Animal Crossing", "tenue Mega Man", "tenue Pac-Man", "tenue Sonic", "tenue Inkling", "tenue Daisy", "tenue standard", "tenue Flora Piranha", "tenue Wiggler", "tenue Birdo", "tenue Paracoccinelly", "tenue Toadette", "tenue crème glacée", "tenue Goomba", "tenue Cheep Cheep", "tenue Dauphin", "tenue Pokey", "tenue Meuh Meuh", "tenue Chomp", "tenue Bloups", "tenue château", "tenue bloc ？", "tenue Bowser Skelet", "tenue Koopa-mobile"]
+
+var allowAmiibo = false
+
+const getMiiSkin = () => {
+    if (allowAmiibo) return skinsMii[Math.floor(Math.random() * skinsMii.length)]
+    else return skinsMii[Math.floor(Math.random() * (skinsMii.length - 21)) + 21]
+}
+
+document.getElementById("allowAmiibo").addEventListener("change", e => {
+    allowAmiibo = e.target.checked
+})
 
 var players = 1;
 
@@ -51,6 +62,7 @@ function stats(stat, docStat) {
 function roll(id, statsB) {
     var skin;
     currentPerso = perso[getRandom(perso.length)];
+    // currentPerso = Mii
     currentKart = karts[getRandom(karts.length)];
     currentRoue = roues[getRandom(roues.length)];
     currentAile = ailes[getRandom(ailes.length)];
@@ -59,27 +71,24 @@ function roll(id, statsB) {
     var Roues = currentRoue;
     var Ailes = currentAile;
 
-    if (Perso == Mii) {
-        Perso = Mii[getRandom(Mii.length)];
-        skin = "";
+    if (Perso.nom[0] == "Yoshi") {
+        skin = skinsYoshi[getRandom(skinsYoshi.length)];
+    } else if (Perso.nom[0] == "Maskass") {
+        skin = skinsMaskass[getRandom(skinsMaskass.length)];
+    } else if (Perso.nom[0] == "Mario de métal") {
+        skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+    } else if (Perso.nom[0] == "Inkling fille") {
+        skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+    } else if (Perso.nom[0] == "Inkling garçon") {
+        skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+    } else if (Perso.nom[0] == "Link") {
+        skin = skinsLink[getRandom(skinsLink.length)];
+    } else if (Perso.nom[0] == "Birdo") {
+        skin = skinsBirdo[getRandom(skinsBirdo.length)];
+    } else if (Perso.nom[0] == "Mii") {
+        skin = getMiiSkin()
     } else {
-        if (Perso.nom[0] == "Yoshi") {
-            skin = skinsYoshi[getRandom(skinsYoshi.length)];
-        } else if (Perso.nom[0] == "Maskass") {
-            skin = skinsMaskass[getRandom(skinsMaskass.length)];
-        } else if (Perso.nom[0] == "Mario de métal") {
-            skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
-        } else if (Perso.nom[0] == "Inkling fille") {
-            skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
-        } else if (Perso.nom[0] == "Inkling garçon") {
-            skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
-        } else if (Perso.nom[0] == "Link") {
-            skin = skinsLink[getRandom(skinsLink.length)];
-        } else if (Perso.nom[0] == "Birdo") {
-            skin = skinsBirdo[getRandom(skinsBirdo.length)];
-        } else {
-            skin = "";
-        }
+        skin = "";
     }
 
     if (statsB) {
@@ -252,27 +261,25 @@ document.getElementById("personnage1").addEventListener("click", () => {
     var Karts = currentKart;
     var Roues = currentRoue;
     var Ailes = currentAile;
-    if (Perso == Mii) {
-        Perso = Mii[getRandom(Mii.length)];
-        skin = "";
+
+    if (Perso.nom[0] == "Yoshi") {
+        skin = skinsYoshi[getRandom(skinsYoshi.length)];
+    } else if (Perso.nom[0] == "Maskass") {
+        skin = skinsMaskass[getRandom(skinsMaskass.length)];
+    } else if (Perso.nom[0] == "Mario de métal") {
+        skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+    } else if (Perso.nom[0] == "Inkling fille") {
+        skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+    } else if (Perso.nom[0] == "Inkling garçon") {
+        skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+    } else if (Perso.nom[0] == "Link") {
+        skin = skinsLink[getRandom(skinsLink.length)];
+    } else if (Perso.nom[0] == "Birdo") {
+        skin = skinsBirdo[getRandom(skinsBirdo.length)];
+    } else if (Perso.nom[0] == "Mii") {
+        skin = getMiiSkin()
     } else {
-        if (Perso.nom[0] == "Yoshi") {
-            skin = skinsYoshi[getRandom(skinsYoshi.length)];
-        } else if (Perso.nom[0] == "Maskass") {
-            skin = skinsMaskass[getRandom(skinsMaskass.length)];
-        } else if (Perso.nom[0] == "Mario de métal") {
-            skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
-        } else if (Perso.nom[0] == "Inkling fille") {
-            skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
-        } else if (Perso.nom[0] == "Inkling garçon") {
-            skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
-        } else if (Perso.nom[0] == "Link") {
-            skin = skinsLink[getRandom(skinsLink.length)];
-        } else if (Perso.nom[0] == "Birdo") {
-            skin = skinsBirdo[getRandom(skinsBirdo.length)];
-        } else {
-            skin = "";
-        }
+        skin = "";
     }
 
     var Vitesse = Perso.vitesse + Karts.vitesse + Roues.vitesse + Ailes.vitesse + 4;
@@ -339,27 +346,25 @@ document.getElementById("personnage2").addEventListener("click", () => {
     var Karts = currentKart;
     var Roues = currentRoue;
     var Ailes = currentAile;
-    if (Perso == Mii) {
-        Perso = Mii[getRandom(Mii.length)];
-        skin = "";
+
+    if (Perso.nom[0] == "Yoshi") {
+        skin = skinsYoshi[getRandom(skinsYoshi.length)];
+    } else if (Perso.nom[0] == "Maskass") {
+        skin = skinsMaskass[getRandom(skinsMaskass.length)];
+    } else if (Perso.nom[0] == "Mario de métal") {
+        skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+    } else if (Perso.nom[0] == "Inkling fille") {
+        skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+    } else if (Perso.nom[0] == "Inkling garçon") {
+        skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+    } else if (Perso.nom[0] == "Link") {
+        skin = skinsLink[getRandom(skinsLink.length)];
+    } else if (Perso.nom[0] == "Birdo") {
+        skin = skinsBirdo[getRandom(skinsBirdo.length)];
+    } else if (Perso.nom[0] == "Mii") {
+        skin = getMiiSkin()
     } else {
-        if (Perso.nom[0] == "Yoshi") {
-            skin = skinsYoshi[getRandom(skinsYoshi.length)];
-        } else if (Perso.nom[0] == "Maskass") {
-            skin = skinsMaskass[getRandom(skinsMaskass.length)];
-        } else if (Perso.nom[0] == "Mario de métal") {
-            skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
-        } else if (Perso.nom[0] == "Inkling fille") {
-            skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
-        } else if (Perso.nom[0] == "Inkling garçon") {
-            skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
-        } else if (Perso.nom[0] == "Link") {
-            skin = skinsLink[getRandom(skinsLink.length)];
-        } else if (Perso.nom[0] == "Birdo") {
-            skin = skinsBirdo[getRandom(skinsBirdo.length)];
-        } else {
-            skin = "";
-        }
+        skin = "";
     }
 
     if (lang == 0 || lang == 1) {
@@ -384,27 +389,25 @@ document.getElementById("personnage3").addEventListener("click", () => {
     var Karts = currentKart;
     var Roues = currentRoue;
     var Ailes = currentAile;
-    if (Perso == Mii) {
-        Perso = Mii[getRandom(Mii.length)];
-        skin = "";
+
+    if (Perso.nom[0] == "Yoshi") {
+        skin = skinsYoshi[getRandom(skinsYoshi.length)];
+    } else if (Perso.nom[0] == "Maskass") {
+        skin = skinsMaskass[getRandom(skinsMaskass.length)];
+    } else if (Perso.nom[0] == "Mario de métal") {
+        skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+    } else if (Perso.nom[0] == "Inkling fille") {
+        skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+    } else if (Perso.nom[0] == "Inkling garçon") {
+        skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+    } else if (Perso.nom[0] == "Link") {
+        skin = skinsLink[getRandom(skinsLink.length)];
+    } else if (Perso.nom[0] == "Birdo") {
+        skin = skinsBirdo[getRandom(skinsBirdo.length)];
+    } else if (Perso.nom[0] == "Mii") {
+        skin = getMiiSkin()
     } else {
-        if (Perso.nom[0] == "Yoshi") {
-            skin = skinsYoshi[getRandom(skinsYoshi.length)];
-        } else if (Perso.nom[0] == "Maskass") {
-            skin = skinsMaskass[getRandom(skinsMaskass.length)];
-        } else if (Perso.nom[0] == "Mario de métal") {
-            skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
-        } else if (Perso.nom[0] == "Inkling fille") {
-            skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
-        } else if (Perso.nom[0] == "Inkling garçon") {
-            skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
-        } else if (Perso.nom[0] == "Link") {
-            skin = skinsLink[getRandom(skinsLink.length)];
-        } else if (Perso.nom[0] == "Birdo") {
-            skin = skinsBirdo[getRandom(skinsBirdo.length)];
-        } else {
-            skin = "";
-        }
+        skin = "";
     }
 
     if (lang == 0 || lang == 1) {
@@ -429,27 +432,25 @@ document.getElementById("personnage4").addEventListener("click", () => {
     var Karts = currentKart;
     var Roues = currentRoue;
     var Ailes = currentAile;
-    if (Perso == Mii) {
-        Perso = Mii[getRandom(Mii.length)];
-        skin = "";
+
+    if (Perso.nom[0] == "Yoshi") {
+        skin = skinsYoshi[getRandom(skinsYoshi.length)];
+    } else if (Perso.nom[0] == "Maskass") {
+        skin = skinsMaskass[getRandom(skinsMaskass.length)];
+    } else if (Perso.nom[0] == "Mario de métal") {
+        skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+    } else if (Perso.nom[0] == "Inkling fille") {
+        skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+    } else if (Perso.nom[0] == "Inkling garçon") {
+        skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+    } else if (Perso.nom[0] == "Link") {
+        skin = skinsLink[getRandom(skinsLink.length)];
+    } else if (Perso.nom[0] == "Birdo") {
+        skin = skinsBirdo[getRandom(skinsBirdo.length)];
+    } else if (Perso.nom[0] == "Mii") {
+        skin = getMiiSkin()
     } else {
-        if (Perso.nom[0] == "Yoshi") {
-            skin = skinsYoshi[getRandom(skinsYoshi.length)];
-        } else if (Perso.nom[0] == "Maskass") {
-            skin = skinsMaskass[getRandom(skinsMaskass.length)];
-        } else if (Perso.nom[0] == "Mario de métal") {
-            skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
-        } else if (Perso.nom[0] == "Inkling fille") {
-            skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
-        } else if (Perso.nom[0] == "Inkling garçon") {
-            skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
-        } else if (Perso.nom[0] == "Link") {
-            skin = skinsLink[getRandom(skinsLink.length)];
-        } else if (Perso.nom[0] == "Birdo") {
-            skin = skinsBirdo[getRandom(skinsBirdo.length)];
-        } else {
-            skin = "";
-        }
+        skin = "";
     }
 
     if (lang == 0 || lang == 1) {

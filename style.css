@@ -186,6 +186,10 @@ h3 {
     text-align: center;
 }
 
+#allowAmiibo {
+    margin: 2px 2px 30px 2px;
+}
+
 #playersArrow {
     margin: 0 auto 20px auto;
     background: #fff;

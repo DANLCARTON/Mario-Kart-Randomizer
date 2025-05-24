@@ -2,22 +2,22 @@
 
 let translatedTextContent = {
     subtitle: {
-        0: "+ PASS CIRCUITS ADDITIONNELS (Vague 5)", // Français
-        1: "+ PASSE DE CIRCUITS ADDITIONNELS (Vague 5)", // Français Québécois
-        2: "+ BOOSTER COURSE PASS (Wave 5)", // Anglais
-        3: "+ BOOSTER COURSE PASS (Wave 5)", // Anglais Américain
-        4: "+ BOOSTER-STRECKENPASS (Welle 5)", // Allemand
-        5: "+ PASE DE PISTAS EXTRAS (Entrega 5)", // Espagnol
-        6: "+ PASS PERSCOSI AGGIUNTIVI (Pacchetto 5)", // Italien
-        7: "+ CIRCUIT-UITBREIDINGSPAS (Set 5)", // Néerlandais
-        8: "+ PASSE DE PISTAS ADICIONAIS (Parte 5)", // Portugais
-        9: "+ ТАЛОН НА ДОПОЛНИТЕЛЬНЫЕ ТРАССЫ (Смутно 5)", // Russe
-        10: "+ コース追加パス (第5弾)", // Japonais
-        11: "+ 부스터 코스 패스 (제5탄)", // Coréen
-        12: "+ 新增赛道通行证 (第5彈)", // Chinois simplifié
-        13: "+ 新增賽道通行證 (第5彈)", // Chinois traditionnel
-        14: "+ PASE DE PISTAS EXTRAS (Entrega 5)", // Espagnol
-        15: "+ PASSE DE PISTAS ADICIONAIS (Parte 5)" // Portugais
+        0: "+ PASS CIRCUITS ADDITIONNELS", // Français
+        1: "+ PASSE DE CIRCUITS ADDITIONNELS", // Français Québécois
+        2: "+ BOOSTER COURSE PASS", // Anglais
+        3: "+ BOOSTER COURSE PASS", // Anglais Américain
+        4: "+ BOOSTER-STRECKENPASS", // Allemand
+        5: "+ PASE DE PISTAS EXTRAS", // Espagnol
+        6: "+ PASS PERSCOSI AGGIUNTIVI", // Italien
+        7: "+ CIRCUIT-UITBREIDINGSPAS", // Néerlandais
+        8: "+ PASSE DE PISTAS ADICIONAIS", // Portugais
+        9: "+ ТАЛОН НА ДОПОЛНИТЕЛЬНЫЕ ТРАССЫ", // Russe
+        10: "+ コース追加パス", // Japonais
+        11: "+ 부스터 코스 패스", // Coréen
+        12: "+ 新增赛道通行证", // Chinois simplifié
+        13: "+ 新增賽道通行證", // Chinois traditionnel
+        14: "+ PASE DE PISTAS EXTRAS", // Espagnol
+        15: "+ PASSE DE PISTAS ADICIONAIS" // Portugais
     },
     randomCharacter: {
         0: "Personnage aléatoire",
@@ -310,22 +310,22 @@ let translatedTextContent = {
         15: "Circuito Aleatório sem Repetição"
     },
     randomCircuitExplanations: {
-        0: "Cliquez sur le bouton \"Choisir\" ci-dessous pour sélectionner aléatoirement l'un des 88 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton \"Remettre à zero\" situé tout en bas.", // Français
-        1: "Cliquez sur le bouton \"Choisir\" ci-dessous pour sélectionner aléatoirement l'un des 88 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton \"Remettre à zero\" situé tout en bas.", // FrançaisQuébécois
-        2: "Click on the 'Choose' button below to randomly select one of the 88 playable circuits. If you want to play on a track of your choice, you can also select one by clicking on it. If you want a track to be selectable again, click on it to make it available again. Once all the tracks have been selected, deselect a few or use the 'Reset to zero' button at the bottom.", // Anglais
-        3: "Click on the \"Choos\" button below to randomly select one of the 88 playable circuits. If you want to play on a track of your choice, you can also select one by clicking on it. If you want a track to be available for selection again, click on it to make it available again. Once all circuits have been selected, deselect a few or use the \"Reset to zero\" button at the very bottom.", // AnglaisAméricain
-        4: "Klicken Sie unten auf die Schaltfläche \"Wählen\", um nach dem Zufallsprinzip eine der 88 spielbaren Strecken auszuwählen. Es ist auch möglich, wenn Sie auf einer beliebigen Strecke spielen möchten, diese durch Anklicken auszuwählen. Wenn Sie möchten, dass eine Strecke erneut ausgewählt werden kann, klicken Sie darauf, um sie wieder verfügbar zu machen. Wenn Sie alle Strecken ausgewählt haben, heben Sie die Auswahl einiger Strecken auf oder verwenden Sie die Schaltfläche \"Zurücksetzen\" ganz unten.", // Allemand
-        5: "Haz clic en el botón \"Elegir\" para seleccionar al azar uno de los 88 circuitos jugables. Si quieres jugar en un circuito de tu elección, también puedes seleccionarlo haciendo clic sobre él. Si quieres que una pista vuelva a ser seleccionable, haz clic sobre ella para que vuelva a estar disponible. Una vez seleccionadas todas las pistas, anula la selección de algunas o utiliza el botón \"Reiniciar\" de la parte inferior.", // Espagnol
-        6: "Fare clic sul pulsante \"Scegli\" qui sotto per selezionare casualmente uno dei 88 circuiti giocabili. Se si desidera giocare su un circuito di propria scelta, è possibile selezionarlo facendo clic su di esso. Se si desidera che un circuito sia nuovamente selezionabile, fare clic su di esso per renderlo nuovamente disponibile. Una volta selezionati tutti i circuiti, è possibile deselezionarne alcuni o utilizzare il pulsante \"Azzeramento\" in basso.", // Italien
-        7: "Klik op de knop 'Kies' hieronder om willekeurig een van de 88 bespeelbare circuits te kiezen. Als je op een circuit naar keuze wilt spelen, kun je er ook een selecteren door erop te klikken. Als je een circuit weer wilt kunnen selecteren, klik je erop om het weer beschikbaar te maken. Als alle circuits geselecteerd zijn, kun je er een paar deselecteren of de knop 'Op nul zetten' onderaan gebruiken.", // Néerlandais
-        8: "Clique no botão \"Escolher\" abaixo para seleccionar aleatoriamente um dos 88 circuitos jogáveis. Se quiseres jogar numa pista à tua escolha, também podes seleccionar uma clicando nela. Se quiseres que uma pista volte a ser seleccionável, clica nela para a tornares novamente disponível. Quando todas as pistas tiverem sido seleccionadas, anula a selecção de algumas ou utiliza o botão \"Reiniciar\" na parte inferior.", // Portugais
-        9: "Нажмите на кнопку \"Выбрать\" ниже, чтобы случайным образом выбрать одну из 88 игровых трасс. Если вы хотите играть на трассе по своему выбору, вы также можете выбрать ее, нажав на нее. Если вы хотите, чтобы трасса снова стала доступной для выбора, нажмите на нее, чтобы она снова стала доступной. Когда все трассы будут выбраны, отмените выбор нескольких или воспользуйтесь кнопкой \"Сбросить на ноль\" внизу.", // Russe
-        10: "下の「選ぶ」ボタンをクリックすると、プレイ可能な88のサーキットの中からランダムに1つを選ぶことができます。好きなサーキットでプレイしたい場合は、クリックして選択することも可能です。再び選択できるようにしたい場合は、そのトラックをクリックすると、再び選択できるようになります。すべてのトラックを選択したら、いくつかのトラックの選択を解除するか、下部の「ゼロにリセット」ボタンを使ってください。", // Japonais
-        11: "아래의 '선택' 버튼을 클릭하면 88개의 재생 가능한 서킷 중 하나를 무작위로 선택할 수 있습니다. 원하는 트랙에서 플레이하고 싶다면 해당 트랙을 클릭하여 선택할 수도 있습니다. 트랙을 다시 선택하려면 해당 트랙을 클릭하여 다시 사용할 수 있도록 설정하세요. 모든 트랙을 선택했으면 몇 개를 선택 해제하거나 하단의 '0으로 초기화' 버튼을 사용하세요.", // Coréen
-        12: "点击下面的 \"选择 \"按钮，在88个可玩的电路中随机选择一个。如果你想在你选择的赛道上玩，你也可以通过点击来选择一个。如果你想让某条赛道再次被选中，点击它就可以让它再次发挥作用。一旦所有的赛道都被选中，可以取消选择一些，或者使用底部的 \"重置为零 \"按钮。", // ChinoisSimplifié
-        13: "點擊下面的 \"選擇 \"按鈕，在88個可玩的電路中隨機選擇一個。如果你想在你選擇的賽道上玩，你也可以通過點擊來選擇一個。如果你想讓某條賽道再次被選中，點擊它就可以讓它再次發揮作用。一旦所有的賽道都被選中，可以取消選擇一些，或者使用底部的 \"重置為零 \"按鈕。", // ChinoisTraditionnel
-        14: "Haz clic en el botón \"Elegir\" para seleccionar al azar uno de los 88 circuitos jugables. Si quieres jugar en un circuito de tu elección, también puedes seleccionarlo haciendo clic sobre él. Si quieres que una pista vuelva a ser seleccionable, haz clic sobre ella para que vuelva a estar disponible. Una vez seleccionadas todas las pistas, anula la selección de algunas o utiliza el botón \"Reiniciar\" de la parte inferior.",
-        15: "Clique no botão \"Escolher\" abaixo para seleccionar aleatoriamente um dos 88 circuitos jogáveis. Se quiseres jogar numa pista à tua escolha, também podes seleccionar uma clicando nela. Se quiseres que uma pista volte a ser seleccionável, clica nela para a tornares novamente disponível. Quando todas as pistas tiverem sido seleccionadas, anula a selecção de algumas ou utiliza o botão \"Reiniciar\" na parte inferior."
+        0: "Cliquez sur le bouton \"Choisir\" ci-dessous pour sélectionner aléatoirement l'un des 96 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton \"Remettre à zero\" situé tout en bas.", // Français
+        1: "Cliquez sur le bouton \"Choisir\" ci-dessous pour sélectionner aléatoirement l'un des 96 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton \"Remettre à zero\" situé tout en bas.", // FrançaisQuébécois
+        2: "Click on the 'Choose' button below to randomly select one of the 96 playable circuits. If you want to play on a track of your choice, you can also select one by clicking on it. If you want a track to be selectable again, click on it to make it available again. Once all the tracks have been selected, deselect a few or use the 'Reset to zero' button at the bottom.", // Anglais
+        3: "Click on the \"Choos\" button below to randomly select one of the 96 playable circuits. If you want to play on a track of your choice, you can also select one by clicking on it. If you want a track to be available for selection again, click on it to make it available again. Once all circuits have been selected, deselect a few or use the \"Reset to zero\" button at the very bottom.", // AnglaisAméricain
+        4: "Klicken Sie unten auf die Schaltfläche \"Wählen\", um nach dem Zufallsprinzip eine der 96 spielbaren Strecken auszuwählen. Es ist auch möglich, wenn Sie auf einer beliebigen Strecke spielen möchten, diese durch Anklicken auszuwählen. Wenn Sie möchten, dass eine Strecke erneut ausgewählt werden kann, klicken Sie darauf, um sie wieder verfügbar zu machen. Wenn Sie alle Strecken ausgewählt haben, heben Sie die Auswahl einiger Strecken auf oder verwenden Sie die Schaltfläche \"Zurücksetzen\" ganz unten.", // Allemand
+        5: "Haz clic en el botón \"Elegir\" para seleccionar al azar uno de los 96 circuitos jugables. Si quieres jugar en un circuito de tu elección, también puedes seleccionarlo haciendo clic sobre él. Si quieres que una pista vuelva a ser seleccionable, haz clic sobre ella para que vuelva a estar disponible. Una vez seleccionadas todas las pistas, anula la selección de algunas o utiliza el botón \"Reiniciar\" de la parte inferior.", // Espagnol
+        6: "Fare clic sul pulsante \"Scegli\" qui sotto per selezionare casualmente uno dei 96 circuiti giocabili. Se si desidera giocare su un circuito di propria scelta, è possibile selezionarlo facendo clic su di esso. Se si desidera che un circuito sia nuovamente selezionabile, fare clic su di esso per renderlo nuovamente disponibile. Una volta selezionati tutti i circuiti, è possibile deselezionarne alcuni o utilizzare il pulsante \"Azzeramento\" in basso.", // Italien
+        7: "Klik op de knop 'Kies' hieronder om willekeurig een van de 96 bespeelbare circuits te kiezen. Als je op een circuit naar keuze wilt spelen, kun je er ook een selecteren door erop te klikken. Als je een circuit weer wilt kunnen selecteren, klik je erop om het weer beschikbaar te maken. Als alle circuits geselecteerd zijn, kun je er een paar deselecteren of de knop 'Op nul zetten' onderaan gebruiken.", // Néerlandais
+        8: "Clique no botão \"Escolher\" abaixo para seleccionar aleatoriamente um dos 96 circuitos jogáveis. Se quiseres jogar numa pista à tua escolha, também podes seleccionar uma clicando nela. Se quiseres que uma pista volte a ser seleccionável, clica nela para a tornares novamente disponível. Quando todas as pistas tiverem sido seleccionadas, anula a selecção de algumas ou utiliza o botão \"Reiniciar\" na parte inferior.", // Portugais
+        9: "Нажмите на кнопку \"Выбрать\" ниже, чтобы случайным образом выбрать одну из 96 игровых трасс. Если вы хотите играть на трассе по своему выбору, вы также можете выбрать ее, нажав на нее. Если вы хотите, чтобы трасса снова стала доступной для выбора, нажмите на нее, чтобы она снова стала доступной. Когда все трассы будут выбраны, отмените выбор нескольких или воспользуйтесь кнопкой \"Сбросить на ноль\" внизу.", // Russe
+        10: "下の「選ぶ」ボタンをクリックすると、プレイ可能な96のサーキットの中からランダムに1つを選ぶことができます。好きなサーキットでプレイしたい場合は、クリックして選択することも可能です。再び選択できるようにしたい場合は、そのトラックをクリックすると、再び選択できるようになります。すべてのトラックを選択したら、いくつかのトラックの選択を解除するか、下部の「ゼロにリセット」ボタンを使ってください。", // Japonais
+        11: "아래의 '선택' 버튼을 클릭하면 96개의 재생 가능한 서킷 중 하나를 무작위로 선택할 수 있습니다. 원하는 트랙에서 플레이하고 싶다면 해당 트랙을 클릭하여 선택할 수도 있습니다. 트랙을 다시 선택하려면 해당 트랙을 클릭하여 다시 사용할 수 있도록 설정하세요. 모든 트랙을 선택했으면 몇 개를 선택 해제하거나 하단의 '0으로 초기화' 버튼을 사용하세요.", // Coréen
+        12: "点击下面的 \"选择 \"按钮，在96个可玩的电路中随机选择一个。如果你想在你选择的赛道上玩，你也可以通过点击来选择一个。如果你想让某条赛道再次被选中，点击它就可以让它再次发挥作用。一旦所有的赛道都被选中，可以取消选择一些，或者使用底部的 \"重置为零 \"按钮。", // ChinoisSimplifié
+        13: "點擊下面的 \"選擇 \"按鈕，在96個可玩的電路中隨機選擇一個。如果你想在你選擇的賽道上玩，你也可以通過點擊來選擇一個。如果你想讓某條賽道再次被選中，點擊它就可以讓它再次發揮作用。一旦所有的賽道都被選中，可以取消選擇一些，或者使用底部的 \"重置為零 \"按鈕。", // ChinoisTraditionnel
+        14: "Haz clic en el botón \"Elegir\" para seleccionar al azar uno de los 96 circuitos jugables. Si quieres jugar en un circuito de tu elección, también puedes seleccionarlo haciendo clic sobre él. Si quieres que una pista vuelva a ser seleccionable, haz clic sobre ella para que vuelva a estar disponible. Una vez seleccionadas todas las pistas, anula la selección de algunas o utiliza el botón \"Reiniciar\" de la parte inferior.",
+        15: "Clique no botão \"Escolher\" abaixo para seleccionar aleatoriamente um dos 96 circuitos jogáveis. Se quiseres jogar numa pista à tua escolha, também podes seleccionar uma clicando nela. Se quiseres que uma pista volte a ser seleccionável, clica nela para a tornares novamente disponível. Quando todas as pistas tiverem sido seleccionadas, anula a selecção de algumas ou utiliza o botão \"Reiniciar\" na parte inferior."
     },
     randomArena: {
         0: "Arène bataille aléatoire sans répétition", // Français
@@ -351,7 +351,7 @@ let translatedTextContent = {
         2: "Battle Arenas", // Anglais
         3: "Battle Arenas", // AnglaisAméricain
         4: "Kampfarenen", // Allemand
-        5: "Arenas de Batalla", // Espagnol
+        5: "Arenas de Batalla", // Espagnole
         6: "Arene di Battaglia", // Italien
         7: "Strijdarena's", // Néerlandais
         8: "Arenas de Batalha", // Portugais
@@ -362,6 +362,78 @@ let translatedTextContent = {
         13: "戰鬥場", // ChinoisTraditionnel
         14: "Arenas de Batalla",
         15: "Arenas de Batalha"
+    },
+    allowAmiibo: {
+        0: "Autoriser les costumes Mii Amiibo",
+        1: "Autoriser les costumes Mii Amiibo",
+        2: "Authorise Amiibo Mii costumes",
+        3: "Authorise Amiibo Mii costumes",
+        4: "Amiibo Mii-Kostüme zulassen",
+        5: "Autorizar los trajes Mii Amiibo",
+        6: "Autorizzare i costumi Mii Amiibo",
+        7: "Amiibo Mii-kostuums autoriseren",
+        8: "Autorizar fatos Mii Amiibo",
+        9: "Авторизация костюмов Mii Amiibo",
+        10: "Amiibo Miiコスチュームの認証",
+        11: "아미이보 미이 코스튬 승인하기",
+        12: "授权 Amiibo Mii 服装",
+        13: "授權 Amiibo Mii 服飾",
+        14: "Autorizar los trajes Mii Amiibo",
+        15: "Autorizar fatos Mii Amiibo",
+    },
+    courseVS: {
+        0: "Course VS", // Français
+        1: "Course c.", // FrançaisQuébécois
+        2: "VS Race", // Anglais
+        3: "VS Race", // AnglaisAméricain
+        4: "Versus-Rennen", // Allemand
+        5: "Carrera VS.", // Espagnole
+        6: "Corsa sfida", // Italien
+        7: "Versusrace", // Néerlandais
+        8: "Corrida VS", // Portugais
+        9: "Гонка", // Russe
+        10: "VS レース", // Japonais
+        11: "VS 레이스", // Coréen
+        12: "VS赛", // ChinoisSimplifié
+        13: "VS賽", // ChinoisTraditionnel
+        14: "Carrera vs.", // espagnol ha
+        15: "Corrida VS" // portugais brzzil
+    },
+    bataille: {
+        0: "Bataille", // Français
+        1: "Bataille", // FrançaisQuébécois
+        2: "Battle", // Anglais
+        3: "Battle", // AnglaisAméricain
+        4: "Schlacht", // Allemand
+        5: "Batalla", // Espagnole
+        6: "Battaglia", // Italien
+        7: "Gevecht", // Néerlandais
+        8: "Batalha", // Portugais
+        9: "Бой", // Russe
+        10: "バトル", // Japonais
+        11: "배틀", // Coréen
+        12: "对战", // ChinoisSimplifié
+        13: "對戰", // ChinoisTraditionnel
+        14: "Batalla",
+        15: "Batalha"
+    },
+    gameRules: {
+        0: "Règles de jeu aléatoires", // Français
+        1: "Règles de jeu aléatoires", // FrançaisQuébécois
+        2: "Random game rules", // Anglais
+        3: "Random game rules", // AnglaisAméricain
+        4: "Zufällige Spielregeln", // Allemand
+        5: "Reglas de juego alaetorias", // Espagnole
+        6: "Regole di gioco casuali", // Italien
+        7: "Willekeurige spelregels", // Néerlandais
+        8: "Regras de jogo aleatório", // Portugais
+        9: "Правила случайной игры", // Russe
+        10: "ランダムゲームのルール", // Japonais
+        11: "무작위 게임 규칙", // Coréen
+        12: "随机游戏规则", // ChinoisSimplifié
+        13: "隨機遊戲規則", // ChinoisTraditionnel
+        14: "Reglas de juego alaetorias",
+        15: "Batalha"
     },
     comingSoon: {
         0: "Mario Kart World Randomizer actuellement en développement !", // Français
