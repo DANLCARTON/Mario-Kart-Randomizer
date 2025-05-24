@@ -46,6 +46,7 @@ include "fonctionsPhp/vues.php";
         <div class="subh1 subtitle"><p>+ PASS CIRCUITS ADDITIONNELS (Vague 5)</p></div>
 
         <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-4" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight" alt="exit"><img src='./img/icons/exit.png' id="exitday" alt="exit"></a>
+        <div class="subh1 comingSoon" style="margin-top: 25px; color: violet">Mario Kart World Randomizer actuellement en développement</div>
         <section id="personnageAleatoire">
 
             <h2 class="randomCharacter">Personnage aléatoire</h2>

@@ -362,6 +362,24 @@ let translatedTextContent = {
         13: "戰鬥場", // ChinoisTraditionnel
         14: "Arenas de Batalla",
         15: "Arenas de Batalha"
+    },
+    comingSoon: {
+        0: "Mario Kart World Randomizer actuellement en développement !", // Français
+        1: "Mario Kart World Randomizer actuellement en développement !", // Français Québécois
+        2: "Mario Kart World Randomizer currently in development!", // Anglais
+        3: "Mario Kart World Randomizer currently in development!", // Anglais Américain
+        4: "Mario Kart World Randomizer derzeit in Entwicklung!", // Allemand
+        5: "Mario Kart World Randomizer, ¡en desarrollo!", // Espagnol
+        6: "Mario Kart World Randomizer attualmente in fase di sviluppo!", // Italien
+        7: "Mario Kart World Randomizer momenteel in ontwikkeling!", // Néerlandais
+        8: "Mario Kart World Randomizer atualmente em desenvolvimento!", // Portugais
+        9: "Рандомизатор Mario Kart World находится в разработке!", // Russe
+        10: "マリオカートワールドランダマイザーは現在開発中です！", // Japonais
+        11: "현재 개발 중인 마리오 카트 월드 랜덤라이저!", // Coréen
+        12: "马里奥卡丁车世界随机器目前正在开发中！", // Chinois Simplifié
+        13: "Mario Kart World Randomizer 目前正在開發中！", // Chinois Traditionnel
+        14: "Mario Kart World Randomizer, ¡en desarrollo!", // Espagnol d'Amérique latine
+        16: "Mario Kart World Randomizer atualmente em desenvolvimento!" // Portugais Brésilien
     }
 };
 
