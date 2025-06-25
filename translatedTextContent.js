@@ -451,7 +451,25 @@ let translatedTextContent = {
         12: "马里奥卡丁车世界随机器目前正在开发中！", // Chinois Simplifié
         13: "Mario Kart World Randomizer 目前正在開發中！", // Chinois Traditionnel
         14: "Mario Kart World Randomizer, ¡en desarrollo!", // Espagnol d'Amérique latine
-        16: "Mario Kart World Randomizer atualmente em desenvolvimento!" // Portugais Brésilien
+        15: "Mario Kart World Randomizer atualmente em desenvolvimento!" // Portugais Brésilien
+    },
+    mwkr: {
+        0: "Mario Kart World Randomizer est maintenant disponible !", // Français
+        1: "Mario Kart World Randomizer est maintenant disponible !", // Français Québécois
+        2: "Mario Kart World Randomizer is now available!", // Anglais (UK)
+        3: "Mario Kart World Randomizer is now available!", // Anglais (US)
+        4: "Mario Kart World Randomizer ist jetzt verfügbar!", // Allemand
+        5: "¡Mario Kart World Randomizer ya está disponible!", // Espagnol (Espagne)
+        6: "Mario Kart World Randomizer è ora disponibile!", // Italien
+        7: "Mario Kart World Randomizer is nu beschikbaar!", // Néerlandais
+        8: "Mario Kart World Randomizer já está disponível!", // Portugais (Portugal)
+        9: "Рандомизатор Mario Kart World теперь доступен!", // Russe
+        10: "マリオカートワールドランダマイザーが利用可能になりました！", // Japonais
+        11: "마리오 카트 월드 랜덤라이저가 이제 이용 가능합니다!", // Coréen
+        12: "马里奥卡丁车世界随机器现已上线！", // Chinois Simplifié
+        13: "Mario Kart World Randomizer 現已可用！", // Chinois Traditionnel
+        14: "¡Mario Kart World Randomizer ya está disponible!", // Espagnol (LatAm)
+        15: "Mario Kart World Randomizer já está disponível!" // Portugais (Brésil)
     }
 };
 

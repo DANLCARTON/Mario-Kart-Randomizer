@@ -111,6 +111,11 @@ window.addEventListener("load", () => {
         comingSoon[i].textContent = translatedTextContent.comingSoon[lang]
     }
 
+    let mkwr = document.getElementsByClassName("mkwr");
+    for (let i = 0; i < mkwr.length; ++i) {
+        mkwr[i].textContent = translatedTextContent.mkwr[lang]
+    }
+
     let allowAmiibo = [...document.getElementsByClassName("allowAmiibo")];
     allowAmiibo.map(div => div.textContent = translatedTextContent.allowAmiibo[lang]);
 
