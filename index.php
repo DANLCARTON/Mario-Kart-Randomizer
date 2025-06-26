@@ -49,7 +49,7 @@ include "fonctionsPhp/vues.php";
         <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-4" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight" alt="exit"><img src='./img/icons/exit.png' id="exitday" alt="exit"></a>
 
         <div class="subh1" style="margin-top: 25px; color: violet">
-            <a href="https://ericthiberge.fr/mario-kart-world-randomizer" class="mkwr mkwr-link">Mario Kart World Randomizer is now avilable!</a>
+            <a style="color: violet; border: none; text-decoration: underline; padding: 20px 50px;" href="https://ericthiberge.fr/mario-kart-world-randomizer" class="mkwr mkwr-link">Mario Kart World Randomizer is now available!</a>
         </div>
 
         <section id="personnageAleatoire">
