@@ -258,8 +258,11 @@ include "fonctionsPhp/vues.php";
             <div class="links">
                 <p><i>Feel free to report any errors or bugs you see on the website, as I'm working alone on this project and I don't speak all the languages available (but I really wanted to include them all).</i></p>
                 <p><i>Don't hesitate to suggest new features too! I'll be happy to consider them. Maybe I'll try to work on your proposition if I like it :)</i></p>
-                <div><img src="img/icons/github.webp" alt="issues"><a href="https://github.com/DANLCARTON/Mario-Kart-Randomizer/issues">Create a new issue here</a></div>
-                <div><img src="img/icons/et.webp" alt="issues"><a href="mailto:ericthiberge@ericthiberge.fr">ericthiberge@ericthiberge.fr</a></div>
+                <div><img src="img/icons/et.webp" alt="issues"><a href="mailto:thibergeeric@gmail.com">thibergeeric@gmail.com</a></div>
+
+                <p>looking for another randomizer ?</p>
+                <a href="https://ericthiberge.fr/mario-kart-world-randomizer">Mario Kart World Randomizer</a>
+                <a href="https://ericthiberge.fr/mario-kart-7-randomizer">Mario Kart 7 Randomizer</a>
             </div>
         </div>      
     </footer>
