@@ -264,6 +264,7 @@ include "fonctionsPhp/vues.php";
                 <a href="https://ericthiberge.fr/mario-kart-world-randomizer">Mario Kart World Randomizer</a>
                 <a href="https://ericthiberge.fr/mario-kart-7-randomizer">Mario Kart 7 Randomizer</a>
                 <a href="https://ericthiberge.fr/mario-kart-wii-randomizer">Mario Kart Wii Randomizer</a>
+                <a href="https://ericthiberge.fr/mario-kart-ds-randomizer">Mario Kart DS Randomizer</a>
             </div>
         </div>      
     </footer>
