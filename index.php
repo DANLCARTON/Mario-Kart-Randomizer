@@ -260,13 +260,15 @@ include "fonctionsPhp/vues.php";
                 <p><i>Don't hesitate to suggest new features too! I'll be happy to consider them. Maybe I'll try to work on your proposition if I like it :)</i></p>
                 <div><img src="img/icons/et.webp" alt="issues"><a href="mailto:thibergeeric@gmail.com">thibergeeric@gmail.com</a></div>
 
-                <p>looking for another randomizer ?</p>
+                <p>Looking for another randomizer ?</p>
                 <a href="https://ericthiberge.fr/mario-kart-world-randomizer">Mario Kart World Randomizer</a>
                 <a href="https://ericthiberge.fr/mario-kart-7-randomizer">Mario Kart 7 Randomizer</a>
                 <a href="https://ericthiberge.fr/mario-kart-wii-randomizer">Mario Kart Wii Randomizer</a>
                 <a href="https://ericthiberge.fr/mario-kart-ds-randomizer">Mario Kart DS Randomizer</a>
                 <a href="https://ericthiberge.fr/mario-kart-double-dash-randomizer">Mario Kart Double Dash!! Randomizer</a>
                 <a href="https://ericthiberge.fr/mario-kart-super-circuit-randomizer">Mario Kart: Super Circuit Randomizer</a>
+                <a href="https://ericthiberge.fr/mario-kart-64-randomizer">Mario Kart 64 Randomizer</a>
+                <a href="https://ericthiberge.fr/super-mario-kart-randomizer">Super Mario Kart Randomizer</a>
             </div>
         </div>      
     </footer>
