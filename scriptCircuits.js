@@ -1,4 +1,9 @@
+import { language } from "./languageManager.js";
 import { bgCol1, bgCol2, accCol, getCurrentTheme } from "./themes.js";
+import { translatedTextContent, langId } from "./translatedTextContent.js";
+
+document.getElementsByTagName("html")[0].lang = language;
+var lang = langId(language);
 
 let themeMainColor = bgCol1;
 let themeSecondaryColor = accCol;
@@ -95,7 +100,7 @@ document.getElementById("choose").getElementsByTagName("button")[0].addEventList
     }
 
     if (!BREAKED) {
-        alert("Tous les circuits ont déjà été sélectionnés ! Déselectionnez des circuits ou remettez à zéro.");
+        alert(translatedTextContent.allTracksSelected[lang]);
         return;
     }
 
@@ -266,8 +271,9 @@ document.getElementById("chooseArena").getElementsByTagName("button")[0].addEven
     }
 
     if (!BREAKED) {
-        alert("Toutes les arènes ont déjà été sélectionnées ! Déselectionnez des arènes ou remettez à zéro.");
+        alert(translatedTextContent.allArenasSelected[lang]);
         return;
+        
     }
 
     while (!NONTIRE) {

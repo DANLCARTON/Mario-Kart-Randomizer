@@ -387,7 +387,7 @@ const gameRules = {
                 ]
             },
             items: {
-                name: "Objets",
+                name: "Items",
                 rules: [
                     "Normal Items",
                     "Frantic Items",
@@ -535,7 +535,7 @@ const gameRules = {
                 ]
             },
             items: {
-                name: "Objets",
+                name: "Items",
                 rules: [
                     "Normal Items",
                     "Frantic Items",
@@ -683,7 +683,7 @@ const gameRules = {
                 ]
             },
             items: {
-                name: "Objets",
+                name: "Items",
                 rules: [
                     "Standard",
                     "Furios",
@@ -831,7 +831,7 @@ const gameRules = {
                 ]
             },
             items: {
-                name: "Objets",
+                name: "Objetos",
                 rules: [
                     "Objetos normales",
                     "Objetos alocados",
@@ -1571,7 +1571,7 @@ const gameRules = {
                 ]
             },
             items: {
-                name: "Objets",
+                name: "Objetos",
                 rules: [
                     "Normales",
                     "Potentes",

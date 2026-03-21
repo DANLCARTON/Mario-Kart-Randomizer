@@ -111,6 +111,44 @@ let translatedTextContent = {
         14: "Mostrar historial",
         15: "Mostrar histórico"
     },
+    // stats : voir vues/stats.php
+    showHistory: {
+        0: "Afficher l'historique", // Français
+        1: "Afficher l'historique", // Français Québécois
+        2: "Show history", // Anglais
+        3: "View history", // Anglais Américain
+        4: "Verlauf anzeigen", // Allemand
+        5: "Mostrar historial", // Espagnol
+        6: "Visualizza cronologia", // Italien
+        7: "Geschiedenis weergeven", // Néerlandais
+        8: "Mostrar histórico", // Portugais
+        9: "Показать историю", // Russe
+        10: "履歴を表示する", // Japonais
+        11: "기록 보기", // Coréen
+        12: "显示历史", // Chinois simplifié
+        13: "顯示歷史", // Chinois traditionnel
+        14: "Mostrar historial",
+        15: "Mostrar histórico"
+    },
+    // stats : voir vues/stats.php
+    hideHistory: {
+        0: "Masquer l'historique", // Français
+        1: "Masquer l'historique", // Français Québécois
+        2: "Hide history", // Anglais
+        3: "Hide history", // Anglais Américain
+        4: "Verlauf ausblenden", // Allemand
+        5: "Ocultar historial", // Espagnol
+        6: "Nascondi cronologia", // Italien
+        7: "Geschiedenis verbergen", // Néerlandais
+        8: "Ocultar histórico", // Portugais
+        9: "Скрыть историю", // Russe
+        10: "履歴を非表示にする", // Japonais
+        11: "기록 숨기기", // Coréen
+        12: "隐藏历史", // Chinois simplifié
+        13: "隱藏歷史", // Chinois traditionnel
+        14: "Ocultar historial",
+        15: "Ocultar histórico"
+    },
     randomItems: {
         0: "Objets personnalisés aléatoires", // Français
         1: "Objets personnalisés aléatoires", // Français Québécois
@@ -313,7 +351,7 @@ let translatedTextContent = {
         0: "Cliquez sur le bouton \"Choisir\" ci-dessous pour sélectionner aléatoirement l'un des 96 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton \"Remettre à zero\" situé tout en bas.", // Français
         1: "Cliquez sur le bouton \"Choisir\" ci-dessous pour sélectionner aléatoirement l'un des 96 circuits jouables. Il est aussi possible, si vous voulez jouer sur un circuit de votre choix, d'en sélectionner un en cliquant dessus. Si vous souhaitez qu'un circuit puisse être de nouveau sélectionné, cliquez dessus pour le rendre de nouveau disponible. Une fois que tous les circuits ont été sélectionnés, déselectionnez-en quelques uns ou utilisez le bouton \"Remettre à zero\" situé tout en bas.", // FrançaisQuébécois
         2: "Click on the 'Choose' button below to randomly select one of the 96 playable circuits. If you want to play on a track of your choice, you can also select one by clicking on it. If you want a track to be selectable again, click on it to make it available again. Once all the tracks have been selected, deselect a few or use the 'Reset to zero' button at the bottom.", // Anglais
-        3: "Click on the \"Choos\" button below to randomly select one of the 96 playable circuits. If you want to play on a track of your choice, you can also select one by clicking on it. If you want a track to be available for selection again, click on it to make it available again. Once all circuits have been selected, deselect a few or use the \"Reset to zero\" button at the very bottom.", // AnglaisAméricain
+        3: "Click on the \"Choose\" button below to randomly select one of the 96 playable circuits. If you want to play on a track of your choice, you can also select one by clicking on it. If you want a track to be available for selection again, click on it to make it available again. Once all circuits have been selected, deselect a few or use the \"Reset to zero\" button at the very bottom.", // AnglaisAméricain
         4: "Klicken Sie unten auf die Schaltfläche \"Wählen\", um nach dem Zufallsprinzip eine der 96 spielbaren Strecken auszuwählen. Es ist auch möglich, wenn Sie auf einer beliebigen Strecke spielen möchten, diese durch Anklicken auszuwählen. Wenn Sie möchten, dass eine Strecke erneut ausgewählt werden kann, klicken Sie darauf, um sie wieder verfügbar zu machen. Wenn Sie alle Strecken ausgewählt haben, heben Sie die Auswahl einiger Strecken auf oder verwenden Sie die Schaltfläche \"Zurücksetzen\" ganz unten.", // Allemand
         5: "Haz clic en el botón \"Elegir\" para seleccionar al azar uno de los 96 circuitos jugables. Si quieres jugar en un circuito de tu elección, también puedes seleccionarlo haciendo clic sobre él. Si quieres que una pista vuelva a ser seleccionable, haz clic sobre ella para que vuelva a estar disponible. Una vez seleccionadas todas las pistas, anula la selección de algunas o utiliza el botón \"Reiniciar\" de la parte inferior.", // Espagnol
         6: "Fare clic sul pulsante \"Scegli\" qui sotto per selezionare casualmente uno dei 96 circuiti giocabili. Se si desidera giocare su un circuito di propria scelta, è possibile selezionarlo facendo clic su di esso. Se si desidera che un circuito sia nuovamente selezionabile, fare clic su di esso per renderlo nuovamente disponibile. Una volta selezionati tutti i circuiti, è possibile deselezionarne alcuni o utilizzare il pulsante \"Azzeramento\" in basso.", // Italien
@@ -432,8 +470,8 @@ let translatedTextContent = {
         11: "무작위 게임 규칙", // Coréen
         12: "随机游戏规则", // ChinoisSimplifié
         13: "隨機遊戲規則", // ChinoisTraditionnel
-        14: "Reglas de juego alaetorias",
-        15: "Batalha"
+        14: "Reglas de juego alaetorias", // EspagnolLAtAM
+        15: "Regras de jogo aleatório" // PortugaisBresilien
     },
     comingSoon: {
         0: "Mario Kart World Randomizer actuellement en développement !", // Français
@@ -453,7 +491,7 @@ let translatedTextContent = {
         14: "Mario Kart World Randomizer, ¡en desarrollo!", // Espagnol d'Amérique latine
         15: "Mario Kart World Randomizer atualmente em desenvolvimento!" // Portugais Brésilien
     },
-    mwkr: {
+    mkwr: {
         0: "Mario Kart World Randomizer est maintenant disponible !", // Français
         1: "Mario Kart World Randomizer est maintenant disponible !", // Français Québécois
         2: "Mario Kart World Randomizer is now available!", // Anglais (UK)
@@ -470,6 +508,42 @@ let translatedTextContent = {
         13: "Mario Kart World Randomizer 現已可用！", // Chinois Traditionnel
         14: "¡Mario Kart World Randomizer ya está disponible!", // Espagnol (LatAm)
         15: "Mario Kart World Randomizer já está disponível!" // Portugais (Brésil)
+    },
+    allArenasSelected: {
+        0: "Toutes les arènes ont déjà été sélectionnées ! Déselectionnez des arènes ou remettez à zéro.",
+        1: "Toutes les arènes ont déjà été sélectionnées ! Désélectionnez des arènes ou remettez à zéro.",
+        2: "All arenas have already been selected! Deselect some arenas or reset.",
+        3: "All arenas have already been selected! Deselect arenas or reset.",
+        4: "Alle Arenen wurden bereits ausgewählt! Wählen Sie einige Arenen ab oder setzen Sie alles zurück.",
+        5: "¡Todas las arenas ya han sido seleccionadas! Deselecciona algunas arenas o restablece.",
+        6: "Tutte le arene sono già state selezionate! Deseleziona alcune arene o reimposta.",
+        7: "Alle arena’s zijn al geselecteerd! Deselecteer enkele arena’s of reset.",
+        8: "Todas as arenas já foram selecionadas! Desselecione algumas arenas ou redefina.",
+        9: "Все арены уже выбраны! Снимите выбор с некоторых арен или сбросьте.",
+        10: "すべてのアリーナはすでに選択されています！いくつかのアリーナの選択を解除するか、リセットしてください。",
+        11: "모든 경기장이 이미 선택되었습니다! 일부 경기장을 선택 해제하거나 초기화하세요.",
+        12: "所有竞技场都已被选择！请取消选择一些竞技场或重置。",
+        13: "所有競技場都已被選擇！請取消選擇一些競技場或重置。",
+        14: "¡Todas las arenas ya han sido seleccionadas! Deselecciona algunas arenas o restablece.",
+        15: "Todas as arenas já foram selecionadas! Desmarque algumas arenas ou redefina."
+    },
+    allTracksSelected: {
+        0: "Tous les circuits ont déjà été sélectionnés ! Déselectionnez des circuits ou remettez à zéro.",
+        1: "Tous les circuits ont déjà été sélectionnés ! Désélectionnez des circuits ou remettez à zéro.",
+        2: "All tracks have already been selected! Deselect some tracks or reset.",
+        3: "All tracks have already been selected! Deselect tracks or reset.",
+        4: "Alle Strecken wurden bereits ausgewählt! Wählen Sie einige Strecken ab oder setzen Sie alles zurück.",
+        5: "¡Todos los circuitos ya han sido seleccionados! Deselecciona algunos circuitos o restablece.",
+        6: "Tutti i circuiti sono già stati selezionati! Deseleziona alcuni circuiti o reimposta.",
+        7: "Alle circuits zijn al geselecteerd! Deselecteer enkele circuits of reset.",
+        8: "Todos os circuitos já foram selecionados! Desselecione alguns circuitos ou redefina.",
+        9: "Все трассы уже выбраны! Снимите выбор с некоторых трасс или сбросьте.",
+        10: "すべてのコースはすでに選択されています！いくつかのコースの選択を解除するか、リセットしてください。",
+        11: "모든 코스가 이미 선택되었습니다! 일부 코스를 선택 해제하거나 초기화하세요.",
+        12: "所有赛道都已被选择！请取消选择一些赛道或重置。",
+        13: "所有賽道都已被選擇！請取消選擇一些賽道或重置。",
+        14: "¡Todos los circuitos ya han sido seleccionados! Deselecciona algunos circuitos o restablece.",
+        15: "Todos os circuitos já foram selecionados! Desmarque alguns circuitos ou redefina."
     }
 };
 

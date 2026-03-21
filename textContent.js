@@ -31,9 +31,9 @@ window.addEventListener("load", () => {
         generates[i].textContent = translatedTextContent.generate[lang]
     }
 
-    let historyButtons = document.getElementsByClassName("historyButton");
-    for (let i = 0; i < historyButtons.length; ++i) {
-        historyButtons[i].textContent = translatedTextContent.historyButton[lang]
+    let historyButton = document.getElementsByClassName("historyButton");
+    for (let i = 0; i < historyButton.length; ++i) {
+        historyButton[i].textContent = translatedTextContent.historyButton[lang]
     }
 
     let randomItems = document.getElementsByClassName("randomItems");

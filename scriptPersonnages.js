@@ -1,5 +1,5 @@
 import { BebePeach, BebeDaisy, BebeHarmonie, Lemmy, BebeMario, BebeLuigi, Skelerex, Koopa, Lakitu, BowserJr, Toadette, Wendy, Marie, Toad, Maskass, Larry, PeachChat, InklingFille, Villageoise, Peach, Daisy, Yoshi, MarioTanuki, InklingGarcon, Villageois, Luigi, Iggy, Mario, Ludwig, Mii, Harmonie, RoiBoo, Link, DonkeyKong, Waluigi, Roy, Wario, BowserSkelet, MarioDeMetal, PeachDOrRose, Bowser, Morton, KartStandard, Cybertrombe, SLRoadster, Retro, Mecabecane, ScooterAC, Proto8, Propulsar, MissileTornade, Nautomobile, TubulR3, Malecycle, Chabriolet, Meteore, Yoshimoto, QuadNounours, MachCelere, Intrepide, Magikart, BeatBolide, QuadStandard, KartGLA, Cavalkart, SportGP, Epervier, Paracoccinelly, Scootinette, Caraveloce, Autorinho, Sneakart, KartOr, DestrierDeLegende, MotoStandard, Flamboyante, QuadWiggler, W25FlecheDArgent, BlueFalcon, Kartoon, BuggyTanuki, KoopaMobile, DestrierDeLegende01, RouesStandard, StandardBleu, RouesGLA, Mastodonte, MastoFlamme, Archeonique, Roller, RollerAzur, Classique, ClassiqueRouge, Bois, Lisse, CyberLisse, Metal, RouesOr, Bouton, Feuille, HorsPiste, HorsPisteRetro, Triforce, Eponge, Coussin, AileStandard, Dendinaile, AileHylienne, AileNuages, Parachute, AileFleurie, AileEnPapier, AileWario, Planeur, AileOr, Paravoile, OmbrellePeach, Parapente, ParapenteMKTV, BowserVolant, Birdo, FloraPiranha, Wiggler, Kamek, Peachette, DiddyKong, FunkyKong, Pauline } from "./stats.js";
-import { langId } from "./translatedTextContent.js";
+import { langId, translatedTextContent } from "./translatedTextContent.js";
 import { language } from "./languageManager.js";
 
 document.getElementsByTagName("html")[0].lang = language;
@@ -160,6 +160,26 @@ function roll(id, statsB) {
     return elements;
 }
 
+function getPlayerInLanguage(lang) {
+    if (lang == 0) return "Joueur "
+    else if (lang == 1) return "Joueur "
+    else if (lang == 2) return "Player "
+    else if (lang == 3) return "Player "
+    else if (lang == 4) return "Spieler "
+    else if (lang == 5) return "Jugador "
+    else if (lang == 6) return "Giocatore "
+    else if (lang == 7) return "Speler "
+    else if (lang == 8) return "Jogador "
+    else if (lang == 9) return "Игрок "
+    else if (lang == 10) return "プレイヤー"
+    else if (lang == 11) return "플레이어 "
+    else if (lang == 12) return "玩家"
+    else if (lang == 13) return "玩家"
+    else if (lang == 14) return "Jugador "
+    else if (lang == 15) return "Jogador "
+    else return "Player "
+}
+
 function addToHistory(Perso, Skin, Karts, Roues, Ailes, Playr) {
 
     // console.log(Playr);
@@ -172,7 +192,7 @@ function addToHistory(Perso, Skin, Karts, Roues, Ailes, Playr) {
     if (playerName != "") {
         name.textContent = playerName;
     } else {
-        name.textContent = "Joueur " + Playr;
+        name.textContent = getPlayerInLanguage(lang) + Playr;
     }
 
     let perso = document.createElement("img");
@@ -764,9 +784,10 @@ document.getElementById("aile4").addEventListener("click", () => {
 document.getElementById("displayHistory").addEventListener("click", () => {
     if (document.getElementById("history").style.display == "block") {
         document.getElementById("history").style.display = "none";
-        document.getElementById("displayHistory").innerText = "Afficher l'historique";
+        document.getElementById("displayHistory").innerText = translatedTextContent.showHistory[lang];
+        
     } else {
         document.getElementById("history").style.display = "block";
-        document.getElementById("displayHistory").innerText = "Masquer l'historique";
+        document.getElementById("displayHistory").innerText = translatedTextContent.hideHistory[lang];
     }
 })
