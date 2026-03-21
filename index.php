@@ -15,8 +15,8 @@ include "fonctionsPhp/vues.php";
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="gameRules.css" />
+    <link rel="stylesheet" href="style.css?version=20260321" />
+    <link rel="stylesheet" href="gameRules.css?version=20260321" />
     <link rel="icon" href="./img/personnages/Mario.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Mario Kart 8 Randomizer </title>
@@ -220,15 +220,15 @@ include "fonctionsPhp/vues.php";
         
     </main>
 
-    <script type="module" src="languageManager.js"></script>
-    <script type="module" src="scriptPersonnages.js"></script>
-    <script type="module" src="scriptCircuits.js"></script>
-    <script type="module" src="scriptObjets.js"></script>
-    <script type="module" src="themes.js"></script>
-    <script type="module" src="textContent.js"></script>
-    <script type="module" src="translatedTextContent.js"></script>
-    <script type="module" src="gameRules.js"></script>
-    <script type="module" src="gameRulesManager.js"></script>
+    <script type="module" src="languageManager.js?version=20260321"></script>
+    <script type="module" src="scriptPersonnages.js?version=20260321"></script>
+    <script type="module" src="scriptCircuits.js?version=20260321"></script>
+    <script type="module" src="scriptObjets.js?version=20260321"></script>
+    <script type="module" src="themes.js?version=20260321"></script>
+    <script type="module" src="textContent.js?version=20260321"></script>
+    <script type="module" src="translatedTextContent.js?version=20260321"></script>
+    <script type="module" src="gameRules.js?version=20260321"></script>
+    <script type="module" src="gameRulesManager.js?version=20260321"></script>
     <img src="./img/icons/td.jpg" id="ee" alt="Easter Egg">
     
     <footer>
