@@ -15,8 +15,8 @@ include "fonctionsPhp/vues.php";
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css?version=20260321" />
-    <link rel="stylesheet" href="gameRules.css?version=20260321" />
+    <link rel="stylesheet" href="style.css?v=20260321.3" />
+    <link rel="stylesheet" href="gameRules.css?v=20260321.3" />
     <link rel="icon" href="./img/personnages/Mario.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Mario Kart 8 Randomizer </title>
@@ -45,8 +45,6 @@ include "fonctionsPhp/vues.php";
     <main>
         <h1>MARIO KART 8 DELUXE<br />RANDOMIZER<br></h1>
         <div class="subh1 subtitle"><p>+ PASS CIRCUITS ADDITIONNELS</p></div>
-
-        <a href="https://hackmd.io/@DANLCARTON/MK8DXRANDOMIZER#RANDOMIZER-MARIO-KART-8-DELUXE---PASS-CIRCUITS-ADDITIONNELS-VAGUE-4" target="_blank">Voir les changements <img src='./img/icons/exit.png' id="exitnight" alt="exit"><img src='./img/icons/exit.png' id="exitday" alt="exit"></a>
 
         <div class="subh1" style="margin-top: 25px; color: violet">
             <a style="color: violet; border: none; text-decoration: underline; padding: 20px 50px;" href="https://ericthiberge.fr/mario-kart-world-randomizer" class="mkwr mkwr-link">Mario Kart World Randomizer is now available!</a>
@@ -220,15 +218,15 @@ include "fonctionsPhp/vues.php";
         
     </main>
 
-    <script type="module" src="languageManager.js?version=20260321"></script>
-    <script type="module" src="scriptPersonnages.js?version=20260321"></script>
-    <script type="module" src="scriptCircuits.js?version=20260321"></script>
-    <script type="module" src="scriptObjets.js?version=20260321"></script>
-    <script type="module" src="themes.js?version=20260321"></script>
-    <script type="module" src="textContent.js?version=20260321"></script>
-    <script type="module" src="translatedTextContent.js?version=20260321"></script>
-    <script type="module" src="gameRules.js?version=20260321"></script>
-    <script type="module" src="gameRulesManager.js?version=20260321"></script>
+    <script type="module" src="languageManager.js?v=20260321.3"></script>
+    <script type="module" src="scriptPersonnages.js?v=20260321.3"></script>
+    <script type="module" src="scriptCircuits.js?v=20260321.3"></script>
+    <script type="module" src="scriptObjets.js?v=20260321.3"></script>
+    <script type="module" src="themes.js?v=20260321.3"></script>
+    <script type="module" src="textContent.js?v=20260321.3"></script>
+    <script type="module" src="translatedTextContent.js?v=20260321.3"></script>
+    <script type="module" src="gameRules.js?v=20260321.3"></script>
+    <script type="module" src="gameRulesManager.js?v=20260321.3"></script>
     <img src="./img/icons/td.jpg" id="ee" alt="Easter Egg">
     
     <footer>

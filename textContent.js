@@ -111,10 +111,18 @@ window.addEventListener("load", () => {
         comingSoon[i].textContent = translatedTextContent.comingSoon[lang]
     }
 
-    let mkwr = document.getElementsByClassName("mkwr");
-    for (let i = 0; i < mkwr.length; ++i) {
-        mkwr[i].textContent = translatedTextContent.mkwr[lang]
-    }
+    // let mkwr = document.getElementsByClassName("mkwr");
+    // for (let i = 0; i < mkwr.length; ++i) {
+    //     mkwr[i].textContent = translatedTextContent.mkwr[lang]
+    // }
+
+    console.log("translatedTextContent", translatedTextContent)
+    console.log("translatedTextContent.mkwr", translatedTextContent.mkwr)
+    console.log("lang", lang)
+    console.log("translatedTextContent.mkwr[lang]", translatedTextContent.mkwr[lang])
+
+    let mkwr = [...document.getElementsByClassName("mkwr")]
+    mkwr.map(div => div.textContent = translatedTextContent.mkwr[lang])
 
     let allowAmiibo = [...document.getElementsByClassName("allowAmiibo")];
     allowAmiibo.map(div => div.textContent = translatedTextContent.allowAmiibo[lang]);

@@ -547,6 +547,8 @@ let translatedTextContent = {
     }
 };
 
+console.log("wake up", translatedTextContent);
+
 function langId(lang) {
     console.log(lang)
     if (lang == "fr") return 0;
