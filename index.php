@@ -259,6 +259,7 @@ include "fonctionsPhp/vues.php";
                 <div><img src="img/icons/et.webp" alt="issues"><a href="mailto:thibergeeric@gmail.com">thibergeeric@gmail.com</a></div>
 
                 <p>Looking for another randomizer ?</p>
+                <a href="https://ericthiberge.fr/ctgp-revolution-v1-03-randomizer">CTGP Revolution v1.03 Randomizer</a>
                 <a href="https://ericthiberge.fr/mario-kart-world-randomizer">Mario Kart World Randomizer</a>
                 <a href="https://ericthiberge.fr/mario-kart-7-randomizer">Mario Kart 7 Randomizer</a>
                 <a href="https://ericthiberge.fr/mario-kart-wii-randomizer">Mario Kart Wii Randomizer</a>
