@@ -282,7 +282,11 @@ button:hover {
 #reroll1 button:hover,
 #reroll2 button:hover,
 #reroll3 button:hover,
-#reroll4 button:hover {
+#reroll4 button:hover,
+#reroll5 button:hover,
+#reroll6 button:hover,
+#reroll7 button:hover,
+#reroll8 button:hover {
     box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
     background: #fff;
     color: #353535;
@@ -291,12 +295,24 @@ button:hover {
 #nom2,
 #nom3,
 #nom4,
+#nom5,
+#nom6,
+#nom7,
+#nom8,
 #reroll2,
 #reroll3,
 #reroll4,
+#reroll5,
+#reroll6,
+#reroll7,
+#reroll8,
 #set2,
 #set3,
-#set4 {
+#set4,
+#set5,
+#set6,
+#set7,
+#set8 {
     display: none;
     opacity: 0%;
     transition: all .5s ease-in-out 0s;

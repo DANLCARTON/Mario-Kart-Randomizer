@@ -67,7 +67,8 @@ const gameRules = {
                     "16 courses",
                     "24 courses",
                     "32 courses",
-                    "48 courses"
+                    "48 courses",
+                    "96 courses"
                 ]
             }
         },
@@ -215,7 +216,8 @@ const gameRules = {
                     "16 courses",
                     "24 courses",
                     "32 courses",
-                    "48 courses"
+                    "48 courses",
+                    "96 courses"
                 ]
             }
         },
@@ -363,7 +365,8 @@ const gameRules = {
                     "16 Races",
                     "24 Races",
                     "32 Races",
-                    "48 Races"
+                    "48 Races",
+                    "96 Races"
                 ]
             }
         },
@@ -511,7 +514,8 @@ const gameRules = {
                     "16 Races",
                     "24 Races",
                     "32 Races",
-                    "48 Races"
+                    "48 Races",
+                    "96 Races"
                 ]
             }
         },
@@ -659,7 +663,8 @@ const gameRules = {
                     "16 Rennen",
                     "24 Rennen",
                     "32 Rennen",
-                    "48 Rennen"
+                    "48 Rennen",
+                    "96 Rennen"
                 ]
             }
         },
@@ -807,7 +812,8 @@ const gameRules = {
                     "16 carreras",
                     "24 carreras",
                     "32 carreras",
-                    "48 carreras"
+                    "48 carreras",
+                    "96 carreras"
                 ]
             }
         },
@@ -955,7 +961,8 @@ const gameRules = {
                     "16 corse",
                     "24 corse",
                     "32 corse",
-                    "48 corse"
+                    "48 corse",
+                    "96 corse"
                 ]
             }
         },
@@ -1103,7 +1110,8 @@ const gameRules = {
                     "16 races",
                     "24 races",
                     "32 races",
-                    "48 races"
+                    "48 races",
+                    "96 races"
                 ]
             }
         },
@@ -1251,7 +1259,8 @@ const gameRules = {
                     "16 corridas",
                     "24 corridas",
                     "32 corridas",
-                    "48 corridas"
+                    "48 corridas",
+                    "96 corridas"
                 ]
             }
         },
@@ -1399,7 +1408,8 @@ const gameRules = {
                     "16 corridas",
                     "24 corridas",
                     "32 corridas",
-                    "48 corridas"
+                    "48 corridas",
+                    "96 corridas"
                 ]
             }
         },
@@ -1547,7 +1557,8 @@ const gameRules = {
                     "16 carreras",
                     "24 carreras",
                     "32 carreras",
-                    "48 carreras"
+                    "48 carreras",
+                    "96 carreras"
                 ]
             }
         },
@@ -1695,7 +1706,8 @@ const gameRules = {
                     "16 заезда",
                     "24 заезда",
                     "32 заезда",
-                    "48 заезда"
+                    "48 заезда",
+                    "96 заезда"
                 ]
             }
         },
@@ -1843,7 +1855,8 @@ const gameRules = {
                     "16レース",
                     "24レース",
                     "32レース",
-                    "48レース"
+                    "48レース",
+                    "96レース"
                 ]
             }
         },
@@ -1991,7 +2004,8 @@ const gameRules = {
                     "16 레이스",
                     "24 레이스",
                     "32 레이스",
-                    "48 레이스"
+                    "48 레이스",
+                    "96 레이스"
                 ]
             }
         },
@@ -2139,7 +2153,8 @@ const gameRules = {
                     "16场比赛",
                     "24场比赛",
                     "32场比赛",
-                    "48场比赛"
+                    "48场比赛",
+                    "96场比赛"
                 ]
             }
         },
@@ -2287,7 +2302,8 @@ const gameRules = {
                     "16場比賽",
                     "24場比賽",
                     "32場比賽",
-                    "48場比賽"
+                    "48場比賽",
+                    "96場比賽"
                 ]
             }
         },

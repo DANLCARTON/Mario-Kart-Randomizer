@@ -61,7 +61,7 @@ include "fonctionsPhp/vues.php";
             <div id="setContainer">
 
             <?php
-            for ($i = 1; $i <= 4; $i++)
+            for ($i = 1; $i <= 8; $i++)
                 afficheSet($i);
             ?>
 

@@ -225,12 +225,16 @@ window.addEventListener("load", () => {
     roll(2, false);
     roll(3, false);
     roll(4, false);
-    for (let i = 1; i <= 4; i++) {
+    roll(5, false);
+    roll(6, false);
+    roll(7, false);
+    roll(8, false);
+    for (let i = 1; i <= 8; i++) {
         document.getElementById("nom" + i).value = localStorage.getItem("nom" + i)
     }
 })
 
-for (let i = 1; i <= 4; i++) {
+for (let i = 1; i <= 8; i++) {
     document.getElementById("nom" + i).addEventListener("keyup", () => {
         localStorage.setItem("nom" + i, document.getElementById("nom" + i).value);
     })
@@ -239,7 +243,7 @@ for (let i = 1; i <= 4; i++) {
 document.getElementById("playersArrow").addEventListener("click", () => {
     let sc = document.getElementById("setContainer");
     players++;
-    if (players <= 4) {
+    if (players <= 8) {
         document.getElementById("stats").style.setProperty("display", "none");
         document.getElementById("nom" + players).style.display = "block";
         document.getElementById("reroll" + players).style.display = "block";
@@ -250,7 +254,7 @@ document.getElementById("playersArrow").addEventListener("click", () => {
         document.getElementById("reroll" + players).style.opacity = "1";
         document.getElementById("set" + players).style.opacity = "1";
     }, 2)
-    if (players == 4)
+    if (players == 8)
         document.getElementById("playersArrow").style.setProperty("display", "none");
 })
 
@@ -271,6 +275,26 @@ document.getElementById("reroll3").getElementsByTagName("button")[0].addEventLis
 
 document.getElementById("reroll4").getElementsByTagName("button")[0].addEventListener("click", () => {
     let e = roll(4, true);
+    addToHistory(e[0], e[1], e[2], e[3], e[4], e[5])
+});
+
+document.getElementById("reroll5").getElementsByTagName("button")[0].addEventListener("click", () => {
+    let e = roll(5, true);
+    addToHistory(e[0], e[1], e[2], e[3], e[4], e[5])
+});
+
+document.getElementById("reroll6").getElementsByTagName("button")[0].addEventListener("click", () => {
+    let e = roll(6, true);
+    addToHistory(e[0], e[1], e[2], e[3], e[4], e[5])
+});
+
+document.getElementById("reroll7").getElementsByTagName("button")[0].addEventListener("click", () => {
+    let e = roll(7, true);
+    addToHistory(e[0], e[1], e[2], e[3], e[4], e[5])
+});
+
+document.getElementById("reroll8").getElementsByTagName("button")[0].addEventListener("click", () => {
+    let e = roll(8, true);
     addToHistory(e[0], e[1], e[2], e[3], e[4], e[5])
 });
 
@@ -483,6 +507,178 @@ document.getElementById("personnage4").addEventListener("click", () => {
         document.getElementById("personnage4").src = "img/personnages/" + Perso.nom[0] + ".webp";
     } else {
         document.getElementById("personnage4").src = "img/personnages/" + Perso.nom[0] + " " + skin + ".webp";
+    }
+
+    //addToHistory(Perso, skin, Karts, Roues, Ailes, 4);
+})
+
+document.getElementById("personnage5").addEventListener("click", () => {
+    var skin;
+    currentPerso = perso[getRandom(perso.length)];
+    var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
+
+    if (Perso.nom[0] == "Yoshi") {
+        skin = skinsYoshi[getRandom(skinsYoshi.length)];
+    } else if (Perso.nom[0] == "Maskass") {
+        skin = skinsMaskass[getRandom(skinsMaskass.length)];
+    } else if (Perso.nom[0] == "Mario de métal") {
+        skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+    } else if (Perso.nom[0] == "Inkling fille") {
+        skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+    } else if (Perso.nom[0] == "Inkling garçon") {
+        skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+    } else if (Perso.nom[0] == "Link") {
+        skin = skinsLink[getRandom(skinsLink.length)];
+    } else if (Perso.nom[0] == "Birdo") {
+        skin = skinsBirdo[getRandom(skinsBirdo.length)];
+    } else if (Perso.nom[0] == "Mii") {
+        skin = getMiiSkin()
+    } else {
+        skin = "";
+    }
+
+    if (lang == 0 || lang == 1) {
+        document.getElementsByClassName("name")[16].textContent = Perso.nom[lang] + " " + skin;
+    } else {
+        document.getElementsByClassName("name")[16].textContent = Perso.nom[lang];
+    }
+
+    if (skin == "") {
+        document.getElementById("personnage5").src = "img/personnages/" + Perso.nom[0] + ".webp";
+    } else {
+        document.getElementById("personnage5").src = "img/personnages/" + Perso.nom[0] + " " + skin + ".webp";
+    }
+
+    //addToHistory(Perso, skin, Karts, Roues, Ailes, 4);
+})
+
+document.getElementById("personnage6").addEventListener("click", () => {
+    var skin;
+    currentPerso = perso[getRandom(perso.length)];
+    var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
+
+    if (Perso.nom[0] == "Yoshi") {
+        skin = skinsYoshi[getRandom(skinsYoshi.length)];
+    } else if (Perso.nom[0] == "Maskass") {
+        skin = skinsMaskass[getRandom(skinsMaskass.length)];
+    } else if (Perso.nom[0] == "Mario de métal") {
+        skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+    } else if (Perso.nom[0] == "Inkling fille") {
+        skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+    } else if (Perso.nom[0] == "Inkling garçon") {
+        skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+    } else if (Perso.nom[0] == "Link") {
+        skin = skinsLink[getRandom(skinsLink.length)];
+    } else if (Perso.nom[0] == "Birdo") {
+        skin = skinsBirdo[getRandom(skinsBirdo.length)];
+    } else if (Perso.nom[0] == "Mii") {
+        skin = getMiiSkin()
+    } else {
+        skin = "";
+    }
+
+    if (lang == 0 || lang == 1) {
+        document.getElementsByClassName("name")[20].textContent = Perso.nom[lang] + " " + skin;
+    } else {
+        document.getElementsByClassName("name")[20].textContent = Perso.nom[lang];
+    }
+
+    if (skin == "") {
+        document.getElementById("personnage6").src = "img/personnages/" + Perso.nom[0] + ".webp";
+    } else {
+        document.getElementById("personnage6").src = "img/personnages/" + Perso.nom[0] + " " + skin + ".webp";
+    }
+
+    //addToHistory(Perso, skin, Karts, Roues, Ailes, 4);
+})
+
+document.getElementById("personnage7").addEventListener("click", () => {
+    var skin;
+    currentPerso = perso[getRandom(perso.length)];
+    var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
+
+    if (Perso.nom[0] == "Yoshi") {
+        skin = skinsYoshi[getRandom(skinsYoshi.length)];
+    } else if (Perso.nom[0] == "Maskass") {
+        skin = skinsMaskass[getRandom(skinsMaskass.length)];
+    } else if (Perso.nom[0] == "Mario de métal") {
+        skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+    } else if (Perso.nom[0] == "Inkling fille") {
+        skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+    } else if (Perso.nom[0] == "Inkling garçon") {
+        skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+    } else if (Perso.nom[0] == "Link") {
+        skin = skinsLink[getRandom(skinsLink.length)];
+    } else if (Perso.nom[0] == "Birdo") {
+        skin = skinsBirdo[getRandom(skinsBirdo.length)];
+    } else if (Perso.nom[0] == "Mii") {
+        skin = getMiiSkin()
+    } else {
+        skin = "";
+    }
+
+    if (lang == 0 || lang == 1) {
+        document.getElementsByClassName("name")[24].textContent = Perso.nom[lang] + " " + skin;
+    } else {
+        document.getElementsByClassName("name")[24].textContent = Perso.nom[lang];
+    }
+
+    if (skin == "") {
+        document.getElementById("personnage7").src = "img/personnages/" + Perso.nom[0] + ".webp";
+    } else {
+        document.getElementById("personnage7").src = "img/personnages/" + Perso.nom[0] + " " + skin + ".webp";
+    }
+
+    //addToHistory(Perso, skin, Karts, Roues, Ailes, 4);
+})
+
+document.getElementById("personnage8").addEventListener("click", () => {
+    var skin;
+    currentPerso = perso[getRandom(perso.length)];
+    var Perso = currentPerso;
+    var Karts = currentKart;
+    var Roues = currentRoue;
+    var Ailes = currentAile;
+
+    if (Perso.nom[0] == "Yoshi") {
+        skin = skinsYoshi[getRandom(skinsYoshi.length)];
+    } else if (Perso.nom[0] == "Maskass") {
+        skin = skinsMaskass[getRandom(skinsMaskass.length)];
+    } else if (Perso.nom[0] == "Mario de métal") {
+        skin = skinsMetalMario[getRandom(skinsMetalMario.length)];
+    } else if (Perso.nom[0] == "Inkling fille") {
+        skin = skinsInklingFille[getRandom(skinsInklingFille.length)];
+    } else if (Perso.nom[0] == "Inkling garçon") {
+        skin = skinsInklingGarcon[getRandom(skinsInklingGarcon.length)];
+    } else if (Perso.nom[0] == "Link") {
+        skin = skinsLink[getRandom(skinsLink.length)];
+    } else if (Perso.nom[0] == "Birdo") {
+        skin = skinsBirdo[getRandom(skinsBirdo.length)];
+    } else if (Perso.nom[0] == "Mii") {
+        skin = getMiiSkin()
+    } else {
+        skin = "";
+    }
+
+    if (lang == 0 || lang == 1) {
+        document.getElementsByClassName("name")[28].textContent = Perso.nom[lang] + " " + skin;
+    } else {
+        document.getElementsByClassName("name")[28].textContent = Perso.nom[lang];
+    }
+
+    if (skin == "") {
+        document.getElementById("personnage8").src = "img/personnages/" + Perso.nom[0] + ".webp";
+    } else {
+        document.getElementById("personnage8").src = "img/personnages/" + Perso.nom[0] + " " + skin + ".webp";
     }
 
     //addToHistory(Perso, skin, Karts, Roues, Ailes, 4);
